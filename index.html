@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Memory OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; }
+        .gradient-text { background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .stat-card { transition: transform 0.2s; }
+        .stat-card:hover { transform: translateY(-2px); }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Header -->
+        <header class="mb-12">
+            <div class="flex items-center gap-3 mb-4">
+                <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
+                <h1 class="text-4xl font-bold gradient-text">AI Memory OS</h1>
+            </div>
+            <p class="text-slate-400 text-lg">基于 5 层记忆架构的智能可视化系统</p>
+        </header>
+
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
+            <div class="card rounded-xl p-4 stat-card">
+                <div class="text-sm text-slate-400">L1 情境记忆</div>
+                <div class="text-3xl font-bold text-blue-500 mt-1">5</div>
+                <div class="text-xs text-slate-500 mt-1">近期对话摘要</div>
+            </div>
+            <div class="card rounded-xl p-4 stat-card">
+                <div class="text-sm text-slate-400">L2 行为模式</div>
+                <div class="text-3xl font-bold text-amber-500 mt-1">4</div>
+                <div class="text-xs text-slate-500 mt-1">习惯与偏好</div>
+            </div>
+            <div class="card rounded-xl p-4 stat-card">
+                <div class="text-sm text-slate-400">L3 认知框架</div>
+                <div class="text-3xl font-bold text-purple-500 mt-1">2</div>
+                <div class="text-xs text-slate-500 mt-1">思维模式</div>
+            </div>
+            <div class="card rounded-xl p-4 stat-card">
+                <div class="text-sm text-slate-400">L4 核心记忆</div>
+                <div class="text-3xl font-bold text-red-500 mt-1">1</div>
+                <div class="text-xs text-slate-500 mt-1">身份认同</div>
+            </div>
+            <div class="card rounded-xl p-4 stat-card">
+                <div class="text-sm text-slate-400">每周复盘</div>
+                <div class="text-3xl font-bold text-emerald-500 mt-1">5</div>
+                <div class="text-xs text-slate-500 mt-1">历史记录</div>
+            </div>
+        </div>
+
+        <!-- System Status -->
+        <div class="card rounded-2xl p-6">
+            <h2 class="text-xl font-semibold mb-4">系统状态</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    <div>
+                        <div class="text-sm font-medium">Daily Dream</div>
+                        <div class="text-xs text-slate-500">正常运行</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    <div>
+                        <div class="text-sm font-medium">GitHub 同步</div>
+                        <div class="text-xs text-slate-500">已连接</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <div>
+                        <div class="text-sm font-medium">记忆系统</div>
+                        <div class="text-xs text-slate-500">L0-L4 完整</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+            <p>AI Memory OS © 2026 | 基于 5 层记忆架构构建</p>
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
