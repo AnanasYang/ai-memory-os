@@ -1,0 +1,56 @@
+{
+  "name": "AI News Digest",
+  "version": "2.0.0",
+  "description": "AI 资讯日报/周报自动生成 - 增强版",
+  "sources": {
+    "qbitai": {
+      "name": "量子位",
+      "url": "https://www.qbitai.com/feed",
+      "enabled": true,
+      "priority": 1
+    },
+    "jiqizhixin": {
+      "name": "机器之心",
+      "url": "https://www.jiqizhixin.com/rss",
+      "enabled": false,
+      "note": "RSS 被重定向，需要浏览器自动化抓取"
+    },
+    "tavily": {
+      "name": "Tavily英文新闻",
+      "url": "https://tavily.com",
+      "enabled": true,
+      "priority": 2,
+      "note": "英文AI新闻聚合，需要TAVILY_API_KEY"
+    }
+  },
+  "report": {
+    "daily": {
+      "schedule": "0 9 * * *",
+      "timeRange": "24h",
+      "maxArticles": 30,
+      "format": "structured"
+    },
+    "weekly": {
+      "schedule": "0 9 * * 0",
+      "timeRange": "7d",
+      "maxArticles": 50,
+      "topN": 10,
+      "format": "structured"
+    }
+  },
+  "categories": {
+    "core": ["大模型/AI技术", "产品发布", "开源项目"],
+    "near": ["自动驾驶", "机器人", "AI Agents", "企业动态", "AI硬件/基础设施"],
+    "extended": ["投资融资", "政策法规", "学术前沿", "机器视觉/多模态", "仿真", "数据中心/云计算"]
+  },
+  "feishu": {
+    "sendEnabled": true,
+    "fallbackChain": ["interactive_card", "rich_text", "plain_text"],
+    "notifyOnError": true
+  },
+  "monitoring": {
+    "logLevel": "info",
+    "archiveRetentionDays": 7,
+    "errorNotification": true
+  }
+}

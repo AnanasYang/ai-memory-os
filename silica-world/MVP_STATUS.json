@@ -1,0 +1,42 @@
+{
+  "name": "Silica World MVP",
+  "version": "0.1.0",
+  "description": "硅基虚拟世界 - 物理上可信的多智能体系统",
+  "created": "2026-03-06",
+  "status": "MVP完成 - 等待实际运行测试",
+  
+  "components": {
+    "core": [
+      "physics.py - 2D物理引擎（Vector2D, PhysicsBody, World）",
+      "manager.py - 世界管理器（协调、同步、用户交互）"
+    ],
+    "agents": [
+      "agent.py - 硅基生命体（物理身体 + 5层记忆心智）"
+    ],
+    "web": [
+      "simple_server.py - 零依赖HTTP服务器（无需Flask）",
+      "实时监控面板（Canvas可视化）"
+    ]
+  },
+  
+  "features implemented": [
+    "✅ 连续空间物理引擎（非格子）",
+    "✅ 动量守恒碰撞处理",
+    "✅ 准实时制（2 tick/s, 60分钟虚拟时间/tick）",
+    "✅ 5层记忆架构（L0-L4）",
+    "✅ 角色AI自主决策（规则驱动，非LLM每tick调用）",
+    "✅ 用户控制接口（自然语言命令）",
+    "✅ Web可视化面板（实时地图、状态、事件）",
+    "✅ 物理公平性（所有角色相同物理定律）"
+  ],
+  
+  "pending": [
+    "🔲 实际运行测试和Bug修复",
+    "🔲 LLM深度决策集成（当前是规则驱动）",
+    "🔲 记忆沉淀到高层（L2/L3自动升级）",
+    "🔲 用户多角色控制",
+    "🔲 Telegram/飞书接入"
+  ],
+  
+  "start command": "python3 launch.py --port 8080"
+}

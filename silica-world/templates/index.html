@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Silica World - 硅基虚拟世界</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="message"></div>
+    
+    <h1>🌊 Silica World - 硅基虚拟世界</h1>
+    <p style="color: #888; font-size: 14px;">物理上可信的多智能体生态系统 | 准实时制 | 涌现行为观察</p>
+    
+    <div class="status" id="status">
+        <div class="stat-box">
+            <div class="stat-label">虚拟时间</div>
+            <div class="stat-value" id="virtual-time">0</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">Tick数</div>
+            <div class="stat-value" id="tick-count">0</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">存活角色</div>
+            <div class="stat-value" id="agent-count">0</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">水藻数量</div>
+            <div class="stat-value" id="food-count">0</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">碰撞次数</div>
+            <div class="stat-value" id="collision-count">0</div>
+        </div>
+    </div>
+    
+    <div style="margin: 15px 0;">
+        <button onclick="controlWorld('start')">▶ 启动世界</button>
+        <button onclick="controlWorld('pause')">⏸ 暂停</button>
+        <button onclick="controlWorld('resume')">▶ 恢复</button>
+        <button onclick="controlWorld('reset')" class="secondary">↺ 重置</button>
+        <button onclick="initWorld()" class="secondary">🐟 初始化鱼缸</button>
+    </div>
+    
+    <div style="margin: 15px 0; padding: 10px; background: #1a3a5c; border-radius: 5px;">
+        <strong style="color: #66aaff;">🧠 LLM大脑状态</strong>
+        <p style="font-size: 13px; color: #aaa; margin: 5px 0;">
+            慢世界模式：每2秒1个tick | 每个角色每小时最多15次深度思考<br>
+            点击角色卡片查看剩余思考次数
+        </p>
+    </div>
+    
+    <div class="container">
+        <div class="panel">
+            <h2>🗺️ 世界地图</h2>
+            <canvas id="world-canvas" width="600" height="400"></canvas>
+            <div class="legend">
+                🔴 大鱼（捕食者）| 🟢 小鱼（猎物）| 🌿 水藻（食物）| 箭头 = 速度方向
+            </div>
+        </div>
+        
+        <div class="panel">
+            <h2>👤 角色状态</h2>
+            <div id="agent-list">
+                <p style="color: #666; font-size: 13px;">暂无角色，点击"初始化鱼缸"开始</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" style="margin-top: 20px;">
+        <div class="panel">
+            <h2>📜 最近事件</h2>
+            <div class="events" id="events">
+                <p style="color: #666;">等待世界启动...</p>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <h2>💬 角色控制</h2>
+            <div id="control-panel">
+                <p style="color: #666; font-size: 13px;">点击上方角色卡片选择要控制的角色</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="philosophy">
+        <h3>🧠 构建理念</h3>
+        <p><strong>物理公平性：</strong>所有角色共享相同的硅基物理定律。移动距离 = 速度 × 时间，刚性约束。</p>
+        <p><strong>准实时制：</strong>世界以固定tick推进，物理定律自然处理碰撞，无需外部仲裁。</p>
+        <p><strong>涌现观察：</strong>我们观察简单规则产生的复杂行为，而非设计预设剧情。</p>
+        <p><strong>5层记忆：</strong>L0状态→L1情境→L2习惯→L3认知→L4核心，高层记忆指导低层决策。</p>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>

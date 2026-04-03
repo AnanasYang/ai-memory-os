@@ -1,0 +1,67 @@
+{
+  "name": "AI News Digest Pro",
+  "version": "3.0.0",
+  "description": "专业级 AI 新闻简报系统",
+  
+  "sources": {
+    "qbitai": {
+      "name": "量子位",
+      "type": "rss",
+      "url": "https://www.qbitai.com/feed",
+      "enabled": true,
+      "priority": 1,
+      "category": "AI/科技"
+    },
+    "chinese_rss": {
+      "name": "中文RSS聚合",
+      "type": "rss",
+      "sources": [
+        { "name": "36氪", "url": "https://36kr.com/feed", "enabled": true },
+        { "name": "InfoQ中文", "url": "https://www.infoq.cn/feed", "enabled": true },
+        { "name": "虎嗅", "url": "https://www.huxiu.com/rss", "enabled": false }
+      ],
+      "enabled": true,
+      "priority": 2
+    },
+    "tavily_en": {
+      "name": "Tavily英文",
+      "type": "api",
+      "queries": [
+        "artificial intelligence OpenAI Google latest",
+        "autonomous driving Tesla Waymo end-to-end",
+        "robotics humanoid robot Figure Boston Dynamics",
+        "AI agents autonomous workflow enterprise",
+        "NVIDIA AI chip hardware data center"
+      ],
+      "enabled": true,
+      "priority": 3
+    },
+    "tavily_cn": {
+      "name": "Tavily中文",
+      "type": "api",
+      "queries": [
+        "site:jiqizhixin.com artificial intelligence",
+        "site:gg-auto.com 自动驾驶",
+        "site:gasgoo.com 智能驾驶",
+        "site:42how.com 特斯拉 小鹏 蔚来"
+      ],
+      "enabled": true,
+      "priority": 3
+    }
+  },
+  
+  "output": {
+    "format": "brief",
+    "daily_max_articles": 30,
+    "weekly_max_articles": 50,
+    "core_max": 3,
+    "near_max": 4,
+    "extended_max": 2,
+    "support_max": 1
+  },
+  
+  "schedule": {
+    "daily": "0 10 * * *",
+    "weekly": "0 10 * * 0"
+  }
+}

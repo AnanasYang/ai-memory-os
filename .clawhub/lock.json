@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1770266413098
+    },
+    "search": {
+      "version": "1.0.0",
+      "installedAt": 1770266420442
+    },
+    "exa-web-search-free": {
+      "version": "1.0.1",
+      "installedAt": 1770268771958
+    },
+    "web-search-exa": {
+      "version": "1.0.1",
+      "installedAt": 1770268784569
+    },
+    "prompt-learning-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1770269687108
+    },
+    "reflect-learn": {
+      "version": "2.0.0",
+      "installedAt": 1770269698769
+    },
+    "ppt-generator": {
+      "version": "1.0.0",
+      "installedAt": 1770353824214
+    },
+    "ssh-exec": {
+      "version": "1.0.0",
+      "installedAt": 1770370087865
+    },
+    "ssh-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1770370101518
+    },
+    "ssh-tunnel": {
+      "version": "1.0.0",
+      "installedAt": 1770370148490
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1773205835483
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1773205963085
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1773206016932
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1773206285974
+    },
+    "polymarket-odds": {
+      "version": "1.0.0",
+      "installedAt": 1773206368052
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773206440249
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "project": "memory-system-2-0-final",
+  "description": "Memory System 2.0 完整重构 + GitHub 同步体系",
+  "created": "2026-04-03",
+  "manager": "main",
+  "workers": [
+    {
+      "id": "worker-1",
+      "name": "GitHub 仓库创建",
+      "phase": "Phase 1: GitHub 仓库准备",
+      "task": "创建 ai-memory-system GitHub 仓库",
+      "dependencies": [],
+      "status": "pending"
+    },
+    {
+      "id": "worker-2",
+      "name": "记忆文件整理提交",
+      "phase": "Phase 1: GitHub 仓库准备",
+      "task": "整理并提交所有记忆文件到 GitHub",
+      "dependencies": ["worker-1"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-3",
+      "name": "自动同步脚本设置",
+      "phase": "Phase 1: GitHub 仓库准备",
+      "task": "设置自动同步脚本（cron/git hook）",
+      "dependencies": ["worker-2"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-4",
+      "name": "系统状态分析",
+      "phase": "Phase 2: 重新分析",
+      "task": "全面分析当前记忆系统状态",
+      "dependencies": [],
+      "status": "pending"
+    },
+    {
+      "id": "worker-5",
+      "name": "改进方案设计",
+      "phase": "Phase 2: 重新分析",
+      "task": "设计系统改进方案",
+      "dependencies": ["worker-4"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-6",
+      "name": "L0-L4 核心机制",
+      "phase": "Phase 3: 系统实现",
+      "task": "完成核心记忆流转机制",
+      "dependencies": ["worker-3", "worker-5"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-7",
+      "name": "Dreams 系统",
+      "phase": "Phase 3: 系统实现",
+      "task": "完成 Daily/Weekly Dreams 系统",
+      "dependencies": ["worker-6"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-8",
+      "name": "Memory OS 界面",
+      "phase": "Phase 3: 系统实现",
+      "task": "完成 Memory OS Web 界面",
+      "dependencies": ["worker-6"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-9",
+      "name": "端到端测试",
+      "phase": "Phase 4: 测试与部署",
+      "task": "完整系统测试",
+      "dependencies": ["worker-7", "worker-8"],
+      "status": "pending"
+    },
+    {
+      "id": "worker-10",
+      "name": "部署与文档",
+      "phase": "Phase 4: 测试与部署",
+      "task": "部署系统并生成文档",
+      "dependencies": ["worker-9"],
+      "status": "pending"
+    }
+  ]
+}

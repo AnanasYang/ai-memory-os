@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coze平台介绍 - ADAS内部动员会</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'HarmonyOS Sans SC', 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .slide.active {
+      display: flex;
+    }
+    
+    .bg-animated {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+      z-index: -1;
+    }
+    
+    .light-spot {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.3;
+    }
+    
+    .title-text {
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+    
+    .subtitle-text {
+      font-weight: 400;
+      color: #6b7280;
+    }
+    
+    .body-text {
+      font-weight: 300;
+    }
+    
+    .highlight-box {
+      background: rgba(0, 0, 0, 0.03);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 0.5rem;
+    }
+    
+    .team-box {
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 0.5rem;
+      text-align: center;
+    }
+    
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 1.5rem;
+    }
+    
+    /* Navigation Controls */
+    .nav-controls {
+      position: fixed;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      z-index: 1000;
+    }
+    
+    .nav-btn {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .nav-btn:hover {
+      background: rgba(0, 0, 0, 0.9);
+    }
+    
+    .slide-counter {
+      position: fixed;
+      bottom: 25px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+    
+    .flow-image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .flow-image {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body class="bg-white text-black overflow-hidden">
+  <!-- Slide 1: Title -->
+  <div class="slide active" id="slide-0">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-blue-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-purple-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h1 class="title-text text-5xl mb-6">Coze平台介绍</h1>
+      <p class="subtitle-text text-2xl mb-4">ADAS内部动员会</p>
+      <p class="subtitle-text">面向项目、数据、感知、开发、产品、仿真、数采、测试等多个团队</p>
+    </div>
+  </div>
+
+  <!-- Slide 2: Agenda -->
+  <div class="slide" id="slide-1">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-green-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-yellow-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-12">会议议程</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto text-left">
+        <div class="highlight-box">
+          <p class="body-text text-lg">• Coze平台简介</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 各团队应用场景</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 平台定位与边界</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 申请流程与支持</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3: What is Coze -->
+  <div class="slide" id="slide-2">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-indigo-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-pink-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">什么是Coze平台？</h2>
+      <div class="max-w-3xl mx-auto text-left">
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 公司内网低代码开发平台</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 快速构建轻量级应用工具</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 无需深度编程知识即可使用</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 专注流程自动化和文档撰写辅助</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 4: Platform Benefits -->
+  <div class="slide" id="slide-3">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-blue-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-teal-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">平台核心优势</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
+        <div class="team-box">
+          <div class="icon-circle bg-blue-100 text-blue-600">⚡</div>
+          <h3 class="title-text text-lg">快速开发</h3>
+          <p class="subtitle-text text-sm">缩短开发周期</p>
+        </div>
+        <div class="team-box">
+          <div class="icon-circle bg-green-100 text-green-600">🔄</div>
+          <h3 class="title-text text-lg">流程自动化</h3>
+          <p class="subtitle-text text-sm">减少重复劳动</p>
+        </div>
+        <div class="team-box">
+          <div class="icon-circle bg-purple-100 text-purple-600">📋</div>
+          <h3 class="title-text text-lg">文档助手</h3>
+          <p class="subtitle-text text-sm">提升撰写效率</p>
+        </div>
+        <div class="team-box">
+          <div class="icon-circle bg-orange-100 text-orange-600">👥</div>
+          <h3 class="title-text text-lg">跨团队协作</h3>
+          <p class="subtitle-text text-sm">简化沟通成本</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 5: Team Applications -->
+  <div class="slide" id="slide-4">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-red-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-yellow-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">各团队应用场景</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div class="team-box bg-red-50 border border-red-200">
+          <div class="icon-circle bg-red-100 text-red-600">📊</div>
+          <h3 class="title-text text-lg">项目团队</h3>
+          <p class="subtitle-text text-xs">项目管理工具、进度跟踪系统</p>
+        </div>
+        <div class="team-box bg-blue-50 border border-blue-200">
+          <div class="icon-circle bg-blue-100 text-blue-600">💾</div>
+          <h3 class="title-text text-lg">数据团队</h3>
+          <p class="subtitle-text text-xs">数据处理自动化、质量检测脚本</p>
+        </div>
+        <div class="team-box bg-green-50 border border-green-200">
+          <div class="icon-circle bg-green-100 text-green-600">🔍</div>
+          <h3 class="title-text text-lg">感知团队</h3>
+          <p class="subtitle-text text-xs">实验数据整理、结果可视化</p>
+        </div>
+        <div class="team-box bg-purple-50 border border-purple-200">
+          <div class="icon-circle bg-purple-100 text-purple-600">💻</div>
+          <h3 class="title-text text-lg">开发团队</h3>
+          <p class="subtitle-text text-xs">原型验证工具、辅助开发脚本</p>
+        </div>
+        <div class="team-box bg-yellow-50 border border-yellow-200">
+          <div class="icon-circle bg-yellow-100 text-yellow-600">🎯</div>
+          <h3 class="title-text text-lg">产品团队</h3>
+          <p class="subtitle-text text-xs">需求收集工具、用户反馈系统</p>
+        </div>
+        <div class="team-box bg-indigo-50 border border-indigo-200">
+          <div class="icon-circle bg-indigo-100 text-indigo-600">🚗</div>
+          <h3 class="title-text text-lg">仿真团队</h3>
+          <p class="subtitle-text text-xs">测试场景管理、仿真报告生成</p>
+        </div>
+        <div class="team-box bg-pink-50 border border-pink-200">
+          <div class="icon-circle bg-pink-100 text-pink-600">📡</div>
+          <h3 class="title-text text-lg">数采团队</h3>
+          <p class="subtitle-text text-xs">数据采集监控、质量分析报表</p>
+        </div>
+        <div class="team-box bg-teal-50 border border-teal-200">
+          <div class="icon-circle bg-teal-100 text-teal-600">🧪</div>
+          <h3 class="title-text text-lg">测试团队</h3>
+          <p class="subtitle-text text-xs">测试用例管理、缺陷跟踪系统</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 6: Platform Positioning -->
+  <div class="slide" id="slide-5">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-indigo-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-pink-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">平台定位与边界</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="text-center">
+          <h3 class="title-text text-2xl mb-4 text-green-600">✅ 是什么</h3>
+          <div class="highlight-box mb-3">
+            <p class="body-text">辅助工具</p>
+          </div>
+          <div class="highlight-box mb-3">
+            <p class="body-text">流程自动化</p>
+          </div>
+          <div class="highlight-box mb-3">
+            <p class="body-text">文档撰写助手</p>
+          </div>
+          <div class="highlight-box">
+            <p class="body-text">提效工具</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <h3 class="title-text text-2xl mb-4 text-red-600">❌ 不是什么</h3>
+          <div class="highlight-box mb-3">
+            <p class="body-text">替代传统开发</p>
+          </div>
+          <div class="highlight-box mb-3">
+            <p class="body-text">核心算法实现</p>
+          </div>
+          <div class="highlight-box mb-3">
+            <p class="body-text">复杂系统构建</p>
+          </div>
+          <div class="highlight-box">
+            <p class="body-text">取代工程师</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 7: Practical Examples -->
+  <div class="slide" id="slide-6">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-teal-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-cyan-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">实际应用示例</h2>
+      <div class="max-w-4xl mx-auto text-left">
+        <div class="highlight-box mb-4">
+          <h3 class="title-text text-lg mb-2">数据处理自动化</h3>
+          <p class="body-text">自动清洗、格式化数据集，生成标准化报告</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <h3 class="title-text text-lg mb-2">文档生成助手</h3>
+          <p class="body-text">根据实验数据自动生成测试报告和技术文档</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <h3 class="title-text text-lg mb-2">项目进度跟踪</h3>
+          <p class="body-text">实时更新项目状态，自动生成进度报表</p>
+        </div>
+        <div class="highlight-box">
+          <h3 class="title-text text-lg mb-2">实验结果可视化</h3>
+          <p class="body-text">快速生成图表和数据可视化界面</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 8: Application Process with Image -->
+  <div class="slide" id="slide-7">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-orange-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-red-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 w-full h-full flex flex-col">
+      <h2 class="title-text text-4xl mb-4 text-center">申请流程</h2>
+      <div class="flow-image-container">
+        <img src="./images/application_process_flow.jpg" alt="Coze平台申请流程图" class="flow-image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 9: Q&A -->
+  <div class="slide" id="slide-8">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-purple-300 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-indigo-300 left-3/4 top-2/3"></div>
+    </div>
+    
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-12">Q&A</h2>
+      <p class="subtitle-text text-2xl">欢迎提问与交流</p>
+      <div class="mt-12 max-w-2xl mx-auto">
+        <div class="highlight-box">
+          <p class="body-text text-lg">我们相信Coze平台能够成为各团队的得力助手，</p>
+          <p class="body-text text-lg mt-2">在不影响现有工作流程的前提下，提升整体工作效率。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Controls -->
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn">←</button>
+    <button class="nav-btn" id="nextBtn">→</button>
+  </div>
+  
+  <div class="slide-counter" id="slideCounter">1 / 9</div>
+
+  <script>
+    let currentSlide = 0;
+    const totalSlides = 9;
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const slideCounter = document.getElementById('slideCounter');
+    
+    function showSlide(index) {
+      // Hide all slides
+      slides.forEach(slide => slide.classList.remove('active'));
+      
+      // Show current slide
+      slides[index].classList.add('active');
+      
+      // Update counter
+      slideCounter.textContent = `${index + 1} / ${totalSlides}`;
+    }
+    
+    function nextSlide() {
+      if (currentSlide < totalSlides - 1) {
+        currentSlide++;
+        showSlide(currentSlide);
+      }
+    }
+    
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+      }
+    }
+    
+    // Event listeners
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+    
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+    
+    // Initialize
+    showSlide(currentSlide);
+  </script>
+</body>
+</html>

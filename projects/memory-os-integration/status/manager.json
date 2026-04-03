@@ -1,0 +1,1 @@
+{ "status": "completed", "progress": 100, "message": "所有 Worker 任务完成，项目已准备就绪", "timestamp": "2026-04-03T16:06:00+08:00", "workers": { "worker-1": "completed", "worker-2": "completed", "worker-3": "completed", "worker-4": "completed", "worker-5": "completed" } }

@@ -1,0 +1,12 @@
+{
+  "name": "ai-news-digest-pro",
+  "version": "3.0.0",
+  "description": "AI 日报/周报专业版 - 结构化新闻简报系统",
+  "scripts": {
+    "daily": "./scripts/run-digest.sh daily",
+    "weekly": "./scripts/run-digest.sh weekly"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}

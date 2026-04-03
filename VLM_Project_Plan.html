@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLM项目规划</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'HarmonyOS Sans SC', 'Segoe UI', sans-serif;
+    }
+    
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .slide:not(.active) {
+      display: none;
+    }
+    
+    .bg-animated {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0a0a0a 0%, #000000 100%);
+      z-index: -1;
+    }
+    
+    .light-spot {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.3;
+    }
+    
+    .title-text {
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+    
+    .subtitle-text {
+      font-weight: 400;
+      color: #9ca3af;
+    }
+    
+    .body-text {
+      font-weight: 300;
+    }
+    
+    .highlight-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+    }
+    
+    .progress-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background: #ffffff;
+      transition: width 0.3s ease;
+      z-index: 1000;
+    }
+    
+    .progress-indicators {
+      position: fixed;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 1000;
+    }
+    
+    .progress-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+    }
+    
+    .progress-dot.active {
+      background: #ffffff;
+    }
+  </style>
+</head>
+<body class="bg-black text-white overflow-hidden">
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="progress-indicators" id="progressIndicators"></div>
+
+  <!-- Slide 1: Cover -->
+  <div class="slide active" id="slide-0">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-blue-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-purple-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="text-center z-10 px-8">
+      <h1 class="title-text text-6xl mb-6">VLM项目规划</h1>
+      <p class="subtitle-text text-xl">三期工程战略</p>
+    </div>
+  </div>
+
+  <!-- Slide 2: Overview -->
+  <div class="slide" id="slide-1">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-green-500 left-1/3 top-1/4"></div>
+      <div class="light-spot w-72 h-72 bg-yellow-500 left-2/3 top-1/2"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">项目概览</h2>
+      <div class="text-left max-w-2xl">
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg"><span class="font-bold">第一期：</span>模型微调与数据准备 (5月-7月)</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg"><span class="font-bold">第二期：</span>数据分析模块建设 (7月-8月)</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg"><span class="font-bold">第三期：</span>VLA语料标注平台 (8月-9月)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3: Phase 1 Title -->
+  <div class="slide" id="slide-2">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-red-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-blue-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-5xl mb-6">模型微调</h2>
+      <p class="subtitle-text text-2xl mb-2">与数据准备</p>
+      <p class="subtitle-text text-xl">5月-7月 (10周)</p>
+    </div>
+  </div>
+
+  <!-- Slide 4: Phase 1 Details -->
+  <div class="slide" id="slide-3">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-red-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-blue-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-3xl mb-8">第一期详情</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">核心任务</h3>
+          <p class="body-text">VLM微调与全链路搭建</p>
+        </div>
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">算力配置</h3>
+          <p class="body-text">4×5090</p>
+        </div>
+        <div class="highlight-box col-span-2">
+          <h3 class="title-text text-xl mb-3">具体工作</h3>
+          <p class="body-text text-left">• VLM全链路架构搭建 (40天)<br>• VLM模型微调 (49天，核心任务)<br>• 问题场景多模态数据分析模块搭建启动</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 5: Phase 1 Deliverables -->
+  <div class="slide" id="slide-4">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-red-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-blue-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">交付成果</h2>
+      <div class="text-left max-w-2xl mx-auto">
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 微调后的VLM模型</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 完整的数据处理Pipeline</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 模型评估报告</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 6: Phase 2 Title -->
+  <div class="slide" id="slide-5">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-green-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-purple-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-5xl mb-6">数据分析</h2>
+      <p class="subtitle-text text-2xl mb-2">模块建设</p>
+      <p class="subtitle-text text-xl">7月-8月 (5周)</p>
+    </div>
+  </div>
+
+  <!-- Slide 7: Phase 2 Details -->
+  <div class="slide" id="slide-6">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-green-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-purple-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-3xl mb-8">第二期详情</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">核心任务</h3>
+          <p class="body-text">多模态数据分析能力建设</p>
+        </div>
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">算力配置</h3>
+          <p class="body-text">4×5090</p>
+        </div>
+        <div class="highlight-box col-span-2">
+          <h3 class="title-text text-xl mb-3">具体工作</h3>
+          <p class="body-text text-left">• 问题场景多模态数据分析模块搭建 (30天)<br>• 问题场景多模态数据分析模块上线 (5天)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 8: Phase 2 Deliverables -->
+  <div class="slide" id="slide-7">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-green-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-purple-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">交付成果</h2>
+      <div class="text-left max-w-2xl mx-auto">
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 数据分析平台</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 场景识别能力</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 上线运营文档</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 9: Phase 3 Title -->
+  <div class="slide" id="slide-8">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-yellow-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-orange-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-5xl mb-6">语料标注</h2>
+      <p class="subtitle-text text-2xl mb-2">平台构建</p>
+      <p class="subtitle-text text-xl">8月-9月 (4周)</p>
+    </div>
+  </div>
+
+  <!-- Slide 10: Phase 3 Details -->
+  <div class="slide" id="slide-9">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-yellow-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-orange-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-3xl mb-8">第三期详情</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">核心任务</h3>
+          <p class="body-text">VLA语料标注系统</p>
+        </div>
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">算力配置</h3>
+          <p class="body-text">8×H20</p>
+        </div>
+        <div class="highlight-box col-span-2">
+          <h3 class="title-text text-xl mb-3">具体工作</h3>
+          <p class="body-text text-left">• 场景VLA语料标注模块搭建<br>• 场景VLA语料标注模块上线</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 11: Phase 3 Deliverables -->
+  <div class="slide" id="slide-10">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-80 h-80 bg-yellow-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-64 h-64 bg-orange-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-8">交付成果</h2>
+      <div class="text-left max-w-2xl mx-auto">
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• VLA语料标注工具</p>
+        </div>
+        <div class="highlight-box mb-4">
+          <p class="body-text text-lg">• 标注规范文档</p>
+        </div>
+        <div class="highlight-box">
+          <p class="body-text text-lg">• 首批高质量VLA语料数据集</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 12: Timeline -->
+  <div class="slide" id="slide-11">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-indigo-500 left-1/3 top-1/4"></div>
+      <div class="light-spot w-80 h-80 bg-pink-500 left-2/3 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-12">项目时间轴</h2>
+      <div class="relative max-w-4xl mx-auto">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-700 transform -translate-x-1/2"></div>
+        
+        <div class="flex justify-between items-center mb-16">
+          <div class="text-center w-1/3">
+            <div class="mx-auto w-6 h-6 rounded-full bg-red-500 border-4 border-black mb-2"></div>
+            <div class="title-text text-xl mb-1">第一期</div>
+            <div class="subtitle-text">5月-7月<br>(10周)</div>
+          </div>
+          <div class="text-center w-1/3">
+            <div class="mx-auto w-6 h-6 rounded-full bg-green-500 border-4 border-black mb-2"></div>
+            <div class="title-text text-xl mb-1">第二期</div>
+            <div class="subtitle-text">7月-8月<br>(5周)</div>
+          </div>
+          <div class="text-center w-1/3">
+            <div class="mx-auto w-6 h-6 rounded-full bg-yellow-500 border-4 border-black mb-2"></div>
+            <div class="title-text text-xl mb-1">第三期</div>
+            <div class="subtitle-text">8月-9月<br>(4周)</div>
+          </div>
+        </div>
+        
+        <div class="flex justify-between text-sm">
+          <div>5月</div>
+          <div>6月</div>
+          <div>7月</div>
+          <div>8月</div>
+          <div>9月</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 13: Summary -->
+  <div class="slide" id="slide-12">
+    <div class="bg-animated"></div>
+    <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="light-spot w-96 h-96 bg-blue-500 left-1/4 top-1/3"></div>
+      <div class="light-spot w-80 h-80 bg-purple-500 left-3/4 top-2/3"></div>
+    </div>
+    <div class="z-10 px-8 text-center">
+      <h2 class="title-text text-4xl mb-12">项目总结</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">第一期</h3>
+          <p class="body-text">模型微调与数据准备</p>
+        </div>
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">第二期</h3>
+          <p class="body-text">数据分析模块</p>
+        </div>
+        <div class="highlight-box">
+          <h3 class="title-text text-xl mb-3">第三期</h3>
+          <p class="body-text">语料标注平台</p>
+        </div>
+      </div>
+      <p class="subtitle-text mt-12 text-xl">总周期：约20周</p>
+    </div>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const totalSlides = 13;
+    const slides = document.querySelectorAll('.slide');
+    const progressBar = document.getElementById('progressBar');
+    const progressIndicators = document.getElementById('progressIndicators');
+
+    // Initialize progress indicators
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('div');
+      dot.className = 'progress-dot';
+      dot.dataset.slide = i;
+      dot.addEventListener('click', () => goToSlide(i));
+      progressIndicators.appendChild(dot);
+    }
+
+    function updateProgress() {
+      const progress = ((currentSlide + 1) / totalSlides) * 100;
+      progressBar.style.width = `${progress}%`;
+      
+      // Update slide visibility
+      slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+      
+      // Update progress dots
+      document.querySelectorAll('.progress-dot').forEach((dot, index) => {
+        if (index === currentSlide) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+
+    function goToSlide(n) {
+      currentSlide = n;
+      updateProgress();
+    }
+
+    function nextSlide() {
+      if (currentSlide < totalSlides - 1) {
+        currentSlide++;
+        updateProgress();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateProgress();
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+
+    // Initialize
+    updateProgress();
+  </script>
+</body>
+</html>
