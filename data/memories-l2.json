@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-04-03T20:08:00+08:00",
+    "system": "AI Memory OS",
+    "description": "L2 Procedural Layer - Behavioral patterns and habits"
+  },
+  "stats": {
+    "total_patterns": 4,
+    "confirmed_patterns": 4,
+    "candidate_patterns": 0,
+    "review_cycle": "monthly",
+    "last_review": "2026-03-08",
+    "next_review": "2026-04-08"
+  },
+  "patterns": [
+    {
+      "id": "L2-001",
+      "name": "系统化思维",
+      "category": "thinking-style",
+      "status": "confirmed",
+      "priority": "high",
+      "definition": "追求清晰的层级结构、规则定义和系统边界",
+      "confidence": "high",
+      "observation_count": 4,
+      "stability": "stable",
+      "duration_days": 30,
+      "typical_manifestations": [
+        "设计系统时要求完整的架构层级（如5层记忆架构）",
+        "为每层明确定义：内容类型、沉淀条件、review频率",
+        "强调边界清晰（如L4只能人工修改）"
+      ],
+      "typical_scenarios": [
+        "记忆系统设计：逐层确认L0-L4的定义和流转规则",
+        "多智能体项目：要求先定义硅基物理规则的整体框架"
+      ],
+      "collaboration_hints": [
+        "提供方案时先给整体架构，再进细节",
+        "使用分层、结构化的信息组织方式",
+        "明确标注边界和约束条件"
+      ],
+      "related_l1": ["2026-03-05-memory-system-init.md", "2026-03-06-multiagent-world-design.md"],
+      "created": "2026-03-05",
+      "updated": "2026-03-08",
+      "file": "work-habits.md"
+    },
+    {
+      "id": "L2-002",
+      "name": "先底层后上层",
+      "category": "work-habit",
+      "status": "confirmed",
+      "priority": "high",
+      "definition": "坚持先解决基础/哲学问题，再进入具体实现",
+      "confidence": "high",
+      "observation_count": 3,
+      "stability": "stable",
+      "duration_days": 30,
+      "typical_manifestations": [
+        "拒绝过早确定业务逻辑，要求先搞定底层机制",
+        "在工程讨论中暂停，质疑基础假设的合理性",
+        "追求概念完整性，厌恶快速进入细节"
+      ],
+      "typical_scenarios": [
+        "多智能体项目：多次拒绝过早确定游戏机制，坚持先讨论时间机制、物理规则",
+        "记忆系统：先确认整体架构和各层定义，再讨论具体文件格式"
+      ],
+      "collaboration_hints": [
+        "不要急于给出MVP实现方案",
+        "先确认基础假设、核心机制、哲学立场",
+        "在底层问题未解决前，接受'暂时不回答上层问题'"
+      ],
+      "related_l1": ["2026-03-05-memory-system-init.md", "2026-03-06-multiagent-world-design.md"],
+      "created": "2026-03-05",
+      "updated": "2026-03-08",
+      "file": "work-habits.md"
+    },
+    {
+      "id": "L2-003",
+      "name": "物理主义倾向",
+      "category": "problem-solving",
+      "status": "confirmed",
+      "priority": "high",
+      "definition": "倾向于用'物理约束'而非'规则仲裁'解决问题",
+      "confidence": "high",
+      "observation_count": 3,
+      "stability": "stable",
+      "duration_days": 30,
+      "typical_manifestations": [
+        "拒绝抽象货币系统（如AP行动点）",
+        "拒绝LLM判断复杂度等主观机制",
+        "要求用速度、距离、时间等物理量限制行为"
+      ],
+      "typical_scenarios": [
+        "多智能体项目：坚持用物理定律（动量、质量、速度）处理碰撞，而非外部仲裁",
+        "拒绝行动点系统，要求用'思考消耗虚拟时间'来限制AI"
+      ],
+      "collaboration_hints": [
+        "优先提供基于客观物理量的解决方案",
+        "避免引入需要主观判断的机制",
+        "相信自然涌现优于人工设计"
+      ],
+      "related_l1": ["2026-03-06-multiagent-world-design.md"],
+      "created": "2026-03-05",
+      "updated": "2026-03-08",
+      "file": "work-habits.md"
+    },
+    {
+      "id": "L2-004",
+      "name": "哲学反思习惯",
+      "category": "thinking-style",
+      "status": "confirmed",
+      "priority": "medium",
+      "definition": "在工程讨论中主动引入哲学层面的质疑和探讨",
+      "confidence": "high",
+      "observation_count": 2,
+      "stability": "stable",
+      "duration_days": 30,
+      "typical_manifestations": [
+        "提出基础假设层面的问题（自由意志 vs 决定论）",
+        "质疑系统设计的逻辑自洽性",
+        "从第一性原理出发推导规则"
+      ],
+      "typical_scenarios": [
+        "多智能体项目：提出'涌现的悖论'、'观察者效应'等哲学问题",
+        "记忆系统设计：讨论'什么才是值得记忆的内容'的本质问题"
+      ],
+      "collaboration_hints": [
+        "不回避哲学层面的讨论",
+        "在适当时候主动提出基础假设问题",
+        "区分'工程可行'和'哲学自洽'两个层面"
+      ],
+      "related_l1": ["2026-03-05-memory-system-init.md", "2026-03-06-multiagent-world-design.md"],
+      "created": "2026-03-05",
+      "updated": "2026-03-08",
+      "file": "work-habits.md"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "L2-PROC-001",
+      "name": "日报生成流程",
+      "category": "workflow",
+      "steps": [
+        {
+          "step": 1,
+          "name": "数据源覆盖检查",
+          "details": "搜索中文AI媒体、中文汽车媒体、英文科技媒体、英文汽车媒体"
+        },
+        {
+          "step": 2,
+          "name": "内容整理",
+          "details": "按四层分类整理：核心层、近层、外延层、支撑层"
+        },
+        {
+          "step": 3,
+          "name": "分析与建议",
+          "details": "包含对工作影响、跟进策略、可操作建议"
+        },
+        {
+          "step": 4,
+          "name": "文件交付",
+          "details": "使用 message 工具 filePath 参数发送 .md 文件"
+        }
+      ],
+      "tool_reliability": {
+        "message_filePath": "✅ 可靠",
+        "kimi_upload_file": "❌ 不稳定（假成功）"
+      },
+      "created": "2026-03-11",
+      "file": "daily-report-workflow.md"
+    },
+    {
+      "id": "L2-PROC-002",
+      "name": "系统化思维偏好",
+      "category": "thinking-style",
+      "core_characteristics": [
+        "层级化思考：从整体架构到具体实现的自顶向下思考",
+        "模块化设计：重视组件的独立性、可复用性和可替换性",
+        "边界意识：强调接口、职责和边界的清晰划分",
+        "结构化表达：喜欢使用图表、列表和层级结构来组织和呈现信息"
+      ],
+      "trigger_scenarios": [
+        "系统架构设计",
+        "API/接口设计",
+        "数据模型设计",
+        "工具/脚本配置",
+        "流程规范制定"
+      ],
+      "created": "2026-03-11",
+      "updated": "2026-04-02",
+      "file": "systematic-thinking.md"
+    }
+  ]
+}

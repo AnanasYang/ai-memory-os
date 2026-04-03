@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-04-03T20:08:00+08:00",
+    "system": "AI Memory OS",
+    "description": "L3 Semantic Layer - Knowledge, beliefs, and cognitive frameworks"
+  },
+  "stats": {
+    "total_frameworks": 1,
+    "confirmed_frameworks": 1,
+    "candidate_frameworks": 2,
+    "review_cycle": "quarterly",
+    "last_review": "2026-04-02",
+    "next_review": "2026-07-02"
+  },
+  "frameworks": [
+    {
+      "id": "L3-001",
+      "name": "架构优先的设计哲学",
+      "category": "thinking-pattern",
+      "status": "active",
+      "confidence": "high",
+      "core_proposition": "好的设计始于清晰的架构，实现只是架构的自然延伸。",
+      "underlying_assumptions": [
+        "系统的长期可维护性取决于架构的清晰度",
+        "前期架构投入能够减少后期的重构成本",
+        "结构化的思考能够降低认知复杂度",
+        "明确的边界是协作效率的基础"
+      ],
+      "applicable_scope": [
+        "软件系统设计",
+        "工具链和流程设计",
+        "复杂问题的分析和拆解",
+        "知识管理和信息组织"
+      ],
+      "key_concepts": [
+        "架构视图: 从宏观层面理解系统的组成部分和交互关系",
+        "分层抽象: 将复杂系统分解为层次化的抽象层",
+        "接口契约: 组件间通过明确的接口进行交互",
+        "一致性原则: 在结构和命名上保持统一规范"
+      ],
+      "principles": [
+        {
+          "name": "先结构后细节",
+          "priority": "P0",
+          "condition": "任何需要长期维护的系统",
+          "description": "在深入具体实现前，先建立整体结构"
+        },
+        {
+          "name": "边界先于实现",
+          "priority": "P1",
+          "condition": "多模块协作的场景",
+          "description": "明确模块边界后再填充实现"
+        },
+        {
+          "name": "可扩展性预设",
+          "priority": "P2",
+          "condition": "预计会演进的系统",
+          "description": "架构设计时考虑未来可能的变化"
+        }
+      ],
+      "decision_process": [
+        "理解问题空间和约束条件",
+        "识别核心概念和实体",
+        "建立分层/分模块的架构草案",
+        "定义模块间的接口和依赖关系",
+        "评估架构的清晰度和可扩展性",
+        "迭代优化架构",
+        "进入具体实现阶段"
+      ],
+      "evidence_support": {
+        "l2_patterns": [
+          {
+            "pattern": "系统化思维偏好",
+            "relation": "核心表现",
+            "observations": 4,
+            "stability": "stable"
+          },
+          {
+            "pattern": "工作习惯",
+            "relation": "行为支撑",
+            "observations": 3,
+            "stability": "stable"
+          },
+          {
+            "pattern": "工具使用模式",
+            "relation": "工具层面体现",
+            "observations": 3,
+            "stability": "stable"
+          }
+        ],
+        "stability_evidence": [
+          "跨时间稳定性: 90天内持续表现，无消退迹象",
+          "跨场景一致性: 在系统设计、工具配置、流程规范等多个场景中一致出现",
+          "反例缺失: 无显著矛盾行为",
+          "用户声明: '我倾向于先把架构想清楚再动手'"
+        ]
+      },
+      "application_examples": [
+        {
+          "scenario": "AI记忆系统设计",
+          "context": "设计5层记忆架构",
+          "process": [
+            "先定义各层职责边界",
+            "设计层间的数据流向",
+            "确定每层的review周期",
+            "最后才创建具体文件"
+          ],
+          "result": "架构清晰，便于后续迭代和维护"
+        },
+        {
+          "scenario": "多智能体系统",
+          "context": "设计多个Agent协作的系统",
+          "process": [
+            "绘制Agent交互架构图",
+            "定义消息传递协议",
+            "明确各Agent的职责边界",
+            "最后实现具体Agent逻辑"
+          ],
+          "result": "系统扩展性好，新增Agent无需改动核心"
+        }
+      ],
+      "boundaries": {
+        "applicable": [
+          "需要长期维护的系统",
+          "多人协作的项目",
+          "复杂度较高的设计任务"
+        ],
+        "not_applicable": [
+          "探索性/实验性工作（初期）",
+          "一次性脚本或临时任务",
+          "时间压力极大且明确的一次性交付"
+        ],
+        "potential_blindspots": [
+          "可能过度设计简单问题",
+          "在快速变化的需求面前，架构可能过早固化",
+          "对'前期投入'的坚持可能导致交付延迟"
+        ]
+      },
+      "variants": {
+        "strong_form": "在所有项目中强制要求完整的架构设计文档和评审流程",
+        "weak_form": "在脑中快速建立概念模型，不强制输出文档，但保持结构化思考",
+        "context_variants": {
+          "personal_project": "弱形式，架构在脑中",
+          "team_collaboration": "强形式，需要文档化",
+          "emergency_fix": "可暂时跳过，但后续补充架构文档"
+        }
+      },
+      "evolution_history": [
+        {
+          "date": "2026-04-02",
+          "event": "初始建立",
+          "trigger": "L2模式持续稳定，且用户多次表达类似倾向",
+          "evidence_change": "从单个行为模式到多维度一致性证据"
+        }
+      ],
+      "human_confirmation": {
+        "date": "2026-04-02",
+        "confirmor": "Bruce",
+        "feedback": "准确。这就是我做事的方式，先想清楚结构再动手。但要注意，我不希望过度设计，简单问题简单处理。",
+        "adjustments": ["在'不适用场景'和'潜在盲点'中添加了关于过度设计和时间压力的考量"]
+      },
+      "ai_usage_guide": {
+        "when_to_apply": [
+          "用户要求设计系统或架构时",
+          "用户询问'应该怎么做'而不是'具体怎么做'时",
+          "涉及长期维护和扩展性考量时"
+        ],
+        "how_to_apply": [
+          "先询问或分析整体架构需求",
+          "提供结构化的架构方案",
+          "强调各部分的边界和关系",
+          "在架构确认后再进入实现细节"
+        ],
+        "caution_needed": [
+          "用户明确表示'先跑起来再说'",
+          "时间压力极大的场景",
+          "用户已经提供了明确的实现方案，不需要架构讨论"
+        ]
+      },
+      "created": "2026-04-02",
+      "updated": "2026-04-02",
+      "next_review": "2026-07-02",
+      "file": "architecture-first-philosophy.md"
+    }
+  ],
+  "thinking_patterns": [
+    {
+      "id": "L3-TP-001",
+      "name": "思维偏好记录",
+      "content": "待从 L2 模式进一步提炼...",
+      "status": "draft",
+      "file": "thinking-patterns.md"
+    }
+  ],
+  "knowledge_base": {
+    "daily_report_preferences": {
+      "description": "日报生成偏好与要求",
+      "key_points": [
+        "必须同时搜索中英文数据源",
+        "使用 message 工具 filePath 参数发送 .md 文件",
+        "发送后主动询问用户是否收到",
+        "不能使用 kimi_upload_file 工具"
+      ],
+      "data_sources": {
+        "chinese": [
+          "机器之心 (jiqizhixin.com)",
+          "量子位 (qbitai.com)",
+          "AI科技评论 (aitechtalk.com)",
+          "InfoQ中文 (infoq.cn)",
+          "腾讯研究院 (tisi.org)",
+          "高工智能汽车 (gg-auto.com)",
+          "盖世汽车 (gasgoo.com)",
+          "42号车库 (42how.com)",
+          "36氪 (36kr.com)",
+          "虎嗅 (huxiu.com)"
+        ],
+        "international": [
+          "TechCrunch",
+          "The Information",
+          "arXiv",
+          "Twitter/X研究者",
+          "Automotive News",
+          "Reuters Auto"
+        ]
+      },
+      "schedule": {
+        "daily": "每日上午 10:00",
+        "weekly": "每周日上午 10:00（覆盖周一至周日）"
+      },
+      "file": "daily-report.md"
+    },
+    "tool_preferences": {
+      "description": "工具使用偏好",
+      "reliable_tools": [
+        "message + filePath: 发送文件可靠"
+      ],
+      "unreliable_tools": [
+        "kimi_upload_file: 存在假成功问题"
+      ],
+      "file": "tools.md"
+    }
+  }
+}

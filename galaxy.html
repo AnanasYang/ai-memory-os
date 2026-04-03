@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Galaxy - AI Memory OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; }
+        .gradient-text { background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .nav-link { transition: all 0.2s; }
+        .nav-link:hover { color: #60a5fa; }
+        .nav-link.active { color: #60a5fa; border-bottom: 2px solid #60a5fa; }
+        #galaxy-container { background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%); }
+        .node-label { font-size: 11px; fill: #e2e8f0; pointer-events: none; text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
+        .node-circle { cursor: pointer; transition: all 0.3s; }
+        .node-circle:hover { filter: brightness(1.3); }
+        .link { stroke-opacity: 0.4; }
+        .tooltip {
+            position: absolute;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 12px;
+            pointer-events: none;
+            font-size: 12px;
+            max-width: 250px;
+            z-index: 100;
+            display: none;
+        }
+        .layer-legend {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+        .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <!-- Header -->
+        <header class="mb-8">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
+                    <h1 class="text-4xl font-bold gradient-text">AI Memory OS</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="mb-8 flex gap-6 border-b border-slate-700 pb-4">
+            <a href="index.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="home" class="w-4 h-4"></i> 首页
+            </a>
+            <a href="galaxy.html" class="nav-link active flex items-center gap-2 pb-2">
+                <i data-lucide="network" class="w-4 h-4"></i> Memory Galaxy
+            </a>
+            <a href="timeline.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="calendar" class="w-4 h-4"></i> 时间线
+            </a>
+            <a href="intent.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="target" class="w-4 h-4"></i> 目标轨道
+            </a>
+        </nav>
+
+        <!-- Galaxy Container -->
+        <div class="card rounded-2xl p-6">
+            <div class="flex items-center justify-between mb-6">
+                <div>
+                    <h2 class="text-2xl font-semibold flex items-center gap-2">
+                        <i data-lucide="network" class="w-6 h-6 text-purple-500"></i>
+                        Memory Galaxy
+                    </h2>
+                    <p class="text-slate-400 text-sm mt-1">5层记忆架构的宇宙视图 - 点击节点查看详情</p>
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="resetZoom()" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-sm transition-colors">
+                        <i data-lucide="maximize" class="w-4 h-4 inline mr-1"></i> 重置视图
+                    </button>
+                    <select id="view-mode" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm" onchange="changeViewMode()">
+                        <option value="all">全部显示</option>
+                        <option value="L1">仅 L1 情境层</option>
+                        <option value="L2">仅 L2 行为层</option>
+                        <option value="L3">仅 L3 认知层</option>
+                        <option value="L4">仅 L4 核心层</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div id="galaxy-container" class="rounded-xl overflow-hidden" style="height: 600px;"></div>
+                
+                <!-- Layer Legend -->
+                <div class="layer-legend">
+                    <h4 class="font-medium mb-3 text-sm">记忆层级</h4>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #3b82f6; box-shadow: 0 0 10px #3b82f6;"></div>
+                        <span class="text-sm">L1 情境层 (近期)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #f59e0b; box-shadow: 0 0 10px #f59e0b;"></div>
+                        <span class="text-sm">L2 行为层 (习惯)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #8b5cf6; box-shadow: 0 0 10px #8b5cf6;"></div>
+                        <span class="text-sm">L3 认知层 (框架)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #ef4444; box-shadow: 0 0 10px #ef4444;"></div>
+                        <span class="text-sm">L4 核心层 (身份)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #10b981; box-shadow: 0 0 10px #10b981;"></div>
+                        <span class="text-sm">Intent 轨道</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Selected Node Info -->
+            <div id="node-info" class="mt-6 p-4 bg-slate-800/50 rounded-xl border border-slate-700 hidden">
+                <div class="flex items-start gap-4">
+                    <div id="node-color" class="w-4 h-4 rounded-full mt-1"></div>
+                    <div class="flex-1">
+                        <h3 id="node-title" class="font-semibold text-lg"></h3>
+                        <p id="node-layer" class="text-sm text-slate-400 mb-2"></p>
+                        <p id="node-description" class="text-slate-300"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-5 gap-4 mt-6">
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-blue-500" id="count-L1">0</div>
+                <div class="text-xs text-slate-400">L1 节点</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-amber-500" id="count-L2">0</div>
+                <div class="text-xs text-slate-400">L2 节点</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-purple-500" id="count-L3">0</div>
+                <div class="text-xs text-slate-400">L3 节点</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-red-500" id="count-L4">0</div>
+                <div class="text-xs text-slate-400">L4 节点</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-2xl font-bold text-emerald-500" id="count-links">0</div>
+                <div class="text-xs text-slate-400">关联数</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+            <p>AI Memory OS © 2026 | 基于 5 层记忆架构构建</p>
+        </footer>
+    </div>
+
+    <!-- Tooltip -->
+    <div id="tooltip" class="tooltip"></div>
+
+    <script>
+        let svg, simulation, allData, currentTransform;
+        const width = document.getElementById('galaxy-container').clientWidth || 1000;
+        const height = 600;
+
+        // Layer colors
+        const layerColors = {
+            'L1': '#3b82f6',
+            'L2': '#f59e0b',
+            'L3': '#8b5cf6',
+            'L4': '#ef4444',
+            'Intent': '#10b981'
+        };
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            lucide.createIcons();
+            await loadData();
+            initGalaxy();
+            updateStats();
+        });
+
+        // Load data
+        async function loadData() {
+            try {
+                const [l1, l2, l3, l4, intent] = await Promise.all([
+                    fetch('data/memories-l1.json').then(r => r.json()),
+                    fetch('data/memories-l2.json').then(r => r.json()),
+                    fetch('data/memories-l3.json').then(r => r.json()),
+                    fetch('data/memories-l4.json').then(r => r.json()),
+                    fetch('data/intent.json').then(r => r.json())
+                ]);
+                allData = { l1, l2, l3, l4, intent };
+            } catch (e) {
+                console.error('Error loading data:', e);
+            }
+        }
+
+        // Initialize galaxy visualization
+        function initGalaxy() {
+            const container = d3.select('#galaxy-container');
+            container.selectAll('*').remove();
+
+            // Create SVG
+            svg = container.append('svg')
+                .attr('width', '100%')
+                .attr('height', height)
+                .attr('viewBox', [0, 0, width, height]);
+
+            // Add zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([0.3, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                    currentTransform = event.transform;
+                });
+
+            svg.call(zoom);
+
+            const g = svg.append('g');
+
+            // Prepare nodes and links
+            const { nodes, links } = prepareGraphData();
+
+            // Create force simulation
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(80))
+                .force('charge', d3.forceManyBody().strength(-200))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(d => (d.radius || 8) + 5))
+                .force('x', d3.forceX(width / 2).strength(0.05))
+                .force('y', d3.forceY(height / 2).strength(0.05));
+
+            // Create links
+            const link = g.append('g')
+                .attr('class', 'links')
+                .selectAll('line')
+                .data(links)
+                .join('line')
+                .attr('class', 'link')
+                .attr('stroke', '#64748b')
+                .attr('stroke-width', 1);
+
+            // Create nodes
+            const node = g.append('g')
+                .attr('class', 'nodes')
+                .selectAll('g')
+                .data(nodes)
+                .join('g')
+                .attr('class', 'node')
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended));
+
+            // Add circles
+            node.append('circle')
+                .attr('class', 'node-circle')
+                .attr('r', d => d.radius || 8)
+                .attr('fill', d => layerColors[d.layer] || '#94a3b8')
+                .attr('stroke', '#fff')
+                .attr('stroke-width', 1.5)
+                .attr('stroke-opacity', 0.5)
+                .style('filter', d => `drop-shadow(0 0 ${d.radius}px ${layerColors[d.layer] || '#94a3b8'})`);
+
+            // Add labels for larger nodes
+            node.filter(d => (d.radius || 8) > 10)
+                .append('text')
+                .attr('class', 'node-label')
+                .attr('dy', d => (d.radius || 8) + 15)
+                .attr('text-anchor', 'middle')
+                .text(d => d.name.length > 12 ? d.name.substring(0, 12) + '...' : d.name);
+
+            // Tooltip events
+            node.on('mouseover', function(event, d) {
+                const tooltip = document.getElementById('tooltip');
+                tooltip.style.display = 'block';
+                tooltip.style.left = (event.pageX + 10) + 'px';
+                tooltip.style.top = (event.pageY + 10) + 'px';
+                tooltip.innerHTML = `
+                    <div class="font-medium mb-1" style="color: ${layerColors[d.layer]}">${d.name}</div>
+                    <div class="text-slate-400 mb-1">${d.layer} - ${d.layerName}</div>
+                    <div class="text-slate-300">${d.description?.substring(0, 100) || '暂无描述'}...</div>
+                `;
+            })
+            .on('mouseout', () => {
+                document.getElementById('tooltip').style.display = 'none';
+            })
+            .on('click', (event, d) => showNodeInfo(d));
+
+            // Update positions on tick
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+        }
+
+        // Prepare graph data from memory layers
+        function prepareGraphData() {
+            const nodes = [];
+            const links = [];
+
+            // L1 Nodes (Episodic memories)
+            if (allData.l1?.memories) {
+                allData.l1.memories.forEach((m, i) => {
+                    nodes.push({
+                        id: m.id,
+                        name: m.title,
+                        layer: 'L1',
+                        layerName: '情境层',
+                        description: m.summary,
+                        radius: 8,
+                        data: m
+                    });
+                });
+            }
+
+            // L2 Nodes (Behavioral patterns)
+            if (allData.l2?.patterns) {
+                allData.l2.patterns.forEach((p, i) => {
+                    const node = {
+                        id: p.id,
+                        name: p.name,
+                        layer: 'L2',
+                        layerName: '行为层',
+                        description: p.definition,
+                        radius: 12,
+                        data: p
+                    };
+                    nodes.push(node);
+
+                    // Links to related L1 memories
+                    if (p.related_l1) {
+                        p.related_l1.forEach(l1File => {
+                            const l1Id = l1File.replace('.md', '');
+                            const l1Node = nodes.find(n => n.id.includes(l1Id.substring(l1Id.lastIndexOf('/') + 1)));
+                            if (l1Node) {
+                                links.push({ source: l1Node.id, target: p.id, type: 'observed_in' });
+                            }
+                        });
+                    }
+                });
+            }
+
+            // L3 Nodes (Cognitive frameworks)
+            if (allData.l3?.frameworks) {
+                allData.l3.frameworks.forEach((f, i) => {
+                    const node = {
+                        id: f.id,
+                        name: f.name,
+                        layer: 'L3',
+                        layerName: '认知层',
+                        description: f.core_proposition,
+                        radius: 16,
+                        data: f
+                    };
+                    nodes.push(node);
+
+                    // Links to supporting L2 patterns
+                    if (f.evidence_support?.l2_patterns) {
+                        f.evidence_support.l2_patterns.forEach(l2 => {
+                            const l2Node = nodes.find(n => n.name === l2.pattern);
+                            if (l2Node) {
+                                links.push({ source: l2Node.id, target: f.id, type: 'supports' });
+                            }
+                        });
+                    }
+                });
+            }
+
+            // L4 Node (Core identity)
+            if (allData.l4?.identity) {
+                nodes.push({
+                    id: 'L4-core',
+                    name: allData.l4.identity.name || '核心身份',
+                    layer: 'L4',
+                    layerName: '核心层',
+                    description: '核心价值观与身份认同',
+                    radius: 20,
+                    data: allData.l4
+                });
+
+                // Link L3 to L4
+                nodes.filter(n => n.layer === 'L3').forEach(n => {
+                    links.push({ source: n.id, target: 'L4-core', type: 'derived_from' });
+                });
+            }
+
+            // Intent Nodes
+            if (allData.intent?.goals?.short_term) {
+                allData.intent.goals.short_term.forEach((g, i) => {
+                    nodes.push({
+                        id: `intent-${g.id}`,
+                        name: g.title,
+                        layer: 'Intent',
+                        layerName: '目标轨道',
+                        description: g.description,
+                        radius: 10,
+                        data: g
+                    });
+                });
+            }
+
+            return { nodes, links };
+        }
+
+        // Show node info panel
+        function showNodeInfo(node) {
+            const panel = document.getElementById('node-info');
+            document.getElementById('node-color').style.backgroundColor = layerColors[node.layer];
+            document.getElementById('node-title').textContent = node.name;
+            document.getElementById('node-layer').textContent = `${node.layer} - ${node.layerName}`;
+            document.getElementById('node-description').textContent = node.description || '暂无描述';
+            panel.classList.remove('hidden');
+        }
+
+        // Update stats
+        function updateStats() {
+            document.getElementById('count-L1').textContent = allData.l1?.stats?.total_memories || 0;
+            document.getElementById('count-L2').textContent = allData.l2?.stats?.confirmed_patterns || 0;
+            document.getElementById('count-L3').textContent = allData.l3?.stats?.confirmed_frameworks || 0;
+            document.getElementById('count-L4').textContent = '1';
+            
+            const { links } = prepareGraphData();
+            document.getElementById('count-links').textContent = links.length;
+        }
+
+        // Change view mode
+        function changeViewMode() {
+            const mode = document.getElementById('view-mode').value;
+            if (mode === 'all') {
+                initGalaxy();
+            } else {
+                filterByLayer(mode);
+            }
+        }
+
+        // Filter by layer
+        function filterByLayer(layer) {
+            // Reload with filtered data
+            const originalData = { ...allData };
+            
+            if (layer !== 'all') {
+                // Filter nodes by layer
+                const { nodes, links } = prepareGraphData();
+                const filteredNodes = nodes.filter(n => n.layer === layer);
+                const nodeIds = new Set(filteredNodes.map(n => n.id));
+                const filteredLinks = links.filter(l => 
+                    nodeIds.has(typeof l.source === 'object' ? l.source.id : l.source) &&
+                    nodeIds.has(typeof l.target === 'object' ? l.target.id : l.target)
+                );
+                
+                renderFilteredGraph(filteredNodes, filteredLinks);
+            } else {
+                initGalaxy();
+            }
+        }
+
+        // Render filtered graph
+        function renderFilteredGraph(nodes, links) {
+            const container = d3.select('#galaxy-container');
+            container.selectAll('*').remove();
+
+            svg = container.append('svg')
+                .attr('width', '100%')
+                .attr('height', height)
+                .attr('viewBox', [0, 0, width, height]);
+
+            const zoom = d3.zoom()
+                .scaleExtent([0.3, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                });
+
+            svg.call(zoom);
+            const g = svg.append('g');
+
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(100))
+                .force('charge', d3.forceManyBody().strength(-300))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(d => (d.radius || 8) + 10));
+
+            const link = g.append('g')
+                .selectAll('line')
+                .data(links)
+                .join('line')
+                .attr('class', 'link')
+                .attr('stroke', '#64748b')
+                .attr('stroke-width', 1);
+
+            const node = g.append('g')
+                .selectAll('g')
+                .data(nodes)
+                .join('g')
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended));
+
+            node.append('circle')
+                .attr('class', 'node-circle')
+                .attr('r', d => d.radius || 8)
+                .attr('fill', d => layerColors[d.layer] || '#94a3b8')
+                .attr('stroke', '#fff')
+                .attr('stroke-width', 2)
+                .style('filter', d => `drop-shadow(0 0 ${d.radius * 1.5}px ${layerColors[d.layer] || '#94a3b8'})`);
+
+            node.append('text')
+                .attr('class', 'node-label')
+                .attr('dy', d => (d.radius || 8) + 18)
+                .attr('text-anchor', 'middle')
+                .style('font-size', '12px')
+                .text(d => d.name.length > 15 ? d.name.substring(0, 15) + '...' : d.name);
+
+            node.on('mouseover', function(event, d) {
+                const tooltip = document.getElementById('tooltip');
+                tooltip.style.display = 'block';
+                tooltip.style.left = (event.pageX + 10) + 'px';
+                tooltip.style.top = (event.pageY + 10) + 'px';
+                tooltip.innerHTML = `
+                    <div class="font-medium mb-1" style="color: ${layerColors[d.layer]}">${d.name}</div>
+                    <div class="text-slate-400">${d.description?.substring(0, 80) || '暂无描述'}...</div>
+                `;
+            })
+            .on('mouseout', () => {
+                document.getElementById('tooltip').style.display = 'none';
+            })
+            .on('click', (event, d) => showNodeInfo(d));
+
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+        }
+
+        // Reset zoom
+        function resetZoom() {
+            if (svg) {
+                svg.transition().duration(750).call(
+                    d3.zoom().transform,
+                    d3.zoomIdentity
+                );
+            }
+        }
+
+        // Drag functions
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    </script>
+</body>
+</html>

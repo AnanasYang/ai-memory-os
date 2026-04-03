@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-04-03T20:08:00+08:00",
+    "system": "AI Memory OS",
+    "description": "System-wide statistics and overview"
+  },
+  "system_health": {
+    "status": "healthy",
+    "last_check": "2026-04-03T20:08:00+08:00",
+    "components": {
+      "l0_state": "✅ active",
+      "l1_episodic": "✅ active",
+      "l2_procedural": "✅ active",
+      "l3_semantic": "✅ active",
+      "l4_core": "⚠️ draft (待填充)",
+      "intent": "✅ active",
+      "meta": "✅ active"
+    }
+  },
+  "memory_layers": {
+    "L0": {
+      "name": "状态层",
+      "description": "当前会话上下文",
+      "status": "active",
+      "records": 600,
+      "last_update": "2026-04-02T23:52:55+08:00",
+      "retention": "10轮自动摘要"
+    },
+    "L1": {
+      "name": "情境层",
+      "description": "近期对话摘要",
+      "status": "active",
+      "records": 5,
+      "date_range": "2026-03-05 ~ 2026-04-03",
+      "review_cycle": "weekly",
+      "last_review": "2026-04-02",
+      "next_review": "2026-04-09",
+      "retention": "30天后归档"
+    },
+    "L2": {
+      "name": "行为层",
+      "description": "重复行为模式",
+      "status": "active",
+      "confirmed_patterns": 4,
+      "review_cycle": "monthly",
+      "last_review": "2026-03-08",
+      "next_review": "2026-04-08"
+    },
+    "L3": {
+      "name": "认知层",
+      "description": "思维模式与决策框架",
+      "status": "active",
+      "confirmed_frameworks": 1,
+      "candidate_frameworks": 2,
+      "review_cycle": "quarterly",
+      "last_review": "2026-04-02",
+      "next_review": "2026-07-02"
+    },
+    "L4": {
+      "name": "核心层",
+      "description": "价值观与身份",
+      "status": "draft",
+      "review_cycle": "yearly",
+      "note": "仅人工修改"
+    }
+  },
+  "intent": {
+    "active_goals": 0,
+    "short_term": 1,
+    "mid_term": 0,
+    "long_term": 0,
+    "preferences": 3,
+    "boundaries": 0
+  },
+  "activity_heatmap": {
+    "description": "近30天活动热力图数据",
+    "data": [
+      {"date": "2026-03-05", "count": 5, "level": 3},
+      {"date": "2026-03-06", "count": 3, "level": 2},
+      {"date": "2026-03-11", "count": 2, "level": 1},
+      {"date": "2026-04-02", "count": 64, "level": 4},
+      {"date": "2026-04-03", "count": 3, "level": 2}
+    ],
+    "max_day": "2026-04-02",
+    "max_count": 64
+  },
+  "tag_cloud": [
+    {"tag": "Memory System", "count": 5, "weight": 5},
+    {"tag": "架构设计", "count": 4, "weight": 4},
+    {"tag": "系统化思维", "count": 3, "weight": 3},
+    {"tag": "物理主义", "count": 2, "weight": 2},
+    {"tag": "哲学思考", "count": 2, "weight": 2},
+    {"tag": "测试", "count": 1, "weight": 1},
+    {"tag": "Daily Dream", "count": 1, "weight": 1},
+    {"tag": "多智能体", "count": 1, "weight": 1},
+    {"tag": "日报", "count": 1, "weight": 1}
+  ],
+  "growth_trend": {
+    "description": "记忆系统增长趋势",
+    "l1_growth": [
+      {"month": "2026-03", "count": 3},
+      {"month": "2026-04", "count": 2}
+    ],
+    "l2_confirmed": [
+      {"month": "2026-03", "count": 4}
+    ],
+    "l3_confirmed": [
+      {"month": "2026-04", "count": 1}
+    ]
+  }
+}

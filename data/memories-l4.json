@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-04-03T20:08:00+08:00",
+    "system": "AI Memory OS",
+    "description": "L4 Core Layer - Identity, values, and core beliefs"
+  },
+  "identity": {
+    "name": "Bruce",
+    "full_name": "杨兆凌",
+    "role": "AI开发工程师",
+    "organization": "上汽通用泛亚汽车技术中心自动驾驶分部",
+    "age": 30,
+    "timezone": "Asia/Shanghai"
+  },
+  "core_values": {
+    "status": "draft",
+    "content": "待 Bruce 填充...",
+    "note": "重要：本层只能由 Bruce 人工修改，AI 不能自动更新。"
+  },
+  "life_beliefs": {
+    "status": "draft",
+    "content": "待 Bruce 填充...",
+    "note": "重要：本层只能由 Bruce 人工修改，AI 不能自动更新。"
+  },
+  "personality_traits": {
+    "status": "draft",
+    "content": "待 Bruce 填充...",
+    "confirmed_traits": [
+      {
+        "trait": "系统化思维",
+        "evidence": "追求清晰的层级结构、规则定义和系统边界",
+        "confidence": "high",
+        "sources": ["L2-procedural/work-habits.md", "L3-semantic/architecture-first-philosophy.md"]
+      },
+      {
+        "trait": "物理主义倾向",
+        "evidence": "倾向于用'物理约束'而非'规则仲裁'解决问题",
+        "confidence": "high",
+        "sources": ["L2-procedural/work-habits.md"]
+      },
+      {
+        "trait": "哲学反思",
+        "evidence": "在工程讨论中主动引入哲学层面的质疑和探讨",
+        "confidence": "high",
+        "sources": ["L2-procedural/work-habits.md"]
+      }
+    ]
+  },
+  "decision_principles": {
+    "status": "draft",
+    "content": "待 Bruce 填充...",
+    "confirmed_principles": [
+      {
+        "principle": "先底层后上层",
+        "description": "坚持先解决基础/哲学问题，再进入具体实现",
+        "confidence": "high"
+      },
+      {
+        "principle": "架构优先",
+        "description": "在深入具体实现前，先建立整体结构",
+        "confidence": "high"
+      }
+    ]
+  },
+  "modification_rules": {
+    "important_notice": "本层作为其他所有层级的'校准锚点'，所有向上沉淀的内容需与此保持一致。",
+    "permissions": {
+      "can_modify": ["Bruce（人工）"],
+      "cannot_modify": ["AI（自动）"]
+    },
+    "review_cycle": "yearly",
+    "history": [
+      {
+        "date": "2026-03-05",
+        "modification": "初始化",
+        "reason": "建立记忆系统"
+      }
+    ]
+  }
+}

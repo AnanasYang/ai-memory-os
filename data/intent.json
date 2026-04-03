@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-04-03T20:08:00+08:00",
+    "system": "AI Memory OS",
+    "description": "Intent Layer - Goals, preferences, and boundaries"
+  },
+  "stats": {
+    "total_goals": 1,
+    "active_goals": 0,
+    "completed_goals": 1,
+    "preferences": 3,
+    "boundaries": 0
+  },
+  "goals": {
+    "active": [],
+    "short_term": [
+      {
+        "id": "INTENT-GOAL-001",
+        "title": "建立 AI 记忆系统",
+        "description": "建立完整的 5 层记忆架构 + Intent 轨道 + Meta 元数据，实现自动沉淀对话中的行为模式、定期 review 和升级记忆层级、AI 能基于记忆更好地协作",
+        "status": "completed",
+        "priority": "high",
+        "created": "2026-03-05",
+        "target_date": "2026-04-05",
+        "completed_date": "2026-03-08",
+        "completion_criteria": [
+          "目录结构创建",
+          "模板文件编写",
+          "AGENTS.md 更新",
+          "HEARTBEAT.md 配置",
+          "Cron 任务设置",
+          "首次数据沉淀",
+          "首次 review 完成"
+        ],
+        "achievements": [
+          "L2 确认 4 个行为模式：系统化思维、先底层后上层、物理主义倾向、哲学反思",
+          "L3 检测到 2 个潜在候选：架构优先思维、第一性原理"
+        ],
+        "file": "setup-ai-memory-system.md"
+      }
+    ],
+    "mid_term": [],
+    "long_term": []
+  },
+  "preferences": {
+    "communication": {
+      "style": "结构化回复，分层次、清晰的组织方式",
+      "detail_preference": "详细说明，对系统设计需要完整上下文",
+      "confirmation": "主动确认，重要执行前需要明确确认",
+      "boundary_awareness": "诚实边界，明确说明能做什么、不能做什么"
+    },
+    "daily_report": {
+      "description": "日报生成偏好与要求",
+      "search_requirements": [
+        "必须同时搜索中英文数据源",
+        "中文关键词：'机器之心 量子位 自动驾驶'、'高工智能汽车 智驾'",
+        "英文关键词：'autonomous driving AI'、'physical AI robotics'"
+      ],
+      "delivery": {
+        "method": "使用 message 工具 filePath 参数发送 .md 文件",
+        "verification": "发送后主动询问用户是否收到",
+        "avoid": "不能使用 kimi_upload_file 工具"
+      },
+      "structure": [
+        "🔴 核心层（自动驾驶+企业AI）",
+        "🟡 近层（AI核心+行业前沿）",
+        "🟢 外延层（上下游拓展）",
+        "⚪ 支撑层（政策+投研）"
+      ],
+      "schedule": {
+        "daily": "每日上午 10:00",
+        "weekly": "每周日上午 10:00"
+      },
+      "data_sources": {
+        "chinese": [
+          {"name": "机器之心", "url": "jiqizhixin.com", "category": "AI/科技"},
+          {"name": "量子位", "url": "qbitai.com", "category": "AI/科技"},
+          {"name": "AI科技评论", "url": "aitechtalk.com", "category": "AI/科技"},
+          {"name": "InfoQ中文", "url": "infoq.cn", "category": "AI/科技"},
+          {"name": "腾讯研究院", "url": "tisi.org", "category": "深度观点"},
+          {"name": "高工智能汽车", "url": "gg-auto.com", "category": "自动驾驶"},
+          {"name": "盖世汽车", "url": "gasgoo.com", "category": "自动驾驶"},
+          {"name": "42号车库", "url": "42how.com", "category": "自动驾驶"},
+          {"name": "36氪", "url": "36kr.com", "category": "商业"},
+          {"name": "虎嗅", "url": "huxiu.com", "category": "商业"}
+        ],
+        "international": [
+          {"name": "TechCrunch", "category": "AI/科技"},
+          {"name": "The Information", "category": "AI/科技"},
+          {"name": "arXiv", "category": "学术"},
+          {"name": "Automotive News", "category": "自动驾驶"}
+        ]
+      },
+      "file": "daily-report.md"
+    },
+    "tools": {
+      "reliable": [
+        {"tool": "message + filePath", "purpose": "发送文件", "reliability": "✅ 可靠"}
+      ],
+      "unreliable": [
+        {"tool": "kimi_upload_file", "purpose": "发送文件", "reliability": "❌ 不稳定（假成功）"}
+      ],
+      "file": "tools.md"
+    },
+    "workflow": {
+      "thinking_pattern": "系统化思维，追求清晰的层级结构",
+      "problem_solving": "先底层后上层，先解决基础问题再进入实现",
+      "design_philosophy": "物理主义倾向，用物理约束而非规则仲裁"
+    }
+  },
+  "boundaries": {
+    "hard_limits": [],
+    "soft_limits": [],
+    "decision_rules": []
+  }
+}

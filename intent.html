@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intent - AI Memory OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; }
+        .gradient-text { background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .nav-link { transition: all 0.2s; }
+        .nav-link:hover { color: #60a5fa; }
+        .nav-link.active { color: #60a5fa; border-bottom: 2px solid #60a5fa; }
+        
+        .goal-card { 
+            transition: all 0.3s;
+            border-left: 4px solid transparent;
+        }
+        .goal-card:hover { 
+            transform: translateY(-2px);
+            border-left-color: #10b981;
+        }
+        
+        .progress-ring {
+            transform: rotate(-90deg);
+        }
+        .progress-ring-circle {
+            transition: stroke-dashoffset 0.5s ease;
+        }
+        
+        .orbit-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+        .orbit-ring {
+            position: absolute;
+            border: 1px dashed rgba(255,255,255,0.1);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .orbit-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
+        }
+        .orbit-node {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .orbit-node:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 20px currentColor;
+        }
+        
+        .status-completed { background: rgba(16, 185, 129, 0.2); border-color: #10b981; color: #10b981; }
+        .status-active { background: rgba(59, 130, 246, 0.2); border-color: #3b82f6; color: #3b82f6; }
+        .status-pending { background: rgba(107, 114, 128, 0.2); border-color: #6b7280; color: #6b7280; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Header -->
+        <header class="mb-8">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
+                    <h1 class="text-4xl font-bold gradient-text">AI Memory OS</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="mb-8 flex gap-6 border-b border-slate-700 pb-4">
+            <a href="index.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="home" class="w-4 h-4"></i> 首页
+            </a>
+            <a href="galaxy.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="network" class="w-4 h-4"></i> Memory Galaxy
+            </a>
+            <a href="timeline.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="calendar" class="w-4 h-4"></i> 时间线
+            </a>
+            <a href="intent.html" class="nav-link active flex items-center gap-2 pb-2">
+                <i data-lucide="target" class="w-4 h-4"></i> 目标轨道
+            </a>
+        </nav>
+
+        <!-- Overview Cards -->
+        <div class="grid grid-cols-4 gap-4 mb-8">
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-emerald-500" id="stat-completed">0</div>
+                <div class="text-sm text-slate-400 mt-1">已完成</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-blue-500" id="stat-active">0</div>
+                <div class="text-sm text-slate-400 mt-1">进行中</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-purple-500" id="stat-total">0</div>
+                <div class="text-sm text-slate-400 mt-1">总目标</div>
+            </div>
+            <div class="card rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-amber-500" id="stat-progress">0%</div>
+                <div class="text-sm text-slate-400 mt-1">完成率</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="grid lg:grid-cols-3 gap-6">
+            <!-- Goal Orbit Visualization -->
+            <div class="lg:col-span-1">
+                <div class="card rounded-2xl p-6">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i data-lucide="orbit" class="w-5 h-5 text-emerald-500"></i>
+                        目标轨道
+                    </h2>
+                    <div class="orbit-container">
+                        <div class="orbit-ring" style="width: 280px; height: 280px;"></div>
+                        <div class="orbit-ring" style="width: 200px; height: 200px;"></div>
+                        <div class="orbit-ring" style="width: 120px; height: 120px;"></div>
+                        <div class="orbit-center">
+                            <i data-lucide="target" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <!-- Orbit nodes will be added here -->
+                        <div id="orbit-nodes"></div>
+                    </div>
+                    <div class="mt-4 text-center text-sm text-slate-400">
+                        <p>长期 → 中期 → 短期</p>
+                    </div>
+                </div>
+
+                <!-- Preferences Summary -->
+                <div class="card rounded-2xl p-6 mt-6">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i data-lucide="settings" class="w-5 h-5 text-amber-500"></i>
+                        偏好设置
+                    </h2>
+                    <div id="preferences-list" class="space-y-3">
+                        <!-- Preferences will be rendered here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Goals List -->
+            <div class="lg:col-span-2">
+                <div class="card rounded-2xl p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-xl font-semibold flex items-center gap-2">
+                            <i data-lucide="flag" class="w-5 h-5 text-blue-500"></i>
+                            目标列表
+                        </h2>
+                        <div class="flex gap-2">
+                            <select id="goal-filter" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-sm" onchange="renderGoals()">
+                                <option value="all">全部</option>
+                                <option value="completed">已完成</option>
+                                <option value="active">进行中</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="goals-list" class="space-y-4">
+                        <!-- Goals will be rendered here -->
+                    </div>
+                </div>
+
+                <!-- Data Sources -->
+                <div class="card rounded-2xl p-6 mt-6">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i data-lucide="rss" class="w-5 h-5 text-purple-500"></i>
+                        日报数据源
+                    </h2>
+                    <div id="data-sources" class="space-y-4">
+                        <!-- Data sources will be rendered here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+            <p>AI Memory OS © 2026 | 基于 5 层记忆架构构建</p>
+        </footer>
+    </div>
+
+    <script>
+        let allData = {};
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            lucide.createIcons();
+            await loadData();
+            renderStats();
+            renderOrbit();
+            renderGoals();
+            renderPreferences();
+            renderDataSources();
+        });
+
+        // Load data
+        async function loadData() {
+            try {
+                allData = await fetch('data/intent.json').then(r => r.json());
+            } catch (e) {
+                console.error('Error loading data:', e);
+            }
+        }
+
+        // Render stats
+        function renderStats() {
+            const stats = allData.stats || {};
+            document.getElementById('stat-completed').textContent = stats.completed_goals || 0;
+            document.getElementById('stat-active').textContent = stats.active_goals || 0;
+            document.getElementById('stat-total').textContent = stats.total_goals || 0;
+            
+            const total = stats.total_goals || 0;
+            const completed = stats.completed_goals || 0;
+            const progress = total > 0 ? Math.round((completed / total) * 100) : 0;
+            document.getElementById('stat-progress').textContent = progress + '%';
+        }
+
+        // Render orbit visualization
+        function renderOrbit() {
+            const container = document.getElementById('orbit-nodes');
+            const goals = allData.goals || {};
+            
+            // Create nodes for each goal type
+            const nodes = [];
+            
+            if (goals.long_term?.length) {
+                nodes.push({ type: 'long', label: '长', color: '#ef4444', angle: 0, distance: 130 });
+            }
+            if (goals.mid_term?.length) {
+                nodes.push({ type: 'mid', label: '中', color: '#f59e0b', angle: 120, distance: 90 });
+            }
+            if (goals.short_term?.length) {
+                nodes.push({ type: 'short', label: '短', color: '#10b981', angle: 240, distance: 50 });
+            }
+
+            container.innerHTML = nodes.map(n => {
+                const x = 150 + n.distance * Math.cos(n.angle * Math.PI / 180);
+                const y = 150 + n.distance * Math.sin(n.angle * Math.PI / 180);
+                return `
+                    <div class="orbit-node" 
+                         style="background: ${n.color}; left: ${x-20}px; top: ${y-20}px; box-shadow: 0 0 15px ${n.color}40;"
+                         title="${n.type === 'long' ? '长期目标' : n.type === 'mid' ? '中期目标' : '短期目标'}">
+                        ${n.label}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Render goals list
+        function renderGoals() {
+            const container = document.getElementById('goals-list');
+            const filter = document.getElementById('goal-filter').value;
+            const goals = allData.goals || {};
+            
+            let allGoals = [];
+            
+            // Collect all goals
+            ['short_term', 'mid_term', 'long_term', 'active'].forEach(type => {
+                if (goals[type]) {
+                    goals[type].forEach(g => {
+                        allGoals.push({ ...g, type });
+                    });
+                }
+            });
+
+            // Filter
+            if (filter !== 'all') {
+                allGoals = allGoals.filter(g => g.status === filter);
+            }
+
+            if (allGoals.length === 0) {
+                container.innerHTML = '<div class="text-center py-8 text-slate-500">暂无目标</div>';
+                return;
+            }
+
+            container.innerHTML = allGoals.map(g => {
+                const statusClass = g.status === 'completed' ? 'status-completed' : 
+                                   g.status === 'active' ? 'status-active' : 'status-pending';
+                const statusText = g.status === 'completed' ? '已完成' : 
+                                  g.status === 'active' ? '进行中' : '待开始';
+                
+                // Calculate progress
+                const criteria = g.completion_criteria || [];
+                const completed = criteria.filter(c => c.startsWith('✅') || c.includes('完成')).length;
+                const progress = criteria.length > 0 ? Math.round((completed / criteria.length) * 100) : 
+                                g.status === 'completed' ? 100 : 0;
+                
+                return `
+                    <div class="goal-card card rounded-xl p-4 ${statusClass}">
+                        <div class="flex items-start justify-between mb-3">
+                            <div class="flex items-center gap-3">
+                                <span class="px-2 py-1 rounded-full text-xs font-medium bg-slate-800">
+                                    ${g.type === 'short_term' ? '短期' : g.type === 'mid_term' ? '中期' : g.type === 'long_term' ? '长期' : '活跃'}
+                                </span>
+                                <span class="px-2 py-1 rounded-full text-xs font-medium ${statusClass}">
+                                    ${statusText}
+                                </span>
+                            </div>
+                            <span class="text-sm text-slate-400">${g.target_date || ''}</span>
+                        </div>
+                        
+                        <h4 class="font-semibold mb-2">${g.title}</h4>
+                        <p class="text-sm text-slate-400 mb-3">${g.description}</p>
+                        
+                        <!-- Progress bar -->
+                        <div class="mb-3">
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-slate-400">进度</span>
+                                <span class="font-medium">${progress}%</span>
+                            </div>
+                            <div class="h-2 bg-slate-800 rounded-full overflow-hidden">
+                                <div class="h-full rounded-full transition-all duration-500" 
+                                     style="width: ${progress}%; background: ${g.status === 'completed' ? '#10b981' : '#3b82f6'}"></div>
+                            </div>
+                        </div>
+                        
+                        ${criteria.length > 0 ? `
+                            <div class="text-xs text-slate-500">
+                                <span class="font-medium">${completed}/${criteria.length}</span> 完成标准
+                            </div>
+                        ` : ''}
+                        
+                        ${g.achievements?.length ? `
+                            <div class="mt-3 pt-3 border-t border-slate-700/50">
+                                <div class="text-xs text-slate-400 mb-1">成果</div>
+                                <div class="text-sm text-emerald-400">${g.achievements[0]}</div>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Render preferences
+        function renderPreferences() {
+            const container = document.getElementById('preferences-list');
+            const prefs = allData.preferences || {};
+            
+            const items = [
+                { icon: 'message-circle', label: '沟通风格', value: prefs.communication?.style?.substring(0, 20) + '...' },
+                { icon: 'file-text', label: '日报偏好', value: prefs.daily_report?.search_requirements?.length + ' 个数据源' },
+                { icon: 'tool', label: '工具偏好', value: prefs.tools?.reliable?.length + ' 个可靠工具' }
+            ];
+
+            container.innerHTML = items.map(item => `
+                <div class="flex items-center gap-3 p-3 bg-slate-800/50 rounded-lg">
+                    <i data-lucide="${item.icon}" class="w-4 h-4 text-slate-400"></i>
+                    <div class="flex-1">
+                        <div class="text-sm text-slate-400">${item.label}</div>
+                        <div class="text-sm">${item.value}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            lucide.createIcons();
+        }
+
+        // Render data sources
+        function renderDataSources() {
+            const container = document.getElementById('data-sources');
+            const sources = allData.preferences?.daily_report?.data_sources || {};
+            
+            container.innerHTML = `
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <h4 class="font-medium mb-3 flex items-center gap-2">
+                            <i data-lucide="globe" class="w-4 h-4 text-red-400"></i>
+                            中文源 (${sources.chinese?.length || 0})
+                        </h4>
+                        <div class="space-y-2">
+                            ${(sources.chinese || []).slice(0, 5).map(s => `
+                                <div class="flex items-center gap-2 text-sm">
+                                    <div class="w-2 h-2 rounded-full bg-red-400"></div>
+                                    <span class="text-slate-300">${s.name}</span>
+                                    <span class="text-xs text-slate-500">${s.category}</span>
+                                </div>
+                            `).join('')}
+                            ${(sources.chinese?.length || 0) > 5 ? `
+                                <div class="text-xs text-slate-500">+${sources.chinese.length - 5} 更多...</div>
+                            ` : ''}
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-medium mb-3 flex items-center gap-2">
+                            <i data-lucide="globe-2" class="w-4 h-4 text-blue-400"></i>
+                            国际源 (${sources.international?.length || 0})
+                        </h4>
+                        <div class="space-y-2">
+                            ${(sources.international || []).slice(0, 5).map(s => `
+                                <div class="flex items-center gap-2 text-sm">
+                                    <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+                                    <span class="text-slate-300">${s.name}</span>
+                                    <span class="text-xs text-slate-500">${s.category}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 p-3 bg-slate-800/50 rounded-lg">
+                    <div class="flex items-center gap-2 text-sm text-slate-400">
+                        <i data-lucide="clock" class="w-4 h-4"></i>
+                        <span>推送时间: ${allData.preferences?.daily_report?.schedule?.daily || '每日 10:00'}</span>
+                    </div>
+                </div>
+            `;
+
+            lucide.createIcons();
+        }
+    </script>
+</body>
+</html>

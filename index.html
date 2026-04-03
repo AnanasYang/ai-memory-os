@@ -13,71 +13,114 @@
         .card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
         .stat-card { transition: transform 0.2s; }
         .stat-card:hover { transform: translateY(-2px); }
+        .memory-item { transition: all 0.2s; cursor: pointer; }
+        .memory-item:hover { background: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.3); }
+        .layer-badge-L1 { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .layer-badge-L2 { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+        .layer-badge-L3 { background: rgba(139, 92, 246, 0.2); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .layer-badge-L4 { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .tag { background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+        .modal-overlay { background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); }
+        .nav-link { transition: all 0.2s; }
+        .nav-link:hover { color: #60a5fa; }
+        .nav-link.active { color: #60a5fa; border-bottom: 2px solid #60a5fa; }
     </style>
 </head>
 <body class="min-h-screen">
     <div class="container mx-auto px-4 py-8 max-w-6xl">
         <!-- Header -->
-        <header class="mb-12">
-            <div class="flex items-center gap-3 mb-4">
-                <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
-                <h1 class="text-4xl font-bold gradient-text">AI Memory OS</h1>
+        <header class="mb-8">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
+                    <h1 class="text-4xl font-bold gradient-text">AI Memory OS</h1>
+                </div>
+                <div class="text-sm text-slate-400" id="last-update"></div>
             </div>
-            <p class="text-slate-400 text-lg">基于 5 层记忆架构的智能可视化系统</p>
+            <p class="text-slate-400 text-lg mt-2">基于 5 层记忆架构的智能可视化系统</p>
         </header>
 
+        <!-- Navigation -->
+        <nav class="mb-8 flex gap-6 border-b border-slate-700 pb-4">
+            <a href="index.html" class="nav-link active flex items-center gap-2 pb-2">
+                <i data-lucide="home" class="w-4 h-4"></i> 首页
+            </a>
+            <a href="galaxy.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="network" class="w-4 h-4"></i> Memory Galaxy
+            </a>
+            <a href="timeline.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="calendar" class="w-4 h-4"></i> 时间线
+            </a>
+            <a href="intent.html" class="nav-link flex items-center gap-2 pb-2">
+                <i data-lucide="target" class="w-4 h-4"></i> 目标轨道
+            </a>
+        </nav>
+
         <!-- Stats Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
-            <div class="card rounded-xl p-4 stat-card">
-                <div class="text-sm text-slate-400">L1 情境记忆</div>
-                <div class="text-3xl font-bold text-blue-500 mt-1">5</div>
-                <div class="text-xs text-slate-500 mt-1">近期对话摘要</div>
-            </div>
-            <div class="card rounded-xl p-4 stat-card">
-                <div class="text-sm text-slate-400">L2 行为模式</div>
-                <div class="text-3xl font-bold text-amber-500 mt-1">4</div>
-                <div class="text-xs text-slate-500 mt-1">习惯与偏好</div>
-            </div>
-            <div class="card rounded-xl p-4 stat-card">
-                <div class="text-sm text-slate-400">L3 认知框架</div>
-                <div class="text-3xl font-bold text-purple-500 mt-1">2</div>
-                <div class="text-xs text-slate-500 mt-1">思维模式</div>
-            </div>
-            <div class="card rounded-xl p-4 stat-card">
-                <div class="text-sm text-slate-400">L4 核心记忆</div>
-                <div class="text-3xl font-bold text-red-500 mt-1">1</div>
-                <div class="text-xs text-slate-500 mt-1">身份认同</div>
-            </div>
-            <div class="card rounded-xl p-4 stat-card">
-                <div class="text-sm text-slate-400">每周复盘</div>
-                <div class="text-3xl font-bold text-emerald-500 mt-1">5</div>
-                <div class="text-xs text-slate-500 mt-1">历史记录</div>
-            </div>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8" id="stats-grid">
+            <!-- Stats will be loaded dynamically -->
         </div>
 
-        <!-- System Status -->
-        <div class="card rounded-2xl p-6">
-            <h2 class="text-xl font-semibold mb-4">系统状态</h2>
-            <div class="grid md:grid-cols-3 gap-4">
-                <div class="flex items-center gap-3">
-                    <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                    <div>
-                        <div class="text-sm font-medium">Daily Dream</div>
-                        <div class="text-xs text-slate-500">正常运行</div>
+        <!-- Main Content Grid -->
+        <div class="grid lg:grid-cols-3 gap-6">
+            <!-- Recent Memories -->
+            <div class="lg:col-span-2">
+                <div class="card rounded-2xl p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="text-xl font-semibold flex items-center gap-2">
+                            <i data-lucide="clock" class="w-5 h-5 text-blue-500"></i>
+                            近期记忆
+                        </h2>
+                        <select id="layer-filter" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-sm">
+                            <option value="all">全部层级</option>
+                            <option value="L1">L1 情境层</option>
+                            <option value="L2">L2 行为层</option>
+                            <option value="L3">L3 认知层</option>
+                            <option value="L4">L4 核心层</option>
+                        </select>
+                    </div>
+                    <div id="memory-list" class="space-y-3">
+                        <!-- Memories will be loaded here -->
+                        <div class="text-center py-8 text-slate-500">
+                            <i data-lucide="loader" class="w-6 h-6 animate-spin mx-auto mb-2"></i>
+                            加载记忆中...
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-center gap-3">
-                    <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                    <div>
-                        <div class="text-sm font-medium">GitHub 同步</div>
-                        <div class="text-xs text-slate-500">已连接</div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="space-y-6">
+                <!-- System Status -->
+                <div class="card rounded-2xl p-6">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i data-lucide="activity" class="w-5 h-5 text-emerald-500"></i>
+                        系统状态
+                    </h2>
+                    <div class="space-y-3" id="system-status">
+                        <!-- Status items will be loaded -->
                     </div>
                 </div>
-                <div class="flex items-center gap-3">
-                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
-                    <div>
-                        <div class="text-sm font-medium">记忆系统</div>
-                        <div class="text-xs text-slate-500">L0-L4 完整</div>
+
+                <!-- Tag Cloud -->
+                <div class="card rounded-2xl p-6">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i data-lucide="tags" class="w-5 h-5 text-purple-500"></i>
+                        标签云
+                    </h2>
+                    <div id="tag-cloud" class="flex flex-wrap gap-2">
+                        <!-- Tags will be loaded -->
+                    </div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="card rounded-2xl p-6">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                        <i data-lucide="bar-chart-2" class="w-5 h-5 text-amber-500"></i>
+                        快速统计
+                    </h2>
+                    <div class="space-y-3 text-sm" id="quick-stats">
+                        <!-- Stats will be loaded -->
                     </div>
                 </div>
             </div>
@@ -89,8 +132,373 @@
         </footer>
     </div>
 
+    <!-- Detail Modal -->
+    <div id="detail-modal" class="fixed inset-0 modal-overlay hidden z-50 flex items-center justify-center p-4">
+        <div class="card rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden">
+            <div class="p-6 border-b border-slate-700 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span id="modal-layer-badge" class="px-3 py-1 rounded-full text-xs font-medium"></span>
+                    <h3 id="modal-title" class="text-xl font-semibold"></h3>
+                </div>
+                <button onclick="closeModal()" class="p-2 hover:bg-slate-700 rounded-lg transition-colors">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <div id="modal-content" class="p-6 overflow-y-auto max-h-[60vh]">
+                <!-- Content will be loaded -->
+            </div>
+        </div>
+    </div>
+
     <script>
-        lucide.createIcons();
+        // Global data storage
+        let allData = {};
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            lucide.createIcons();
+            await loadAllData();
+            renderStats();
+            renderMemories();
+            renderSystemStatus();
+            renderTagCloud();
+            renderQuickStats();
+            
+            document.getElementById('last-update').textContent = 
+                '更新于: ' + new Date().toLocaleString('zh-CN');
+        });
+
+        // Load all JSON data
+        async function loadAllData() {
+            try {
+                const [l1, l2, l3, l4, stats, intent] = await Promise.all([
+                    fetch('data/memories-l1.json').then(r => r.json()),
+                    fetch('data/memories-l2.json').then(r => r.json()),
+                    fetch('data/memories-l3.json').then(r => r.json()),
+                    fetch('data/memories-l4.json').then(r => r.json()),
+                    fetch('data/stats.json').then(r => r.json()),
+                    fetch('data/intent.json').then(r => r.json())
+                ]);
+                allData = { l1, l2, l3, l4, stats, intent };
+            } catch (e) {
+                console.error('Error loading data:', e);
+                showError('加载数据失败，请检查数据文件是否存在');
+            }
+        }
+
+        // Render stats grid
+        function renderStats() {
+            const stats = allData.stats?.memory_layers || {};
+            const container = document.getElementById('stats-grid');
+            
+            const statsConfig = [
+                { key: 'L1', label: 'L1 情境记忆', color: 'blue', desc: '近期对话摘要' },
+                { key: 'L2', label: 'L2 行为模式', color: 'amber', desc: '习惯与偏好' },
+                { key: 'L3', label: 'L3 认知框架', color: 'purple', desc: '思维模式' },
+                { key: 'L4', label: 'L4 核心记忆', color: 'red', desc: '身份认同' },
+                { key: 'intent', label: '目标轨道', color: 'emerald', desc: '意图与偏好' }
+            ];
+
+            container.innerHTML = statsConfig.map(cfg => {
+                const data = stats[cfg.key];
+                const count = cfg.key === 'intent' 
+                    ? (allData.intent?.stats?.total_goals || 0)
+                    : (data?.records || data?.confirmed_patterns || data?.confirmed_frameworks || (cfg.key === 'L4' ? 1 : 0));
+                return `
+                    <div class="card rounded-xl p-4 stat-card cursor-pointer" onclick="filterByLayer('${cfg.key}')">
+                        <div class="text-sm text-slate-400">${cfg.label}</div>
+                        <div class="text-3xl font-bold text-${cfg.color}-500 mt-1">${count}</div>
+                        <div class="text-xs text-slate-500 mt-1">${cfg.desc}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Render memories list
+        function renderMemories(filterLayer = 'all') {
+            const container = document.getElementById('memory-list');
+            let allMemories = [];
+
+            // Collect all memories
+            if (allData.l1?.memories) {
+                allData.l1.memories.forEach(m => allMemories.push({ ...m, layer: 'L1', layerName: '情境层' }));
+            }
+            if (allData.l2?.patterns) {
+                allData.l2.patterns.forEach(m => allMemories.push({ 
+                    id: m.id, 
+                    title: m.name, 
+                    date: m.created,
+                    category: m.category,
+                    summary: m.definition,
+                    confidence: m.confidence,
+                    layer: 'L2',
+                    layerName: '行为层',
+                    ...m 
+                }));
+            }
+            if (allData.l3?.frameworks) {
+                allData.l3.frameworks.forEach(m => allMemories.push({ 
+                    id: m.id, 
+                    title: m.name, 
+                    date: m.created,
+                    category: m.category,
+                    summary: m.core_proposition,
+                    confidence: m.confidence,
+                    layer: 'L3',
+                    layerName: '认知层',
+                    ...m 
+                }));
+            }
+
+            // Filter by layer
+            if (filterLayer !== 'all') {
+                allMemories = allMemories.filter(m => m.layer === filterLayer);
+            }
+
+            // Sort by date desc
+            allMemories.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            if (allMemories.length === 0) {
+                container.innerHTML = '<div class="text-center py-8 text-slate-500">暂无记忆</div>';
+                return;
+            }
+
+            container.innerHTML = allMemories.slice(0, 10).map(m => `
+                <div class="memory-item card rounded-xl p-4 border border-slate-700" onclick="showDetail('${m.layer}', '${m.id}')">
+                    <div class="flex items-start justify-between mb-2">
+                        <div class="flex items-center gap-2">
+                            <span class="layer-badge-${m.layer} px-2 py-1 rounded-full text-xs font-medium">
+                                ${m.layer} ${m.layerName}
+                            </span>
+                            <span class="text-slate-400 text-xs">${m.date}</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500"></i>
+                    </div>
+                    <h3 class="font-medium mb-1">${m.title}</h3>
+                    <p class="text-sm text-slate-400 line-clamp-2">${m.summary || '暂无摘要'}</p>
+                    ${m.tags ? `
+                        <div class="flex flex-wrap gap-1 mt-2">
+                            ${m.tags.slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+            
+            lucide.createIcons();
+        }
+
+        // Show detail modal
+        function showDetail(layer, id) {
+            let item;
+            if (layer === 'L1') item = allData.l1.memories.find(m => m.id === id);
+            else if (layer === 'L2') item = allData.l2.patterns.find(m => m.id === id);
+            else if (layer === 'L3') item = allData.l3.frameworks.find(m => m.id === id);
+
+            if (!item) return;
+
+            const modal = document.getElementById('detail-modal');
+            const badge = document.getElementById('modal-layer-badge');
+            const title = document.getElementById('modal-title');
+            const content = document.getElementById('modal-content');
+
+            badge.className = `layer-badge-${layer} px-3 py-1 rounded-full text-xs font-medium`;
+            badge.textContent = `${layer} ${layer === 'L1' ? '情境层' : layer === 'L2' ? '行为层' : '认知层'}`;
+            title.textContent = item.title || item.name;
+
+            let contentHtml = '';
+            if (layer === 'L1') {
+                contentHtml = `
+                    <div class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div><span class="text-slate-500">日期:</span> ${item.date}</div>
+                            <div><span class="text-slate-500">类别:</span> ${item.category}</div>
+                            <div><span class="text-slate-500">置信度:</span> ${item.confidence}</div>
+                            <div><span class="text-slate-500">参与者:</span> ${item.participants?.join(', ')}</div>
+                        </div>
+                        <div>
+                            <h4 class="font-medium mb-2 text-slate-300">摘要</h4>
+                            <p class="text-slate-400">${item.summary}</p>
+                        </div>
+                        ${item.key_activities ? `
+                            <div>
+                                <h4 class="font-medium mb-2 text-slate-300">关键活动</h4>
+                                <ul class="list-disc list-inside text-slate-400 space-y-1">
+                                    ${item.key_activities.map(a => `<li>${a}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                        ${item.tags ? `
+                            <div>
+                                <h4 class="font-medium mb-2 text-slate-300">标签</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    ${item.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            } else if (layer === 'L2') {
+                contentHtml = `
+                    <div class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div><span class="text-slate-500">类别:</span> ${item.category}</div>
+                            <div><span class="text-slate-500">状态:</span> ${item.status}</div>
+                            <div><span class="text-slate-500">置信度:</span> ${item.confidence}</div>
+                            <div><span class="text-slate-500">观察次数:</span> ${item.observation_count}</div>
+                        </div>
+                        <div>
+                            <h4 class="font-medium mb-2 text-slate-300">定义</h4>
+                            <p class="text-slate-400">${item.definition}</p>
+                        </div>
+                        ${item.typical_manifestations ? `
+                            <div>
+                                <h4 class="font-medium mb-2 text-slate-300">典型表现</h4>
+                                <ul class="list-disc list-inside text-slate-400 space-y-1">
+                                    ${item.typical_manifestations.map(m => `<li>${m}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            } else if (layer === 'L3') {
+                contentHtml = `
+                    <div class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div><span class="text-slate-500">类别:</span> ${item.category}</div>
+                            <div><span class="text-slate-500">状态:</span> ${item.status}</div>
+                        </div>
+                        <div>
+                            <h4 class="font-medium mb-2 text-slate-300">核心命题</h4>
+                            <p class="text-slate-400 italic">"${item.core_proposition}"</p>
+                        </div>
+                        ${item.underlying_assumptions ? `
+                            <div>
+                                <h4 class="font-medium mb-2 text-slate-300">底层假设</h4>
+                                <ul class="list-disc list-inside text-slate-400 space-y-1">
+                                    ${item.underlying_assumptions.map(a => `<li>${a}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }
+
+            content.innerHTML = contentHtml;
+            modal.classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        // Close modal
+        function closeModal() {
+            document.getElementById('detail-modal').classList.add('hidden');
+        }
+
+        // Filter by layer
+        function filterByLayer(layer) {
+            document.getElementById('layer-filter').value = layer;
+            renderMemories(layer);
+        }
+
+        // Layer filter change
+        document.getElementById('layer-filter')?.addEventListener('change', (e) => {
+            renderMemories(e.target.value);
+        });
+
+        // Render system status
+        function renderSystemStatus() {
+            const container = document.getElementById('system-status');
+            const health = allData.stats?.system_health;
+            
+            container.innerHTML = `
+                <div class="flex items-center justify-between py-2 border-b border-slate-700">
+                    <div class="flex items-center gap-3">
+                        <div class="w-2 h-2 ${health?.components?.l1_episodic === '✅ active' ? 'bg-green-500' : 'bg-red-500'} rounded-full animate-pulse"></div>
+                        <span class="text-sm">L1 情境记忆</span>
+                    </div>
+                    <span class="text-xs text-slate-500">${allData.l1?.stats?.total_memories || 0} 条</span>
+                </div>
+                <div class="flex items-center justify-between py-2 border-b border-slate-700">
+                    <div class="flex items-center gap-3">
+                        <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                        <span class="text-sm">L2 行为模式</span>
+                    </div>
+                    <span class="text-xs text-slate-500">${allData.l2?.stats?.confirmed_patterns || 0} 个</span>
+                </div>
+                <div class="flex items-center justify-between py-2 border-b border-slate-700">
+                    <div class="flex items-center gap-3">
+                        <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                        <span class="text-sm">L3 认知框架</span>
+                    </div>
+                    <span class="text-xs text-slate-500">${allData.l3?.stats?.confirmed_frameworks || 0} 个</span>
+                </div>
+                <div class="flex items-center justify-between py-2">
+                    <div class="flex items-center gap-3">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                        <span class="text-sm">L4 核心层</span>
+                    </div>
+                    <span class="text-xs text-slate-500">待填充</span>
+                </div>
+            `;
+        }
+
+        // Render tag cloud
+        function renderTagCloud() {
+            const container = document.getElementById('tag-cloud');
+            const tags = allData.stats?.tag_cloud || [];
+            
+            container.innerHTML = tags.map(t => `
+                <span class="tag cursor-pointer hover:bg-slate-600 transition-colors" 
+                      style="font-size: ${12 + t.weight * 2}px; opacity: ${0.5 + t.weight * 0.1}">
+                    ${t.tag}
+                </span>
+            `).join('');
+        }
+
+        // Render quick stats
+        function renderQuickStats() {
+            const container = document.getElementById('quick-stats');
+            const intent = allData.intent?.stats || {};
+            
+            container.innerHTML = `
+                <div class="flex justify-between">
+                    <span class="text-slate-400">已完成目标</span>
+                    <span class="font-medium">${intent.completed_goals || 0}</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-slate-400">活跃目标</span>
+                    <span class="font-medium">${intent.active_goals || 0}</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-slate-400">偏好设置</span>
+                    <span class="font-medium">${intent.preferences || 0}</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-slate-400">数据来源</span>
+                    <span class="font-medium">实时 JSON</span>
+                </div>
+            `;
+        }
+
+        // Show error
+        function showError(msg) {
+            document.getElementById('memory-list').innerHTML = `
+                <div class="text-center py-8 text-red-400">
+                    <i data-lucide="alert-circle" class="w-8 h-8 mx-auto mb-2"></i>
+                    ${msg}
+                </div>
+            `;
+            lucide.createIcons();
+        }
+
+        // Close modal on outside click
+        document.getElementById('detail-modal')?.addEventListener('click', (e) => {
+            if (e.target.id === 'detail-modal') closeModal();
+        });
+
+        // Escape key to close modal
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
     </script>
 </body>
 </html>
