@@ -31,6 +31,55 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## /mao Command - Multi-Agent Orchestrator
+
+**识别规则**: 当用户消息以 `/mao ` 开头时，立即执行以下流程：
+
+```
+用户: /mao <任务描述>
+    ↓
+1. 立即回复确认（不阻塞）
+2. 生成任务ID: <prefix>-YYYY-MM-DD-HHMM
+3. sessions_spawn 启动 Manager Subagent
+4. 返回任务ID给用户
+5. 等待 Manager 汇报
+```
+
+### 标准回复模板
+
+```
+✅ 已启动 Manager
+📋 任务: {任务描述}
+🆔 任务ID: {task-id}
+⏱️  首次汇报: 5分钟内
+💡 询问状态: 任务进展如何？
+```
+
+### Manager 启动参数
+
+```javascript
+sessions_spawn({
+  task: "你是一名任务管理专家...",
+  mode: "run",
+  timeoutSeconds: 3600,
+  streamTo: "parent"
+})
+```
+
+### Manager 职责
+
+1. **分析任务** - 1-2分钟内完成
+2. **拆解 Workers** - 确定并行模块
+3. **启动 Workers** - 每个 Worker 一个 subagent
+4. **心跳循环** - 每5分钟向主会话汇报
+5. **完成报告** - 整合所有 Worker 结果
+
+### 状态查询
+
+当用户问"任务进展"或"{task-id} 状态"时：
+- 查询 Manager 状态文件
+- 返回当前进度
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
