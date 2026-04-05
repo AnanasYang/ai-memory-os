@@ -1,0 +1,22 @@
+{
+  "name": "ai-memory-os",
+  "version": "1.0.0",
+  "description": "AI Memory OS - 基于5层记忆架构的智能可视化系统",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "ai",
+    "memory",
+    "visualization",
+    "knowledge-graph"
+  ],
+  "author": "Bruce Yang",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
