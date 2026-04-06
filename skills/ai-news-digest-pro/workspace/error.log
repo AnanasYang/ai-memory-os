@@ -1456,3 +1456,120 @@ Node.js v22.22.0
 [INFO] Loaded 95 articles
 [INFO] Categorized: Core=29, Near=61, Extended=0, Support=5
 [INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260403.md
+[INFO] Fetching QbitAI RSS...
+(node:303102) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-qbitai.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[INFO] Total articles in RSS: 10
+[INFO] Filtering articles since: 2026-04-04T16:00:00.000Z
+[DEBUG] Skipping old: 日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首... (2026-04-04T13:38:01.000Z)
+[DEBUG] Skipping old: 19岁，常青藤辍学，这群中国年轻人重构了AI记忆... (2026-04-04T08:24:39.000Z)
+[DEBUG] Skipping old: 联想重新定义“龙虾”... (2026-04-04T08:15:06.000Z)
+[DEBUG] Skipping old: 价值归零！Django创始人警告：30岁程序员受AI冲击最大... (2026-04-04T05:18:34.000Z)
+[INFO] Articles after date filter: 6
+[INFO] Since date: 2026-04-05T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+(node:303124) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-chinese.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[DEBUG] Skipping old article: 一群00后极客和这家机器人公司共处72小时... (2026-04-04T06:11:10.000Z)
+[DEBUG] Skipping old article: 神州数码2025年营收超1400亿，AI相关业务增长近五成｜... (2026-04-03T12:08:53.000Z)
+[DEBUG] Skipping old article: 元气森林2044创造营背后：创新要年轻，研发要更重 | 最前... (2026-04-03T06:56:17.000Z)
+[DEBUG] Skipping old article: 一款运营三年的模拟经营游戏，是如何活力依旧的？... (2026-04-03T06:24:51.000Z)
+[DEBUG] Skipping old article: 泡泡玛特，风光不再？... (2026-04-03T06:21:26.000Z)
+[DEBUG] Skipping old article: 阅文“AI拟真人大讲堂”：好故事才是AI时代的未来... (2026-04-03T06:15:06.000Z)
+[DEBUG] Skipping old article: 36氪首发丨前赛默飞员工创业黑灯实验室，实现国内100%交付... (2026-04-03T04:00:00.000Z)
+[DEBUG] Skipping old article: 36氪首发 | 00后上交医学博士做了款可穿戴止鼾设备，获得... (2026-04-03T02:47:57.000Z)
+[INFO] 36氪: 30 total, 22 recent
+[INFO] Fetching InfoQ中文...
+[DEBUG] Skipping old article: 智能体 AI 模式强化软件工程规范性... (2026-04-04T14:00:00.000Z)
+[DEBUG] Skipping old article: TanStack Start 推出导入保护机制，强化服务器与... (2026-04-04T11:00:00.000Z)
+[DEBUG] Skipping old article: 从 ChatBI 到 DataAgent：企业级智能数据分析... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: Kubernetes自动扩展功能需要新的可观测性关注点，而不... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: 真实用户“龙虾点评榜”来了！元气Bot、ArkClaw、Du... (2026-04-03T19:01:38.000Z)
+[DEBUG] Skipping old article: 跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、... (2026-04-03T18:00:00.000Z)
+[DEBUG] Skipping old article: 在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才... (2026-04-03T16:58:07.000Z)
+[DEBUG] Skipping old article: AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来... (2026-04-03T16:34:12.000Z)
+[DEBUG] Skipping old article: KubeVirt v1.8 为 Kubernetes 带来多... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: 谷歌重磅开源Gemma 4！手机离线跑 Agent、还降内存... (2026-04-03T14:40:36.000Z)
+[DEBUG] Skipping old article: 前网易副总裁下场，要做“Agent 时代的iPhone”... (2026-04-03T11:32:43.000Z)
+[DEBUG] Skipping old article: Discord 开源 Osprey 安全规则引擎，每秒可处理... (2026-04-03T11:00:00.000Z)
+[DEBUG] Skipping old article: Cloudflare 在边缘部署了主动式 API 漏洞扫描功... (2026-04-03T10:30:00.000Z)
+[DEBUG] Skipping old article: 警惕 AI 写作：别让思考与信任在指尖溜走... (2026-04-03T09:43:03.000Z)
+[DEBUG] Skipping old article: 微软推出 Azure Copilot Migration A... (2026-04-03T10:00:00.000Z)
+[INFO] InfoQ中文: 20 total, 4 recent
+[INFO] Total unique recent articles: 26
+[INFO] Generating daily report...
+[INFO] Loaded 32 articles
+[INFO] Categorized: Core=11, Near=16, Extended=0, Support=5
+[INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260406.md
+[INFO] Fetching QbitAI RSS...
+[INFO] Total articles in RSS: 10
+[INFO] Filtering articles since: 2026-04-04T16:00:00.000Z
+[DEBUG] Skipping old: 日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首... (2026-04-04T13:38:01.000Z)
+[DEBUG] Skipping old: 19岁，常青藤辍学，这群中国年轻人重构了AI记忆... (2026-04-04T08:24:39.000Z)
+[DEBUG] Skipping old: 联想重新定义“龙虾”... (2026-04-04T08:15:06.000Z)
+[DEBUG] Skipping old: 价值归零！Django创始人警告：30岁程序员受AI冲击最大... (2026-04-04T05:18:34.000Z)
+[INFO] Articles after date filter: 6
+[INFO] Since date: 2026-04-05T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+[DEBUG] Skipping old article: 一群00后极客和这家机器人公司共处72小时... (2026-04-04T06:11:10.000Z)
+[DEBUG] Skipping old article: 神州数码2025年营收超1400亿，AI相关业务增长近五成｜... (2026-04-03T12:08:53.000Z)
+[DEBUG] Skipping old article: 元气森林2044创造营背后：创新要年轻，研发要更重 | 最前... (2026-04-03T06:56:17.000Z)
+[DEBUG] Skipping old article: 一款运营三年的模拟经营游戏，是如何活力依旧的？... (2026-04-03T06:24:51.000Z)
+[DEBUG] Skipping old article: 泡泡玛特，风光不再？... (2026-04-03T06:21:26.000Z)
+[DEBUG] Skipping old article: 阅文“AI拟真人大讲堂”：好故事才是AI时代的未来... (2026-04-03T06:15:06.000Z)
+[DEBUG] Skipping old article: 36���首发丨前赛默飞员工创业黑灯实验室，实现国内100%... (2026-04-03T04:00:00.000Z)
+[DEBUG] Skipping old article: 36氪首发 | 00后上交医学博士做了款可穿戴止鼾设备，获得... (2026-04-03T02:47:57.000Z)
+[INFO] 36氪: 30 total, 22 recent
+[INFO] Fetching InfoQ中文...
+[DEBUG] Skipping old article: 智能体 AI 模式强化软件工程规范性... (2026-04-04T14:00:00.000Z)
+[DEBUG] Skipping old article: TanStack Start 推出导入保护机制，强化服务器与... (2026-04-04T11:00:00.000Z)
+[DEBUG] Skipping old article: 从 ChatBI 到 DataAgent：企业级智能数据分析... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: Kubernetes自动扩展功能需要新的可观测性关注点，而不... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: 真实用户“龙虾点评榜”来了！元气Bot、ArkClaw、Du... (2026-04-03T19:01:38.000Z)
+[DEBUG] Skipping old article: 跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、... (2026-04-03T18:00:00.000Z)
+[DEBUG] Skipping old article: 在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才... (2026-04-03T16:58:07.000Z)
+[DEBUG] Skipping old article: AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来... (2026-04-03T16:34:12.000Z)
+[DEBUG] Skipping old article: KubeVirt v1.8 为 Kubernetes 带来多... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: 谷歌重磅开源Gemma 4！手机离线跑 Agent、还降内存... (2026-04-03T14:40:36.000Z)
+[DEBUG] Skipping old article: 前网易副总裁下场，要做“Agent 时代的iPhone”... (2026-04-03T11:32:43.000Z)
+[DEBUG] Skipping old article: Discord 开源 Osprey 安全规则引擎，每秒可处理... (2026-04-03T11:00:00.000Z)
+[DEBUG] Skipping old article: Cloudflare 在边缘部署了主动式 API 漏洞扫描功... (2026-04-03T10:30:00.000Z)
+[DEBUG] Skipping old article: 警惕 AI 写作：别让思考与信任在指尖溜走... (2026-04-03T09:43:03.000Z)
+[DEBUG] Skipping old article: 微软推出 Azure Copilot Migration A... (2026-04-03T10:00:00.000Z)
+[INFO] InfoQ中文: 20 total, 4 recent
+[INFO] Total unique recent articles: 26
+[INFO] Fetching AI news from Tavily...
+[INFO] Searching: artificial intelligence OpenAI Google latest news
+[INFO] Searching: autonomous driving Tesla Waymo end-to-end
+[INFO] Searching: robotics humanoid robot Figure Boston Dynamics
+[INFO] Searching: AI agents autonomous agents OpenAI Claude
+[INFO] Searching: NVIDIA AI chip hardware data center
+[INFO] Found 23 unique articles
+[INFO] Searching Chinese AI news via Tavily...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 高工智能汽车...
+[INFO] Searching: 高工智能汽车...
+[INFO] Searching: 盖世汽车...
+[INFO] Searching: 盖世汽车...
+[INFO] Searching: 42号车库...
+[INFO] Searching: 42号车库...
+[INFO] Searching: AI科技评论...
+[INFO] Searching: 甲子光年...
+[INFO] Found 30 Chinese articles
+[INFO] Generating daily report...
+[INFO] Loaded 85 articles
+[INFO] Categorized: Core=23, Near=56, Extended=0, Support=6
+[INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260406.md
