@@ -1573,3 +1573,114 @@ To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspa
 [INFO] Loaded 85 articles
 [INFO] Categorized: Core=23, Near=56, Extended=0, Support=6
 [INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260406.md
+[INFO] Fetching QbitAI RSS...
+(node:354000) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-qbitai.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[INFO] Total articles in RSS: 10
+[INFO] Filtering articles since: 2026-04-05T16:00:00.000Z
+[DEBUG] Skipping old: OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到... (2026-04-05T09:06:59.000Z)
+[DEBUG] Skipping old: 太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院... (2026-04-05T08:53:12.000Z)
+[DEBUG] Skipping old: 具身龙虾，上车理想... (2026-04-05T04:52:36.000Z)
+[DEBUG] Skipping old: GPT-6，曝光了... (2026-04-05T04:49:33.000Z)
+[INFO] Articles after date filter: 6
+[INFO] Since date: 2026-04-06T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+(node:354024) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-chinese.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[DEBUG] Skipping old article: 36氪首发 | 清华系团队研发矿石AI智能分选机，完成近2亿... (2026-04-05T06:05:09.000Z)
+[DEBUG] Skipping old article: 高端智能投影品牌AWOL Vision获近亿元B轮融资，新品... (2026-04-05T01:10:00.000Z)
+[DEBUG] Skipping old article: 一群00后极客和这家机器人公司共处72小时... (2026-04-04T06:11:10.000Z)
+[DEBUG] Skipping old article: 神州数码2025年营收超1400亿，AI相关业务增长近五成｜... (2026-04-03T12:08:53.000Z)
+[DEBUG] Skipping old article: 元气森林2044创造营背后：创新要年轻，研发要更重 | 最前... (2026-04-03T06:56:17.000Z)
+[INFO] 36氪: 30 total, 25 recent
+[INFO] Fetching InfoQ中文...
+[DEBUG] Skipping old article: ESLint v10 发布，但有开发者已经在考虑换 Biom... (2026-04-05T21:52:50.000Z)
+[DEBUG] Skipping old article: Helidon 引入 Agent 能力，Java 框架开始内... (2026-04-05T21:49:47.000Z)
+[DEBUG] Skipping old article: Pinterest 部署生产级模型上下文协议生态系统，赋能 ... (2026-04-05T10:00:00.000Z)
+[DEBUG] Skipping old article: Evomap如何让Agent从单体智能到群体进化｜QCon北... (2026-04-05T10:00:00.000Z)
+[DEBUG] Skipping old article: 智能体 AI 模式强化软件工程规范性... (2026-04-04T14:00:00.000Z)
+[DEBUG] Skipping old article: TanStack Start 推出导入保护机制，强化服务器与... (2026-04-04T11:00:00.000Z)
+[DEBUG] Skipping old article: 从 ChatBI 到 DataAgent：企业级智能数据分析... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: Kubernetes自动扩展功能需要新的可观测性关注点，而不... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: 真实用户“龙虾点评榜”来了！元气Bot、ArkClaw、Du... (2026-04-03T19:01:38.000Z)
+[DEBUG] Skipping old article: 跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、... (2026-04-03T18:00:00.000Z)
+[DEBUG] Skipping old article: 在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才... (2026-04-03T16:58:07.000Z)
+[DEBUG] Skipping old article: AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来... (2026-04-03T16:34:12.000Z)
+[DEBUG] Skipping old article: KubeVirt v1.8 为 Kubernetes 带来多... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: 谷歌重磅开源Gemma 4！手机离线跑 Agent、还降内存... (2026-04-03T14:40:36.000Z)
+[DEBUG] Skipping old article: 前网易副总裁下场，要做“Agent 时代的iPhone”... (2026-04-03T11:32:43.000Z)
+[DEBUG] Skipping old article: Discord 开源 Osprey 安全规则引擎，每秒可处理... (2026-04-03T11:00:00.000Z)
+[INFO] InfoQ中文: 20 total, 3 recent
+[INFO] Total unique recent articles: 28
+[INFO] Generating daily report...
+[INFO] Loaded 34 articles
+[INFO] Categorized: Core=7, Near=20, Extended=0, Support=7
+[INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260407.md
+[INFO] Fetching QbitAI RSS...
+[INFO] Total articles in RSS: 10
+[INFO] Filtering articles since: 2026-04-05T16:00:00.000Z
+[DEBUG] Skipping old: OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到... (2026-04-05T09:06:59.000Z)
+[DEBUG] Skipping old: 太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院... (2026-04-05T08:53:12.000Z)
+[DEBUG] Skipping old: 具身龙虾，上车理想... (2026-04-05T04:52:36.000Z)
+[DEBUG] Skipping old: GPT-6，曝光了... (2026-04-05T04:49:33.000Z)
+[INFO] Articles after date filter: 6
+[INFO] Since date: 2026-04-06T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+[DEBUG] Skipping old article: 36氪首发 | 清华系团队研发矿石AI智能分选机，完成近2亿... (2026-04-05T06:05:09.000Z)
+[DEBUG] Skipping old article: 高端智能投影品牌AWOL Vision获近亿元B轮融资，新品... (2026-04-05T01:10:00.000Z)
+[DEBUG] Skipping old article: 一群00后极客和这家机器人公司共处72小时... (2026-04-04T06:11:10.000Z)
+[DEBUG] Skipping old article: 神州数码2025年营收超1400亿，AI相关业务增长近五成｜... (2026-04-03T12:08:53.000Z)
+[INFO] 36氪: 30 total, 26 recent
+[INFO] Fetching InfoQ中文...
+[DEBUG] Skipping old article: ESLint v10 发布，但有开发者已经在考虑换 Biom... (2026-04-05T21:52:50.000Z)
+[DEBUG] Skipping old article: Helidon 引入 Agent 能力，Java 框架开始内... (2026-04-05T21:49:47.000Z)
+[DEBUG] Skipping old article: Pinterest 部署生产级模型上下文协议生态系统，赋能 ... (2026-04-05T10:00:00.000Z)
+[DEBUG] Skipping old article: Evomap如何让Agent从单体智能到群体进化｜QCon北... (2026-04-05T10:00:00.000Z)
+[DEBUG] Skipping old article: 智能体 AI 模式强化软件工程规范性... (2026-04-04T14:00:00.000Z)
+[DEBUG] Skipping old article: TanStack Start 推出导入保护机制，强化服务器与... (2026-04-04T11:00:00.000Z)
+[DEBUG] Skipping old article: 从 ChatBI 到 DataAgent：企业级智能数据分析... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: Kubernetes自动扩展功能需要新的可观测性关注点，而不... (2026-04-04T10:00:00.000Z)
+[DEBUG] Skipping old article: 真实用户“龙虾点评榜”来了！元气Bot、ArkClaw、Du... (2026-04-03T19:01:38.000Z)
+[DEBUG] Skipping old article: 跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、... (2026-04-03T18:00:00.000Z)
+[DEBUG] Skipping old article: 在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才... (2026-04-03T16:58:07.000Z)
+[DEBUG] Skipping old article: AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来... (2026-04-03T16:34:12.000Z)
+[DEBUG] Skipping old article: KubeVirt v1.8 为 Kubernetes 带来多... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信... (2026-04-03T15:00:00.000Z)
+[DEBUG] Skipping old article: 谷歌重磅开源Gemma 4！手机离线跑 Agent、还降内存... (2026-04-03T14:40:36.000Z)
+[DEBUG] Skipping old article: 前网易副总裁下场，要做“Agent 时代的iPhone”... (2026-04-03T11:32:43.000Z)
+[INFO] InfoQ中文: 20 total, 4 recent
+[INFO] Total unique recent articles: 30
+[INFO] Fetching AI news from Tavily...
+[INFO] Searching: artificial intelligence OpenAI Google latest news
+[INFO] Searching: autonomous driving Tesla Waymo end-to-end
+[INFO] Searching: robotics humanoid robot Figure Boston Dynamics
+[INFO] Searching: AI agents autonomous agents OpenAI Claude
+[INFO] Searching: NVIDIA AI chip hardware data center
+[INFO] Found 0 unique articles
+[INFO] Searching Chinese AI news via Tavily...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 高工智能汽车...
+[INFO] Searching: 高工智能汽车...
+[INFO] Searching: 盖世汽车...
+[INFO] Searching: 盖世汽车...
+[INFO] Searching: 42号车库...
+[INFO] Searching: 42号车库...
+[INFO] Searching: AI科技评论...
+[INFO] Searching: 甲子光年...
+[INFO] Found 0 Chinese articles
+[INFO] Generating daily report...
+[INFO] Loaded 36 articles
+[INFO] Categorized: Core=8, Near=21, Extended=0, Support=7
+[INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260407.md

@@ -1,0 +1,6 @@
+import type { MemoryNode, IntentNode } from './types';
+
+// Auto-generated from ai-memory-system
+// Synced at: 2026-04-07T09:30:01.142Z
+
+export const memoryNodes: MemoryNode[] = [

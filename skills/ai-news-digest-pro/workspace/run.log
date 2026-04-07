@@ -677,3 +677,44 @@
 [2026-04-06 10:05:26] [Brief] ✓ Brief generated: /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260406.md (4369 bytes)
 [2026-04-06 10:05:26] [Done] All steps completed successfully!
 [2026-04-06 10:05:26] ==========================================
+[2026-04-07 10:00:01] ==========================================
+[2026-04-07 10:00:01] AI News Digest Pro - daily
+[2026-04-07 10:00:01] Date: 2026-04-07
+[2026-04-07 10:00:01] ==========================================
+[2026-04-07 10:00:01] [WARN] TAVILY_API_KEY not set, Tavily sources will be skipped
+[2026-04-07 10:00:01] [Config] Since date: 2026-04-06
+[2026-04-07 10:00:01] [Config] Tavily days: 1
+[2026-04-07 10:00:01] [Step 1/4] Fetching 量子位...
+[2026-04-07 10:00:02] [Step 1/4] ✓ 量子位: 6 articles
+[2026-04-07 10:00:02] [Step 2/4] Fetching 中文RSS源...
+[2026-04-07 10:00:05] [Step 2/4] ✓ 中文RSS: 28 articles
+[2026-04-07 10:00:05] [Step 3/4] ⏭ Tavily EN skipped (no API key)
+[2026-04-07 10:00:05] [Step 4/4] ⏭ Tavily CN skipped (no API key)
+[2026-04-07 10:00:05] [Merge] Merging all sources...
+[2026-04-07 10:00:05] [Merge] ✓ Total unique articles: 34
+[2026-04-07 10:00:05] [Stats] 量子位: 6, 其他中文: 28, 英文: 0
+[2026-04-07 10:00:05] [Brief] Generating standardized brief...
+[2026-04-07 10:00:05] [Brief] ✓ Brief generated: /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260407.md (3906 bytes)
+[2026-04-07 10:00:05] [Done] All steps completed successfully!
+[2026-04-07 10:00:05] ==========================================
+[2026-04-07 10:02:42] ==========================================
+[2026-04-07 10:02:42] AI News Digest Pro - daily
+[2026-04-07 10:02:42] Date: 2026-04-07
+[2026-04-07 10:02:42] ==========================================
+[2026-04-07 10:02:42] [Config] Since date: 2026-04-06
+[2026-04-07 10:02:42] [Config] Tavily days: 1
+[2026-04-07 10:02:42] [Step 1/4] Fetching 量子位...
+[2026-04-07 10:02:43] [Step 1/4] ✓ 量子位: 6 articles
+[2026-04-07 10:02:43] [Step 2/4] Fetching 中文RSS源...
+[2026-04-07 10:02:46] [Step 2/4] ✓ 中文RSS: 30 articles
+[2026-04-07 10:02:46] [Step 3/4] Fetching Tavily English...
+[2026-04-07 10:02:51] [Step 3/4] ✓ Tavily EN: 0 articles
+[2026-04-07 10:02:51] [Step 4/4] Fetching Tavily Chinese...
+[2026-04-07 10:03:09] [Step 4/4] ✓ Tavily CN: 0 articles
+[2026-04-07 10:03:09] [Merge] Merging all sources...
+[2026-04-07 10:03:09] [Merge] ✓ Total unique articles: 36
+[2026-04-07 10:03:09] [Stats] 量子位: 6, 其他中文: 30, 英文: 0
+[2026-04-07 10:03:09] [Brief] Generating standardized brief...
+[2026-04-07 10:03:09] [Brief] ✓ Brief generated: /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260407.md (3867 bytes)
+[2026-04-07 10:03:09] [Done] All steps completed successfully!
+[2026-04-07 10:03:09] ==========================================
