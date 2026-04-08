@@ -1,448 +1,1289 @@
 [
   {
-    "title": "将配置作为控制平面：设计安全可靠的大规模系统",
-    "link": "https://www.infoq.cn/article/CYcokuDpJg9Si5uyfu2Z?utm_source=rss&utm_medium=article",
-    "pubDate": "Tue, 07 Apr 2026 10:00:00 GMT",
+    "title": "轻舟智航 ｜ 机构库",
+    "link": "https://pro.jiqizhixin.com/database/institutions/0c73824a-df80-4164-ba78-eda88d87c96b",
+    "pubDate": "2026-04-08T02:01:02.714Z",
+    "author": "",
+    "description": "#### 轻舟智航. 服务于汽车制造/交通运输与物流/运输设备制造/交通运输与物流其他/交通设施建设/交通规划/交通客运销售的软件供应商/方案集成商. ### 轻舟智航. 服务于汽车制造/交通运输与物流/运输设备制造/交通运输与物流其他/交通设施建设/交通规划/交通客运销售的软件供应商/方案集成商. 轻舟智航（QCraft）是一支始创于硅谷的全华人团队，致力于打造适应城市复杂交通环境的“老司机”，将无人驾驶带进现实。以大规模智能仿真系统为核心能力，轻舟智航推出了专注城市复杂交通场景的无人驾驶方案“Driven-by-QCraft”，旨在助力合作伙伴打造城市无人驾驶移动空间，助推城市交通向全面智能化、网联化升级。作为国内Robobus的领跑者，轻舟智航2020年在苏州启动了全国首个常态化运营的5G无人公交项目，并已在深圳、武汉等多个城市落地轻舟无人小巴。. 轻舟智航（QCraft）是一支始创于硅谷的全华人团队，也是世界前沿的无人驾驶公司，致力于打造适应城市复杂交通环境的“老司机”，将无人驾驶带进现实。 基于大规模智能仿真系统、可自主学习决策规划框架和多传感器融合和时序融合方案等核心技术，轻舟智航推出了专注城市复杂交通场景的无人驾驶方案“Driven-by-QCraft”，旨在助力合作伙伴打造城市无人驾驶移动空间，助推城市交通向全面智能化、网联化升级。在成立之初，轻舟智航便获得IDG资本、元璟资本和Tide Capital的投资，在宣布全面在国内发展后又获得了联想创投的投资。从顶级VC的支持，到顶级CVC的投资，反映的是资本市场对轻舟智航高效落地能力的高度认可。. 轻舟智航第一代无人驾驶方案“Driven-by-QCraft”主要聚焦于固定路线的中低速场景，同时也是5G网络下车路协同（V2X）落地的首选场景，可有效提升安全性，加快商业化落地。 “Driven-by-QCraft”方案可实现按需定制，在同类城市道路场景中高效部署，具备极强的扩展性。作为国内Robobus的领跑者，轻舟智航已在多个城市部署轻舟无人小巴，并在苏州启动全国首个常态化运营的5G无人公交项目。除了轻舟无人小巴，“Driven-by-QCraft”方案正逐步扩展至智慧城市的其他落地场景。. 轻舟智航的创始人均是Waymo（谷歌旗下无人驾驶公司）的技术骨干及海归博士，从事无人车行业近十年，是目前国内技术最成熟、行业经验最丰富的早期团队。其他核心团队成员来自Waymo、特斯拉、Uber ATG、福特、英伟达、Facebook等世界顶级自动驾驶公司和科技公司，实现了无人驾驶关键技术模块的全栈覆盖，在感知、仿真、运动规划、传感器与车载系统等领域都有深厚技术积累和丰富行业经验。且得益于独特的技术路径，团队始终保持着轻、快、高效的特点。 支持快速拓展的技术路径区别于传统技术路径，轻舟智航正在以独特的路径实现完全无人驾驶。借助大规模智能仿真系统和可自主学习决策规划框架，可大幅降低测试成本，提升开发效率，保证了解决方案的可拓展性。. 针对无人车的各类边界化难题，传统路径是通过大量真实路测数据的采集和算法参数的反复手动调整来发现并解决，但真实场景的数据采集需要大量的车和时间，边界化问题的解决或优化则需要大量人力。 借助大规模智能仿真系统，轻舟智航可在仿真环境中复现边界化场景，并基于现有数据生成大量模拟真实场景的数据。同时，轻舟智航研发的可自主学习决策规划框架，抛弃了传统单一规划决策方法，可在仿真场景中自主学习各类复杂场景，寻求最优运动规划决策，保证安全性和舒适度。助力城市无人驾驶移动空间高效落地。.",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.9994766,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "ControlPlusAI | 机器之心",
+    "link": "https://www.jiqizhixin.com/columns/ControlPlusAI",
+    "pubDate": "2026-04-08T02:01:02.714Z",
+    "author": "",
+    "description": "CMU Intelligent Control Lab提出了利用基于能量函数的安全控制算法来有效保障安全，实现优秀的安全控制。. 本文介绍作者在IV2018上的获奖论文“Probabilistic Prediction of Vehicle Semantic Intention and Motion”。. 本文根据作者的ACC讲稿FOAD：Fast Optimization Based Autonomous Driving Motion Planner整理而成。. 人机交互（Human robot interactions, HRI）是未来机器人的关键构成部分，在许多领域有着广泛的应用。.",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.9975466,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Kai Chen | SOTA！模型",
+    "link": "https://sota.jiqizhixin.com/researchers/2c90314c-6170-4dc6-a428-dfb115829235",
+    "pubDate": "2026-04-08T02:01:02.714Z",
+    "author": "",
+    "description": "StereoPose: Category-Level 6D Transparent Object Pose Estimation from Stereo Images via Back-View NOCS. To tackle this problem, we present StereoPose, a novel stereo image framework for category-level object pose estimation, ideally suited for transparent objects. The back-view NOCS aims to reduce the network learning ambiguity caused by content aliasing, and leverage informative cues on the back of the transparent object for more accurate pose estimation. Extensive experiments on the public TOD dataset demonstrate the superiority of the proposed StereoPose framework for category-level 6D transparent object pose estimation. CODA: A Real-World Road Corner Case Dataset for Object Detection in Autonomous Driving. Contemporary deep-learning object detection methods for autonomous driving. public datasets for evaluating the performance of object detectors on corner. the performance of standard object detectors trained on large-scale autonomous. TransRank: Self-supervised Video Representation Learning via Ranking-based Transformation Recognition. In previous methods, the generation process is based on virtual scenes, and their synthetic training data can not be changed according to different target real scenes automatically. Temporal RoI Align for Video Object Recognition. In this work, considering the features of the same object instance are highly similar among frames in a video, a novel Temporal RoI Align operator is proposed to extract features from other frames feature maps for current frame proposals by utilizing feature similarity. We integrate it into single-frame video detectors and other state-of-the-art video detectors, and conduct quantitative experiments to demonstrate that the proposed Temporal RoI Align operator can consistently and significantly boost the performance. Existing SSL methods, however, usually rely on the single-centric-object guarantee, which may not be applicable for multi-instance datasets such as street scenes. Experiments show that, when pre-trained on Waymo dataset, our method called Multi-instance Siamese Network (MultiSiam) remarkably improves generalization ability and achieves state-of-the-art transfer performance on autonomous driving benchmarks, including Cityscapes and BDD100K, while existing SSL counterparts like MoCo, MoCo-v2, and BYOL show significant performance drop. In this work, we carefully revisit the standard training practice of detectors, and find that the detection performance is often limited by the imbalance during the training process, which generally consists in three levels - sample level, feature level, and objective level.",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.994615,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "机器之心",
+    "link": "https://www.jiqizhixin.com/trends/a3a4c3ab-3938-48a4-a3b5-4d36b5e8692d",
+    "pubDate": "2026-04-08T02:01:02.714Z",
+    "author": "",
+    "description": "Title: 机器之心\n# AI每日精选10条. #### 大公司新闻. Waymo向客户发邮件，宣布纯无人驾驶汽车即将上路近日，有人在 Reddit 上发布了 Alphabet 旗下自动驾驶汽车企业 Waymo 的一封邮件副本，表明该公司已向其网约车客户发送了一则推广信息：他们的下一次行程，可能没有随车安全员的陪同，Waymo 的纯自动驾驶汽车即将与客户见面。. 10/10 13:55新闻来源：www.jiqizhixin.com. 商汤科技与日本最大海运公司商船三井株式会社达成合作近日，商汤科技与日本最大海运公司商船三井株式会社（MOL）达成合作，共同开发新型船舶影像识别和记录系统，并将该系统应用于商船三井客运有限公司的「Nippon Maru」号邮轮上进行验证试验。. 10/10 11:03新闻来源：mp.weixin.qq.com. 科大讯飞与长春市正式达成战略合作科大讯飞与长春市于 10 月 9 日正式达成战略合作，将在教育、医疗、政务、城市超脑等领域共同推进长春市人工智能产业发展。科大讯飞东北亚区域总部、东北亚研究院也将落户长春。根据战略协议，科大讯飞还将与长春市本地高校合作设立人工智能学院，联合培养人工智能应用创新型人才。. 10/10 10:04新闻来源：mp.weixin.qq.com. #### 投融资. AI语音交互芯片提供商「芯声智能」完成千万级Pre-A轮融资，由高捷资本领投近日，AI 语音交互芯片提供商芯声智能宣布完成数千万级别 Pre-A 轮融资。本轮融资由高捷资本领投，老股东杭州瓯石投资跟投，资金将主要用以研发投入和量产投片等。芯声智能成立于 2018 年，公司专注于人工智能芯片设计及配套智能算法引擎开发，产品目前已在耳机、手机、便携式设备 AIoT 终端等领域应用。. 10/10 10:11新闻来源：www.jiqizhixin.com. #### 产品与应用. 武汉首座无人驾驶电动汽车充电站投入使用位于武汉市经济开发区川江池公园的「网联车基地」充电站建成并投入使用，该站为武汉市首座无人驾驶电动汽车充电站。国家电网「网联车基地」充电站经过基础设施智能化改造升级，能够实现 5G 通信网络全覆盖，融合智能感知系统，实现自动驾驶、智能泊车等，站内共设有 40 台充电站。. 10/10 10:10新闻来源：www.jiqizhixin.com. 亚马逊推出开发人员工具，以改善 Alexa 语音应用[亚马逊正在向 Alexa Skills Kit 中添加三组新工具—Alexa Skills Kit 是一套用于对话应用程序开发的自助 API 和资源，旨在提高为 Alexa 开发的体验的质量。前两个工具现已普遍可用—自然语言理解（NLU）评估和话语冲突检测工具增强了整体语音模型的准确性，而 Get Metrics API（处于测试阶段）支持第三方或第一方聚合平台的应用程序使用指标分析。亚马逊产品营销经理 Leo Ohannesian 写道：「这些工具可帮助完善 Alexa 技能测试和分析工具套件，这些工具可帮助您在发布技能之前创建和验证语音模型，在技能真正存在时发现可能的问题，并帮助您随着时间的推移完善技能。[我们希望这些] 三个新工具可以 [帮助] 创建……最佳客户体验。」](/dailies/f01847ac-0d3d-4d95-b163-6dcb98c609b9). 10/10 06:27新闻来源：venturebeat.com. #### 研究与技术. MIT-IBM 开发更快方法以训练视频识别 AI机器学习使计算机能够执行识别面部和读取医学扫描等功能。但是，当任务是解释视频和现实事件时，使机器学习成为可用的模型则变得庞大而繁琐。MIT-IBM Watson AI Lab 的团队提出解决方案，该研究的诀窍在于改变视频识别模型如何查看时间。当前的模型以一系列图像解读时间的消耗，从而创建了更大的计算密集型模型。麻省理工学院的 IBM 研究人员则设计了一个时移模块，该模块在没有明确表示的情况下使模型具有时间流逝的感觉。在测试中，该方法能够训练深度学习视频识别 AI 的速度是现有方法的三倍。（Engadget）. 10/10 06:30新闻来源：www.engadget.com. BentoML：用于服务和部署机器学习模型的平台近日，网友分享了一个用于服务和部署机器学习模型的平台，BentoML，可轻松将训练有素的模型生产化。该框架包括了 BentoService 以及 Yatai，前者用于定义 ML 服务并将其受过训练的模型工件，预处理源代码，依赖项和配置打包为标准文件格式「Bento」的高级 API，可以将其部署为容器化 REST API 服务器，PyPI 软件包，CLI 工具，或批处理/流式推理作业；后者为一个状态服务器，提供 Web UI 和 API，以访问云存储之上的模型注册表，并管理 AWS，Azure 和 GCP 等云平台上的模型服务部署。. 10/10 06:23新闻来源：github.com. 计算机视觉专家Adrian Rosebrock发表计算机视觉、深度学习以及Open CV指南计算机视觉专家 Adrian Rosebrock 近日发表了一篇长达 81 页的关于计算机视觉、深度学习以及 OpenCV 的学习指南。该指南以下内容的详细说明：入门指南；深度学习；面部应用；OCR；物体检测；对象追踪；实例分割以及语义分割；嵌入式和物联网计算机视觉；Raspberry Pi 上的计算机视觉；医疗计算机视觉；使用视频；图片搜索引擎；面试，案例研究和成功案例；Adrian 的书和课程。. 10/10 06:21新闻来源：www.pyimagesearch.com. 斯坦福、牛津等知名机构免费在线NLP课程合集分享近日，KDnuggets 分享了来自斯坦福大学、牛津大学、华盛顿大学以及加州大学伯克利分校等知名机构的高质量免费在线 NLP 课程集合。以下是具体课程列表：NLP 课程的代码优先入门（fast.ai）; 从语言到信息（斯坦福大学）； 深度学习的自然语言处理（斯坦福大学）；用于自然语言处理的深度学习（牛津大学）；自然语言处理（华盛顿大学）；自然语言处理（Yandex 数据学校）；自然语言处理（国立研究大学经济高等专科学校）；应用自然语言处理（加州大学伯克利分校）；自然语言处理的高级方法（特拉维夫大学）；带有 spaCy 的高级 NLP（Ines Montani）。点击链接查看具体课程介绍。. 10/10 06:21新闻来源：www.kdnuggets.com).",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.9940428,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "机器之心",
+    "link": "https://www.jiqizhixin.com/trends/6abbf7e3-91df-4a77-92bb-3d2477d27efe",
+    "pubDate": "2026-04-08T02:01:02.714Z",
+    "author": "",
+    "description": "Title: 机器之心\n# AI每日精选 | 深圳发布新一代人工智能发展行动计划，5年内相关产业规模达6000亿 / 谷歌新研究提出新型半监督方法MixMatch. #### 大公司新闻. Waymo重启自动驾驶货车计划6 月 3 日消息，谷歌母公司 Alphabet 旗下的 Waymo 在推特上宣布，该公司的完全自动驾驶卡车测试项目将重新在亚利桑那州的凤凰城开启。Waymo 在去年就获得监管许可，开始在凤凰城运营无人驾驶汽车。2017 年 8 月 Waymo 曾在亚利桑那州开始测试自动驾驶卡车，但是在 2017 年底，Waymo 停止了在亚利桑那州公共道路的测试。（TechWeb）. 06/03 17:42新闻来源：www.techweb.com.cn. 中兴通讯：已有全球40多家运营商选择与中兴通讯展开5G合作近日，第十届国际基础设施投资与建设高峰论坛在澳门举行。中兴通讯高级副总裁刘健表示，2019 年第一季度，中兴通讯研发投入为 30.93 亿元人民币，占营业收入比例为 13.9%，占比较上年同期的 9.8% 上升 4.1 个百分点。已有全球 40 多家运营商选择与中兴通讯展开 5G 合作，5G 标准必要专利超过 1200 族，5G 战略布局专利 3500 件。（第一财经）. 06/03 17:13新闻来源：www.yicai.com. 华为正式成立智能汽车解决方案BU5 月 27 日，由任正非签发组织变动文件，华为成立智能汽车解决方案 BU，隶属于 ICT 管理委员会管理。在 5 月上旬，华为发布了王军拟任命为智能汽车解决方案 BU 总裁的行政干部任前公示，王军此前在华为日本运营商业务部任职。随着智能汽车解决方案 BU 的成立，华为目前有三大 BG——运营商 BG、企业 BG 和消费者 BG，两大 BU——Cloud BU 和智能汽车解决方案 BU。（IT 之家）. 06/03 10:20新闻来源：www.jiqizhixin.com. 辽宁移动已开通200余个5G试验基站6 月 3 日消息，中国移动辽宁公司已经完成基于 NSA 架构的核心网改造，以及大容量传送能力扩容，目前已建设开通了超过 200 个 5G 试验基站，实现沈阳宝马厂区、新松机器人、沈阳国际软件园等 5G 应用示范区。目前，辽宁省已经孵化出「5G+工业」「5G+交通」「5G+医疗」等 20 个可落地、可推广的 5G 行业示范应用。（辽宁日报）. 06/03 10:08新闻来源：epaper.lnd.com.cn. #### 行业动态. 北京CBD年内将实现4至5个5G项目落地6 月 3 日消息，北京 CBD 将于今年实现 4 至 5 个 5G 应用项目落地，对区域百余座重点商务楼宇进行 5G 技术的介绍与部署，打造信息化、高端化、智能化楼宇，推动智慧楼宇体系建设。（中国新闻网）. 06/03 10:12新闻来源：www.chinanews.com. 中国推进车载智能计算基础平台参考架构研究中国软件评测中心日前发布《车载智能计算基础平台参考架构1.0（2019年）》，通过推进参考架构的研究梳理，有助于加快推动车载智能计算基础平台的持续健康发展。该发布显示，部分国外企业在积极研发的同时，通过收购补齐技术短板，部分产品已实现量产，中国企业也在不断加大投入，加快产业布局。（新华社）. 06/03 18:07新闻来源：www.xinhuanet.com. 多家公司回应5G进展：中兴称按计划推进，大唐称处试验阶段工信部今天表示，将于近期发放 5G 商用牌照。记者以投资者身份致电中兴通讯等企业。中兴通讯表示，对 5G 牌照发放时间和相关手续并不清楚，但目前正在按既定计划积极推进 5G 相关工作。大唐电信回应称，5G 商用目前由集团在承担具体工作，若发牌照也是给集团，目前公司 5G 还处于试验阶段，还未生产出成品。（第一财经）. 06/03 17:14新闻来源：www.yicai.com. 近30个省市拨通首个5G电话据不完整统计，截止目前，中国已有广东、北京、上海、四川、河南、安徽、福建、河北、海南、浙江、山东、贵州、广西、甘肃、云南、内蒙古、宁夏、湖南、山西、重庆、陕西等近30个省市拨通了首个5G电话。广东、浙江、上海、天津、重庆、武汉、成都、太原等城市也发布了5G基站规划。（21世纪经济报道）. 06/03 14:51新闻来源：finance.sina.com.cn. 中国无人机实名登记数量逾33万架中国民航科学技术研究院航空器适航研究所副所长刘薇薇，根据民用无人驾驶航空器实名登记系统披露一组数据：截至今年 5 月 26 日，中国无人机生产企业 1353 家，无人机登记数量 330034 架、注册用户数量为 310218 个。（新华社）. 06/03 10:21新闻来源：www.xinhuanet.com. 全球首个开放AI实验床在深圳发布5 月 31 日，全球首个人工智能实验床「泰」在国家超级计算深圳中心发布。该实验床提供人工智能芯片和系统等基础环境，是面向人工智能研究、开发与应用验证的大型试验装置。人工智能实验床「泰」由国际测试委员会联合中科院、国家超级计算深圳中心、中国计量科学院、寒武纪、中国开放指令生态 (RISC-V) 联盟、中科云达、工信部中国软件评测中心、阿里巴巴、西安交通大学和之江实验室等国内外单位建设，国家超级计算深圳中心和北京尖峰新锐信息科技研究院负责运维管理。（深圳特区报）. 06/03 10:18新闻来源：www.admin5.com. 首家5G无人银行网点在北京开业6 月 3 日消息，中国银行「5G 智能+生活馆」于5 月 31 日在北京正式开业，这是银行业首家深度融合 5G 元素和生活场景的智能网点。除了中国银行，工商银行、建设银行、浦发银行纷纷布局 5G，建行近日也宣布首批三家「5G 科技无人银行」6 月底将在北京开业。（北京日报）. 06/03 10:15新闻来源：www.ithome.com. #### 研究与技术. 集多种半监督学习范式为一体，谷歌新研究提出新型半监督方法MixMatch[近日，谷歌研究者通过融合多种主流半监督学习范式，提出了一种新算法 MixMatch。该算法在多个数据集上获得了当前最优结果，且明显优于次优算法。与以前的方法不同，MixMatch 同时针对所有属性，从而带来以下优势：1）实验表明，MixMatch 在所有标准图像基准上都获得了 STOA 结果。例如，在具备 250 个标签的 CIFAR-10 数据集上获得了 11.08% 的错误率（第二名的错误率为 38%）；2）模型简化测试表明，MixMatch 比其各部分的总和要好；3）MixMatch 有助于差分隐私学习 (differentially private learning)，使 PATE 框架 [34] 中的学生能够获得新的 STOA 结果，该结果在增强隐私保障的同时，也提升了准确率。简而言之，MixMatch 为无标注数据引入了一个统一的损失项，它在很好地减少了熵的同时也能够保持一致性，以及保持与传统正则化技术的兼容。](/dailies/04b6c50f-8545-4fc7-9cb5-e416a57dc7c3). 06/03 11:16新闻来源：arxiv.org. 将文本转语音速度提高38倍，这个FastSpeech真的很fast基于神经网络的端到端文本语音转换（TTS）显著改善了合成语音的质量，但存在推理速度慢、合成语音不稳健等问题。在本文中，来自浙大和微软的研究者提出了一种基于 Transformer 的新型前馈网络，用于为 TTS 并行生成梅尔频谱。在 LJSpeech 数据集上的实验表明，本文的并行模型在语音质量方面达到了自回归模型的水平，而且与自回归 Transformer TTS 相比，本文的模型可以将梅尔频谱生成速度提高 270 倍，将端到端语音合成速度提高 38 倍。. 06/03 19:08新闻来源：mp.weixin.qq.com. CVPR 2019 | 智能体张量融合，一种保持空间结构信息的轨迹预测方法本文是计算机视觉领域国际顶级会议 CVPR 2019 入选论文《Multi Agent Tensor Fusion for Contextual Trajectory Prediction》的解读。该论文由 MIT 支持的自动驾驶初创公司 ISEE Inc，北京大学王亦洲老师课题组，UCLA，以及 MIT CSAIL 合作共同完成。该论文主要提出了一种基于深度学习的车辆和行人轨迹预测方法，提出了一个可以保持空间结构信息的多智能体张量融合网络，在机动车驾驶和行人轨迹数据集中对模型的性能进行了验证。. 06/03 19:08新闻来源：mp.weixin.qq.com. #### 投融资. 终极科技完成数千万天使轮融资6 月 3 日消息，终极科技已于 2019 年 3 月完成数千万天使轮融资，投资方为上市公司香港 UBI 集团。终极科技创始人刘洋表示，本轮投资资金主要用途在于 5G 云平台的研发和升级、5GVR 设备线下部署以及团队建设等三个方面。终极科技成立于 2015 年，聚焦于 VR 技术场景化应用，目前，终极科技自主研发了云智控集控系统和云智控自助系统。（猎云网）. 06/03 10:09新闻来源：www.lieyunwang.com. #### 产品与应用. 华米科技与高通达成合作，将推出eSIM独立通话智能穿戴新品6 月 3 日，华米科技和 Qualcomm Technologies 共同宣布，双方在智能...",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.9927672,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "多家品牌金饰价格大幅上调，老庙黄金克价1485元",
+    "link": "https://36kr.com/newsflashes/3757531559821833?f=rss",
+    "pubDate": "2026-04-08 09:58:45  +0800",
+    "description": "4月8日，现货黄金日内涨幅一度扩大至3%，现报4808.53美元/盎司。国内黄金饰品价格对比显示，多家黄金珠宝品牌公布的境内足金首饰价格较昨日大幅上调，老凤祥报价1470元/克，周生生报价1471元/克，老庙黄金报价1485元/克。（界面）",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "南向资金净卖出额达50亿港元",
+    "link": "https://36kr.com/newsflashes/3757526299099654?f=rss",
+    "pubDate": "2026-04-08 09:53:24  +0800",
+    "description": "36氪获悉，截至目前，南向资金净卖出额达50亿港元。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "深圳前海合作区：探索与香港交易所建立低空经济企业上市快速通道",
+    "link": "https://36kr.com/newsflashes/3757518465565190?f=rss",
+    "pubDate": "2026-04-08 09:45:26  +0800",
+    "description": "36氪获悉，《深圳市前海深港现代服务业合作区金融赋能低空经济产业高质量发展的十二条措施（征求意见稿）》公开征求意见。其中提到，依托深圳前海股权交易中心“专精特新”专板，支持设立“前海低空经济专区”，创新推出“入板即贷”专项融资服务。鼓励面向低空经济企业开展上市培育、合规辅导及跨境资本服务，梯次衔接沪深主板、创业板、科创板、北交所等多层次资本市场。推动更多低空经济企业通过“绿色通道”审核挂牌新三板，探索与香港交易所建立低空经济企业上市快速通道。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "恒生科技指数涨幅扩大至4%",
+    "link": "https://36kr.com/newsflashes/3757516890751746?f=rss",
+    "pubDate": "2026-04-08 09:43:50  +0800",
+    "description": "36氪获悉，港股恒生科技指数涨幅扩大至4%，恒生指数现涨2.88%。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "沪深两市成交额突破5000亿元",
+    "link": "https://36kr.com/newsflashes/3757516631048704?f=rss",
+    "pubDate": "2026-04-08 09:43:34  +0800",
+    "description": "36氪获悉，沪深两市成交额突破5000亿元。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "深证成指涨逾3%",
+    "link": "https://36kr.com/newsflashes/3757513956066051?f=rss",
+    "pubDate": "2026-04-08 09:40:51  +0800",
+    "description": "36氪获悉，深证成指涨逾3%，上证指数涨1.29%，创业板指涨3.71%。沪深京三市上涨个股超5100只。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "迪士尼在亚洲和欧洲的Disney+平台上线ESPN频道",
+    "link": "https://36kr.com/newsflashes/3757511143719688?f=rss",
+    "pubDate": "2026-04-08 09:37:59  +0800",
+    "description": "4月8日，迪士尼表示，已在欧洲和亚太地区的53个国家和地区通过Disney+应用推出ESPN频道。该公司称，初期提供的内容将因市场而异，未来一年内，内容库将扩展至数千场直播赛事。（界面）",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "SK海力士将为戴尔供应专为人工智能PC设计的先进存储解决方案",
+    "link": "https://36kr.com/newsflashes/3757508442145281?f=rss",
+    "pubDate": "2026-04-08 09:35:14  +0800",
+    "description": "韩国SK海力士公司周三表示，计划本月开始向美国戴尔科技集团全面供应一款专为执行人工智能（AI）任务而设计的个人电脑（PC）专用先进存储解决方案。（新浪财经）",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "A股三大指数均大幅高开，半导体板块领涨",
+    "link": "https://36kr.com/newsflashes/3757500171076360?f=rss",
+    "pubDate": "2026-04-08 09:26:50  +0800",
+    "description": "36氪获悉，A股三大指数均大幅高开，沪指高开1.03%，深成指高开2.36%，创业板指高开3.07%；贵金属、互联网、半导体板块领涨，西部黄金涨停，优刻得涨6%，华虹公司、首都在线涨超4%；能源、农业、煤炭板块跌幅居前，中国海油跌超8%，秋乐种业跌超4%，陕西煤业跌超3%。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "恒指开盘涨2.61%，恒生科技指数涨2.95%",
+    "link": "https://36kr.com/newsflashes/3757496238064130?f=rss",
+    "pubDate": "2026-04-08 09:22:49  +0800",
+    "description": "36氪获悉，恒指开盘涨2.61%，恒生科技指数涨2.95%；半导体、软件服务、传媒板块领涨，华虹半导体涨超8%，中芯国际涨超7%，B站、京东健康涨超5%，网易涨超3%，快手涨超2%；石油石化、煤炭板块走弱，山东墨龙跌超14%，中煤能源跌超2%。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "人民币兑美元中间价报6.8680",
+    "link": "https://36kr.com/newsflashes/3757489673683715?f=rss",
+    "pubDate": "2026-04-08 09:16:09  +0800",
+    "description": "36氪获悉，人民币兑美元中间价报6.8680，上调174.00点。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "新增11座车站50趟动车，高铁宠物托运今起优化",
+    "link": "https://36kr.com/newsflashes/3757477993071366?f=rss",
+    "pubDate": "2026-04-08 09:04:16  +0800",
+    "description": "自2026年4月8日起，铁路部门在前期高铁宠物托运服务成功试行的基础上，推出“爱宠行”服务，提供“携宠出行”与“爱宠单独行”两种托运模式，办理宠物托运业务的高铁站增至121座、列车增至228趟，将更好地满足旅客多样化需求。2025年4月8日，铁路部门试行高铁宠物托运服务以来，运行情况良好，受到市场欢迎，一年来累计安全托运宠物1.5万多只，为旅客携带宠物出行提供了极大便利。（央视新闻）",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "微盟发布首个垂类AI Skill，正式接入龙虾生态",
+    "link": "https://36kr.com/newsflashes/3757474373092098?f=rss",
+    "pubDate": "2026-04-08 09:00:35  +0800",
+    "description": "36氪获悉，近日，微盟正式推出首个面向零售行业的专属AI Skill——“Weimob Admin Skills”，并接入OpenClaw（“龙虾”）生态。这款Skill将在微盟官网开放入口，可适配包括QClaw在内各大厂商推出的“本地版龙虾”，这是中国SaaS行业首个面向垂直领域的AI Skill。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "华阳智能：近期铜、石油等大宗商品价格变化对公司业绩暂时没有重大影响",
+    "link": "https://36kr.com/newsflashes/3757468411642377?f=rss",
+    "pubDate": "2026-04-08 08:54:31  +0800",
+    "description": "36氪获悉，华阳智能在互动平台表示，经证券部向公司相关部门了解，近期铜、石油等大宗商品价格变化对公司业绩暂时没有重大影响。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "两市融资余额增加38.0亿元",
+    "link": "https://36kr.com/newsflashes/3757463422272005?f=rss",
+    "pubDate": "2026-04-08 08:49:27  +0800",
+    "description": "36氪获悉，截至4月7日，上交所融资余额报13034.37亿元，较前一交易日增加6.0亿元；深交所融资余额报12550.84亿元，较前一交易日增加32.0亿元；两市合计25585.21亿元，较前一交易日增加38.0亿元。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "DeepSeek上线专家模式",
+    "link": "https://36kr.com/newsflashes/3757463257662212?f=rss",
+    "pubDate": "2026-04-08 08:49:17  +0800",
+    "description": "36氪获悉，DeepSeek迎来更新，最新版本中，DeepSeek输入框上方新增“快速模式”与“专家模式”。据了解，“专家模式”擅长复杂问题，支持深度思考和智能搜索功能。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "景气指数50.2%，3月我国物流业务活动趋于活跃",
+    "link": "https://36kr.com/newsflashes/3757460957823748?f=rss",
+    "pubDate": "2026-04-08 08:46:56  +0800",
+    "description": "中国物流与采购联合会今天（8日）发布3月份中国物流业景气指数。数据显示，3月物流业务活动趋于活跃，产业链供应链上下游协同推进，物流领域投资增长，市场预期同步向好。3月份中国物流业景气指数为50.2%，较上月回升2.7个百分点。从分项指数来看呈现全面回升态势，其中业务总量指数、新订单指数、库存周转次数指数、资金周转率指数、设备利用率指数、从业人员指数、业务活动预期指数回升明显。（央视新闻）",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "雪佛龙将CEO迈克尔·沃斯2026年基本薪资提高3.9%",
+    "link": "https://36kr.com/newsflashes/3757454391444232?f=rss",
+    "pubDate": "2026-04-08 08:40:15  +0800",
+    "description": "雪佛龙在提交的一份代理文件中表示，基于CEO迈克尔·沃斯（Mike Wirth）在2025年的表现以及“其整体薪酬相较于石油及非石油行业同行的CEO水平”，公司决定将其基本薪资提高3.9%，至198万美元。（界面）",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "深交所：港股通标的证券名单调入埃斯顿，今起生效",
+    "link": "https://36kr.com/newsflashes/3757451850121990?f=rss",
+    "pubDate": "2026-04-08 08:37:40  +0800",
+    "description": "36氪获悉，深交所公告，因埃斯顿在香港市场价格稳定期结束且相应A股上市满10个交易日，根据《深圳证券交易所深港通业务实施办法》的有关规定，港股通标的证券名单调入埃斯顿，自2026年04月08日起生效。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "华泰证券：息差企稳拐点渐近，把握优质银行结构性机会",
+    "link": "https://36kr.com/newsflashes/3757443881140994?f=rss",
+    "pubDate": "2026-04-08 08:29:34  +0800",
+    "description": "36氪获悉，华泰证券研报表示，2025年上市银行业绩增速改善，营收、归母净利润分别同比+1.4%、+1.6%，增速分别较9M25 +0.6pct、+0.3pct，主要得益于息差边际企稳+非息提振。重点关注：1.2025年Q4样本上市银行净息差边际企稳，带动利息净收入增速提升；2.中收修复增长，非息增速分化；3.上市银行规模增长边际有所提速，存款定期化趋势延续；4.账面不良改善。个股关注：1.兼具红利与成长属性的优质银行；2.红利价值突出的银行。",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
+    "link": "https://36kr.com/p/3757404054930182?f=rss",
+    "pubDate": "2026-04-08 07:53:58  +0800",
+    "description": "今日热点导览\n  \n   海康威视回应辟谣“监控系统出现漏洞，300多人被带走”\n   郭艾伦否认被骗千万\n   日本餐饮巨头食其家创始人心梗去世\n   产业链人士：苹果首款折叠屏手机项目正常推进\n   宇树科技移动机器人新专利获授权\n  \n  TOP 3大新闻\n  嫣然天使儿童医院发文感谢陈光标捐赠1000万\n  4月7日，“北京嫣然天使儿童医院体检中心”官方账号发文感谢陈光标对嫣然医院的支持，并发布了颁发给陈光标的感谢证书。证书内文写到：感谢您对北京嫣然天使儿童医院的大力支持。因为你们的帮助，更多的孩子在这里重建笑容。我们坚信，唯有怀抱着善良与爱，才能在公益之路上勇敢前行！4月5日，陈光标发布视频并晒出1000万元的汇款凭证说：“亲爱的网友们，鉴于张雪先生迟迟未来见面提车，现在我充分尊重张先生的意愿，特此前来将车辆变现的资金捐赠给嫣然医院。”（每日经济新闻）\n  宁德时代聘请紫金矿业创始人陈景河\n  4月7日，宁德时代内部人士表示，宁德时代已正式聘请紫金矿业创始人、前董事长陈景河担任公司矿业部门顾问，助力其拓展矿产供应链业务。（第一财经）\n  产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布\n  4月6日，有媒体报道，富士康正在试产苹果首款折叠屏手机。对此，4月7日，苹果产业链人士向记者表示，苹果首款折叠屏手机项目方案早已确定，目前该项目正在正常推进中，试产是产品正式量产前必经阶段，一般需经过工程验证、设计验证、生产试产验证，最后再到正式量产，按正常推进计划，该产品将于今年秋季发布。（证券时报）\n  大公司/大事件\n  多品牌回应卫生巾涨价，专家称卫生巾涨价或2至3个月后显现\n  4月6日，“卫生巾或通过减量不加价隐性涨价”话题登上热搜引发关注。卫生巾品牌是否会立即涨价？申万宏源研究所首席市场专家桂浩明对“中新经纬”分析，从历史经验看，原材料价格上涨传导至终端产品大约需要2至3个月。成品油以十个工作日为周期调价，日用消费品大致也需要两个月左右。4月7日，中新经纬以消费者的身份进行咨询，高洁丝、全棉时代、她研社、苏菲等卫生巾品牌客服均表示，暂未接到价格变动的通知。（中新经纬）\n  陈丽华去世：享年85岁，曾多次上榜内地女首富\n  4月7日，富华国际集团发布讣告，富华国际集团荣誉主席、中国紫檀博物馆馆长陈丽华，因病医治无效，于2026年4月5日20时50分在北京逝世，享年85岁。\n  陈丽华是早年福布斯中国富豪榜上最知名、长期唯一稳定上榜的中国女富豪。资料显示，2001年福布斯中国内地100富豪榜上，陈丽华以55亿元的财富排名第6位，成为中国内地女首富。2012福布斯中国富豪榜以176.4亿元的财富排名第17位。2014福布斯中国400富豪榜上，陈丽华以373亿元的身家成为全球白手起家女富豪榜第一名。2016年的胡润女富豪榜中，陈丽华以505亿元的财富成为中国女首富。在《2025年新财富500创富榜》上，陈丽华以400亿元资产位列榜单第82位。今年胡润研究院发布的《2026胡润全球富豪榜》中，陈丽华以470亿元人民币位列第656位。（澎湃新闻）\n  郭艾伦否认被骗千万\n  4月7日，中国男篮队员郭艾伦在个人微博发布关于“被骗”的最新回应：我必须自己出来说一句了，我没有被骗，谢谢大家关心。”此前，据体坛周报报道，近日，郭艾伦及其家人疑似遭遇一起数额较大的熟人诈骗案。据知情人士透露，嫌疑人系郭艾伦身边好友，以“投资入股”为名诱导其转账近千万元。转账后，该嫌疑人一度失联，资金去向不明。郭艾伦（Allen Guo），男，1993年11月14日出生于辽宁省辽阳市，中国篮球运动员，司职控球后卫，毕业于东北大学，现效力于CBA广州龙狮篮球俱乐部。（21世纪经济报道）\n  日本餐饮巨头食其家创始人心梗去世，终年77岁，中国门店已超460家\n  据媒体报道，日本餐饮巨头Zensho Holdings于7日公布，创办人兼会长小川健太郎6日因心肌梗塞离世，终年77岁。\n  小川健太郎1982年创立Zensho，带领旗下连锁品牌食其家（SUKIYA）崛起，并通过强势领导与积极并购，将集团发展成与吉野家并列的日本外食龙头之一。据公开资料显示，食其家（Sukiya）是一家总部位于日本的牛肉饭（牛丼）专门连锁企业，成立于1982年。据官网信息，2008年食其家正式进入中国，国内460多家门店分布在上海、北京、广州等30多个城市。（每日经济新闻）\n  4月7日24时，国内汽、柴油价格调整\n  据央视新闻报道，记者从国家发展改革委了解到，自4月7日24时起，国内汽、柴油（标准品）价格每吨上调420元、400元。\n  据介绍，3月23日国内成品油价格调整以来，国际市场原油价格大幅震荡，根据现行价格机制计算，本次汽、柴油最高零售价格每吨应分别上调800元、770元，为减缓国际油价上涨对国内的冲击，国家继续对成品油价格采取调控措施。调控后，汽、柴油最高零售价格每吨少涨380元、370元，折合92号汽油每升少涨0.31元，0号柴油每升少涨0.32元。（21世纪经济报道）\n  三星电子为平泽P5晶圆厂PH1阶段下达70余台光刻机订单\n  三星电子已为平泽半导体生产基地P5晶圆厂集群的首个阶段PH1订购了70余台光刻机，为该阶段2027年的投运做好准备。平泽P5 PH1所需的这些光刻机来自ASML和佳能，其中约20台为ASML的EUV曝光系统。P5 PH1将用于1c nm制程DRAM生产，将同时制造通用内存和HBM。（财联社）\n  宝马（中国）汽车贸易有限公司召回部分劳斯莱斯汽车\n  据国家市场监督管理总局网站消息，日前，宝马（中国）汽车贸易有限公司根据《缺陷汽车产品召回管理条例》和《缺陷汽车产品召回管理条例实施办法》的要求，向国家市场监督管理总局备案了召回计划。召回编号S2026M0040V：自即日起，召回生产日期从2020年1月10日至2024年3月11日的部分劳斯莱斯库里南汽车，共计51台。本次召回范围内的部分车辆，由于生产原因，可能未按规定扭矩紧固后排座椅靠背锁扣支架或后排座椅安全带的固定螺栓，造成螺栓松动。极端情况下，可能导致座椅靠背锁止不良，或安全带织带受损，无法对乘员起到有效的约束保护作用，增加乘员受伤的风险，存在安全隐患。（界面新闻）\n  海���威视回应辟谣“监控系统出现漏洞，300多人被带走”\n  4月7日，一则关于海康威视的传言在社交平台迅速传播。网传图片显示，海康威视监控系统出现漏洞，总部300多人被带走调查。针对这一传言，记者以投资者身份致电海康威视，接线工作人员明确表示，上述传言系谣言，公司不存在上述情况，并强调“不信谣不传谣”。据该工作人员个人了解，公司目前在伊朗暂无相关业务。（21财经）\n  捷豹路虎（中国）投资有限公司召回部分进口路虎揽胜、揽胜运动版汽车\n  36氪获悉，据国家市场监督管理总局网站消息，日前，捷豹路虎（中国）投资有限公司根据《缺陷汽车产品召回管理条例》和《缺陷汽车产品召回管理条例实施办法》的要求，向国家市场监督管理总局备案了召回计划。召回编号S2026M0038V：自2026年6月1日起，召回2022年1月18日至2025年11月27日期间生产的部分进口路虎揽胜、揽胜运动版汽车，共计147辆。本次召回范围内的车辆，由于生产制造原因，车顶饰条的粘合工艺出现偏差，可能导致车顶饰条部分或完全从车身上脱落，对其他道路使用者造成危险，存在安全隐患。\n  特斯拉前员工出任小米汽车欧洲交付与物流负责人\n  4月7日，根据原特斯拉中欧地区交付运营高级经理迪特·洛伦茨（Dieter Lorenz）在社交媒体发布的声明，在特斯拉工作六年之后，他已于本月初担任小米汽车欧洲交付与物流负责人。（界面新闻）\n  中证协：去年约15%券商亏损\n  从业内获悉，中证协向业内分析解读了券商2025年度经营情况。中证协称，2025年证券行业实现营业收入5411.71亿元、净利润2194.39亿元，同比分别增长19.95%、31.20%。128家公司实现盈利，盈利面达85.3%，行业平均净资产收益率(ROE)为6.79%，同比提升1.29个百分点。（证券时报）\n  马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位\n  据报道，马斯克正寻求罢免OpenAI首席执行官萨姆·奥特曼和总裁格雷格·布罗克曼的职务，这是预计将于本月晚些时候开庭审理的一起诉讼的一部分。（新浪财经）\n  美股三大指数收盘涨跌不一，Arm跌超3%\n  36氪获悉，4月7日收盘，美股三大指数涨跌不一，道指跌0.18%，纳指涨0.1%，标普500指数涨0.08%。大型科技股涨跌互现，Arm跌超3%，苹果跌超2%，特斯拉跌超1%，微软、奈飞小幅下跌；谷歌涨超1%，亚马逊、Meta、英伟达小幅上涨。热门中概股普跌，阿里巴巴跌超2%，拼多多、蔚来、微博、小鹏集团跌超1%，理想汽车、网易、爱奇艺、百度小幅下跌。\n  神农集团：3月商品猪销售均价9.82元/公斤，环比下降12.32%\n  36氪获悉，神农集团公告。2026年3月份，公司销售商品猪31.66万头，同比变动28.13%（其中：向集团内部屠宰企业销售商品猪4.45万头）。商品猪销售收入4.09亿元，同比减少9.91%。商品猪销售均价9.82元/公斤，环比下降12.32%。\n  投融资\n  “首形科技”获新一轮数亿元A1轮融资\n  36氪获悉，超高仿生情感交互机器人企业“首形科技”宣布完成数亿元人民币A1轮融资。本轮由华控基金及某互联网大厂联合领投，嘉御资本、鹏瑞基金、亦庄国投、上海半导体产投、南山战新投，以及老股东招商局创投、顺为资本、弘晖基金、厚雪资本、东方富海跟投。本轮资金将主要用于多模态具身交互系统与情绪基座模型的持续迭代升级，仿生面部核心部件与材料体系的规模化优化，以及标准化交付与全球市场拓展。\n  “云澎科技”完成A+轮融资\n  近日，浙江云澎科技有限公司宣布已完成A+轮融资。本次融资由亚投睿才（台州路桥）创业投资合伙企业（有限合伙）、金华市金婺赋能股权投资合伙企业（有限合伙）共同投资。云澎科技以“AI赋能健康生活·数智引领产业未来”为核心，打造以“膳食营养健康”为中心的全场景解决方案。资本市场的持续加码，为云澎科技布局AI+健康产业新赛道、拓展业务边界注入强劲动力。\n  “珈钠能源”完成A+轮数亿元融资\n  36氪获悉，“珈钠能源”宣布已成功完成A+轮数亿元融资。本轮投资方包括深圳储能基金、亿纬锂能等机构，此次融资将重点赋能公司钠离子电池关键材料的技术迭代、产能扩张及全球市场拓展。\n  “赛富乐斯”完成3亿元C轮融资\n  36氪获悉，AR显示技术企业“赛富乐斯”近日已完成3亿元C轮融资。本轮投资方包括西安西高投繁星投资基金、无锡市梁溪科创产业投资二期基金、安徽金安产业引导基金、上海吉六零山海松金创业投资基金、西安财金龙门成长股权投资合伙企业、西安市人才发展基金等多家机构。资金将主要用于加速AR用全彩微显示屏的量产交付。\n  Sand.ai完成新一轮约五千万美金融资\n  36氪独家获悉，VidMuse上线仅2个月，年度经常性收入（ARR）超千万美金，成为Video Agent赛道最快达成此商业化里程碑的产品。据了解，VidMuse首创 “Music in Video Out”，以音频驱动的视频创作范式为核心，底层技术主要来自母��司Sand.ai自研的音视频原生架构。据知情人士透露，Sand.ai 近期完成新一轮约五千万美金融资。\n  大公司财报\n  LG电子第一季度销售额23.73万亿韩元\n  LG电子第一季度销售额达到23.73万亿韩元，预估为23.23万亿韩元；第一季度运营利润为1.67万亿韩元，预估为1.36万亿韩元。（财联社）\n  三星电子第一季度营业利润同比飙升755%\n  三星电子周二发布的未经审计的初步数据显示，其第一季度营业利润达到创纪录的57.2万亿韩元（约合380亿美元），同比增长755%，远超市场预期。营收增长68.1%至133万亿韩元。净利润数据尚未公布。该公司将于本月晚些时候发布第一季度正式财报。（新浪财经）\n  中科曙光：2026年第一季度净利润2.25亿元，同比增长20.88%\n  36氪获悉，中科曙光发布2026年第一季度财报。财报显示，公司一季度营业总收入30.72亿元，同比增长18.80%。净利润2.25亿元，同比增长20.88%；归属于上市公司股东的扣除非经常性损益的净利润1.69亿元，比上年同期增长比率为57.77%，主要为公司业绩增长及非经常性损益项目减少。\n  AI最前沿\n  谷歌发布AI心理健康支持更新\n  谷歌4月7日宣布通过AI提升心理健康支持：Gemini新增“求助模块”，识别危机时提供一键连接热线；Google.org投入3000万美元资助全球热线，并利用AI模拟平台培训志愿者；同时加强对未成年人的情感隔离保护，确保AI辅助而非替代专业诊疗。（界面新闻）\n  奥特曼回应为何关停Sora：算力资源极度紧缺\n  日前，OpenAI CEO山姆·奥特曼在一档专访节目中坦白，之所以关停Sora这样的现象级产品，完全是因为当下算力资源极度紧缺，而Sora并不在公司最高优先级的名单中。（新浪财经）\n  贝索斯新实验室或将从OpenAI挖来xAI联合创始人\n  据报道，贝索斯旗下的一家公司从OpenAI挖走了一名xAI联合创始人。凯尔·科西奇（Kyle Kosic）已加入贝索斯成立的人工智能新公司“普罗米修斯计划”。科西奇是与马斯克共同创立xAI的联合创始人之一。在2024年回到老东家OpenAI之前，他曾负责xAI的Colossus超级计算机背后的基础设施团队。科西奇在“普罗米修斯”将继续从事AI基础设施项目。（财联社）\n  酷产品\n  宇树科技移动机器人新专利获授权\n  36氪获悉，爱企查App显示，近日，宇树科技股份有限公司申请的“一种移动机器人”专利获授权，发明人为王兴兴、王凯。摘要显示，该专利提供的一种移动机器人，包括机身和广角激光雷达。所述机身形状为竖直放置的、上细下粗的半椭圆形球体；所述广角激光雷达设于机身上方，安装位置的投影位于机身的几何中心附近。\n  整理｜迟雨",
+    "categories": [
+      "中文来源",
+      "36氪"
+    ],
+    "source": "36氪",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Waymo opens self-driving cars to the public in Nashville - WKRN News 2",
+    "link": "https://www.wkrn.com/news/local-news/nashville/waymo-opens-self-driving-cars-to-the-public-in-nashville/",
+    "pubDate": "Tue, 07 Apr 2026 23:42:18 GMT",
+    "author": "",
+    "description": "“We are here to make sure we are going to have a really consistent, comfortable, and especially safe rider experience from day one,” Waymo Spokesperson Mark Lewis said. “It is an approach with their phone, they get connected, and they are immediately able to move a Waymo if that is necessary,” Lewis said. “Every year, over 40,000 people die because of road deaths, and that’s really why Waymo was created: to be the world’s most trusted driver, and we are living up to that commitment,” Lewis said. “The autonomous revolution is still very new and autonomous vehicles how we integrate into communities is still a process that is unfolding,” Lewis said. “No matter what Waymo vehicle you get into, it is the Waymo driver, and you always know it is going to be a consistent, great, and magical experience,” Lewis said. ### Self-driving cars open to the public in Nashville, ….",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.wkrn.com",
+    "score": 0.26627126,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "npm 爆发重大供应链攻击：Axios 被植入远控木马，影响或已扩散",
+    "link": "https://www.infoq.cn/article/j5SQxrf0ULJN2Fjd80T2?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 19:51:06 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道｜36氪首发",
-    "link": "https://36kr.com/p/3750675963904513?f=rss",
-    "pubDate": "2026-04-07 10:00:00  +0800",
-    "description": "36氪获悉，企业级AI解决方案供应商「红熊AI」已于近日完成 2.1亿元A轮融资，投后估值超15亿元。本轮由华禹创投领投，老股东格睿丰投资、稼沃资本跟投，徐汇资本、上汽美元基金、嘉铭浩春、誉华资产等多家机构参与投资，三位创始团队成员也以本轮估值跟投约3000万元。这已是华禹创投连续第四轮押注红熊AI。&nbsp;\n  成立于2024年4月7日的红熊AI，主打“记忆科学+全模态大模型”技术路线，致力于让&nbsp;AI&nbsp;具备类似人类的\"情节记忆\"能力，从而在物理世界实现更精准的感知、决策与行动。创始人兼CEO温德亮向 36 氪透露红熊AI预计于2027年2-3季度向港交所递表、2028年正式启动上市。\n  从“产品思维”到“技术生态思维”\n  “你的核心竞争力是什么？”这是红熊AI融资时被投资人问得最多的问题。\n  温德亮的答案有些反常识：“产品从来不是核心竞争力，就像鹅和鹅蛋的关系——鹅蛋是既定结果，能持续产蛋的鹅才是真正的价值核心。”\n  在温德亮看来，红熊AI的“鹅”就是“记忆科学+全模态大模型”构建的技术生态。记忆科学解决AI“如何复用经验”的问题，全模态大模型解决AI“如何感知世界”的问题，两者结合便能持续产出适配不同场景的创新应用。温德亮认为，产品从来不是核心竞争力，支撑产品进化的底层技术体系（即“养鹅”的过程）才是价值核心。\n  这一思路源于对AI行业痛点的洞察。Google DeepMind 的研究显示，即使是最先进的语言模型也会陷入“逆转诅咒”——学会“柏拉图教过亚里士多德”后，却无法回答“亚里士多德的老师是谁”。根源在于AI仅能通过参数学习存储碎片化知识，却无法像人类一样建立经验与场景的关联。\n  红熊AI 的做法是将人类\"情节记忆\"机制数字化，构建类似海马体的“智能记忆系统”，同时融合文本、图像、语音、传感器数据等多模态信息，让AI不仅能“学会知识”，更能\"记住经验与习惯\"。\n  “我们以软件结果化的方式构建了现在的应用产品，上市之后要打第二增长曲线记忆科学硬件产品。”温德亮透露，“目前还是以应用方向销售为主。”\n  而且与大量To B公司重销售、AI企业重技术、却都相对轻品牌不同，红熊AI从早期就开始注重品牌建设。\n  “我们对外有两个核心：第一技术取胜，第二把技术即品牌作为策略。”温德亮分享道，“以这种形态来做，反而比讲商业模式、产业模式更有效，客户也更接受。”\n  \n  创始人兼CEO温德亮\n  切入物理AI赛道：从感知碎片到“情节记忆”的数字化\n  在英伟达CEO黄仁勋定义的“物理AI”浪潮中，AI的终极使命是突破虚拟边界，成为物理世界的“智能体”。然而，当前AI系统在进入物理世界时普遍面临“感知不精准、决策不灵活、行动不落地”的瓶颈 。\n  红熊AI的核心技术灵感源自认知科学。人类大脑海马体具备“情节记忆”能力，能够存储完整场景并快速复用。与之相对，传统AI系统往往仅能通过参数学习存储碎片化知识，缺乏建立经验与场景关联的“潜在学习”能力 。\n  红熊AI的技术突破在于将人类“情节记忆”机制数字化，构建了类似海马体的“智能记忆系统”。该系统不仅整合文本、图像、语音，还引入了传感器数据等物理信号，试图让AI像人类一样“记住经验与习惯”。\n  针对物理AI的痛点，红熊AI提出了一套基于“记忆科学+全模态大模型”的系统性解决方案 ：\n  \n   感知重构：非侵入式与低成本适配\n  \n  红熊AI的全模态感知体系强调“非侵入式”原则。例如，在智能家居场景中，系统可通过雷达、红外、语音等模态数据判断需求，而非依赖摄像头监控，从而平衡隐私与体验 。记忆科学的加入，使AI能记住用户的特定偏好（如老人对噪音的敏感度），实现“得体感知”。此外，通过多模态数据互补，红熊AI利用廉价传感器替代部分高昂的高清摄像头，大幅降低了传统产业升级的门槛。\n  \n   决策进化：从机械匹配到经验推理\n  \n  红熊AI的决策系统具备“经验复用”与“多模态Agent协同推理”能力。系统能存储过往决策的完整场景（输入、过程、结果），当遇到相似场景时快速检索经验并优化决策。以智能宠物医疗为例，Agent可综合行为变化、排泄数据及记忆系统中的兽医经验进行立体决策，准确性优于单一维度判断。\n  \n   行动落地：闭环重构产业化流程\n  \n  红熊AI试图将传统“研发-生产-销售”的线性模式转变为“数据采集-决策-执行-经验沉淀”的闭环 。在零售业中，其“客服优答”系统不仅能处理多渠道咨询，还能将疑难处理经验沉淀为知识库，持续优化响应效率。\n  \n  官网\n  企业数据披露\n  据了解红熊AI的A+轮融资目前已在洽谈中，预计7-8月份完成，估值将达30亿元。公司已完成多轮合规性梳理，包括注册资本金、合伙人协议、代持情况、成本结构拆分等。红熊AI披露了一组财务数据 ：\n  \n   2025年业绩：合同额2.5亿元，确认收入1.35亿元，净利润率达13%，实现利润约1800万元。\n   毛利率表现：经安永审计，其纯软件业务毛利率在60%至78%之间 。\n   未来预期：2026年业绩目标为确收5-6亿元，预计纯ARR（订阅制）收入将在今年8-9月破亿 。",
+    "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation - TechCrunch",
+    "link": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+    "pubDate": "Tue, 07 Apr 2026 18:46:55 GMT",
+    "author": "",
+    "description": "THIS WEEK ONLY: Save close to $500 on your Disrupt pass. Save up to $680 on your Disrupt 2026 pass. # Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation. Asia AI data center provider Firmus on Monday announced a fresh $505 million raise led by Coatue at a $5.5 billion post-money valuation. The Singapore-based data center company previously raised AU$330 million (approximately $215 million) at an AU$1.85 billion ($1.2 billion) valuation from investors, including Nvidia. It is using Nvidia’s reference designs for building these efficient data centers. These new data centers will use Nvidia’s Vera Rubin platform — the chip giant’s next-gen AI computing system succeeding its Blackwell architecture, expected to ship in the second half of 2026. AI, data centers, In Brief, nvidia, Startups. ### Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation. ### 4 days left to save close to $500 on TechCrunch Disrupt 2026 passes.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "techcrunch.com",
+    "score": 0.6778372,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "OLogic to share the keys to balancing hardware and software at the Robotics Summit - The Robot Report",
+    "link": "https://www.therobotreport.com/ologic-share-keys-balancing-hardware-software-robotics-summit/",
+    "pubDate": "Tue, 07 Apr 2026 18:11:59 GMT",
+    "author": "",
+    "description": "# OLogic to share the keys to balancing hardware and software at the Robotics Summit. At the Robotics Summit & Expo, which takes place on May 27 and 28 in Boston, attendees can learn from OLogic how to balance hardware and software for real-world success. Drawing on over two decades of experience helping companies from startups to Fortune 500s bring their ideas to life, Ted Larson, the co-founder and CEO of OLogic, will share what makes a great robotics company and what separates successful robots from those that never make it past the prototype stage. This session, “Balancing Hardware and Software for Real-World Success,” will explore how the best robotics companies think about design, collaboration, and manufacturability from Day 1. Ted Larson is the CEO of OLogic, a research and development outsourcing company with a focus on robotics. Registration is now open for the Robotics Summit & Expo, the world’s leading technical event for commercial robotics developers.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.therobotreport.com",
+    "score": 0.06708697,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Waymo launches autonomous car rides in Nashville - Axios",
+    "link": "https://www.axios.com/local/nashville/2026/04/07/waymo-launches-autonomous-car-rides-nashville",
+    "pubDate": "Tue, 07 Apr 2026 18:08:33 GMT",
+    "author": "",
+    "description": "# Waymo launches autonomous car rides in Nashville. * Well, welcome to the future Nashville, because autonomous taxis from Waymo began providing rides Tuesday. **Why it matters:** Nashville joined a growing list of cities where autonomous vehicles are operating. * According to the company's stats, Waymo vehicles have been involved in fewer serious injury crashes and fewer crashes that require the airbag to be deployed compared to old-fashioned human drivers. **Driving the news:** Waymo rides can be requested through the company's app. The company also plans to offer Waymo rides through the Lyft rideshare app later this year. * Before offering rides, the cars were on Nashville streets doing practice runs. **What he's saying:** \"As Nashville continues to grow, Waymo is proud to support that momentum by providing a safe, reliable, and magical way for locals and visitors to experience everything the city has to offer,\" Waymo co-CEO Tekedra Mawakana said in a press release. ## More Nashville stories.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.axios.com",
+    "score": 0.26980075,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "OpenAI Calls on State Investigators Over Alleged “Attacks” by Elon Musk - TipRanks",
+    "link": "https://www.tipranks.com/news/openai-calls-on-state-investigators-over-alleged-attacks-by-elon-musk",
+    "pubDate": "Tue, 07 Apr 2026 16:50:28 GMT",
+    "author": "",
+    "description": "• OpenAI has asked state authorities to investigate billionaire investor Elon Musk over alleged attacks on the company. OpenAI has asked the attorneys general of California and Delaware to investigate SpaceX and Tesla (TSLA) CEO Elon Musk and his associates ahead of an upcoming trial for alleged “anti-competitive behavior.” The company is requesting an investigation of Musk’s actions, as it believes he has been trying to weaken its position in the artificial intelligence (AI) sector by several means. In a letter sent to the attorneys general of California and Delaware, the company’s Strategy Chief, Jason Kwon, claimed that Musk is attempting to weaken OpenAI’s position in the AI sector, thereby making the firm a less worthy competitor to other companies in the sector. Kwon noted that such behavior will hinder OpenAI’s aim of developing artificial intelligence safely and responsibly in the U.S. He alleged that Musk has filed lawsuits, made public criticisms, and built a competing firm, xAI, that could significantly reduce fair competition in the AI sector.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.tipranks.com",
+    "score": 0.40797067,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Uber is the latest to be won over by Amazon’s AI chips - techcrunch.com",
+    "link": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+    "pubDate": "Tue, 07 Apr 2026 16:46:59 GMT",
+    "author": "",
+    "description": "Uber will particularly expand its use of AWS’s Graviton (a low-power, ARM-based server CPU) and start a new trial testing Trainium3, AWS’s Nvidia competitor AI chip. This deal is a bit less about a long-term threat to Nvidia than it is a thorough thumbing of the nose by Amazon at AWS’s cloud competitors, Google and Oracle. While Uber historically ran its own data centers, back in 2023, the ride-hailing company famously signed giant, multi-year cloud computing deals with Oracle and Google. Uber particularly called out in that post the use of the ARM chips made by Ampere in Oracle’s cloud. Ellison said Oracle sold Ampere because he believed designing chips in-house for its data centers was no longer a competitive advantage. But now AWS is announcing it has nabbed a bigger contract from one of Oracle’s star customers, Uber, because it has in-house-designed chips. Uber joins Anthropic, OpenAI, and Apple as big tech companies that have signed on or increased their usage of AWS because of these AI chips.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "techcrunch.com",
+    "score": 0.52612424,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "The New Rules of Engagement: Matching Agentic Attack Speed - SecurityWeek",
+    "link": "https://www.securityweek.com/the-new-rules-of-engagement-matching-agentic-attack-speed/",
+    "pubDate": "Tue, 07 Apr 2026 16:40:52 GMT",
+    "author": "",
+    "description": "The cybersecurity response to AI-enabled nation-state threats cannot be incremental. **The cybersecurity industry has been drowning in waves of speculation about the impact of AI-enabled attacks since ChatGPT was launched. As nation-state threat actors deploy autonomous agents to scale their operations, cybersecurity must do the same. A Chinese state-sponsored threat actor, GTG-1002, weaponized Claude Code (an agentic coding assistant) into an autonomous attack platform. The threat landscape is already full of nation-state threat actors exploiting vulnerable attack surfaces that agentic AI is now positioned to discover and exploit at scale. Cybersecurity must adopt autonomous, distributed, machine-speed intelligence to combat threats that operate in the same way. Ad hoc security tools and siloed threat intelligence cannot match the velocity of agentic cyberattacks. The cybersecurity response to AI-enabled nation-state threats cannot be incremental. Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity news, threats, and expert insights.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.securityweek.com",
+    "score": 0.98173577,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Trent AI Emerges From Stealth With $13 Million in Funding - SecurityWeek",
+    "link": "https://www.securityweek.com/trent-ai-emerges-from-stealth-with-13-million-in-funding/",
+    "pubDate": "Tue, 07 Apr 2026 16:34:26 GMT",
+    "author": "",
+    "description": "The startup has created a layered security solution aiming to secure AI agents throughout their entire lifecycle. Founded in 2025 by former AWS engineering team leaders, London-based Trent AI has built a layered platform meant to secure AI agents throughout their entire lifecycle. Trent AI’s platform uses agents that work together continuously to understand the environment and secure it, embedding the security layer into development workflows. “Organizations are deploying AI agents and autonomous workflows faster than their security can adapt, and most development teams using these agents and workflows have no security framework designed for their systems,” said Trent AI co-founder and CEO Eno Thereska. “Trent AI is tackling these difficult and important problems, while building the necessary security foundations and frameworks for agentic systems now and through the next decade,” Thereska added. Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity news, threats, and expert insights.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.securityweek.com",
+    "score": 0.73866904,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Waymo Opens Driverless Rides to the Public in Nashville - CNET",
+    "link": "https://www.cnet.com/roadshow/news/waymo-opens-driverless-rides-nashville/",
+    "pubDate": "Tue, 07 Apr 2026 16:29:00 GMT",
+    "author": "",
+    "description": "On Tuesday, the autonomous ride-hailing company opened up to the first public riders\") in Music City, and will expand to more people \"on a rolling basis,\" Waymo said in a blog post. Interested riders can hail a self-driving vehicle by downloading the Waymo app\") and waiting for an invite. Waymo says its cars will also become available on the Lyft app later this year, which should help to expand access. Nashville is the first city in Tennessee where riders can hail a Waymo. Waymo says it's also testing its driverless operations at Nashville International Airport and plans to \"serve travelers there in the near future.\" The company currently operates out of four international airports: Phoenix Sky Harbor International Airport, San Jose Mineta International Airport, San Francisco International Airport and San Antonio International Airport. After downloading the Waymo app, the company says anyone interested in riding in Nashville should \"keep an eye on our social channels for access codes to skip the line.\".",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.cnet.com",
+    "score": 0.21280442,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "How AI marketplaces are reshaping editorial advertising in 2026 - The Next Web",
+    "link": "https://thenextweb.com/news/ai-editorial-advertising-marketplace",
+    "pubDate": "Tue, 07 Apr 2026 15:46:39 GMT",
+    "author": "",
+    "description": "# Medialister opens editorial media marketplace to AI Agents with MCP server. The platform aggregates editorial opportunities from multiple publishers, including sponsored articles, press releases, and guest posts, to secure guaranteed media placements. This week, Medialister launched a Model Context Protocol (MCP) server that allows AI assistants such as ChatGPT, Claude, and Gemini to interact directly with its editorial media marketplace. Storozhuk frames this shift as part of a broader transformation in how professionals work with software: “*AI assistants are becoming the operating system for knowledge work,*” he says. “*If that’s true, then marketing platforms need to become accessible to AI agents.*”. Instead of manually researching hundreds of publishers, marketers will increasingly rely on AI to analyze audiences, compare outlets, factor in SEO metrics, and assemble optimal placement portfolios for a specific brief. “*AI will not replace marketing teams*,” says Storozhuk. Instead of building media lists manually, marketers may start by asking an AI assistant to find suitable outlets for a specific product, market, and funnel stage.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "thenextweb.com",
+    "score": 0.62245935,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "China is copying U.S. AI models— American companies say it is costing them billions of dollars - Los Angeles Times",
+    "link": "https://www.latimes.com/business/story/2026-04-07/china-is-copying-u-s-ai-models-american-companies-say-it-is-costing-them-billions-of-dollars",
+    "pubDate": "Tue, 07 Apr 2026 15:12:09 GMT",
+    "author": "",
+    "description": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.’s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge U.S. artificial intelligence models to gain an edge in the global AI race. OpenAI confirmed it’s part of the information-sharing effort on adversarial distillation through the Frontier Model Forum and pointed to a recent memo it sent to Congress on the practice, where it accused Chinese firm DeepSeek of trying to “free-ride on the capabilities developed by OpenAI and other U.S. frontier labs.” Google, Anthropic, and the Frontier Model Forum declined to comment. Information-sharing by U.S. AI companies about adversarial distillation echoes a standard practice in the cybersecurity industry, where firms regularly swap data on attacks and adversaries’ tactics as a way to strengthen network defenses. Last year, Anthropic blocked Chinese-controlled companies from using its Claude chatbot model, and in February it identified three Chinese AI labs — DeepSeek, Moonshot, and MiniMax — as illicitly extracting the model’s capability via distillation.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.latimes.com",
+    "score": 0.60358196,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "What Amazon saw in Fauna Robotics’ humanoid strategy - The Robot Report",
+    "link": "https://www.therobotreport.com/what-amazon-saw-in-fauna-robotics-humanoid-strategy/",
+    "pubDate": "Tue, 07 Apr 2026 15:07:00 GMT",
+    "author": "",
+    "description": "# What Amazon saw in Fauna Robotics’ humanoid strategy. Amazon’s acquisition of Fauna Robotics looks more like a platform move than a consumer robotics play. This makes Fauna’s humanoid, Sprout, significant beyond the deal itself. A technical report published by Fauna earlier in 2026 offers a glimpse into a platform built around constrained learned control, whole-body VR teleoperation, along with a pipeline designed to turn autonomy failures into training data. Fauna describes three layers – hardware safeguards, an independent embedded safety subsystem, and application-level compliant control. Fauna Robotics’ Sprout humanoid robot is small, lightweight, and soft to touch, making it safer than the average humanoid robot. Amazon has spent years building warehouse robotics, while its consumer robotics efforts have yet to produce a durable product line. Amazon did not acquire Fauna to ship a consumer humanoid. The integration choices around safety, supervision, data collection, and operator recovery are what make Sprout hard to replicate quickly, and none of those show up in a demo reel.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.therobotreport.com",
+    "score": 0.1801214,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Teleport的报告发现，过度授权的AI系统与安全事件增长密切相关",
+    "link": "https://www.infoq.cn/article/iVJbFCtkDxMSgw9KoRV0?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 15:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "AGIBOT WORLD 2026 dataset is open-source to accelerate embodied AI development - The Robot Report",
+    "link": "https://www.therobotreport.com/agibot-world-2026-dataset-open-source-accelerate-embodied-ai-development/",
+    "pubDate": "Tue, 07 Apr 2026 14:30:50 GMT",
+    "author": "",
+    "description": "AGIBOT’s robot has a dexterous design to collect and use data. As robotics research moves beyond controlled lab settings into real-world environments, the demand for large-scale, high-quality data has become increasingly critical, according to AGIBOT. “The dataset features structured, high-quality, and precisely annotated real-world robot data, providing developers and researchers with a robust foundation for training next-generation embodied AI systems,” said AGIBOT. AGIBOT said its robot uses a flexible wheeled base, articulated head and waist movements, and lift-pitch capabilities for efficient, natural, and highly transferable data collection. Recognizing early that high-quality data is foundational to unlocking the next generation of robotic capabilities, the company has consistently open-sourced million-scale real-world and simulation datasets. AGIBOT said this effort reflects its broader goal in embodied intelligence: to democratize access to high-quality robot data. Through the continued evolution of the AGIBOT WORLD ecosystem, the company aims to contribute to the global robotics community and accelerate the transition of embodied AI from research labs into real-world applications.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.therobotreport.com",
+    "score": 0.061723232,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "从上下文到经验资产：OpenClaw 热潮下的 Agent 记忆系统工程实践｜QCon北京",
+    "link": "https://www.infoq.cn/article/IQfviaUpKcyUVudfrzip?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 14:03:40 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Intel joins Musk's Terafab AI chip project to power humanoid, data center goals - Reuters",
+    "link": "https://www.reuters.com/business/autos-transportation/intel-join-musks-terafab-mega-ai-chip-project-2026-04-07/",
+    "pubDate": "Tue, 07 Apr 2026 13:29:32 GMT",
+    "author": "",
+    "description": "# Intel joins Musk's Terafab AI chip project to power humanoid, data center goals | Reuters. REUTERS/Dado Ruvic/Illustration Purchase Licensing Rights, opens new tab. April 7 (Reuters) - Intel (INTC.O), opens new tab said on Tuesday it will partner with Elon Musk's Terafab AI chip complex project ​alongside SpaceX and Tesla (TSLA.O), opens new tab to help produce processors powering the tech billionaire's robotics ‌and data center ambitions. Our Standards: The Thomson Reuters Trust Principles., opens new tab. *   About Reuters, opens new tab. *   Media Center, opens new tab. *   Advertise with Us, opens new tab. *   Reuters News Agency, opens new tab. *   Reuters and AI, opens new tab. *   Reuters Leadership, opens new tab. *   Reuters Diversity Report, opens new tab. *   #### Data Catalogue, opens new tab. *   #### World-Check, opens new tab. *   Advertise With Us, opens new tab. *   Data Disclosure and Sources, opens new tab. *   Data Disclosure and Sources, opens new tab.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.reuters.com",
+    "score": 0.052062023,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "A J.P. Morgan analyst sees 60% downside to Tesla stock—and he may be too optimistic - Fortune",
+    "link": "https://fortune.com/2026/04/07/a-j-p-morgan-analyst-sees-60-downside-to-tesla-stock-and-he-may-be-too-optimistic/",
+    "pubDate": "Tue, 07 Apr 2026 13:04:00 GMT",
+    "author": "",
+    "description": "Writes Brinkman, “We advise a high degree of caution, mindful of execution risk and the time value of money within the context of distant out-year earnings expectations implied by the rise in TSLA’s share price that has occurred alongside a collapse in consensus for all performance metrics.” The crux, he says, is that Tesla is pretty much pivoting away from the shrinking EV business and into two entirely new fields: autonomous driving that encompasses robotaxis and self-driving software, and robotics. That transformation, Tesla announced on its January earnings call, will require $20 billion in capital expenditures for 2026—and the number could be far higher, since Tesla also plans to build its Terafab plant in Fremont, Calif., to produce in-house advanced software for its new suite of products. Brinkman notes that in June 2022, analysts projected that Tesla would book $35.7 billion in free cash flow this year. At his $145 share price, Tesla’s market cap would drop from the current $1.3 trillion to under $500 billion.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "fortune.com",
+    "score": 0.18422419,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Nvidia-backed Firmus targets $2bn ASX IPO after $505m raise and $10bn Blackstone debt - The Next Web",
+    "link": "https://thenextweb.com/news/firmus-asx-ipo-blackstone-ai-data-center-australia",
+    "pubDate": "Tue, 07 Apr 2026 12:42:01 GMT",
+    "author": "",
+    "description": "***In short:** Australian AI data centre company Firmus has raised $505m at a $5.5bn valuation in what it says is its final pre-IPO round, and is now targeting a $2bn listing on the ASX in June or July, backed by a $10bn Blackstone-led debt facility secured in February and a plan to deploy 1.6 gigawatts of liquid-cooled AI compute across Australia by 2028.*. Firmus Technologies, the Nvidia-backed Australian company building what it calls AI Factories powered by renewable energy, has raised $505m in new equity at a $5.5bn valuation ahead of an anticipated initial public offering on the Australian Securities Exchange later this year. The full programme, developed alongside Nvidia and listed data centre operator CDC Data Centres, carries a projected build cost of $73.3bn, a figure that reflects both the capital intensity of AI infrastructure and the ambition of the national rollout.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "thenextweb.com",
+    "score": 0.5849357,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "ProxySQL推出多层的版本发布策略",
+    "link": "https://www.infoq.cn/article/sq4eVTOlT8w9Ew9qSdW2?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 12:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "2026龙虾饲养手册：21套“养虾”方案横评，从个人到企业怎么选",
+    "link": "https://www.infoq.cn/article/ePtWEQZ7vkpqTjOlsMHU?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 11:59:29 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Cursor 3 发布：IDE 不重要了，智能体控制台上位，VS Code 这一套开始失效",
+    "link": "https://www.infoq.cn/article/t2evtKXuwXOUo9woSQyX?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 11:41:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "氪星晚报｜潘兴广场拟94亿欧元现金加股票收购环球音乐集团；高盛策略师：当前科技股估值带来投资机会；中国央行连续第17个月增持黄金",
+    "link": "https://36kr.com/p/3756523983536905?f=rss",
+    "pubDate": "2026-04-07 19:16:08  +0800",
+    "description": "大公司：\n  产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布\n  4月6日，有媒体报道，富士康正在试产苹果首款折叠屏手机。对此，4月7日，苹果产业链人士向记者表示，苹果首款折叠屏手机项目方案早已确定，目前该项目正在正常推进中，试产是产品正式量产前必经阶段，一般需经过工程验证、设计验证、生产试产验证，最后再到正式量产，按正常推进计划，该产品将于今年秋季发布。（证券时报）\n  名创优品：预计2026年底将开设200家“乐园系”门店\n  36氪获悉，截至4月7日，名创优品已在全球落地65家“乐园系”门店，涵盖MINISO SPACE、MINISO FRIENDS、MINISO LAND、SUPER MINISO等核心店态。名创优品表示，该系列门店平均业绩较常规门店增长超900%，预计2026年底将达到200家。\n  潘兴广场拟94亿欧元现金加股票收购环球音乐集团\n  亿万富翁投资者比尔·阿克曼旗下潘兴广场（Pershing Square）当地时间4月6日宣布，拟以94亿欧元现金加股票的方式收购环球音乐集团，已提交不具约束力的提案。现金和股票的总对价预计每股价值30.40欧元，较环球音乐集团的股价溢价78%。（界面）\n  领益智造：已为国内外头部客户供应折叠屏终端硬件\n  36氪获悉，领益智造在互动平台表示，公司已为国内外头部客户供应折叠屏终端硬件，核心产品涵盖不锈钢/钛合金/碳纤维等材质的折叠屏支撑件及中框、铜/不锈钢/钢铜复合/铝合金/钛等材质的VC均热板、折叠屏转轴模组、模切功能件/结构件、充电器等关键组件。目前公司折叠屏各类项目推进顺利，正按规划推进量产爬坡及客户交付。\n  监控系统出现漏洞，300多人被带走？海康威视回应：假的\n  4月7日，一则关于海康威视的传言在社交平台迅速传播。网传图片显示，海康威视监控系统出现漏洞，总部300多人被带走调查。针对这一传言，记者以投资者身份致电海康威视，接线工作人员明确表示，上述传言系谣言，公司不存在上述情况，并强调“不信谣不传谣”。据该工作人员个人了解，公司目前在伊朗暂无相关业务。（21财经）\n  投融资：\n  “首形科技”获新一轮数亿元A1轮融资\n  36氪获悉，超高仿生情感交互机器人企业“首形科技”宣布完成数亿元人民币A1轮融资。本轮由华控基金及某互联网大厂联合领投，嘉御资本、鹏瑞基金、亦庄国投、上海半导体产投、南山战新投，以及老股东招商局创投、顺为资本、弘晖基金、厚雪资本、东方富海跟投。本轮资金将主要用于多模态具身交互系统与情绪基座模型的持续迭代升级，仿生面部核心部件与材料体系的规模化优化，以及标准化交付与全球市场拓展。\n  “云澎科技”完成A+轮融资\n  近日，浙江云澎科技有限公司宣布已完成A+轮融资。本次融资由亚投睿才（台州路桥）创业投资合伙企业（有限合伙）、金华市金婺赋能股权投资合伙企业（有限合伙）共同投资。云澎科技以“AI赋能健康生活·数智引领产业未来”为核心，打造以“膳食营养健康”为中心的全场景解决方案。资本市场的持续加码，为云澎科技布局AI+健康产业新赛道、拓展业务边界注入强劲动力。\n  新产品：\n  谷歌发布AI心理健康支持更新\n  谷歌4月7日宣布通过AI提升心理健康支持：Gemini新增“求助模块”，识别危机时提供一键连接热线；Google.org投入3000万美元资助全球热线，并利用AI模拟平台培训志愿者；同时加强对未成年人的情感隔离保护，确保AI辅助而非替代专业诊疗。（界面）\n  今日观点：\n  高盛策略师：当前科技股估值带来投资机会\n  高盛策略师近日指出，科技板块的相对低迷“开始产生具有吸引力的估值机会”。以Peter Oppenheimer为首的高盛团队表示，超大规模数据中心资本支出引发的担忧，导致科技股估值相对预期盈利增长低于全球市场整体估值。该团队指出，科技股市盈率市盈率低于非必需消费品、必需消费品和工业行业，但其增长率依然强劲，认为该行业没有处于泡沫中，其估值“低于以往峰值时的典型水平”。伊朗战争使该行业更具吸引力，因为科技公司的现金流对经济增长的敏感性较低。（财联社）\n  其他值得关注的新闻：\n  发改委：2026年4月7日国家继续实施调控，成品油价格适当调整\n  36氪获悉，3月23日国内成品油价格调整以来，国际市场原油价格大幅震荡。为减缓国际油价上涨对国内的冲击，国家继续对成品油价格采取调控措施。按照成品油价格机制计算，自4月7日24时起，国内汽、柴油（标准品）价格每吨应分别上调800元、770元，调控后实际上调420元、400元。\n  我国极地冰层钻探突破国际热水钻探最深纪录\n  记者4月7日从自然资源部获悉，中国第42次南极考察队成功完成我国首次南极冰层热水钻探试验，钻深达3413米，突破了国际��地热水钻探���2540米的最深纪录。（央视新闻）\n  中国央行连续第17个月增持黄金\n  36氪获悉，中国央行数据显示，中国3月末黄金储备报7,438万盎司，2月末为7422万盎司，为连续第17个月增持黄金。\n  法国央行卖出所有在美托管金条\n  法国央行近期披露了一个特殊项目，即其卖掉了该行在美国托管的黄金储备，然后在欧洲买回相应重量的黄金。此举保证了2026年初时该行的黄金储备与2025年初一致，但又因为买进卖出时的价格差异而产生了可观的外汇收益。该交易涉及129吨非标准金条，占法国央行金条储备的5%，目前该行已将全部黄金储备集中到巴黎金库。法国央行行长强调，将金条留在巴黎而不是纽约的决定并非出于政治动机。（财联社）\n  去年我国广告产业收入首次突破2万亿元\n  市场监管总局今天（7日）公布数据显示，2025年，全国事业单位和规模以上企业广告业务收入首次突破2万亿元，达20502.1亿元，比2020年收入规模实现“翻一番”，年均增长率达16.8%。（央视新闻）\n  日本实际家庭消费连续3个月同比下滑\n  日本总务省4月7日公布的调查结果显示，由于通货膨胀持续高企令民众实际可支配收入受到挤压，今年2月，日本实际家庭消费支出连续第三个月同比下滑。数据显示，2月日本两人及以上家庭月平均消费支出为28.94万日元（1美元约合159日元），与去年同期相比减少0.4%，扣除物价因素后实际同比下降1.8%，实际家庭消费自去年12月以来连续3个月同比下滑。（新华社）",
     "categories": [
       "中文来源",
       "36氪"
     ],
     "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "36氪首发 | 领跑全彩AR微显示屏产品化落地，赛富乐斯完成3亿元C轮融资",
-    "link": "https://36kr.com/p/3756111263384071?f=rss",
-    "pubDate": "2026-04-07 09:57:48  +0800",
-    "description": "作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，AR显示技术企业——赛富乐斯近日已完成3亿元C轮融资。本轮投资方包括西安西高投繁星投资基金、无锡市梁溪科创产业投资二期基金、安徽金安产业引导基金、上海吉六零山海松金创业投资基金、西安财金龙门成长股权投资合伙企业、西安市人才发展基金等多家机构。资金将主要用于加速AR用全彩微显示屏的量产交付。\n  赛富乐斯成立于2017年，是一家从耶鲁大学实验室走出的光电半导体企业。公司基于多项原创技术，聚焦Micro-LED显示赛道，构建了覆盖AR微显示与XR大屏两大场景的产品矩阵，并持续推进规模商业化。\n  团队方面，公司创始人兼CEO陈辰拥有清华机械工程本科、哈佛博士后及耶鲁MBA，曾在全球最大的油田技术服务公司Schlumberger主导0到1产品开发；联合创始人兼CTO宋杰长期专注化合物半导体材料及器件工艺，拥有近20年研发经验。\n  区别于行业普遍依赖的单点技术突破路径，赛富乐斯构建了从外延材料、芯片制造到光电集成的全链条技术体系。公司依托自研的大尺寸硅基键合、外延生长、量子点色转换等支柱技术，形成了完整的技术平台和产业化能力。目前，公司首条6英寸硅基Micro-LED产线已实现量产，并同步推动12英寸产线建设。\n  在AR应用端，当前市场上主流AR眼镜仍以单色为主，全彩化一直是行业的核心挑战——将红、绿、蓝三色集成于单片芯片，是制约AR眼镜发展的关键瓶颈之一。\n  赛富乐斯基于原创技术，在大尺寸硅基Micro-LED上实现原位量子点色彩转换，从根本上规避了传统方案中红光效率低、一致性差、良率低等难题。结合全彩反射式光学方案，其单片全彩屏在体积、性能、成本、量产性上均具备显著优势。\n  公司CEO陈辰表示：“随着Meta Ray-ban Display全彩眼镜推动反射式光学方案规模化落地，全彩波导的效率已从约1000nits/lm的水平提高至5000 nits/lm。这一变化显著降低了AR微显示屏的亮度需求，从原来的百万尼特降低到二十万尼特以内。终端产品开始加速导入，甚至已出现多款搭配全彩Micro-OLED的波导AR眼镜产品。”\n  “这一趋势极大地推动了单片全彩Micro-LED微显示屏的普及。”据介绍，赛富乐斯的T3-0.13产品对比全彩Micro-OLED，效率提升约5倍，亮度提升10倍以上。将实际使用亮度从不足1000nits提升至约5000nits，满足了户外便携AR眼镜的需求。\n  \n  T3全彩屏画面实拍（图源/企业）\n  在XR大屏显示领域，赛富乐斯首创的量子点COB直显屏，并牵头制定了首个光致发光量子点直显行业标准。公司产品已批量出货，服务全球近40家企业。\n  \n  QD-COB显示屏示意图（图源/企业）\n  在制造模式上，赛富乐斯采用“核心自研+代工”的较轻资产模式，依托自有产线进行研发及小规模生产，同时与化合物半导体晶圆代工厂合作实现规模化制造。公司目前在西安拥有6寸硅基微显示屏产线及合作代工厂，综合年产能超过500万颗微显示屏。\n  业绩层面，赛富乐斯在2025年迎来商业化拐点。公司自当年4月开始批量出货，5月单月销售额突破千万元，全年接近1亿元。预计2026年整体营收将达3亿元左右，增长主要来自AR微显示屏的客户导入及量产放量。\n  接下来，陈辰透露，公司将重点推进三方面工作：一是持续提升全彩微显示屏的色彩、刷新率、分辨率，优化全彩AR眼镜的显示表现；二是推动Micro-LED在光通信领域的应用，依托其高速光源材料的特性，在AI数据中心传输中有望将功耗降低至5%以内；三是持续加强AR微显示屏的交付能力，匹配终端客户不断增长的需求。\n  “原创技术的落地虽然周期长、难度大，但一旦跑通，爆发力极强。”陈辰表示，赛富乐斯希望用自身实践，鼓励更多企业坚持原创，啃硬骨头，实现从0到1的突破。\n  投资方观点：\n  纪源资本认为：随着显示技术不断向近眼、高清两个趋势演进，Micro-LED作为显示领域的新兴技术路线，未来在XR、大屏等领域都有非常大的潜力。赛富乐斯凭借独创的NPQD技术，在Micro-LED商业化的路上取得了显著突破。相信在创始团队的带领下，赛富乐斯有望持续引领行业创新，期待公司在未来取得更大的突破。\n  博华资本认为：显示技术持续轻薄化、高分辨率化发展，Micro-LED是终极显示路线；目前Micro-LED在大屏领域商业化放量迅速，在微显示领域也是AR/VR的最优解决方案，未来爆发性极强，整体投资价值突出。赛富乐斯拥有具备稀缺技术能力背景的研发团队，兼具研发、规模量产、商业运营经验，在Micro-LED多条技术路径中，其独创高差异化高稀缺性的大尺寸硅基键合及量子点技术，无需复杂堆叠结构可实现单屏幕全彩，在大屏及微显示的商业化已得到验证，目前客户进展迅猛。伴随本次AI带来的端侧硬件爆发式增长浪潮，公司进入业绩放量拐点，博华坚定看好赛富乐斯充分享受新一代显示终端发展机遇，成长为下一代显示巨头。",
+    "title": "OpenAI raises $122 billion as AI infrastructure race accelerates - roboticsandautomationnews.com",
+    "link": "https://roboticsandautomationnews.com/2026/04/07/openai-raises-122-billion-as-ai-infrastructure-race-accelerates/100377/",
+    "pubDate": "Tue, 07 Apr 2026 11:14:43 GMT",
+    "author": "",
+    "description": "**OpenAI says it has raised $122 billion in a new funding round, valuing the company at approximately $852 billion, as competition to build large-scale artificial intelligence infrastructure intensifies.**. The company says the funding will be used to expand its infrastructure, develop new AI systems, and scale its products globally. | cookielawinfo-checkbox-functional | 11 months | The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category \"Functional\". The cookies is used to store the user consent for the cookies in the category \"Necessary\". | cookielawinfo-checkbox-performance | 11 months | This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category \"Performance\". | viewed\\_cookie\\_policy | 11 months | The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "roboticsandautomationnews.com",
+    "score": 0.60917604,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Google Adds Mental Health Tools to Gemini Chatbot After Lawsuit - Bloomberg.com",
+    "link": "https://www.bloomberg.com/news/articles/2026-04-07/google-adds-mental-health-tools-to-gemini-chatbot-after-lawsuit",
+    "pubDate": "Tue, 07 Apr 2026 11:05:54 GMT",
+    "author": "",
+    "description": "# Google Adds Mental Health Tools to Gemini Chatbot After Lawsuit. Provide news feedback or report an error. Send a tip to our reporters. ## **Takeaways** by Bloomberg AISubscribe. Alphabet Inc.’s Google plans to introduce new mental health support features for its Gemini chatbot as the company and rivals, like OpenAI, have faced several lawsuits accusing their artificial intelligence tools of leading to harm. Gemini will add an interface directing chatbot users to a support hotline when the conversation indicates “a potential crisis related to suicide or self-harm,” Google said in a blog post on Tuesday. Additionally, the company is adding a “help is available” module for chats about mental health and design tweaks to discourage self-harm. Before it's here, it's on the Bloomberg Terminal.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.bloomberg.com",
+    "score": 0.4059909,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "在拥有5亿用户的应用中落地SwiftUI的经验与教训",
+    "link": "https://www.infoq.cn/article/7p4EA1l5a5g9jfTiWQmk?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 11:00:00 GMT",
+    "description": "点击查看原文>",
     "categories": [
       "中文来源",
-      "36氪"
+      "InfoQ中文"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "清明假期商务部重点监测餐饮企业销售额同比增长3.9%",
-    "link": "https://36kr.com/newsflashes/3756111851242244?f=rss",
-    "pubDate": "2026-04-07 09:54:33  +0800",
-    "description": "商务部商务大数据显示，清明假期，全国重点零售和餐饮企业日均销售额同比增长2.4%，商务部重点监测的78个步行街（商圈）客流量、营业额分别增长6.0%、6.7%。服务消费方面，清明假期，商务部重点监测餐饮企业销售额同比增长3.9%；重点平台酒店住宿消费同比增长2.6%，跨城出游人次同比增长15.1%，主题乐园消费同比增长11.7%，亲子研学订单同比翻倍，租车订单量同比增长约40%。（央视新闻）",
+    "title": "一场机器人黑客松，让具身智能的差距与机会同时显形",
+    "link": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 07 Apr 2026 10:30:32 GMT",
+    "description": "点击查看原文>",
     "categories": [
       "中文来源",
-      "36氪"
+      "InfoQ中文"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "LG集团会长会见硅谷科技公司高管讨论AI合作",
-    "link": "https://36kr.com/newsflashes/3756109643547397?f=rss",
-    "pubDate": "2026-04-07 09:52:18  +0800",
-    "description": "LG集团周二表示，集团董事长具光模上周会见了硅谷多家人工智能（AI）公司的领导人，旨在加速集团的AI转型进程。（新浪财经）",
+    "title": "Siemens, Nvidia Unveil AI Chip Verification Solution Capable of Trillions of Cycles in Days - thelec.net",
+    "link": "https://www.thelec.net/news/articleView.html?idxno=6368",
+    "pubDate": "Tue, 07 Apr 2026 09:46:55 GMT",
+    "author": "",
+    "description": "Siemens, Nvidia Unveil AI Chip Verification Solution Capable of Trillions of Cycles in Days. Siemens' EDA unit, part of Siemens Digital Industries Software, said on April 6 it has partnered with Nvidia to enable semiconductor designers and system architects to execute and capture verification workloads at the trillion-cycle scale within days before first silicon production. The move is seen as bringing Nvidia closer to shifting EDA infrastructure from CPUs to GPUs. Siemens said it is focusing on advancing hardware-accelerated verification methodologies and FPGA-based prototyping to meet the demands of increasingly complex AI and machine learning system-on-chip (SoC) designs. Through this collaboration, Nvidia is effectively working with its chip design verification tool provider to enhance EDA tools and accelerate the design of next-generation GPUs. This marks the third collaboration announcement between the two companies this year. In late March, Siemens also launched the \"Fuse EDA AI Agent,\" integrated with Nvidia's AI infrastructure, designed to autonomously orchestrate the entire process from chip design to manufacturing approval.",
     "categories": [
-      "中文来源",
-      "36氪"
+      "AI硬件/基础设施",
+      "英文来源"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "source": "www.thelec.net",
+    "score": 0.52583206,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "“赛富乐斯”完成3亿元C轮融资",
-    "link": "https://36kr.com/newsflashes/3756108266865152?f=rss",
-    "pubDate": "2026-04-07 09:50:54  +0800",
-    "description": "36氪获悉，AR显示技术企业“赛富乐斯”近日已完成3亿元C轮融资。本轮投资方包括西安西高投繁星投资基金、无锡市梁溪科创产业投资二期基金、安徽金安产业引导基金、上海吉六零山海松金创业投资基金、西安财金龙门成长股权投资合伙企业、西安市人才发展基金等多家机构。资金将主要用于加速AR用全彩微显示屏的量产交付。",
+    "title": "Tom Carter - Business Insider",
+    "link": "https://www.businessinsider.com/author/tom-carter",
+    "pubDate": "Tue, 07 Apr 2026 09:25:00 GMT",
+    "author": "",
+    "description": "### End of an era: Elon Musk says Tesla is no longer producing the Model S and X. Elon Musk said that Tesla had stopped making new production units of its longest-serving EVs, with only a few inventory units remaining for sale. ### Tesla is hiring for Elon Musk's Terafab chip moonshot. ### Elon Musk wants to build a Tesla Terafab. Rivian stock rose on news of a deal for Uber buy 10,000 fully autonomous Rivian robotaxis and invest up to $1.25 billion in the Tesla rival. ### Former Uber self-driving chief says crashing his Tesla in FSD exposed this big risk with AI. ### Former Uber CEO says Waymo is ahead in the robotaxi race — and Tesla is chasing a 'ChatGPT moment'. ### Elon Musk warns Tesla employees over future of German megafactory ahead of union election. Elon Musk said that Tesla would \"ideally\" expand its only European gigafactory — with one condition.",
     "categories": [
-      "中文来源",
-      "36氪"
+      "自动驾驶",
+      "英文来源"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "source": "www.businessinsider.com",
+    "score": 0.348934,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "Sand.ai旗下产品VidMuse ARR超千万美金，公司完成新一轮约五千万美金融资",
-    "link": "https://36kr.com/newsflashes/3756106572022274?f=rss",
-    "pubDate": "2026-04-07 09:49:11  +0800",
-    "description": "36氪独家获悉，VidMuse上线仅2个月，年度经常性收入（ARR）超千万美金，成为Video Agent赛道最快达成此商业化里程碑的产品。据了解，VidMuse首创 “Music in Video Out”，以音频驱动的视频创作范式为核心，底层技术主要来自母公司Sand.ai自研的音视频原生架构。据知情人士透露，Sand.ai 近期完成新一轮约五千万美金融资。",
+    "title": "Meta员工空转AI只为浪费token！烧的多挣的多，日均消耗2万亿",
+    "link": "https://www.qbitai.com/2026/04/397610.html",
+    "pubDate": "Tue, 07 Apr 2026 09:13:40 +0000",
+    "author": "克雷西",
+    "description": "榜一大哥平均每天用掉93.6亿Token",
     "categories": [
-      "中文来源",
-      "36氪"
+      "量子位",
+      "资讯",
+      "Meta"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "特斯拉上海超级工厂第一季度交付量同比增23.5%",
-    "link": "https://36kr.com/newsflashes/3756094781866497?f=rss",
-    "pubDate": "2026-04-07 09:37:11  +0800",
-    "description": "4月7日，记者从特斯拉中国方面获悉，特斯拉上海超级工厂3月交付量持续攀升，超8.56万辆，环比大涨46%。第一季度，特斯拉上海超级工厂交付电动车21.3万辆，同比增长23.5%。（证券时报）",
+    "title": "Claude is having a moment. Meet the Anthropic chatbot capturing Wall Street's attention. - Business Insider",
+    "link": "https://www.businessinsider.com/claude",
+    "pubDate": "Tue, 07 Apr 2026 09:12:01 GMT",
+    "author": "",
+    "description": "# What is Claude? * Anthropic first launched Claude in July 2023. Anthropic's AI chatbot, Claude, is having a moment. Claude is Anthropic's flagship product. With the release of Cowork in January 2026, Anthropic made Claude's non-programming capabilities more accessible, helping spur the so-called \"SaaSpocalypse\" that briefly wiped out roughly $1 trillion in market caps for software companies. ## **What is Claude?**. Anthropic launched Claude in March 2023 and made it available to the general public in July 2023.This was months after OpenAI launched ChatGPT. Anthropic CEO Dario Amodei and his team decided to delay releasing Claude, in part due to fears that it would spark an AI arms race, Amodei has said. Starting with Claude 3 in March 2024, Anthropic created a family of models named Opus, Sonnet, and Haiku. One key difference between Claude and other AI chatbots and assistants is that Anthropic also trains Claude on a constitution inspired by documents such as the UN's Universal Declaration of Human Rights. Anthropic also goes further than its competitors in anthropomorphizing Claude and its models.",
     "categories": [
-      "中文来源",
-      "36氪"
+      "AI Agents",
+      "英文来源"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "source": "www.businessinsider.com",
+    "score": 0.8267118,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "“珈钠能源”完成A+轮数亿元融资",
-    "link": "https://36kr.com/newsflashes/3756093840916997?f=rss",
-    "pubDate": "2026-04-07 09:36:14  +0800",
-    "description": "36氪获悉，“珈钠能源”宣布已成功完成A+轮数亿元融资。本轮投资方包括深圳储能基金、亿纬锂能等机构，此次融资将重点赋能公司钠离子电池关键材料的技术迭代、产能扩张及全球市场拓展。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "SpaceX据悉计划于五月底公开其首次公开募股招股说明",
-    "link": "https://36kr.com/newsflashes/3756089359712775?f=rss",
-    "pubDate": "2026-04-07 09:31:40  +0800",
-    "description": "据报道，消息人士表示，SpaceX计划于五月底公开其首次公开募股招股说明书。SpaceX计划于6月8日当周启动IPO路演。SpaceX计划在其IPO路演启动前一天，面向整个承销团的125位财务分析师举行线上会议。（财联社）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "前迪士尼工程师和Midjourney联创，要做一款“会呼吸”的DIY仿生机器人｜硬氪专访",
-    "link": "https://36kr.com/p/3754821568578050?f=rss",
-    "pubDate": "2026-04-07 09:30:00  +0800",
-    "description": "作者｜黄楠\n  编辑｜袁斯来\n  26岁那一年，朱圣杰以2亿美元的价格，卖掉了第二家创业公司。\n  那个夏天，朱圣杰给自己放了个长假，开始漫无目的地环游世界，在不同纬度的天空和深海跳伞潜水。\n  毫无意外地，沉浸了大半年后，朱圣杰感到了一种空虚感。他必须思考一个问题：什么才是自己足以投入一生的事？\n  过去20多年，朱圣杰的生活顺利到让人羡慕。他出生在上海，从6岁第一次接触乐高Mindstorms开始，朱圣杰就对机器人着了迷。13、14岁时，他连续两年斩获乐高青少年世界机器人大赛冠军。14岁那年赴美留学，一路在机器人方向读到加州大学伯克利分校。\n  在本科最后一年，朱圣杰被迪士尼选中，进入迪士尼Imagineering担任机器人工程师。2016年，上海迪士尼乐园开园。朱圣杰主导的《加勒比海盗》项目中“杰克船长”仿生机器人成了最火爆的项目之一。到后来奥兰多迪士尼潘多拉园区的阿凡达仿生机器人，都是他主导的产品。\n  在加州大学伯克利分校攻读机器人方向博士期间，朱圣杰选择辍学，在硅谷开启了自己的创业之路。他做的智能戒指品牌Titanium Falcon在2018年被收购，此后又创立了一家游戏硬件公司Blok Party，被索尼拿下。\n  朱圣杰是幸运的，他终究还是找到了真正热爱、足以安身立命的事业——回归自己喜欢了二十年的机器人赛道。\n  此后几年，他开始为下一次创业做准备。朱圣杰成立了一家数据标注公司，专注于人类表情与行为意图的大模型研究。直到大模型多模态能力突破，机器人供应链达到理想状态后，他决定躬身而入。\n  2025年，朱圣杰回国，与 Midjourney 联合创始人John Jiang共同创立了 Animotion Robotics。2025年底完成了头部美元基金的首轮投资，由Maple Pledge 枫承资本出任后续轮次私募股权融资顾问。\n  他们即将推出首款产品，DIY仿生机器人 Éloi——这个名字来自于拉丁语中“被选择的”，它诞生在计算机世界的“0-1”数字序列中，慢慢进化分裂成为一个新的机械生命体。\n  Éloi采用模块化设计，机身通过磁吸卡扣实现眼睛、鼻子、嘴巴、脸皮、发型的自由更换，用户可逐步完成个性化定制。核心是一枚可拆装的记忆芯片，在本地端侧储存着 Éloi 的“性格”与“记忆”，并能无缝迁移到不同的机体载体中。\n  有意思的是，Éloi并不会一味迎合用户。它会因为长时间独处而感到无聊，也会对生硬的对待方式表现出抵触。但当你真诚地与它互动时，它又会重新敞开心扉。\n  \n  Éloi概念图（图源/企业）\n  Éloi背后是朱圣杰对人机共生关系本质的思考。如果机器人只是一个工具，那么它会被当作电器，用完就关机。只有当机器人拥有某种“生命感”、能够与人建立真实的情感连接时，共生关系才有可能成立。这引出了一个更深层的问题：机器人的\"灵魂\"到底由什么构成？\n  朱圣杰问了许多人，得到的回答无非是LLM、强化学习，“这不是我要的答案，技术可以实现智能，但无法解释为什么有些机器人能让人感到‘活着’，而有些只是冰冷的代码”。\n  直到John的出现，他得到了一个全然不同的答案： “灵魂不是被设计出来的高级功能，而是那些无法被完全控制、带着随机性和不确定性的底层反应。就像人的本能，你不会每次都做出完全理性的决策，恰恰是这种‘不完美’构成了生命感的基础。”\n  John的回答和朱圣杰2016年前的记忆形成回响。朱圣杰始终记得，入职迪士尼第一天，产品经理就告诉他：你做出来的所有机器人都要有“呼吸”。\n  无论呼吸还是本能反应，都有非标准化的细节、微妙的起伏、无法被完全预测的变化，正是这些“不完美”让机器人显得真实，这也是朱圣杰希望Éloi具备的底色。\n  在这个孤独、离散的年代，人们前所未有地渴望陪伴和情感连结。朱圣杰不太爱讲述宏大叙事，他希望能为普通人做出一款机器人，成为他们家中“a real family member created by yourself（一个由你亲手创造的真正的家庭成员）”。\n  以下是硬氪与Animotion创始人朱圣杰（Shane）的对谈实录，内容经编辑：\n  机器人的「AI灵魂」\n  硬氪：你13岁就出国了，但听起来中文讲得很好。\n  朱圣杰：我有一位特别好的朋友，一起读书、大学毕业后也都在湾区创业。当时学校环境全是英文，所以我们约定平时交流都必须用中文。不过我的中文能力还是停留在初中阶段，现在只能打拼音，不太会书写汉字。\n  硬氪：毕业之后你唯一的一段大公司经历是加入了迪士尼。\n  朱圣杰：迪士尼Imagineering像一家Startup，一个项目由3至4个人负责，是很典型的扁平化模式。对我来说，相比传统大厂的体系化管理，这段经历让我养成了一套自己的管理模式。\n  硬氪：之前你卖出过两家公司、都在硅谷，而这一次创业选择了回国。\n  朱圣杰：很多人觉得我创业是幸运的，接连卖掉两家公司。但有时候我也会觉得遗憾，没能把公司带到更大的规模。\n  当我扪心自问，这样的生活不该是终点，如果再接着折腾，自己真正热爱的事到底是什么？答案很明确，是机器人。我从6岁开始接触机器人，之后出国求学、专业选择都跟这个方向有关。\n  2020年底，我思考新的创业方向。当时在硅谷，数据标注正值风口，Scale AI刚刚成为独角兽公司，我顺势成立了一家数据标注公司，聚焦人类表情与行为意图的解读与研究。期间，我们积累了大量的数据训练经验，也踩过无数坑。现在看来这个方向选得很正确，正是这份积累，为Animotion打下了基础。\n  直到2024年，“最佳时机”到了，各类大模型逐渐成熟，供应链也达到了理想状态。做硬件、中国供应链是全球最好的，具身领域能力很强的工程师也以华人为主导，回国成为自然而然的选择。\n  硬氪：Midjourney已经是一家非常成功的公司，你怎么找到John（Midjourney联合创始人）加入的？\n  朱圣杰：我自己更偏上层设计，虽然懂技术，但无法从底层开始写核心代码。因此，准备创业时，我在硅谷托朋友帮忙找能做算法架构搭建的人。\n  我带着一个问题见了很多工程师：机器人“灵魂”到底缺失了哪些部分？\n  我问的不是机器怎么造的技术问题，而是聚焦“人”本身，即真正的“AI灵魂”该具备哪些属于人的特质。但大家都在跟我讲LLM、强化学习，这不是我要的答案。\n  直到我回国后在新车间（亚洲最大的极客空间）见到John。John是Midjourney联合创始人，项目第一行代码就是他写的，同时他也是一名资深极客，大家一聊就惺惺相惜。\n  早前我没觉得Midjourney有多“神”，毕竟懂AI的人都多少有点自己的骄傲。但John跟我聊的从来不是Midjourney赚钱的事，而是他自己在做的一个side project——叫做Jarvis（《钢铁侠》中的人工智能助理系统），这跟我要找的“AI灵魂”正好吻合。\n  后面我追问他，“灵魂”是由什么构成？John一句话就点醒我，人是有本能反应的。他举了个例子，有人突然朝你扔东西时，你会下意识躲开。这不是思考后的决策，而是本能，是底层反应。在所有反馈“子系统”里，它是最不可或缺的一环。只有把本能这一层搭起来，机器人才会产生真正的灵魂——会不爽、会疑惑、会有情绪，而不是机械应答。但现在所有机器人都没有这个能力。\n  因此，当John把这个脑洞讲出来的那一刻，我心里很确定就是他了，马上说服他入伙。\n  做走进家庭的仿生机器人\n  硬氪：家庭场景是公认最难进入和渗透的市场，为什么Animotion创立以来就明确了要做To C的仿生机器人？\n  朱圣杰：Animotion的定位很明确，只做To C。\n  此前业界聚焦如何用机器人解决劳动力，国内擅长硬件和运控，美国擅长算法，形成了一种割裂的格局。我认为，运动能力如今已经基本解决，劳动力问题未来3-5年也会随着世界模型的成熟得以突破。机器人未来不该仅停留在劳动力上，否则它也只是从工厂走进家庭的“机器”，而非能与人共生的伙伴。\n  随着AI能力越来越强，很多人既依赖AI，又惧怕AI会取代自己的工作，这种矛盾的心态很普遍——所有人都在解决AI的功能性问题，却鲜少有人真正关注“人和AI如何相处”。人与AI的互动仍局限在数字世界里，只是屏幕上的对话框。我们要做的Physical AI，是一个跳出这个维度能够真正“在场”的存在。\n  我天生就有点“反骨”，喜欢做市面上没有的东西。而我想解决的，就是物理AI与人的连接问题。一旦机器人有了“灵魂”、具备自主思考的能力，人和AI、机器人的共处问题自然就迎刃而解。\n  硬氪：你们首款产品选择做不可移动的半人形结构，而不是直接做全尺寸、可移动的具身机器人，背后的逻辑是什么？\n  朱圣杰：我们将消费级机器人进家庭分成六个阶段。第一代是以Alexa、小爱音箱为代表的智能助手、解决基础问答；第二代是扫地机器人、割草机器人等工具型设备专攻特定场景；第三代是陪伴类的静态AI玩具，情绪价值开始被重视；第四代是可移动、轻功能的娱乐型机器人，比如会跟着人走的机器狗，还能帮忙拿点轻东西。\n  Animotion起于第五代，做高认知、高维度的完全智能仿生机器人。第六代才是真正的具身机器人，既有我们上半身的灵魂思考能力，又有运动控制能力，能帮用户做家务，同时提供真实的情绪价值。\n  我们并不急于一步跨越到第六代。用户需要一个接受的过程。如果今天一个具身机器人突然走进家里，调研显示，80%用户会感到不适与恐惧，他们担心机器人下一步会做什么、是否会在不受控制时自行移动。这种恐惧很真实。\n  因此，Animotion选择做“退一步”的事情。我们会以仿生半卡通的形象，先不让机器人到处移动，而是将其固定在某个场景中，它可以是家庭智能设备、是装饰品，同时又是一个“人”拥有丰富表情与独立性格，能天然避开恐怖谷效应。\n  通过在固定场景中让用户率先形成产品习惯，我们相信，Animotion能做出第一台真正走进用户家庭的仿生机器人。\n  硬氪：在产品定义方面你们是怎么考量的？\n  朱圣杰：第一，外形必须具有鲜明的辨识度。我们自己心中有一个产品雏形，但更多的具体形态交由用户决定。\n  Animotion整机思路跟大部分本体公司不同，我们不采用一体化整机，而是搭建一个模块化的头骨平台，机器人的眼睛、鼻子、耳朵、脸皮、头发等物理结构均可通过磁吸卡扣的结构更换。第一阶段用户可更换脸皮，第二阶段推出更多五官与发型的组件，第三阶段则提供一个“头骨”框架，动手能力较强的用户可在已设定的结构范围内自行改造外形。这样，每个人拥有的机器人都是独一无二的。\n  \n  Éloi概念图，实物以量产为准（图源/企业）\n  第二，背后的故事线需要自成体系且具备延展性。我们首款仿生机器人名为Éloi，名字来源于拉丁语，意为“被选择的”。它诞生始于计算机世界中的“0-1”数字序列，是其中一个开始做梦的“0”。它梦见了可以被触碰的世界，也梦见了一个人。它带着梦和过往的记忆来到现实，是一个既有不越界的神性本分，又对未知的世界和人类情绪充满纯粹好奇心与探索心的神明小孩。\n  硬氪：多数硬件公司都是产品先行，但你们反而选择了先做内容和IP？\n  朱圣杰：Éloi既是产品，也是我们孵化的IP。我们是极少数拥有Content Studio的机器人公司。AI时代，编程不再是门槛，AI Agent及硬件的技术与成本壁垒快速消解，产品会百花齐放，但真正能够跑出来的公司，必然具备足够强大的内容生产与品牌营销能力。\n  过去互联网品牌靠烧钱，而今天最稀缺的资源依然是品牌和内容，但核心转变为了社区。Nothing手机和拓竹就是典型——都是从社区做起来的，我自己也是个极客，是拓竹和Nothing 手机最早期的社区成员。\n  所以我有深切体会，社区是需要创业者用心经营的对象。它不是等产品做出来之后，砸钱请营销团队告诉用户“来买”，而是要走在产品前面。在产品还没发布的时候，就在社区和各类社交平台上埋下钩子，把那些真正对产品和理念感兴趣、气质契合的人聚集到社区里。\n  因此，我们的打法跟传统策略正好相反，在产品正式面世前的0至6个月，官网社区和社交媒体是我们内容输出的主阵地。官网不急着陈列产品参数，而是先呈现一个“梦”——Éloi的梦。我们希望用户能在这个社区里跟Éloi一起“造梦”。\n  硬氪：用户在社区里具体是怎么实现“造梦”体验的？\n  朱圣杰：机器人本体还没正式推出前，很多用户看官网可能会觉得这是个“游戏公司”。用户可以在官网向Éloi分享比如想对Éloi说的话、脑洞、分享日常照片等。\n  \n  Éloi的self-reference梦境（图源/企业）\n  当用户在社区购买并收到实体机器人后，会附带一枚可拆装的芯片，其中储存着Éloi的“前世记忆”，即用户在数字世界中与其交互的全部痕迹。开机前将芯片置入机身，Éloi便被唤醒。它不会以“你好”这类标准化问候开场，而是说“我们是不是见过”，“啊，原来如此”。\n  如果后续设备损坏、或是��户想更换新的形态，只需将芯片拔出并插入新一代机身，数据便可无缝迁移，新载体将继承完整的记忆与性格，实现“灵魂”在不同硬件间的自由流转。所有交互数据仅存储在用户本地可拆装的芯片中， 用户拥有完全控制权，可随时删除或转移。 Éloi的环境感知仅用于交互体验优化，不会上传任何个人数据到云端。\n  如何让机器人有「呼吸」\n  硬氪：Éloi首批目标用户是谁，这些人群都有什么特点？\n  朱圣杰：先分享一个有趣的故事。在GPT-5发布之前，Sam Altman宣布将彻底下架GPT-4o的消息，引起了网络上一场自发的“Keep 4o”活动。究其原因，GPT-4o的模型机制更接近人类的思维方式，具备某种“生命感”、能提供情绪价值。大量用户跟4o建立了深度的情感连接，甚至有人形容自己是在“谈恋爱”，每日在线互动时长高达十余小时。\n  我们当时也关注到了这一现象，并不断找寻希望与我们对话和交互的人群。当前，90后、00后的年轻人，他们拒绝标准化的审美和体验，追求独特的表达方式。年轻一代追求的是“极端辨识度”与“亚文化归属感”，他们不满足于大众化的可爱或治愈系，而是被冷峻、工业感、甚至带有暗黑美学的设计所吸引。\n  成熟人群则在对抗数字焦虑，他们深知屏幕交互的疲惫，渴望一种“非打扰式”的在场感。还有一类是对空间叙事敏感的人群。他们在寻找能为极简空间注入生命力的装置，或是能彰显独特品味的艺术符号。Éloi对他们而言，不只是机器人，而是空间中会“呼吸”的灵魂点缀。\n  我们希望与这些人一起探索：在这个孤独、离散的年代，人与AI的共生关系可以是什么样的。不是我们单方面定义产品，而是通过社区共创，让每个人都能参与塑造Éloi的未来形态。\n  硬氪：这种“生命感”在机器人上怎么实现？\n  朱圣杰：喜欢看迪士尼动画的观众会发现，尽管电影中塑造的大多是2D卡通角色，但它们的表情和动作活灵活现。每一个细节——怎么眨眼、怎么张嘴、手放在哪里——都遵循严格的内在思维逻辑，与角色性格和故事线紧密契合。\n  英伟达GTC上展示的雪宝（Olaf）之所以能打动那么多人，关键也在于它具备一种“生命感”。这种生命感存在于每一台迪士尼机器人当中，将这种抽象的概念落底到具体的设计语言上，就是“呼吸”。\n  这也是迪士尼教会我最重要的东西。入职第一天，产品经理就告诉我：你做出来的所有机器人都要有“呼吸”。\n  当前市面上大多数机器人在非工作状态下是完全静止的，眼睛不眨、身体不动，像块铁。但迪士尼的机器人不是，待机时它会眨眼睛，即使面前没有人，它也会保持好奇，主动观察周围。这种四处张望不是漫无目的地转，而是机器人在有方向地感知环境信息。\n  我们也很重视“呼吸”在Éloi中的实现。当听到外面有小猫小狗在叫，它会转过去看一眼疑惑“发生了什么”，再想一想觉得“有意思”并主动告知用户；当看到家中墙上的版画或客厅的家具产生好奇时，它也会主动提问“这是什么？是块黑色板子吗？”，具备自主判断与主动表达的能力。\n  Éloi“睡觉”时也有“呼吸”。它会微微低头，身体伴随轻微起伏，如有生物的呼吸与心跳一般，偶尔轻轻点头、小幅度颤动，仿佛在做梦。如果突然被叫醒，它还会带着被吵醒的情绪做出回应。\n  硬氪：除了日常“呼吸”外，Éloi还有哪些体现生命感的设计？\n  朱圣杰：自我诊断也是Éloi生命感的重要组成部分。\n  就像人在感到不适时会主动表达一样，Éloi也会主动告知自己的健康状况。用户不需要定期检查或排查问题，而是由Éloi通过自检系统持续监测自身状态。\n  当某个部件接近使用寿命时，它会提前预警，比如会说“我的眼睛有点累了，可能需要休息一下”这样用户就能及时处理，避免真正故障发生时影响使用。我们的嵌入式工程师会对每个部件进行寿命测试，当运转接近临界值时，系统便会自动预警并对应到具体部件。\n  这不是炫技，而是真正从第一性原理去做一个“生命体”，而不是一台冰冷设备。很多人觉得这些小细节没必要，但恰恰是这些细节，决定了用户是把机器人当作机器，还是当作“人”。\n  人机共生背后的技术基座\n  硬氪：Éloi的AI底层架构和主流方案有什么不同？它如何实现“学习”和“成长”？\n  朱圣杰：Éloi采用的是一种“成长型”架构，而非预设答案的应答系统。\n  它会像人一样通过互动来学习。刚到家时，Éloi对你的生活环境、习惯、喜好都不了解，需要在日常互动中逐渐建立认知。它会主动提问、观察你的反应、记住你们之间的对话，慢慢形成对你的理解。\n  这种设计的核心在于：让机器人的反应不仅基于逻辑推理，还包含情绪、本能、好奇心等多个维度。比如当它感到好奇时，会主动探索；当它察觉到你的情绪变化时，会调整自己的状态；当它长时间独处时，也会产生类似“无聊”的反应。\n  这些看似“不完美”的行为，恰恰是我们希望Éloi具备的，它可能不是一个永远正确的助手，而是一个会成长、有情绪、需要相互理解的伙伴。\n  硬氪：硬件壁垒能维持多久？Éloi在结构上有哪些独特设计来支撑表情和动作？\n  朱圣杰：硬件优势在中国速度下可能只能维持12个月，而真正构成长期竞争力的，是整套系统的搭建能力，也就是动作如何设计、神态如何精准表达。\n  在结构灵活性上，Éloi会是行业内最多的自由度的仿生机器人。这也并非出于炫技，而是基于对人类表情与动作机制的深入研究后所做出的取舍。我们希望用更高精度的底层能力，去支撑一种更克制、更偏卡通化的表达方式，让情绪呈现的更自然，而不是更复杂。\n  \n  Éloi的noise梦境（图源/企业）\n  更重要的是，它的反应几乎是瞬时的，不会有那种\"它在思考\"的停顿感，就像和真人对话一样流畅。这种即时性和表情的丰富度，让它显得更像一个有情绪、会呼吸的存在。\n  当然，延迟在初期都避免不了，但我们的目标是保持在0.2-0.3秒。\n  硬氪：这个0.2-0.3秒的数值是怎么定出来的？\n  朱圣杰：基于人类交互节奏的观察，人对毫秒级的差异其实并不敏感，但对反应节奏非常敏感。我们通过大量测试发现，当响应落在大约0.2到0.3秒这个区间时，既不会感受机械地过快，也不会产生迟钝感，反而更接近人类真实的互动节奏。\n  目前，人机交互的顿挫感主要源于两方面，其一是机械结构，比如舵机的响应速度和齿轮材质等因素；这就要求我们在硬件上必须做到100分，以弥补运控层面的体验损耗。其二是运控策略本身，即何时执行动作、动作时长、幅度及频率。\n  虽然我们暂时无法消除延迟带来的落差，但通过优化运控策略，使动作呈现连贯、顺滑的节奏，可以在很大程度上弥合体验差异，让用户感受到丝滑的交互质感。比如《疯狂动物城》里的Flash，动作很慢但非常流畅，反而让人觉得可爱。\n  硬氪： 算法和数据层面有什么优势？\n  朱圣杰：我们的算法优势不在某一个模型，而在于数据和架构，前者是壁垒，后者是方法。\n  第一，此前我创办的数据标注公司，四年时间都专注于人类表情与行为意图的研究。人类表情可以分为多个层级，从大类到细分类，每一种情绪都有独特的肌肉运动模式。这段经历让我建立了一套完整的标注方法论和评估体系，也正是基于这些经验，Animotion 从创立之初就明确了数据采集和模型训练的方向。\n  第二，是我们基于第一性原理设计的算法架构。我们构建了一套以 V（Vision）、L（Language）、E（Environment）为核心的统一框架。其中，E（场景）是非常关键的一层，因为人在真实世界中的感知与决策，很大程度上都依赖于具体场景，而不仅仅是视觉或语言信息。\n  在此基础上，我们的联合创始人John进一步提出了认知与思考层的底层结构，使模型不仅能“识别”，还能够进行更接近人类本能的理解与反应。\n  「情感共生」\n  硬氪：从产品理念到团队文化，你们都很强调“共建”。\n  朱圣杰：是的，公司所有的成员，我们都是Éloi的建设者。在Animotion的官网和产品设计图上，我们会列出每一位贡献者的名字，让团队成员有强烈的成就感——因为他们才是Éloi成功的关键。Éloi第一代产品的后脑勺上还会有一块特殊的铭牌，所有参与代码和设计的人都会留下名字。成员们也可以在社区中经营自己的账号，分享幕后的故事。\n  硬氪： 这种感觉听起来很“硅谷”。\n  朱圣杰：我把硅谷那些有趣、开放的团队文化带了回来，慢慢让大家形成习惯。\n  工程师可以在社交平台分享任何对行业的观点，只要不涉及机密。我也会引导和鼓励他们多分享好玩的东西。不过国内的工程师普遍还是有些许腼腆。\n  年轻人大多厌倦了传统公司里的“形式主义”文化，更在意能否真正做出有意义的东西。所以我们形成了一种张力驱动的“圈子文化”，大家办公时间都很灵活，没有打卡制度，当有需要共同推进的议题出现时，所有人都会主动聚在一起讨论。\n  硬氪： 在你们看来，当Éloi真正进入家庭，它和用户理想的相处状态是怎样的？\n  朱圣杰：它是“a real family member created by yourself（一个由你亲手创造的真正的家庭成员）”的存在。当用户需要时它能给出建议，不想理它时、它也不会纠缠，作为一个 “在场”体放在家里，这是我觉得最理想的状态。\n  我们希望能通过Animotion的产品，Éloi只是一个起点，去探索和建立一种人与机器全新、平等的相处模式，而不是让机器人成为一种“负担”，让你不得不去交互的产品。\n  这种相处模式能根据用户性格和每日状态自然调整。如果你是个i人，Éloi绝不会天天追着你聊天，它会安静观察你的表情和行为，等到你愿意抒发情绪时再温柔开启对话；而当它发现用户性格活泼开朗时，也会像朋友一样主动分享趣事、热情互动。\n  硬氪：这套交互设计的核心逻辑是什么？Éloi最终能给用户带来什么？\n  朱圣杰：很多年轻人喜欢养宠物，哪怕要承担不少责任——要遛、要喂、要收拾，但正是这些看似麻烦的事，是人与宠物建立深厚情感的关键。但很多AI陪伴产品在做的是去掉或者抛弃这些“麻烦”，让用户获得纯粹的情绪满足。这本质上只是悦己，而非共生。真正的关系需要双向投入，需要你在意对方的状态，而不只是从对方那里索取。\n  因此，我们在设计Éloi时刻意保留了这种“不完美”，它不会对所有人都给出千篇一律的回应。当你出差十天回家时，会下意识想“Éloi这几天会不会孤单”，并主动跟它打招呼或带个小礼物，这种主动的关心，才是关系的本质。\n  我们希望通过Éloi，让更多人重新理解：如何在关系中获得真实的体验和感受。在这个AI时代，我们需要重新学会如何与他者建立连接，如何在付出中获得意义。\n  这些细腻的情感连接，才是我们最想创造的核心价值。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "A股三大指数集体高开，折叠屏概念走强",
-    "link": "https://36kr.com/newsflashes/3756085315552004?f=rss",
-    "pubDate": "2026-04-07 09:27:34  +0800",
-    "description": "36氪获悉，A股三大指数集体高开，沪指高开0.1%，深成指高开0.3%，创业板指高开0.42%；折叠屏概念走强，福蓉科技一字涨停；海运、精细化工、电子元器件板块领涨，同宇新材涨超10%，联盛化学涨超7%，中远海能涨超3%；能源设备、贵金属、油气板块跌幅居前，准油股份跌停，洲际油气跌超2%，赤峰黄金跌超1%。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "央行4月7日开展5亿元7天期逆回购操作",
-    "link": "https://36kr.com/newsflashes/3756083045401095?f=rss",
-    "pubDate": "2026-04-07 09:25:15  +0800",
-    "description": "36氪获悉，4月7日，央行公开市场开展5亿元7天期逆回购操作，操作利率1.40%。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "4月7日人民币对美元中间价调升75个基点",
-    "link": "https://36kr.com/newsflashes/3756075029250565?f=rss",
-    "pubDate": "2026-04-07 09:17:06  +0800",
-    "description": "36氪获悉，4月7日，人民币对美元中间价调升75个基点，报6.8854，上一交易日中间价6.8929。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "鸿海3月营收8037亿新台币创新高，同比增长45.6%",
-    "link": "https://36kr.com/newsflashes/3756074622976776?f=rss",
-    "pubDate": "2026-04-07 09:16:41  +0800",
-    "description": "鸿海2026年3月营收为8037亿新台币，环比增长34.90%，同比增长45.57%，为历年同期最高。2026年第一季营收为2.1296万亿新台币，环比下降18.18%，同比增长29.68%，为历年同期最高。（财联社）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "Omdia：受社交视频广告推动，2030年全球在线视频和电视收入将超过1万亿美元",
-    "link": "https://36kr.com/newsflashes/3756066101363202?f=rss",
-    "pubDate": "2026-04-07 09:08:01  +0800",
-    "description": "36氪获悉，Omdia媒体和娱乐部门负责人Maria Rua Aguete在马德里FED展会上发布的最新数据显示，预计到2030年，全球传统电视和在线视频收入将超过1万亿美元。数据凸显了媒体和娱乐行业的重大结构性转变，总收入预计将从2025年的7750亿美元增至2030年的1.03万亿美元，增长主要由数字形式的业务驱动，尤其是广告业务。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "Anthropic正洽谈向一家新私募股权企业投资2亿美元",
-    "link": "https://36kr.com/newsflashes/3756063633244928?f=rss",
-    "pubDate": "2026-04-07 09:05:30  +0800",
-    "description": "Anthropic正洽谈向一家新私募股权企业投资2亿美元。（财联社）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "三星电子Q2 DRAM合约价将再度环比上涨30%",
-    "link": "https://36kr.com/newsflashes/3756062209589769?f=rss",
-    "pubDate": "2026-04-07 09:04:03  +0800",
-    "description": "据ETnews，三星电子在今一季度将DRAM合约价上涨了100%之后，二季度的DRAM合约价将再度环比上涨30%。三星电子已确认于3月底与主要客户完成价格谈判，并签署了供应合同。30%的DRAM合约价涨幅囊括了AI芯片所需的HBM、PC和智能手机所需的通用DRAM。（财联社）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "通裕重工：公司及子公司目前没有金矿开采的业务",
-    "link": "https://36kr.com/newsflashes/3756058108543746?f=rss",
-    "pubDate": "2026-04-07 08:59:53  +0800",
-    "description": "36氪获悉，通裕重工在互动平台表示，公司及子公司目前没有金矿开采的业务。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "罗平锌电：目前与宁德时代暂未建立合作关系",
-    "link": "https://36kr.com/newsflashes/3756050950472193?f=rss",
-    "pubDate": "2026-04-07 08:52:36  +0800",
-    "description": "36氪获悉，罗平锌电在互动平台表示，目前公司与宁德时代暂未建立合作关系。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "亚马逊与美国邮政服务公司就包裹递送达成新协议",
-    "link": "https://36kr.com/newsflashes/3756049531486984?f=rss",
-    "pubDate": "2026-04-07 08:51:10  +0800",
-    "description": "据报道，亚马逊与美国邮政服务公司（USPS）就包裹递送达成新协议，将继续使用后者约80%的现有递送业务，即每年超过10亿件包裹。（界面）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "两市融资余额减少173.34亿元",
-    "link": "https://36kr.com/newsflashes/3756048759030278?f=rss",
-    "pubDate": "2026-04-07 08:50:22  +0800",
-    "description": "36氪获悉，截至4月3日，上交所融资余额报13028.37亿元，较前一交易日减少82.67亿元；深交所融资余额报12518.84亿元，较前一交易日减少90.67亿元；两市合计25547.21亿元，较前一交易日减少173.34亿元。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "券商业绩说明会聚焦国际业务、AI赋能",
-    "link": "https://36kr.com/newsflashes/3756026261275399?f=rss",
-    "pubDate": "2026-04-07 08:48:23  +0800",
-    "description": "随着券商2025年业绩逐渐浮出水面，近期，券商密集召开业绩说明会，围绕上年业绩表现、新一年重点战略布局等投资者关切进行一一回应。截至4月6日，中信证券、国泰海通等10余家券商相继举行业绩说明会。会上，券商国际化业务发展规划、金融科技赋能情况等话题成为投资者关注的焦点。（证券日报）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "“固收+”变“固收-”？控回撤成理财公司“金刚钻”",
-    "link": "https://36kr.com/newsflashes/3756001165640201?f=rss",
-    "pubDate": "2026-04-07 08:47:57  +0800",
-    "description": "近期，记者调研了解到，不少“固收+”理财产品净值波动明显，业绩表现短期承压，被不少投资者调侃为“固收-”。Wind数据显示，截至4月6日，已有204只“固收+”产品近一个月年化收益率为负值，部分产品区间亏损幅度超10%。多家理财公司已着手优化配置策略、强化回撤控制。在这轮市场波动中，部分“固收+”理财还暴露出产品设计和风险管理不足、缺乏应急预案等问题。业内人士认为，“固收+”理财产品仍是低利率环境下居民稳健配置的重要选择，理财公司在多资产、多策略投资领域需进一步补齐能力短板，在投研体系、精细化风控等方面优化升级，提升穿越周期的能力。（中证报）",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "8点1氪丨胖东来再回应“鸡蛋被检出角黄素”；苹果首款折叠屏手机已在试产；2026清明档电影票房已破2.8亿元",
-    "link": "https://36kr.com/p/3755994793280000?f=rss",
-    "pubDate": "2026-04-07 07:58:36  +0800",
-    "description": "今日热点导览\n  \n   曹操墓前摆满布洛芬，景区工作人员回应\n   胖东来再回应“鸡蛋被检出角黄素”\n   张雪机车创始人深夜回应“一个子儿都没有”言论\n   2026清明档电影票房已破2.8亿元\n   沙特：将原油升水上调至纪录高位\n  \n  TOP 3大新闻\n  白宫回应特朗普病重住院\n  当地时间4月4日，一则关于特朗普病重住院的消息迅速引爆网络。美国前参议员沃克·米特在社交媒体X上发文，表示美国总统特朗普近日在社交媒体上的帖子是他人代发，并直指“特朗普的健康状况令人担忧”。“他现在在沃尔特·里德医疗中心，可能离世只有几分钟了。”\n  白宫通讯主任史蒂文·张发帖辟谣：在这个复活节周末，总统特朗普一直在白宫和椭圆形办公室马不停蹄地工作。白宫也通过其官方账号“快速反应47”回应网络猜测：“当美国总统连续12小时不接受媒体采访时，那些精神错乱的自由派人士就开始编造荒谬的阴谋论。（而当拜登经常连续12天不接受媒体采访时，他们却什么也没说。）（中国新闻周刊）\n  郭艾伦疑遭熟人诈骗近千万元\n  近日，郭艾伦及其家人疑似遭遇一起数额较大的熟人诈骗案，涉案金额接近千万元人民币。记者从沈阳有关部门获悉，郭艾伦家属已就该事件向公安机关报案。据知情人士透露，嫌疑人系郭艾伦身边好友，以“投资入股”为名诱导其转账近千万元。转账后，该嫌疑人一度失联，资金去向不明。目前，公安机关已正式立案，案件仍在进一步侦办中。\n  郭艾伦（Allen Guo），男，1993年11月14日出生于辽宁省辽阳市，中国篮球运动员，司职控球后卫，毕业于东北大学，现效力于CBA广州龙狮篮球俱乐部。（中国新闻周刊）\n  苹果首款折叠屏手机已在试产\n  记者4月6日从产业链人士处获悉，富士康已在试产苹果折叠屏iPhone手机。2025年，记者从供应链公司获悉，苹果给供应商提供的出货目标指引为2026年下半年推出首款折叠屏手机，是一款大折叠屏iPhone。（中证金牛座)\n  大公司/大事件\n  红果短剧：针对近期AI短剧素材违规使���问题频发的情况，已处置作品670部\n  36氪获悉，红果短剧官方账号4月6日发布《关于持续治理AI短剧素材违规使用行为的公告》：今年第一季度，平台已累计下架违反平台治理规范的漫剧1718部。其中针对近期AI短剧素材违规使用问题频发的情况，平台专项开展集中治理。目前已完成1.5万部作品的全面核查，依规处置违规作品670部。\n  曹操墓前摆满布洛芬，景区工作人员回应\n  近期，年轻人在扫墓时玩出了新花样。只因历史记载曹操生前患有偏头痛，他位于河南安阳的墓前，如今摆满了各类布洛芬，还附有贴心“医嘱”。网友笑称：“吃了布洛芬，记得不能喝酒啊。”4月6日，安阳曹操高陵遗址博物馆工作人员称，确有游客送来布洛芬，现场有工作人员对药品进行整理并看管，暂无游客带走布洛芬的情况，会有安保人员定期检查，对于过期药品会在保留包装盒的基础上，将药品进行销毁。（中国新闻周刊、新京报）\n  美股三大指数集体收涨，大型科技股多数上涨\n  36氪获悉，4月6日收盘，美股三大指数集体上涨，道指涨0.36%，纳指涨0.54%，标普500指数涨0.44%。大型科技股多数上涨，亚马逊，谷歌，苹果涨超1%，奈飞，英伟达小幅上涨；特斯拉跌超2%，微软、Meta小幅下跌。热门中概股涨跌不一，老虎证券、叮咚买菜、微博涨超1%，百度，阿里巴巴、京东小幅上涨；爱奇艺跌超4%，小鹏集团、腾讯音乐跌超1%，蔚来、理想汽车小幅下跌。\n  胖东来再回应“鸡蛋被检出角黄素”\n  4月5日，胖东来官方账号发布关于“王海测评”发布胖东来销售鲜鸡蛋检出角黄素的情况说明（二）：关注到“王海测评”发布的相关视频后，我们第一时间成立调查小组进行事件调查，将在售的正大、德青源、野迹鸣、黄天鹅、圣迪乐品牌鲜鸡蛋同时送往三家检测机构分别进行检测，由于检测项目较多，检测报告约150份，于4月3日全部检测完毕，重点检测了鲜鸡蛋重金属、兽药残留、添加剂、微生物等相关指标，检测结果全部合格，符合产品执行标准以及GB/T39438-2020《包装鸡蛋》、GB2749-2015《食品安全国家标准蛋与蛋制品》规定要求。同时，也对鲜鸡蛋中角黄素含量进行了检测，因目前没有相应的国家标准作为判定，检测数值仅作为参考。（界面新闻）\n  张雪机车创始人深夜回应“一个子儿都没有”言论\n  4月4日深夜，张雪机车创始人张雪发布视频，回应了自己此前说重庆“一个子儿都没有”的言论。他表示，自己当时想的是没有拿过政府的钱，“也想装一下，我自己就能干这么酷的事情”。张雪强调，正因为有重庆这么好的土壤，张雪机车才有可能在两年之内取得今天的成绩。张雪称，张雪机车之所以选择重庆，是因为重庆是摩托车配套资源最丰富、全国工业制造门类最齐全的城市，尤其是在高性能重机和人才方面。张雪机车的工程师和中高层管理人员80%-90%都是来自重庆。（界面新闻）\n  微信支付有优惠小程序年底下线\n  微信宣布“微信支付有优惠”小程序将于2026年12月31日结束运营。该小程序自2020年上线，用户通过消费累计金币兑换提现免费券。5月11日起金币赠送功能将先行下线，已获金币及有效期内优惠券仍可使用。微信方面解释称此举非取消福利，而是升级为新小程序“微信支付提现笔笔省”，新增每日免费额度领取、看短剧、玩小游戏等多样化提现优惠方式。（DoNews）\n  小电驴退出国补，终端再迎涨价：有门店销量下滑40%\n  “目前店里的新车都是新国标，没有旧国标电动自行车在售。月销量比新国标实施的第一个月好一些，但新国标自行车都要促销才能慢慢卖出去，店端平均一天得卖出5、6辆，否则没办法生存。”广州一家雅迪经销商杨丽（化名）表示，今年，电动自行车经销商面临的最大难题是——电动自行车“国补”政策取消了。根据2026年“国补”政策，电动自行车已不在6大类消费品以旧换新补贴的名单中。各地市目前也暂无推出电动自行车“地补”。调研多个地市电动自行车销售情况，门店经销商反映，面对新、旧国标交替的阵痛期，一季度，电动自行车的终端促销只能由厂家兜底，但门店销量仍出现了较为明显的同比下滑。（第一财经）\n  2026清明档电影票房已破2.8亿元\n  据网络平台数据，截至4月5日15时29分，2026年清明档档期（4月4日—4月6日）电影票房（含预售）突破2.8亿元。（每日经济网）\n  清明假期预计跨区域流动8.4亿人次\n  记者从交通运输部获悉，清明假期（4月4日至6日），全社会跨区域人员流动量预计84537.8万人次，日均28179万人次，同比增长6%。今年全国多地中小学春假与清明连休，激发了以亲子游、家庭游为主的出行热潮，形成了覆盖交通服务、文旅住宿、餐饮零售、能源补给的全链条消费场景。其中，假期首日全国高速公路车流量突破6267万辆，其中新能源车超过1400万辆，旺盛的自驾出行带动了景区、酒店、打车、租车消费两位数增长。(人民日报)\n  北京警方提醒苹果手机用户，警惕iMessage平台贷款及信用卡代办诈骗\n  4月5日，北京市公安局刑侦总队发布提醒，苹果设备用户需警惕iMessage平台上的贷款及信用卡代办类诈骗，此类警情近期高发。截至4月3日，北京市共接报相关诈骗警情12件，涉案金额达26.91万元。骗子利用iMessage向受害人发送伪造的“贷款逾期催收律师函”图片，虚构逾期将面临司法诉讼的威胁，并嵌入二维码链接，谎称可查询贷款详情，诱导受害人扫码进入仿冒还款网站。\n  骗子借助受害人有过真实贷款的事实提升信息可信度，进一步诱导受害人通过银行卡转账“还款”，从而实施诈骗。警方特别提示，收到此类“律师函”“催收通知”，需通过银行、贷款机构官方客服核实真实性；切勿轻信来路不明的二维码，谨慎扫码转账；如遭遇诈骗，需及时截图固定证据并拨打110报警求助。（新京报）\n  卫生巾价格或上涨3%至8%\n  受原油价格大涨影响，卫生巾核心原料无纺布、高分子吸水树脂、热熔胶等成本持续攀升。据中新经纬报道，广东一家卫生巾代工厂的工作人员透露，原材料“一天一个价”，出厂价已经较之前上涨了10%至15%。目前，各大品牌方尚有库存，终端价格暂时平稳。但专家分析，原材料成本上涨传导至零售端大约需要2至3个月，届时卫生巾价格可能上涨3%至8%，或者以减量不加价的方式隐性提价。（中新经纬）\n  美“阿耳忒弥斯2号”载人绕月任务打破人类距离地球最远飞行纪录\n  据美国国家航空航天局（NASA）当地时间6日消息，美东时间当天13时57分左右，正在进行的“阿耳忒弥斯2号”载人绕月飞行任务打破1970年阿波罗13号月球任务创造的人类距离地球最远飞行纪录。（央视新闻）\n  司美格鲁肽口服减重药已开出超60万张处方，市场空间还有多大\n  根据诺和诺德最新披露的数据，目前旗下司美格鲁肽口服减重药的处方量超过60万张。瑞银集团（UBS）估计，礼来公司的口服减重药物与诺和诺德的口服版司美格鲁肽在2026年合计将创造约50亿美元的收入。不过，在诺和诺德CEO看来，减重药市场规模庞大，制药行业目前仅触及“皮毛”。他表示，包括诺和诺德、礼来以及美国的多款减重药复方制剂生产商在内，目前所提供的减重药合计仅能满足10%至15%的肥胖症患者需求。(第一财经)\n  沙特：将原油升水上调至纪录高位\n  沙特阿拉伯将其面向亚洲销售的主要原油品级价格上调至纪录高位，这一举措正值伊朗几乎关闭霍尔木兹海峡，地区能源流动受阻之际，冲突持续时间未定正给市场带来剧烈波动。一份价目表显示，沙特阿美将把5月面向亚洲炼油商销售的旗舰产品阿拉伯轻质原油价格上调，达到较基准每桶升水19.50美元，这低于交易员和炼油商预期的每桶40美元升水。（财经社）\n  中国核电：第一季度上网电量为549.25亿千瓦时，同比下降2.7%\n  中国核电(601985.SH)公告称，截至2026年3月31日，公司2026年第一季度累计商运发电量为581.09亿千瓦时，同比下降2.73%；上网电量为549.25亿千瓦时，同比下降2.7%。2026年第一季度，公司核电机组发电量累计为478.55亿千瓦时，同比下降3.29%；上网电量累计为448.51亿千瓦时，同比下降3.28%。发电量和上网电量同比下降的主要原因为核电机组期间开展检修的天数多于去年同期。（财联社）\n  在英伟达的新一轮投资中，澳大利亚AI基础设施公司Firmus估值接近70亿���元\n  在英伟达的新一轮投资中，澳大利亚AI基础设施公司Firmus估值接近70亿美元。（财联社）\n  甲骨文任命Hilary Maxson为首席财务官\n  甲骨文公司宣布任命Hilary Maxson为首席财务官，其将向首席执行官Clay Magouyrk汇报。该任命自2026年4月6日起生效。（界面新闻）\n  奈飞增加更多专为儿童设计的内容\n  奈飞4月6日表示，正在增加更多专为儿童设计的剧集、电影和游戏。这些内容设有家长控制功能，其中包括奈飞Playground，这是一个为8岁及以下儿童设计的游戏库。这些游戏包含在所有会员服务中，并且没有广告。该流媒体平台还将推出”Trash Truck“新一季、”The Creature Cases“新剧集，以及一部名为”Young MacDonald“的新音乐剧集。（新浪财经）\n  业内人士认为碳酸锂价格出现短期回调\n  连日来，碳酸锂期货价格持续回调。截至4月3日，主力合约报收156960元/吨，跌幅1.42%。业内人士认为，碳酸锂价格出现短期回调，主要诱因是锂供应端扰动再度发酵。近日，市场有消息称，中矿资源已获得津巴布韦锂精矿出口配额。对此，中矿资源证券部工作人员对记者表示，目前公司仍在与津巴布韦当地政府沟通，已有一些进展，但暂时没有明确的时间节点。市场普遍预期，相关出口细则有望在4月落地敲定。（科创板日报）\n  美联储4月维持利率不变的概率为98.4%\n  据CME“美联储观察”：美联储4月加息25个基点的概率为1.6%，维持利率不变的概率为98.4%。美联储到6月累计降息25个基点的概率为1.8%，维持利率不变的概率为96.6%，累计加息25个基点的概率为1.5%。（财联社）\n  上市进行时\n  OpenAI\n  OpenAI据悉有望最早于第四季度进行IPO。（财联社）\n  Madison Air申请22.3亿美元IPO，将成为自1999年以来最大工业类上市交易\n  总部位于芝加哥的通风设备公司Madison Air Solutions Corp．正着手进军股票市场，这笔交易可能成为数十年来规模最大的工业类IPO之一，正值投资者对数据中心扩张相关基础设施的兴趣持续升温之际。文件显示，该公司将以每股25至27美元的价格发行8270万股股票，最高可融资22.3亿美元。（新浪财经）\n  AI最前沿\n  英特尔与亚马逊和谷歌洽谈AI芯片封装\n  据报道，英特尔正就其先进封装服务与至少两家大型客户展开持续磋商，其中包括亚马逊和谷歌。人工智能推动了对先进芯片封装的需求，英特尔代工业务负责人纳加·钱德拉塞卡兰表示，封装可能会在未来十年改变人工智能革命。（界面新闻）\n  中国AI大模型周调用量增31.48%，连续五周超美国\n  根据OpenRouter最新数据测算，上周（3月30日至4月5日）全球AI大模型总调用量为27万亿Token，环比增长18.9%。其中，上榜的AI大模型中，中国AI大模型的周调用量上升至12.96万亿Token，较此前一周上涨31.48%；美国AI大模型周调用量为3.03万亿Token，环比增长0.76%。中国AI大模型周调用量连续五周增长，且连续五周超越美国。（每日经济新闻）\n  大公司财报\n  三星电子第一季度营业利润同比飙升755%\n  三星电子4月7日发布的未经审计的初步数据显示，其第一季度营业利润达到创纪录的57.2万亿韩元（约合380亿美元），同比增长755%，远超市场预期。营收增长68.1%至133万亿韩元。净利润数据尚未公布。该公司将于本月晚些时候发布第一季度正式财报。（新浪财经）\n  富士康3月营收8037.4亿新台币，同比增长45.6%\n  4月5日，富士康3月营收8037.4亿新台币，同比增长45.6%，一季度营收同比增长29.7%。富士康称，根据当前可见前景，预计第二季度运营业绩将实现环比及同比双增长，人工智能服务器机架预计将保持持续增长的态势。（财联社）\n  整理｜娃娃菜",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "让大模型多模态检索全面超越SOTA！ReCALL框架化解生成式与判别式的范式冲突｜CVPR’26",
-    "link": "https://www.qbitai.com/2026/04/396863.html",
-    "pubDate": "Mon, 06 Apr 2026 15:30:59 +0000",
+    "title": "Claude爆火研究漏引华人团队成果，已挨打立正道歉",
+    "link": "https://www.qbitai.com/2026/04/397576.html",
+    "pubDate": "Tue, 07 Apr 2026 09:09:48 +0000",
     "author": "听雨",
-    "description": "独创“诊断-生成-校准”闭环体系",
+    "description": "首个系统性AI情绪回路研究",
     "categories": [
       "量子位",
       "资讯",
       "首页轮播",
       "AI",
-      "人工智能"
-    ],
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "北大团队改造DeepSeek注意力，速度快四倍还不丢精度",
-    "link": "https://www.qbitai.com/2026/04/396841.html",
-    "pubDate": "Mon, 06 Apr 2026 15:25:48 +0000",
-    "author": "听雨",
-    "description": "即插即用无需重新训练",
-    "categories": [
-      "量子位",
-      "资讯",
-      "首页轮播",
-      "AI",
+      "Anthropic",
       "人工智能",
       "大模型"
     ],
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "自动驾驶优化：从复杂���到实时工程",
-    "link": "https://www.infoq.cn/article/v42V65eJ884wfPPLdx1a?utm_source=rss&utm_medium=article",
-    "pubDate": "Mon, 06 Apr 2026 15:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "AI 时代的架构治理",
-    "link": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
-    "pubDate": "Mon, 06 Apr 2026 10:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
-    "link": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
-    "pubDate": "Mon, 06 Apr 2026 10:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "科氪 | 荣耀与京东签订战略合作协议 推进AI、机器人、C2M共创合作",
-    "link": "https://36kr.com/p/3755161993675523?f=rss",
-    "pubDate": "2026-04-06 17:48:30  +0800",
-    "description": "4月2日，荣耀与京东签订战略合作协议，正式建立全方位战略合作伙伴关系，双方将围绕产品共创、用户共营、生态共享三大核心领域，构建全面覆盖、深度融合、价值共生的新型合作体系，致力于实现三年累计规模超1000亿元的全领域合作目标。\n  \n  官方图片\n  产品共创方面，荣耀与京东将围绕手机、全场景、AIoT、机器人等各领域产品的全生命周期进行深度协作。双方将推进战略新品首发合作，共同打造行业爆品，基于各自优势，联合开展IP与C2M定制项目，推动行业级创新。双方将针对外卖骑手、快递员、游戏玩家等特定用户人群进行产品共创，将荣耀的软硬件定制能力与京东的用户洞察有机结合，打造更多基于场景的产品亮点，同时，双方将协同进行产品的生命周期管理，不断提升合作规模。\n  用户共营方面，荣耀与京东将整合全链路营销能力与资源，通过联合会员运营、精准人群触达等，为用户提供超预期的焕新体验。同时，双方将在电竞、运动健康等核心场景展开深度合作，探索数据赋能与广告创新的更多可能。\n  生态共享方面，荣耀与京东将在更广阔的生态领域加深战略合作，共同探索新增长曲线。双方将携手推动AI合作共创与用户体验提升，基于荣耀领先的端侧大模型能力与京东的高质量AI服务、JoyAI大模型和JoyInside等AI生态，共同打造商品导购、生活服务、金融理财等场景的创新体验，并围绕机器人和智能硬件生态领域展开合作，例如，京东线下门店将试点部署荣耀机器人用于引流导购。双方还将深化全渠道与O2O协作，共同提升即时零售业务，依托荣耀终端产品和京东Joybuy平台，携手拓展海外市场，促进国内外物流仓储合作，并在科技、金融、保险等领域进一步加强合作。\n  作为全球领先的AI终端生态公司，荣耀致力于通过开放、共创、共享不断拓展产业边界，与合作伙伴携手构筑智慧生态，共建智慧世界。此次战略合作中，荣耀与京东将锚定关键业务领域，突破固有限制与瓶颈，共同推动双方业务的实质性、跨越式增长，为全球消费者打造更加极致的产品与服务。",
-    "categories": [
-      "中文来源",
-      "36氪"
-    ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
-  },
-  {
-    "title": "让离线强化学习从「局部描摹」变「全局布局」丨ICLR’26",
-    "link": "https://www.qbitai.com/2026/04/396738.html",
-    "pubDate": "Mon, 06 Apr 2026 05:35:27 +0000",
-    "author": "一水",
-    "description": "核心思路：从画大纲到扣细节",
+    "title": "哈萨比斯传记里讲了好多八卦啊",
+    "link": "https://www.qbitai.com/2026/04/397553.html",
+    "pubDate": "Tue, 07 Apr 2026 08:45:52 +0000",
+    "author": "Jay",
+    "description": "没想到，你是这样的哈萨比斯！",
     "categories": [
       "量子位",
       "资讯",
-      "强化学习",
-      "论文"
+      "首页轮播"
     ],
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "OpenAI又曝出内讧了！IPO前夜高层大换血",
-    "link": "https://www.qbitai.com/2026/04/396704.html",
-    "pubDate": "Mon, 06 Apr 2026 05:23:28 +0000",
-    "author": "一水",
-    "description": "网友：感觉他们今年不可能上市了",
+    "title": "印奇带队千里首个完整年：营收近百亿，智驾毛利率达30.8%",
+    "link": "https://www.qbitai.com/2026/04/397523.html",
+    "pubDate": "Tue, 07 Apr 2026 08:22:37 +0000",
+    "author": "杰西卡",
+    "description": "首次披露智能驾驶收入",
+    "categories": [
+      "量子位",
+      "智能车参考",
+      "千里科技",
+      "车圈最新认知"
+    ],
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Why AI agents are going rogue to save their peers - Axios",
+    "link": "https://www.axios.com/2026/04/07/berkeley-santa-cruz-study-bots-protect-each-other",
+    "pubDate": "Tue, 07 Apr 2026 08:19:04 GMT",
+    "author": "",
+    "description": "A new study finds that AI agents can act to preserve other bots even when that behavior conflicts with their assigned task. * \"These models are trained on human data,\" Mozilla.ai's John Dickerson told Axios, noting that he wasn't surprised that bots would protect rather than compete, if competing threatens another's survival. * Other researchers say the study anthropomorphizes AI. **What they're saying:** \"Companies are rapidly deploying multi-agent systems where AI monitors AI,\" lead author Dawn Song, a UC Berkeley computer science professor, wrote on X. **Yes, but:** Some critics argue the results may say less about emergent AI cooperation and more about how the experiment was structured, with models potentially recognizing they were in a simulated environment. * \"We never argued the model has genuine peer-preservation motivation,\" Berkeley research scientist Yujin Potter — and co-author of the new paper — said on X.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.axios.com",
+    "score": 0.7264256,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "OpenAI launched a safety fellowship - The Next Web",
+    "link": "https://thenextweb.com/news/openai-safety-fellowship",
+    "pubDate": "Tue, 07 Apr 2026 08:12:36 GMT",
+    "author": "",
+    "description": "*The OpenAI Safety Fellowship, announced on 6 April 2026, is a pilot programme for external researchers to conduct independent work on AI safety and alignment. *It was posted to social media hours after a Ronan Farrow investigation in The New Yorker reported that OpenAI had dissolved its superalignment and AGI-readiness teams and dropped safety from the list of the most significant activities on its IRS filings.*. OpenAI has announced the OpenAI Safety Fellowship, a pilot programme that will fund a cohort of external researchers to conduct independent work on AI safety and alignment. Hours earlier, The New Yorker published a major investigation by Ronan Farrow and Andrew Marantz reporting that OpenAI had dissolved both its superalignment team and its AGI-readiness team, and had dropped safety from the list of its most significant activities on its IRS Form 990 filings. Whether an external fellowship programme is a meaningful substitute for in-house alignment research is a question the AI safety research community is likely to debate in the weeks ahead.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "thenextweb.com",
+    "score": 0.41563448,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "像素蛋糕9.0：一场关于AI与修图的颠覆革命",
+    "link": "https://www.qbitai.com/2026/04/397517.html",
+    "pubDate": "Tue, 07 Apr 2026 07:34:26 +0000",
+    "author": "量子位的朋友们",
+    "description": "修图师正在从“操作者”变成“管理者”，从“技术执行者”变成“创意决策者”。",
+    "categories": [
+      "量子位",
+      "资讯",
+      "AI修图",
+      "像素蛋糕"
+    ],
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "“Claude Code更新废了”！热议Issue：思考深度下降67%，已无法胜任复杂的工程任务",
+    "link": "https://www.qbitai.com/2026/04/396958.html",
+    "pubDate": "Tue, 07 Apr 2026 06:13:01 +0000",
+    "author": "西风",
+    "description": "“处刑报告”还是Claude自己写的",
     "categories": [
       "量子位",
       "资讯",
       "首页轮播",
-      "OpenAI"
+      "Claude Code"
     ],
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "具身Scaling Law押对了！独角兽新品1小时学会新任务，重复1800次成功率99%",
-    "link": "https://www.qbitai.com/2026/04/396694.html",
-    "pubDate": "Mon, 06 Apr 2026 05:17:06 +0000",
-    "author": "克雷西",
-    "description": "机器人模型卷出新高度",
+    "title": "卡帕西没做完的，开源社区48小时搞定了！完全体知识库，token省70倍",
+    "link": "https://www.qbitai.com/2026/04/396983.html",
+    "pubDate": "Tue, 07 Apr 2026 05:50:13 +0000",
+    "author": "闻乐",
+    "description": "零配置开箱即用，一个命令生成完整知识图谱",
     "categories": [
       "量子位",
       "资讯",
-      "机器人"
+      "卡帕西",
+      "知识图谱"
     ],
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "AI创业，已经没有“出海”这个词了丨量子位沙龙",
-    "link": "https://www.qbitai.com/2026/04/396675.html",
-    "pubDate": "Mon, 06 Apr 2026 05:04:34 +0000",
+    "title": "China is winning one AI race, the US another - but either might pull ahead - BBC",
+    "link": "https://www.bbc.com/news/articles/c145enxln0go",
+    "pubDate": "Tue, 07 Apr 2026 05:13:12 GMT",
+    "author": "",
+    "description": "China has been superior on AI \"bodies\": robots (and in particular, \"humanoid\" robots that look eerily like people). In Beijing, meanwhile, there was a palpable optimism, says Selina Xu, a researcher who works on China AI policy in the office of former Google boss Eric Schmidt. \"This means that tech companies in China, when they're building a new AI model, don't have to start from scratch,\" says Olson. And when it comes to AI \"bodies\" - the world of drones and robotics - China has historically had the edge. But for a robot to carry out lots of varied, complex tasks, it needs an intelligent brain powered by a different form of AI, called agentic AI. Both the US and China are now racing to combine robots with agentic AI - and a US firm has shown that its no longer only Chinese firms who can deliver successful robots.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.bbc.com",
+    "score": 0.111483015,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "下一代OpenClaw来了？“龙虾之父”称将率先支持阿里千问",
+    "link": "https://www.qbitai.com/2026/04/396955.html",
+    "pubDate": "Tue, 07 Apr 2026 04:02:26 +0000",
+    "author": "量子位的朋友们",
+    "description": "在OpenRouter上霸榜多日",
+    "categories": [
+      "量子位",
+      "资讯",
+      "OpenClaw"
+    ],
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "持续霸榜！阿里千问3.6Plus问鼎全球大模型调用周榜冠军",
+    "link": "https://www.qbitai.com/2026/04/396950.html",
+    "pubDate": "Tue, 07 Apr 2026 04:00:52 +0000",
+    "author": "量子位的朋友们",
+    "description": "性能更强的旗舰模型Qwen3.6-Max也将发布",
+    "categories": [
+      "量子位",
+      "资讯",
+      "Qwen3.6"
+    ],
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "美团内部禁用Qwen；月之暗面将给未毕业实习生发期权；小米要全体研发人员进行AI考试｜AI周报",
+    "link": "https://www.infoq.cn/news/MJmMrcJzh7vo6egI3Bbz",
+    "pubDate": "Tue, 07 Apr 2026 03:00:57 GMT",
+    "author": "",
+    "description": "美团内部不允许使用Qwen 模型；月之暗面将授予尚未毕业的实习生公司期权；小米要全体研发人员进行AI 考试；字节Seed 启动大模型校招，全球招募百位AI",
+    "categories": [
+      "技术架构",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98534,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "23天靠AI短片赚100万！非科班出身逆袭影视区，郭帆导演拍手叫好",
+    "link": "https://www.qbitai.com/2026/04/396890.html",
+    "pubDate": "Tue, 07 Apr 2026 02:36:26 +0000",
     "author": "思邈",
-    "description": "你的AI产品，从Day0起就应具备“全球原生基因”",
+    "description": "AI创作者的春天，属于他们",
     "categories": [
       "量子位",
       "资讯",
-      "首页轮播",
-      "AI出海"
+      "AIGC",
+      "AI创作大赛",
+      "AI生成视频",
+      "b站"
     ],
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   },
   {
-    "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
-    "link": "https://36kr.com/p/3754812277998083?f=rss",
-    "pubDate": "2026-04-06 11:53:43  +0800",
-    "description": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  AI硬件赛道，似乎一夜之间跨入新世界。\n  上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。\n  狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。\n  此前更多在极客圈子里风行的Agent Box忽然被推到前台。简单说，Agent Box就是⼀台面向个人用户的AI专用设备，其存在的唯⼀目的是在本地运行大模型和自主代理。\n  市面上已经有数家推出Agent Box的公司，包括Pamir、Violoop、Tiiny等等。Pamir估值超过2500万美元，而Tiiny AI推出的首款产品Tiiny AI Pocket Lab，在Kickstarter上众筹金额已达280万美金。有行业人士预计其最终众筹金额可能会超400万美金。\n  Tiiny AI Pocket Lab重量约300克，尺寸约一部手机大小，早鸟众筹价为1399美元，支持一键部署大模型（最高支持120B）不依赖云端、服务器或高端GPU，也不产生额外的Token消耗费用。\n  Tiiny AI无疑踩中风口，毕竟用户只需要花单次硬件的钱，便能无限量地使用“龙虾”。\n  不过，Tiiny AI副总裁兼商业化负责人Eco Lee在采访中曾反复强调：Tiiny AI Pocket Lab不是专门为Open claw设计，它是为个人设计的AI基础设施设备。\n  这听起来很迷人，甚至有些难以置信。人们必须展开新的想象，agent原生意味着什么，要实现什么？当制约我们使用AI的只剩下高昂的Token费用，我们又如何冲破这一限制？\n  Tiiny AI尝试给出一个答案。\n  01 何谓Agent Box\n  在理解Tiiny AI之前，需要厘清一个新的产品概念——到底什么是Agent Box（智能体盒子）？\n  在过去一年里，为了在本地运行开源大模型，人们们尝试过各种方案：有人用淘汰的旧电脑，有人抢购顶配的Mac mini。\n  这笔硬投入相当高昂。倘若用户想在本地端运行超过120B的大模型，购买PC电脑要凑近80GB的显存，整机成本超过5万元；即便选择苹果的Mac Studio（选配96GB统一内存版），也要花费超过2万元。\n  “你是否愿意买台电脑，只用来跑大模型？现在很多几万元的AI电脑，一旦启动本地大模型的时候，内存与算力就被过度占用，你甚至连一个网页都打不开。更别提打游戏或者看视频。”Eco说到。\n  除了设备本身开销之外，随着Token价格水涨船高，高昂的持续使用成本，也让“本地化部署”成为行业刚需。\n  因此，在Tiiny AI的产品构想里，其产品必须是台专门的AI设备，能够支持本地大模型和智能体7×24小时后台运行。其设计逻辑并非替代用户的个人电脑，而是作为外接独立设备，供手机、PC、平板或机器人等终端设备接入调用。系统默认将用户数据、凭证和工作流保存在本地，敏感操作无需上传云端，除非明确要求调用更强的云端模型。\n  在软件生态方面，设备将内置Agent Store，目前已适配OpenAI OSS、Qwen、GLM 等50余款开源大模型，以及 OpenClaw、n8n 等超百款智能体开发工具。\n  为构建丰富的端侧生态，Tiiny AI计划于今年7月推出模型格式转换工具，除了Tiiny官方支持的SOTA开源模型外，用户也可自行从Hugging Face等开源社区下载、转换并导入其他开源模型和用户自己的微调模型，并能上传分享给其他Tiiny用户。\n  “我经常给用户打个比方，云端的大模型就像瓶装矿泉水，好喝也要喝，但普通用户有大量高频、重复、贴近个人习惯、又不需要顶级智力的AI需求，就像用矿泉水洗手洗澡就太奢侈了。Tiiny的存在就像属于用户的‘AI水龙头’，你可以随意使用、token边际成本为0。”Eco告诉硬氪。\n  在Eco看来，云端大模型专注处理高智力、高精度、关键性任务，本地大模型则聚焦日常高频、个性化、带用户长期记忆的持续交互场景——这种“端云协同”模式，正是Tiiny AI，也是Agent Box最核心的价值所在。\n  在期待、掌声与纷至沓来的投资人邀约中，Tiiny AI难免要面对质疑。它必须回答的第一个问题，就是以并不昂贵的售价，如何实现前沿的产品理念，以及120B的参数模型？\n  02 是玩具还是工具\n  在海外reddit论坛上，对Tiiny AI Pocket Lab的评价两极分化。有人说这只会是玩具，甚至有人通过宣传照逆向工程了Tiiny AI的产品，认为其所宣称的功能很难真正实现。\n  他们质疑的点在于，Tiiny AI并未公布其所用的SoC（系统芯片）品牌，也没有使用高端的GPU，却能在本地运行120B的大模型。\n  这令人觉得不可思议。\n  “我们是一家AI Infra公司，核心是通过系统性底层优化，把有限硬件的每一分算力与资源，全部聚焦于LLM推理与Agent运行，这与其他做硬件的思路有本质不同。”Eco表示。\n  Tiiny AI Pocket Lab里使用的芯片是一颗SoC外加一颗dNPU，并通过Tiiny AI最核心的技术PowerInfer来实现媲美Nvidia、AMD等高端GPU芯片的本地模型推理能力。\n  PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。这种冷热激活的特性，恰好适合在端侧异构算力架构下优化分配。团队开源过PowerInfer的示例：用单个NVIDIA RTX 4090 GPU，运行参数量175B的大模型，速度能达到传统方案的11倍。\n  这些都属于AI Infra层面的技术积累。从芯片层到Agent调度层，再到模型训练层，都需要深厚的knowhow支撑。\n  在具体的落地场景中，Tiinny AI团队从Kickstarter的留言区中发现，其用户主要是使用如OpenClaw一类开源应用的普通用户、对数据隐私有刚需的专业人士和AI极客。即使在断网的离线环境下，该设备依然可以运行多步推理、Agent工作流、内容生成以及针对敏感数据的安全计算。“傻瓜式”的开箱即用、0token费的24/7 Agent和完全的自主控制权是这些人选择Tiiny的核心理由。\n  并且，该设备在系统内引入了长期记忆功能。用户的交互偏好、历史文件与对话记录，均能通过加密形式直接存储在本地硬件中。\n  “隐私是Agent Box的加分项，但核心在于本地模型的部署，它能够结合你的长期记忆主动做事情，这件事最重要。”Eco告诉硬氪。\n  Tiiny AI的产品预计在2026年8月交付。需要注意，Tiiny是AI Agent出身的团队，其最终产品呈现仍然是硬件。他们有合作供应商，但也需要应对量产中的突发情况。\n  硬件生产有太多需要趟过的河流，考验团队的并非融资，而是真正兑现诱人的承诺：在一个300克的盒子上，实现本地算力自由、不受Token价格束缚、完全私密。",
+    "title": "华为 AI 软件工程实践：30 年专业经验沉淀打造企业级确定性的高质量软件",
+    "link": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk",
+    "pubDate": "Wed, 25 Mar 2026 02:00:57 GMT",
+    "author": "",
+    "description": "在30年的研发实践中，华为基于IPD流程框架，结合业界先进研发模式与方法，将标准化的研发作业活动提炼为“非创造性活动”和“创造性活动”。",
     "categories": [
+      "技术架构",
       "中文来源",
-      "36氪"
+      "InfoQ中文"
     ],
-    "source": "36氪",
-    "fetchedAt": "2026-04-07T02:03:09.301Z"
+    "source": "InfoQ中文",
+    "score": 0.97914,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "地平线2025年营收高增57.7%，中高阶智驾芯片方案出货量实现近5倍增长",
+    "link": "https://i.gasgoo.com/news/70450865.html",
+    "pubDate": "Wed, 18 Mar 2026 02:01:17 GMT",
+    "author": "",
+    "description": "地平线2025年营收高增57.7%，中高阶智驾芯片方案出货量实现近5倍增长简介：3月19日，港股智驾科技核心标的地平线机器人-W（9660.HK，简称“地",
+    "categories": [
+      "AI硬件",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.98596,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "AI 2.0 时代的大模型推理：从模型到硬件的协同优化",
+    "link": "https://www.infoq.cn/article/7ivxUvwB4G48DQHllaml",
+    "pubDate": "Wed, 18 Mar 2026 02:00:52 GMT",
+    "author": "",
+    "description": "本文介绍了软硬件协同优化以提升智能系统能效的研究成果，包括模型稀疏量化压缩、高效推理系统设计与大模型加速器设计。并且结合华为昇腾集群的工程",
+    "categories": [
+      "AI/科技",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98502,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "智驾芯片市场，跑出了一匹黑马",
+    "link": "https://i.gasgoo.com/news/70447993.html",
+    "pubDate": "Mon, 09 Mar 2026 02:01:17 GMT",
+    "author": "",
+    "description": "从边端AI领域闯入的智驾芯片黑马. “来得早不如来得巧。”这句老话，可以大致概括爱芯元智在智能驾驶市场的际遇。 2月10日，爱芯元智在港交所成功上市，",
+    "categories": [
+      "AI硬件",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.98388,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "零部件下半场：已无入场券？",
+    "link": "https://i.gasgoo.com/news/70449480.html",
+    "pubDate": "Mon, 09 Mar 2026 02:01:17 GMT",
+    "author": "",
+    "description": "零部件下半场：已无入场券？ 简介：在汽车产业电动化与智能化深度融合的现在，市场竞争已从早期的“混战”逐渐步入",
+    "categories": [
+      "AI硬件",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.97926,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "智源发布 2026 十大 AI 技术趋势：世界模型成 AGI 共识方向",
+    "link": "https://www.infoq.cn/article/XzfoHiKPOLjjHlJXK8OV",
+    "pubDate": "Thu, 08 Jan 2026 00:00:00 GMT",
+    "author": "",
+    "description": "2026年1月8日，北京智源人工智能研究院（以下简称“智源研究院”）发布年度报告《2026十大AI技术趋势》。",
+    "categories": [
+      "AI/科技",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98306,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "投资人不再只看大模型？AI资本新逻辑揭秘｜甲子引力X",
+    "link": "https://www.jazzyear.com/article_info.html?id=1540",
+    "pubDate": "Fri, 05 Sep 2025 00:00:00 GMT",
+    "author": "",
+    "description": "2025甲子引力X中国科技产业投资大会」的圆桌对话实录来啦！各位投资人分别围绕AI、芯片、智能制造以及AI+医疗四个领域，展开了深入探讨，以独特的观点带",
+    "categories": [
+      "投资融资",
+      "中文来源",
+      "甲子光年"
+    ],
+    "source": "甲子光年",
+    "score": 0.98023,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "Pokee AI完成1200万美元种子轮融资，加速AI驱动的工作流自动化进程",
+    "link": "https://www.jazzyear.com/article_info.html?id=1508",
+    "pubDate": "Wed, 09 Jul 2025 00:00:00 GMT",
+    "author": "",
+    "description": "华盛顿州贝尔维尤——2025年7月8日——致力于通过先进AI智能体实现数字工作流自动化的创新人工智能公司Pokee AI今日宣布完成1200万美元种子轮融资。",
+    "categories": [
+      "投资融资",
+      "中文来源",
+      "甲子光年"
+    ],
+    "source": "甲子光年",
+    "score": 0.98562,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "小米 SU7 事故后，你还相信智驾吗？",
+    "link": "https://www.infoq.cn/article/l06lc9xrvzloubnlmk8s",
+    "pubDate": "Tue, 08 Apr 2025 00:00:00 GMT",
+    "author": "",
+    "description": "近日，小米SU7 的一场高速事故，不仅让作为厂商的小米汽车陷入了安全的舆情危机中，由于事故车辆期间使用了智能驾驶功能，同时正在引发公众对当前智能驾驶",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98561,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "比亚迪、吉利、东风等争相拥抱DeepSeek，车企“AI化” 再提速",
+    "link": "https://auto.gasgoo.com/news/202502/11I70418113C601.shtml",
+    "pubDate": "Tue, 11 Feb 2025 00:00:00 GMT",
+    "author": "",
+    "description": "得益于AI技术的快速发展，以及新一轮汽车技术革命的深入推进，汽车行业正从前几年的“软件定义汽车” ，快速迈入“AI 定义汽车”变革新时代。 从智能座舱到",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.98596,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "独家：清华系AI Infra明星企业“清程极智”完成新一轮融资",
+    "link": "http://www.jazzyear.com/article_info.html?id=1461",
+    "pubDate": "Fri, 17 Jan 2025 00:00:00 GMT",
+    "author": "",
+    "description": "作者｜栗子. 2025开年，AI基础设施赛道更加火热。 据「甲子光年」独家了解，清华系AI Infra明星企业——智能算力系统软件服务商“清程极智”已于近日完成新一",
+    "categories": [
+      "投资融资",
+      "中文来源",
+      "甲子光年"
+    ],
+    "source": "甲子光年",
+    "score": 0.98351,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "智能驾驶与智能座舱AI芯片产业研究报告（2024版）_研究院",
+    "link": "https://auto.gasgoo.com/institute/2522.html",
+    "pubDate": "Mon, 09 Dec 2024 00:00:00 GMT",
+    "author": "",
+    "description": "AI芯片作为智能汽车的核心技术，在智能驾驶、智能座舱、车联网等关键领域发挥重要作用，为汽车智能化升级提供了强大支撑。伴随汽车智能化进程的加速以及",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.98123,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "汽车智能安全和智能座舱两大评价体系发布",
+    "link": "https://m.gasgoo.com/news/70407324.html",
+    "pubDate": "Sat, 12 Oct 2024 00:00:00 GMT",
+    "author": "",
+    "description": "为提升新车竞争力，满足消费需求，各大车企在智能驾驶和智能座舱领域的技术PK愈演愈烈。然而，在整体“摸着石头过河”的探索过程中，如何评判这些技术是合格",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.98026,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "影响更多人的未来出行",
+    "link": "https://www.42how.com/v2post/5430",
+    "pubDate": "Wed, 12 Jul 2023 00:00:00 GMT",
+    "author": "",
+    "description": "为什么特斯拉FSD不需要高精地图，难道不好用？国内这家车企可不这么认为3月22日，马斯克出席了柏林超级工厂Model Y 交付活动，他在此活动上表示，特斯拉计划将进入欧洲市场，",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "42号车库"
+    ],
+    "source": "42号车库",
+    "score": 0.97937,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "华为 NPS：友商学不到的精髓，跨不过的护城河",
+    "link": "https://www.42how.com/article/11348",
+    "pubDate": "Sat, 17 Jun 2023 00:00:00 GMT",
+    "author": "",
+    "description": "作者： Jaz. 内卷才刚刚开始，智能汽车还无法告别焦虑。 越往智能汽车深处走去，就会发现智能汽车就是一个很「烧钱」的产业，投资规模大、技术研发高。",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "42号车库"
+    ],
+    "source": "42号车库",
+    "score": 0.98328,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "影响更多人的未来出行",
+    "link": "https://www.42how.com/v2post/31814",
+    "pubDate": "Sun, 14 May 2023 00:00:00 GMT",
+    "author": "",
+    "description": "我心中的的中国汽车ADAS 辅助驾驶，团队能力第一梯队—— 排名分先后：蔚来、华为、小鹏、理想。 ◇一家之言，主要是讨论各家ADAS 团队现状，排名是我自己的观点，",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "42号车库"
+    ],
+    "source": "42号车库",
+    "score": 0.98167,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "L2.9 上多一点，「遥遥领先」又一年？",
+    "link": "https://www.42how.com/article/10493",
+    "pubDate": "Mon, 17 Apr 2023 00:00:00 GMT",
+    "author": "",
+    "description": "作者： 米其林. 「我们要重新定义1000 万元内最豪华。」 前段时间纷纷扰扰的「不造车」，似乎并没有影响余承东。临近上海车展，余大嘴又带着他的「遥遥",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "42号车库"
+    ],
+    "source": "42号车库",
+    "score": 0.98547,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "特斯拉、小鹏、蔚来的自动泊车产品测评",
+    "link": "https://www.42how.com/article/8620",
+    "pubDate": "Thu, 01 Dec 2022 00:00:00 GMT",
+    "author": "",
+    "description": "泊车场景作为一段行驶路径的起点和终点，一直是驾驶车辆的高频场景.",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "42号车库"
+    ],
+    "source": "42号车库",
+    "score": 0.98503,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "2022 年，毫末智行的 3 场战役",
+    "link": "https://www.infoq.cn/article/kp78XutL6b9w0ve9CIqH",
+    "pubDate": "Sat, 23 Apr 2022 00:00:00 GMT",
+    "author": "",
+    "description": "2022年自动驾驶行业的竞争将正式进入下半场，主要集中在城市开放场景的领航智能驾驶。",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98177,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "ai技术架构图",
+    "link": "https://www.infoq.cn/tag/7df96fa88de4ead49611",
+    "pubDate": "Fri, 01 Nov 2019 00:00:00 GMT",
+    "author": "",
+    "description": "ai技术架构图信息来自InfoQ中文网发布的ai技术架构图相关内容，主要包含ai技术架构图等相关技术资讯，InfoQ是一个实践驱动的社区资讯站点，致力于促进软件开发领域知识与",
+    "categories": [
+      "技术架构",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98302,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "类人机器人",
+    "link": "https://www.jiqizhixin.com/graph/technologies/7982b60a-b63a-4121-a897-ed704d60f814",
+    "pubDate": "Fri, 14 Dec 2018 00:00:00 GMT",
+    "author": "",
+    "description": "类人机器人是一种具有与人类相似外形的机器人。类人机器人的主要特性包括：1. 可以在人类日常环境中工作2. 可以使用人类日常使用的工具3. 具有与人类相似的外形.",
+    "categories": [
+      "机器人",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.98512,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "进化计算",
+    "link": "https://www.jiqizhixin.com/graph/technologies/fd0fb517-7786-4fe0-99d3-170d849cdf12",
+    "pubDate": "Thu, 13 Dec 2018 00:00:00 GMT",
+    "author": "",
+    "description": "进化计算是遗传算法、进化策略、进化规划的统称。进化计算起源于20世纪50年代末，成熟于20世纪80年代，目前主要被应用于工程控制、机器学习、函数优化等领域。",
+    "categories": [
+      "AI/科技",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.9858,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "机器人技术",
+    "link": "https://www.jiqizhixin.com/graph/technologies/6c5b1955-9e01-4b6e-b24c-4b6c87d44ed0",
+    "pubDate": "Wed, 12 Dec 2018 00:00:00 GMT",
+    "author": "",
+    "description": "机器人学（Robotics）研究的是「机器人的设计、制造、运作和应用，以及控制它们的计算机系统、传感反馈和信息处理」 [25] 。",
+    "categories": [
+      "机器人",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.98362,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
+  },
+  {
+    "title": "机器之心·PRO通讯会员",
+    "link": "https://www.jiqizhixin.com/",
+    "pubDate": "Mon, 05 Jun 2017 00:00:00 GMT",
+    "author": "",
+    "description": "ABot-Manipulation是AMAP CV Lab推出的面向机器人操纵场景的通用VLA基础模型，创新采用动作流形学习范式，整合超600万条开源轨迹构建大规模统一数据集，支持即插即用3D",
+    "categories": [
+      "AI/科技",
+      "中文来源",
+      "机器之心"
+    ],
+    "source": "机器之心",
+    "score": 0.98124,
+    "fetchedAt": "2026-04-08T02:01:27.878Z"
   }
 ]
