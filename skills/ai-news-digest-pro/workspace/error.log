@@ -2140,3 +2140,20 @@ To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspa
 [INFO] Loaded 90 articles
 [INFO] Categorized: Core=32, Near=53, Extended=1, Support=4
 [INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260414.md
+[INFO] Fetching QbitAI RSS...
+(node:640992) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-qbitai.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[ERROR] Client network socket disconnected before secure TLS connection was established
+[INFO] Since date: 2026-04-14T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+(node:641008) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-chinese.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WARN] Failed to fetch 36氪: Client network socket disconnected before secure TLS connection was established
+[INFO] Fetching InfoQ中文...
+[WARN] Failed to fetch InfoQ中文: Client network socket disconnected before secure TLS connection was established
+[INFO] Total unique recent articles: 0

@@ -924,3 +924,19 @@
 [2026-04-14 10:03:20] [Brief] ✓ Brief generated: /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260414.md (4016 bytes)
 [2026-04-14 10:03:20] [Done] All steps completed successfully!
 [2026-04-14 10:03:20] ==========================================
+[2026-04-15 10:00:01] ==========================================
+[2026-04-15 10:00:01] AI News Digest Pro - daily
+[2026-04-15 10:00:01] Date: 2026-04-15
+[2026-04-15 10:00:01] ==========================================
+[2026-04-15 10:00:01] [WARN] TAVILY_API_KEY not set, Tavily sources will be skipped
+[2026-04-15 10:00:01] [Config] Since date: 2026-04-14
+[2026-04-15 10:00:01] [Config] Tavily days: 1
+[2026-04-15 10:00:01] [Step 1/4] Fetching 量子位...
+[2026-04-15 10:00:02] [Step 1/4] ✗ 量子位 failed
+[2026-04-15 10:00:02] [Step 2/4] Fetching 中文RSS源...
+[2026-04-15 10:00:04] [Step 2/4] ✓ 中文RSS: 0 articles
+[2026-04-15 10:00:04] [Step 3/4] ⏭ Tavily EN skipped (no API key)
+[2026-04-15 10:00:04] [Step 4/4] ⏭ Tavily CN skipped (no API key)
+[2026-04-15 10:00:04] [Merge] Merging all sources...
+[2026-04-15 10:00:04] [Merge] ✓ Total unique articles: 0
+[2026-04-15 10:00:04] [ERROR] No articles fetched from any source
