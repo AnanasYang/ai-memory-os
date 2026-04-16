@@ -29,30 +29,59 @@ function categorizeArticles(articles) {
   const coreKeywords = [
     '开源', 'github', 'open source', '发布', '模型', '框架', '工具', '算法',
     '端到端', 'bev', 'occupancy', '数据闭环', '标注', '训练方法',
-    'autoresearch', 'agent', 'llm', '大模型'
+    'autoresearch', 'agent', 'llm', '大模型', '多模态', 'vla',
+    '视觉语言', 'world model', '世界模型', 'diffusion', 'transformer',
+    '推理优化', '量化', '蒸馏', '微调', 'rlhf', 'rag',
+    '数据集', 'benchmark', '评测', '评估'
   ];
 
   // 近层关键词
   const nearKeywords = [
     '特斯拉', '小鹏', '华为', '蔚来', 'waymo', 'nvidia', '自动驾驶',
-    '智能驾驶', 'vla', 'l2', 'l3', 'l4', '激光雷达', '芯片',
-    '商汤', '多模态', '架构'
+    '智能驾驶', 'l2', 'l3', 'l4', '激光雷达', '芯片', '地平线', 'mobileye',
+    '商汤', '架构', '智驾', '端到端', 'vla模型', '传感器', '摄像头',
+    '高精地图', 'slam', '感知', '规划', '控制', '规控',
+    '英伟达', '高通', '黑芝麻', '寒武纪', '算力'
   ];
 
   // 支撑层关键词
   const supportKeywords = [
-    '政策', '法规', '两会', '投资', '融资', '并购', '收购',
-    '路测', '标准', '数据共享'
+    '政策', '法规', '两会', '投资', '融资', '并购', '收购', 'ipo',
+    '路测', '标准', '数据共享', '监管', '准入', '牌照'
   ];
 
   // 外延层关键词
   const extendedKeywords = [
     '观点', '预测', '趋势', '论文', '学术', '物理ai', '世界模型',
-    '量子计算', 'hpc', '推理', '思考'
+    '量子计算', 'hpc', '推理', '思考', 'agi', '通用人工智能',
+    '具身智能', '机器人', '人形机器人', 'simulation', '仿真'
+  ];
+
+  // 排除词 - 明显非AI/科技的新闻
+  const excludeKeywords = [
+    '游客', '旅游', '燃油附加费', '航班', '酒店', '餐饮', '美食',
+    '创业板指', '深证成指', '上证指数', '恒生指数', '涨', '跌', '涨停', '跌停',
+    '营收', '净利润', '财报', '业绩', '毛利率', '同比', '环比',
+    '收购', '并购', 'ipo', '上市', '股价', '市值', '股东',
+    '韩国', '日本', '美国', '游客', '人次', '万人次',
+    '鸡蛋', '胖东来', 'gucci', '奢侈品', '泡泡玛特', '阅文'
   ];
 
   for (const article of articles) {
     const text = `${article.title} ${article.description || ''}`.toLowerCase();
+    
+    // 首先检查排除词 - 如果匹配太多排除词，跳过此文章
+    let excludeScore = 0;
+    excludeKeywords.forEach(k => { if (text.includes(k)) excludeScore += 1; });
+    
+    // 如果排除词得分过高（超过2个），且没有强AI关键词，则跳过
+    const hasStrongAIKeyword = coreKeywords.some(k => text.includes(k)) || 
+                               nearKeywords.some(k => text.includes(k)) ||
+                               extendedKeywords.some(k => text.includes(k));
+    if (excludeScore >= 2 && !hasStrongAIKeyword) {
+      continue; // 跳过这篇文章
+    }
+    
     let scored = { core: 0, near: 0, extended: 0, support: 0 };
 
     coreKeywords.forEach(k => { if (text.includes(k)) scored.core += 2; });
@@ -65,7 +94,7 @@ function categorizeArticles(articles) {
     if (maxTier[1] > 0) {
       tiers[maxTier[0]].push(article);
     } else {
-      // 默认分到近层
+      // 默认分到近层（降低门槛）
       tiers.near.push(article);
     }
   }

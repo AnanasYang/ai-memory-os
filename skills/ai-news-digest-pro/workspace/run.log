@@ -940,3 +940,34 @@
 [2026-04-15 10:00:04] [Merge] Merging all sources...
 [2026-04-15 10:00:04] [Merge] ✓ Total unique articles: 0
 [2026-04-15 10:00:04] [ERROR] No articles fetched from any source
+[2026-04-16 10:00:01] ==========================================
+[2026-04-16 10:00:02] AI News Digest Pro - daily
+[2026-04-16 10:00:02] Date: 2026-04-16
+[2026-04-16 10:00:02] ==========================================
+[2026-04-16 10:00:02] [WARN] TAVILY_API_KEY not set, Tavily sources will be skipped
+[2026-04-16 10:00:02] [Config] Since date: 2026-04-15
+[2026-04-16 10:00:02] [Config] Tavily days: 1
+[2026-04-16 10:00:02] [Step 1/4] Fetching 量子位...
+[2026-04-16 10:00:04] [Step 1/4] ✓ 量子位: 9 articles
+[2026-04-16 10:00:04] [Step 2/4] Fetching 中文RSS源...
+[2026-04-16 10:00:09] ==========================================
+[2026-04-16 10:00:09] AI News Digest Pro - daily
+[2026-04-16 10:00:09] Date: 2026-04-16
+[2026-04-16 10:00:09] ==========================================
+[2026-04-16 10:00:09] [Config] Since date: 2026-04-15
+[2026-04-16 10:00:09] [Config] Tavily days: 1
+[2026-04-16 10:00:09] [Step 1/4] Fetching 量子位...
+[2026-04-16 10:00:09] [Step 1/4] ✓ 量子位: 8 articles
+[2026-04-16 10:00:09] [Step 2/4] Fetching 中文RSS源...
+[2026-04-16 10:00:23] [Step 2/4] ✓ 中文RSS: 30 articles
+[2026-04-16 10:00:23] [Step 3/4] Fetching Tavily English...
+[2026-04-16 10:00:33] [Step 3/4] ✓ Tavily EN: 25 articles
+[2026-04-16 10:00:33] [Step 4/4] Fetching Tavily Chinese...
+[2026-04-16 10:01:15] [Step 4/4] ✓ Tavily CN: 30 articles
+[2026-04-16 10:01:15] [Merge] Merging all sources...
+[2026-04-16 10:01:15] [Merge] ✓ Total unique articles: 93
+[2026-04-16 10:01:15] [Stats] 量子位: 8, 其他中文: 60, 英文: 25
+[2026-04-16 10:01:15] [Brief] Generating standardized brief...
+[2026-04-16 10:01:15] [Brief] ✓ Brief generated: /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260416.md (3856 bytes)
+[2026-04-16 10:01:15] [Done] All steps completed successfully!
+[2026-04-16 10:01:15] ==========================================

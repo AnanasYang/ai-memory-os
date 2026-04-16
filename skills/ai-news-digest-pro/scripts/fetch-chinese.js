@@ -189,7 +189,13 @@ async function main() {
       try {
         console.error(`[INFO] Fetching ${source.name}...`);
         const xml = await fetchRSS(source.rss, source.name);
-        const articles = await parseRSSWithXml2js(xml, source.name);
+        let articles = await parseRSSWithXml2js(xml, source.name);
+        
+        // 对36氪进行AI/科技内容过滤
+        if (source.id === '36kr') {
+          articles = articles.filter(a => isAITechContent(a));
+          console.error(`[INFO] ${source.name}: ${articles.length} articles after AI filter`);
+        }
         
         // 过滤时间 - 只保留 sinceDate 之后的文章
         const filtered = articles.filter(a => {
