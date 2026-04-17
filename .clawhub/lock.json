@@ -64,6 +64,10 @@
     "github": {
       "version": "1.0.0",
       "installedAt": 1773206440249
+    },
+    "async-task": {
+      "version": "0.1.0",
+      "installedAt": 1776391445413
     }
   }
 }
