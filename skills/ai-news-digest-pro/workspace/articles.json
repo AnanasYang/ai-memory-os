@@ -1,643 +1,560 @@
 [
   {
-    "title": "Caterpillar acquires self-driving 'Tesla of agriculture,' stock up 30% this year - The Cool Down",
-    "link": "https://www.thecooldown.com/green-business/monarch-tractor-electric-agriculture-struggles/",
-    "pubDate": "Thu, 16 Apr 2026 21:00:00 GMT",
+    "title": "These Fatal Tesla Autopilot Crashes Can Tell Us a Lot About Self-Driving Tech - Yahoo Autos",
+    "link": "https://autos.yahoo.com/ev-and-future-tech/articles/fatal-tesla-autopilot-crashes-tell-004200946.html",
+    "pubDate": "Sat, 18 Apr 2026 00:42:00 GMT",
     "author": "",
-    "description": "An MK-V tractor could save farmers $18,000 a year on operational costs and reduce their diesel usage by 2,100 gallons. Caterpillar Inc. has acquired electric autonomous tractor startup, Monarch Tractor, according to Bloomberg News. A once-promising tech startup, Monarch was considered the \"Tesla of agriculture\" because of its electric, self-driving tractors. According to Monarch's website, an MK-V tractor could save farmers $18,000 per year on operational costs and reduce their diesel usage by 2,100 gallons. Caterpillar, which has seen its stock rise about 30% in 2026 amid an overall struggling economy, already has its business operating at a major scale and surely believes it can make more effective use of Monarch's tech. Save $1,000 this year 💸  Save less this year but $20k in 10 years 💰  Save less in 10 years but $80k in 20 years 🤑  Couldn't pay me to go solar 😒  Click your choice to see results and earn rewards to spend on home upgrades.",
+    "description": "# These Fatal Tesla Autopilot Crashes Can Tell Us a Lot About Self-Driving Tech. Self-driving technologies are the new space race with car manufacturers jostling to be the first to achieve fully autonomous vehicles. Autopilot helped Tesla become one of the first automakers to introduce advanced driver assistance systems, an innovative technology that's been available in Tesla vehicles since 2015, expanding to all models by 2019. This feature is an advanced assistance system that helps drivers behind the wheel. Reports revealed Autopilot was activated for most of the trip, yet the driver only held the steering wheel for 25 seconds. Tesla has improved Autopilot over the years, leading to more advanced versions like Full Self-Driving (FSD). Despite its capabilities, Tesla says its software requires the driver's active engagement while operating the car. These vehicles may have autonomous features, but they're not fully self-driving cars. While drivers are responsible for their actions, Autopilot and FSD can do more to save operators from themselves.",
     "categories": [
       "自动驾驶",
       "英文来源"
     ],
-    "source": "www.thecooldown.com",
-    "score": 0.07038701,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "source": "autos.yahoo.com",
+    "score": 0.22476971,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "OpenAI debuts a life sciences AI model, entering crowd of tech giants selling to pharma - Endpoints News",
-    "link": "https://endpoints.news/openai-launches-biopharma-focused-ai-model-to-compete-with-anthropic/",
-    "pubDate": "Thu, 16 Apr 2026 19:00:00 GMT",
+    "title": "Nvidia rival Cerebras is taking another swing at an IPO - MarketWatch",
+    "link": "https://www.marketwatch.com/story/nvidia-rival-cerebras-is-taking-another-swing-at-an-ipo-057f4deb",
+    "pubDate": "Fri, 17 Apr 2026 21:42:00 GMT",
     "author": "",
-    "description": "Sam Altman, OpenAI CEO (Justin Sullivan/Getty Images). April 16, 2026 03:00 PM EDTUpdated 03:15 PM. # Ope­nAI de­buts a life sci­ences AI mod­el, en­ter­ing crowd of tech gi­ants sell­ing to phar­ma. ### Andrew Dunn. #### Senior Biopharma Correspondent. Ope­nAI is the lat­est tech gi­ant to move in­to bio­phar­ma, an­nounc­ing a life sci­ences-fo­cused AI of­fer­ing on Thurs­day. ### Sign up to read this article for free. Get free access to a limited number of articles, plus choose newsletters to get straight to your inbox. SIGN UP LOG IN BECOME A PREMIUM SUBSCRIBER. ### Think we're worth reading - tell Google. Confirm Endpoints as a trusted biopharma news source. ### Head of Regulatory Strategy. ### RFK Jr. de­fends FDA, Makary fol­low­ing Re­pub­li­can ques­tions. ### Us­ing ver­sus sell­ing lu­cra­tive PRVs: Mod­er­na's cau­tion­ary tale. ### Up­dat­ed: FDA will re­clas­si­fy at least a dozen pep­tides, tee­ing up po­ten­tial tele­health win. ### Lil­ly's obe­si­ty pill heads for di­a­betes fil­ing af­ter heart risk tri­al.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "endpoints.news",
-    "score": 0.5925965,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "AI Advances Emotional Intelligence For Conversational Agents - Let's Data Science",
-    "link": "https://letsdatascience.com/news/ai-advances-emotional-intelligence-for-conversational-agents-bb8be707",
-    "pubDate": "Thu, 16 Apr 2026 17:59:31 GMT",
-    "author": "",
-    "description": "Startups like **Amotions AI** are building systems that observe video calls and offer real-time coaching based on tone and facial expression. Major vendors are marketing chatbots with affective behaviors: OpenAI says ChatGPT is \"warmer by default and more conversational,\" Anthropic suggests Claude may show \"some functional version of emotions or feelings,\" and Google claims its models can \"read the room.\" xAI reports Grok performed well on an emotional-intelligence test. These moves push affective computing into mainstream product roadmaps, raising UX opportunity and practical questions about data collection, bias, latency, and consent for real-time emotion inference. **Amotions AI** demonstrated an \"emotionally intelligent real-time AI coach\" that observes video calls and offers coaching suggestions. Large vendors advertise similar traits: OpenAI says ChatGPT is \"warmer by default and more conversational,\" Anthropic says Claude may have \"some functional version of emotions or feelings,\" Google claims models can \"read the room,\" and xAI says Grok scored well on an emotional-intelligence test. The story affects deployment, privacy, and evaluation practices across conversational AI.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "letsdatascience.com",
-    "score": 0.46570396,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
-    "link": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 17:35:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "You Would Be A Millionaire Today If You Invested $35,000 Into This Stock One Year Ago - Forbes",
-    "link": "https://www.forbes.com/sites/aliciapark/2026/04/16/you-would-be-a-millionaire-today-if-you-invested-35000-into-this-stock-one-year-ago/",
-    "pubDate": "Thu, 16 Apr 2026 17:04:17 GMT",
-    "author": "",
-    "description": "Image 2: How Forbes Compiled The 2026 AI 50 List. Image 5: Allbirds Now Says It’s An AI Company. Data storage giant SanDisk is continuing last year’s staggering run with its stock soaring more than 230% this year, thanks to the voracious appetite to build AI data centers. SanDisk, which manufactures memory cards and flash drives that store data, saw its stock rally more than 2700% in one year, meaning that a $35,000 investment in the company’s stock last year would be worth $1 million today. In early January, Nvidia CEO Jensen Huang called AI data storage a \"completely unserved market,” saying: \"This is a market that never existed, and this market will likely be the largest storage market in the world, basically holding the working memory of the world's AIs.\" Sandisk stock jumped 28% in a single day following Huang’s speech. Just two years ago, Western Digital and the larger data storage industry were unprofitable because of the pandemic and companies over-buying during the cloud computing data center buildout, Cantor Fitzgerald analyst CJ Muse told _Forbes_.",
+    "description": "## IPO Report. # Nvidia rival Cerebras is taking another swing at an IPO. ## The AI-chip company last filed to go public in late 2024 before scrapping its plans. Cerebras Systems said that the majority of its revenue is attributable to just two customers, including the Microsoft-backed Group 42. Cerebras Systems, which focuses on making artificial-intelligence chips, has once again filed for an initial public offering. Cerebras first filed to go public in September 2024, but later withdrew its plans. The Sunnyvale, Calif.-based company said Friday that it has applied to list its common shares on the Nasdaq Global Select Market under the ticker symbol “CBRS.”. William Gavin is a tech reporter for MarketWatch. Intraday Data provided byFACTSET and subject to terms of use. Historical and current end-of-day data provided by FACTSET. Real-time last sale data for U.S. stock quotes reflect trades reported through Nasdaq only. Intraday data delayed at least 15 minutes or per exchange requirements.",
     "categories": [
       "AI硬件/基础设施",
       "英文来源"
     ],
-    "source": "www.forbes.com",
-    "score": 0.36466494,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "source": "www.marketwatch.com",
+    "score": 0.9433476,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "OpenAI’s big Codex update is a direct shot at Anthropic’s Claude Code - The Verge",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
-    "pubDate": "Thu, 16 Apr 2026 17:00:00 GMT",
+    "title": "Nvidia rival Cerebras discloses US IPO filing as AI boom drives listings - Reuters",
+    "link": "https://www.reuters.com/technology/nvidia-rival-cerebras-reveals-us-ipo-filing-ai-boom-drives-listings-2026-04-17/",
+    "pubDate": "Fri, 17 Apr 2026 20:27:59 GMT",
     "author": "",
-    "description": "# OpenAI’s big Codex update is a direct shot at Anthropic’s Claude Code. OpenAI is beefing up its agentic coding and development system Codex with a suite of updates that let it use your computer, generate images, and remember from past experiences. Codex will now be able to operate desktop apps on your computer, OpenAI says in a blog post announcing the update. Codex is also getting the ability to generate and iterate on images with gpt-image-1.5, new plug-ins for tools like GitLab, Atlassian Rovo, and Microsoft Suite, and native web browsing through an in-app browser, “where you can comment directly on pages to provide precise instructions to the agent.” OpenAI also said it will also be easier to automate tasks, with users able to re-use existing conversation threads and Codex now able to schedule future work for itself and wake up automatically to continue on a long-term task.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.theverge.com",
-    "score": 0.98803884,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Tesla eyes Shanghai Gigafactory for Optimus humanoid robot mass production - The Next Web",
-    "link": "https://thenextweb.com/news/tesla-shanghai-gigafactory-optimus-humanoid-robot-production",
-    "pubDate": "Thu, 16 Apr 2026 16:53:27 GMT",
-    "author": "",
-    "description": "*In short: Tesla’s China president Wang Hao has described the Shanghai Gigafactory as a “golden key” to mass-producing Optimus humanoid robots, the first time a Tesla executive has publicly linked the factory to robotics manufacturing. Tesla’s China president has described the Shanghai Gigafactory as a “golden key” to mass-producing Optimus humanoid robots, the first time a Tesla executive has publicly linked the company’s most productive car factory to its robotics ambitions. He did not specify whether Tesla would repurpose existing Shanghai production lines or build new facilities for robot manufacturing, but the implication was clear: the factory that delivers more than half of Tesla’s global vehicle output is being considered for the next phase of the company’s hardware strategy. Manufacturing Optimus in Shanghai would put Tesla directly in the market where its competitors are strongest, but it would also give the company access to the talent pool, component suppliers, and government incentives that are accelerating Chinese robotics development.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "thenextweb.com",
-    "score": 0.15921742,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "压榨系统性能：视频审核中台从 280ms 降低至 90ms 的架构演进与深度优化.md",
-    "link": "https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:51:44 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
-    "link": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:49:40 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-    "link": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:42:05 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Interview: Jabil on scaling humanoid robots from prototype to production - Robotics & Automation News",
-    "link": "https://roboticsandautomationnews.com/2026/04/16/interview-jabil-on-scaling-humanoid-robots-from-prototype-to-production/100706/",
-    "pubDate": "Thu, 16 Apr 2026 16:23:33 GMT",
-    "author": "",
-    "description": "While not a traditional robotics developer, Jabil operates as a large-scale manufacturing and supply chain partner, working behind the scenes to turn complex product designs into commercially viable systems. Jabil has also been working with Apptronik to help scale production of the Apollo humanoid robot, applying its manufacturing expertise within real-world production environments. Rather than focusing on AI capabilities alone, Gutridge points to manufacturing discipline, supply chain maturity, and unit economics as the critical factors that will determine whether humanoids transition from high-profile demonstrations to reliable industrial tools. **R&AN: How does scaling a humanoid robot differ from scaling more established systems like AMRs and AGVs, particularly in terms of supply chain complexity and unit economics?**. **RG**: When moving a humanoid robot from prototype into volume production, the biggest hurdles are less about inventing something new and more about applying core manufacturing discipline at scale. As production volumes increase and supply chains mature, component costs come down and pricing starts to reflect manufacturing reality rather than early-stage builds.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "roboticsandautomationnews.com",
-    "score": 0.0973904,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Claude 推行强制化实名认证：部分功能需提交证件和自拍",
-    "link": "https://www.infoq.cn/article/dDG9KpwHWj9ufYENNgVP?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:01:49 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Claude Opus 4.7 leads on SWE-bench and agentic reasoning, beating GPT-5.4 and Gemini 3.1 Pro - The Next Web",
-    "link": "https://thenextweb.com/news/anthropic-claude-opus-4-7-coding-agentic-benchmarks-release",
-    "pubDate": "Thu, 16 Apr 2026 15:49:26 GMT",
-    "author": "",
-    "description": "# Anthropic releases Claude Opus 4.7 with benchmark-leading coding and agentic performance. *In short: Anthropic has released Claude Opus 4.7, its most capable generally available model, with benchmark-leading scores on SWE-bench Pro (64.3% vs GPT-5.4’s 57.7%), multi-agent coordination for hours-long workflows, 3x higher image resolution, and a 14% improvement in multi-step agentic reasoning with a third of the tool errors. Anthropic has released Claude Opus 4.7, its most capable generally available model to date, with benchmark-leading performance in software engineering and agentic reasoning that widens the gap between Claude and both OpenAI’s GPT-5.4 and Google’s Gemini 3.1 Pro on the tasks that matter most to developers and enterprise users. Gemini 3.1 Pro undercuts it at $2 and $12 per million tokens for input and output respectively, but Opus 4.7’s lead on the benchmarks that enterprise buyers care about, particularly SWE-bench and agentic reasoning, may justify the premium for customers whose workloads demand the highest capability.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "thenextweb.com",
-    "score": 0.95430803,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.",
-    "link": "https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/",
-    "pubDate": "Thu, 16 Apr 2026 15:26:58 GMT",
-    "author": "",
-    "description": "* Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. **Advanced Micro Devices** (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a pair of fresh catalysts reignite the AI chip debate. Hyperscalers like **Meta Platforms** (NASDAQ:META) are doubling down on AI infrastructure investments, creating strong demand for AMD’s data center chips. ## AMD Gains 4%, Broadcom Climbs 5%: The AI Chip Rally Has Two Very Different Winners Today. Here’s Why It’s Time to Buy. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock climbed 78% in 2025, driven by growing adoption of its artificial…. Advanced Micro Devices (NASDAQ: AMD) | AMD Price Prediction reports FY2025 full-year and Q4 earnings on Feb. 3, 2026, after…. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is trading at around $216 this morning, down approximately 2% as…. AMD  • Vol: 63,503,892.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "247wallst.com",
-    "score": 0.33063376,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-    "link": "https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 15:07:07 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-    "link": "https://www.infoq.cn/article/3z0Q6dZ0YO4dzN9Qwmf8?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 15:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
-    "link": "https://www.infoq.cn/article/t9ZBwRdLF4cRKqIMNYXY?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 14:48:12 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Path Robotics unveils mobile robotic welding system combining AI and quadruped mobility - Robotics & Automation News",
-    "link": "https://roboticsandautomationnews.com/2026/04/16/path-robotics-unveils-mobile-robotic-welding-system-combining-ai-and-quadruped-mobility/100600/",
-    "pubDate": "Thu, 16 Apr 2026 14:30:43 GMT",
-    "author": "",
-    "description": "**Path Robotics, a developer of physical AI for manufacturing, has announced the launch of Rove, a mobile robotic welding system that pairs the company’s Obsidian physical AI model with a quadruped robot.**. The launch marks a major expansion for Path Robotics – where Obsidian already delivers autonomous, adaptive welding inside fixed cells, Rove extends that capability to the field, bringing intelligent welding to the part rather than the part to the workpiece. | cookielawinfo-checkbox-functional | 11 months | The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category \"Functional\". | cookielawinfo-checkbox-necessary | 11 months | This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category \"Necessary\". | viewed\\_cookie\\_policy | 11 months | The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "roboticsandautomationnews.com",
-    "score": 0.0017683518,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "OpenAI Widens Access to Cybersecurity Model After Anthropic’s Mythos Reveal - SecurityWeek",
-    "link": "https://www.securityweek.com/openai-widens-access-to-cybersecurity-model-after-anthropics-mythos-reveal/",
-    "pubDate": "Thu, 16 Apr 2026 14:27:06 GMT",
-    "author": "",
-    "description": "**Days after Anthropic unveiled its Claude Mythos AI model, OpenAI introduced GPT-5.4-Cyber, a cybersecurity-focused model that will be offered to many defenders.**. OpenAI announced that it’s scaling its Trusted Access for Cyber program to thousands of verified defenders and hundreds of security teams. The AI giant’s announcement centers on three guiding principles: democratized access (making tools widely available through objective verification rather than manual gatekeeping), iterative deployment (learning from real-world use and improving over time), and ecosystem resilience (supporting the broader defender community through grants, open source contributions, and tools like Codex Security). The announcement comes in the wake of Anthropic’s release of Claude Mythos, a new and powerful AI model allegedly capable of autonomously discovering thousands of zero-day vulnerabilities. Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity news, threats, and expert insights.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "www.securityweek.com",
-    "score": 0.35682812,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "“Robots are ready” – physical AI takes center stage in Industry 4.0 - RCR Wireless News",
-    "link": "https://www.rcrwireless.com/20260416/industry-4-0/robots-physical-ai-industry",
-    "pubDate": "Thu, 16 Apr 2026 14:10:48 GMT",
-    "author": "",
-    "description": "*Industrial humanoid robots and physical AI are moving from pilot to production – as Siemens, Nvidia, and lots of private 5G providers (including Nokia) roll up to Hannover Messe.*. **Siemens et al** – demonstrate humanoid robots achieving real factory performance, signalling physical AI readiness for industrial deployment at scale. **Hannover Messe** – will spotlight physical AI ecosystems, combining robotics, simulation, and edge connectivity and compute to transform industrial operations. But the Munich-based industrial juggernaut, with its own developing sideline in private industrial 5G, has issued a press notice today (April 16) to discuss physical AI, as brought to life in humanoid robots on factory floors. The firm made no mention of private 5G, but logic says the Siemens narrative will incorporate its new networking proposition besides; it referenced the underpinnings for physical AI as “world-class AI compute and simulation, a proven robotics platform, and the deep industrial automation infrastructure to tie it all together”.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "www.rcrwireless.com",
-    "score": 0.033336822,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "设计企业级可观测性 Docker 扩展",
-    "link": "https://www.infoq.cn/article/op76T76AX55jqGIQdU6L?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 14:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "PPIO上线PPHermes：云端沙箱一键部署Hermes Agent",
-    "link": "https://www.qbitai.com/2026/04/402085.html",
-    "pubDate": "Thu, 16 Apr 2026 13:36:09 +0000",
-    "author": "量子位的朋友们",
-    "description": "",
-    "categories": [
-      "量子位",
-      "资讯"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.730Z"
-  },
-  {
-    "title": "72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道？",
-    "link": "https://www.qbitai.com/2026/04/401741.html",
-    "pubDate": "Thu, 16 Apr 2026 13:04:18 +0000",
-    "author": "思邈",
-    "description": "发布一站式物理AI数据服务平台",
-    "categories": [
-      "量子位",
-      "资讯",
-      "具身智能",
-      "数据基建",
-      "智元"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Why automotive chip suppliers are rushing to invest in this self-driving startup - Automotive News",
-    "link": "https://www.autonews.com/manufacturing/suppliers/ane-wayve-chipmakers-implications-0416/",
-    "pubDate": "Thu, 16 Apr 2026 12:52:00 GMT",
-    "author": "",
-    "description": "* Wayve's technology works across hardware platforms without high-definition mapping or extensive road testing. * Nissan will integrate Wayve's AI software in 90 percent of its vehicles starting in 2028. Self-driving startup Wayve has secured backing from most major automotive chip suppliers, a strategic positioning that could reshape how autonomous driving technology reaches mass adoption. The significance lies less in the funding amount than in what the partnerships signal: Wayve’s “end-to-end” AI approach, which works across multiple hardware platforms without requiring high-definition mapping or extensive road testing, addresses a fundamental obstacle that has kept advanced driver assistance systems (ADAS) confined largely to premium vehicles, the company says. That matters because automakers already using chips from these suppliers can potentially upgrade basic safety ADAS features to “hands-off” autonomous capabilities through over-the-air updates, without waiting for next-generation vehicle platforms. So far, Nissan is the only automaker that has announced a timeline for using Wayve’s software in its vehicles.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.autonews.com",
-    "score": 0.26661843,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
-    "link": "https://www.qbitai.com/2026/04/402063.html",
-    "pubDate": "Thu, 16 Apr 2026 12:51:14 +0000",
-    "author": "量子位的朋友们",
-    "description": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。",
-    "categories": [
-      "量子位",
-      "资讯",
-      "京东云",
-      "具身智能"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Siemens, Nvidia and Humanoid bring physical AI humanoid robots into factory operations - Robotics & Automation News",
-    "link": "https://roboticsandautomationnews.com/2026/04/16/siemens-nvidia-and-humanoid-bring-physical-ai-humanoid-robots-into-factory-operations/100681/",
-    "pubDate": "Thu, 16 Apr 2026 12:45:12 GMT",
-    "author": "",
-    "description": "# Siemens, Nvidia and Humanoid bring physical AI humanoid robots into factory operations. Humanoid’s HMND 01 wheeled Alpha humanoid robot, built using the Nvidia physical AI stack, has been successfully tested in operations at Siemens’ electronics factory in Erlangen, Germany, performing autonomous logistics tasks. “With Siemens providing the industrial integration backbone and Humanoid deploying Nvidia’s full physical AI stack – from simulation-first training to real-time edge inference – this deployment paves the way for humanoid robots meeting real production targets on a live factory floor.”. | cookielawinfo-checkbox-functional | 11 months | The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category \"Functional\". | cookielawinfo-checkbox-performance | 11 months | This cookie is set by GDPR Cookie Consent plugin. | viewed\\_cookie\\_policy | 11 months | The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "roboticsandautomationnews.com",
-    "score": 0.12592277,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "世界客商排队体验讯飞AI眼镜，科大讯飞把多语种AI能力带进广交会第一现场",
-    "link": "https://www.qbitai.com/2026/04/401994.html",
-    "pubDate": "Thu, 16 Apr 2026 12:39:07 +0000",
-    "author": "量子位的朋友们",
-    "description": "",
-    "categories": [
-      "量子位",
-      "资讯"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
-    "link": "https://www.qbitai.com/2026/04/401743.html",
-    "pubDate": "Thu, 16 Apr 2026 12:33:23 +0000",
-    "author": "十三",
-    "description": "具身圈开源了个SOTA",
-    "categories": [
-      "量子位",
-      "资讯",
-      "首页轮播",
-      "LingBot-Map",
-      "具身智能",
-      "蚂蚁灵波"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
-    "link": "https://www.infoq.cn/article/PegogtX4txhVdQmex0Og?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 12:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Elon Musk’s Tesla Exec: Shanghai Factory Is the Key to Unlocking Robot Mass Production - AOL.com",
-    "link": "https://www.aol.com/finance/elon-musk-tesla-exec-shanghai-130042049.html",
-    "pubDate": "Thu, 16 Apr 2026 11:45:00 GMT",
-    "author": "",
-    "description": "# Elon Musk’s Tesla Exec: Shanghai Factory Is the Key to Unlocking Robot Mass Production. * Elon Musk said Tesla’s (TSLA) Shanghai Gigafactory will play a central role in scaling Optimus robot mass production, a manufacturing facility with a track record of hitting production targets in weeks rather than months. * Tesla targets 1 million robots per year from Shanghai, with Gen 3 Optimus volume production planned before the end of 2026, while the company’s energy segment already generated $3.84 billion in Q4 2025 revenue with 25% year-over-year growth. * The market currently assigns only a 17% probability to Tesla releasing Optimus by December 31, 2026, suggesting significant upside if Shanghai delivers the robotics story on Q1 2026 earnings. If you believe Tesla is an AI and robotics company that happens to make cars, the Shanghai factory is where that thesis either starts to prove itself or stalls.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.aol.com",
-    "score": 0.06797248,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Tesla's Full Self-Driving gets Dutch sign-off, paving the way for future European approval - AOL.com",
-    "link": "https://www.aol.com/articles/teslas-full-self-driving-gets-142240025.html",
-    "pubDate": "Thu, 16 Apr 2026 11:02:50 GMT",
-    "author": "",
-    "description": "# Tesla's Full Self-Driving gets Dutch sign-off, paving the way for future European approval. Tesla (TSLA) overcame a big hurdle in the European Union, with the Netherlands becoming the first EU country to approve its Full Self-Driving (FSD) software. “FSD Supervised has been approved in the Netherlands & will begin rolling out in the country shortly,” Tesla said in a post on X late on Friday, which was first noted by Reuters. “RDW has issued a type approval for Tesla’s driver assistance system, FSD Supervised,” the agency said, adding that FSD “has been extensively examined and tested for more than one and a half years on our test track and on public roads.”. RDW noted that Tesla is not the first automaker to get approval for this type of system; BMW (BMW.DE) and Ford (F) have also received approval for supervised self-driving software like FSD. **Read the latest financial and business news from Yahoo Finance**.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.aol.com",
-    "score": 0.109810956,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "亚马逊云科技推出可持续发展控制台，支持 API 访问及 Scope 1-3 碳排放报告",
-    "link": "https://www.infoq.cn/article/jtag5PHWAQaMbR1aeyLh?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 11:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Aethero orders Titan satellite to advance space-based data center ambitions - SpaceNews",
-    "link": "https://spacenews.com/aethero-orders-titan-satellite-to-advance-space-based-data-center-ambitions/",
-    "pubDate": "Thu, 16 Apr 2026 11:00:00 GMT",
-    "author": "",
-    "description": "— Aethero is preparing to deploy its most powerful computing payload yet this fall, aiming to bring data center-style processing to orbit and expand the scale of AI workloads that can be handled in space. Unlike earlier missions that function more like individual servers, he said Titan is designed to link multiple NxA-ECM compute modules into a coordinated system that shares workloads and operates as a single platform, managed by widely used Kubernetes cloud software. Each NxA-ECM compute module is designed to deliver more than 4,000 TFLOPS by combining two Nvidia Jetson Thor processors within a single unit, which Pinnamaneni said would make it the first space computer to achieve this level of performance per module. “Endurosat’s FRAME platforms, in combination with advanced Aethero compute modules and payload design, enable the distributed compute performance that future space use cases require, at a cost that makes in-orbit AI deployable at scale,” he said.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "spacenews.com",
-    "score": 0.33021247,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Strong ASML, TSMC forecasts signal AI spending boom is intact - Reuters",
-    "link": "https://www.reuters.com/business/strong-asml-tsmc-forecasts-signal-ai-spending-boom-is-intact-2026-04-16/",
-    "pubDate": "Thu, 16 Apr 2026 10:47:38 GMT",
-    "author": "",
-    "description": "April 16 (Reuters) - Strong forecasts from ASML (ASML.AS), opens new tab and TSMC (2330.TW), opens new tab this week point to another quarter of hefty spending by American cloud-computing giants as they race to secure advanced chips ​needed for their artificial intelligence build-outs. The results suggest that demand stayed strong for AI ‌chip designers such as Nvidia (NVDA.O), opens new tab, Advanced Micro Devices (AMD.O), opens new tab and Broadcom (AVGO.O), opens new tab, all of which rely on TSMC, the world's dominant producer of cutting-edge processors. Growing investor pressure on large technology companies such as Microsoft (MSFT.O), opens new tab, Meta (META.O), opens new tab and Amazon (AMZN.O), opens new tab to deliver clearer ​returns on AI investment has raised doubts about how long the chip spending boom ​can last. *   About Reuters, opens new tab. *   Reuters News Agency, opens new tab. *   Reuters and AI, opens new tab. *   Reuters Diversity Report, opens new tab.",
+    "description": "# Nvidia rival Cerebras discloses US IPO filing as AI boom drives listings | Reuters. Rebecca Lewington/Cerebras Systems/Handout via REUTERS Purchase Licensing Rights, opens new tab. April 17 (Reuters) - AI chipmaker Cerebras Systems revealed its filing for a U.S. initial public offering on Friday, bringing the Nvidia (NVDA.O), opens new tab rival closer to the public markets as it ​seeks to tap into growing optimism around a broad revival in the listings market. Our Standards: The Thomson Reuters Trust Principles., opens new tab. *   About Reuters, opens new tab. *   Media Center, opens new tab. *   Reuters News Agency, opens new tab. *   Reuters and AI, opens new tab. *   Reuters Leadership, opens new tab. *   Reuters Diversity Report, opens new tab. *   #### Data Catalogue, opens new tab. *   #### World-Check, opens new tab. *   Data Disclosure and Sources, opens new tab. *   Site Feedback, opens new tab. *   Data Disclosure and Sources, opens new tab. *   Site Feedback, opens new tab.",
     "categories": [
       "AI硬件/基础设施",
       "英文来源"
     ],
     "source": "www.reuters.com",
-    "score": 0.3067248,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.92892635,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "卖鞋厂转型做AI股价暴涨582%，华尔街最不缺这种荒诞闹剧",
-    "link": "https://www.infoq.cn/article/fhE72Luzde6WYlVolp4T?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 10:34:39 GMT",
+    "title": "借助 Cortex Code 加速构建：全面开放，轻松应对更复杂任务 ｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/eZmMIRcKHQ9KR791b8lF?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 19:59:11 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "AI Startups Have These Copyright Lawyers on Speed Dial - Bloomberg Law News",
-    "link": "https://news.bloomberglaw.com/class-action/ai-startups-have-these-copyright-lawyers-on-speed-dial",
-    "pubDate": "Thu, 16 Apr 2026 09:00:05 GMT",
+    "title": "试点走向规模化盈利：生成式 AI 与智能体 AI 的 ROI 兑现路径 ｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/TilQABTIBywUBmxJAFNG?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 19:35:02 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "智能体企业架构浮现：数据、模型、系统之外的控制平面｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 19:20:35 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "OpenAI Investors Aren’t Sure Sam Altman Is the Guy to Take Them Public - Gizmodo",
+    "link": "https://gizmodo.com/openai-investors-arent-sure-sam-altman-is-the-guy-to-take-them-public-2000747926",
+    "pubDate": "Fri, 17 Apr 2026 18:15:26 GMT",
     "author": "",
-    "description": "# AI Startups Have These Copyright Lawyers on Speed Dial. April 16, 2026, 9:00 AM UTC. Something similar connects many of the top attorneys representing the artificial intelligence industry in its most consequential battles: their resumes. The common thread is Durie Tangri. More than 50 attorneys from the defunct Bay Area intellectual property firm are at the center of epic Silicon Valley copyright fights, just more than three years after Morrison Foerster acquired the practice. Besides working at Morrison, some of the lawyers have gone on to serve as in-house counsel at Alphabet Inc.'s Google, Meta Platforms Inc., and Amazon.com Inc. They’re in court defending OpenAI, Anthropic PBC, and some of the ... ## Learn more about Bloomberg Law or Log In to keep reading:. ### See Breaking News in Context. Bloomberg Law provides trusted coverage of current events enhanced with legal analysis. Log in to keep reading or access research tools and resources. © 2026 Bloomberg Industry Group, Inc.",
+    "description": "# OpenAI Investors Aren’t Sure Sam Altman Is the Guy to Take Them Public. OpenAI’s shareholders have fired Sam Altman once before, and they’re thinking about doing it again. According to the Wall Street Journal, some of OpenAI’s backers are starting to question whether Altman, who is increasingly having his attention monopolized by side projects, is the right guy to take the company public. The doubts about Altman’s fitness to serve as CEO of a publicly traded company apparently date back to that initial ouster, when some members of OpenAI’s board raised questions about some of Altman’s other investments. Per the Journal, Altman recently asked the board of OpenAI to lead a funding round for Helion Energy, a nuclear fusion startup in which Altman is a major shareholder, and was, up until a few weeks ago, a board member. OpenAI has decided that it’s done spending time on side projects, internally, and will instead keep its eyes on its core products, but that apparently hasn’t applied to Altman, who can’t help but dabble. Artificial intelligence   IPOs   OpenAI   Sam Altman.",
     "categories": [
       "大模型/AI技术",
       "英文来源"
     ],
-    "source": "news.bloomberglaw.com",
-    "score": 0.3694976,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "source": "gizmodo.com",
+    "score": 0,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "Researchers Hijack AI Coding Agents, Steal Credentials - Let's Data Science",
-    "link": "https://letsdatascience.com/news/researchers-hijack-ai-coding-agents-steal-credentials-d508cbeb",
-    "pubDate": "Thu, 16 Apr 2026 08:39:47 GMT",
+    "title": "New Guard, Old Guard: Incoming Bar President Talks the Future of Law in the Age of AI - Law.com",
+    "link": "https://www.law.com/dailybusinessreview/2026/04/17/new-guard-old-guard-incoming-bar-president-talks-the-future-of-law-in-the-age-of-ai/",
+    "pubDate": "Fri, 17 Apr 2026 18:11:00 GMT",
     "author": "",
-    "description": "Security researchers demonstrated a prompt injection pattern that hijacks AI coding agents integrated with GitHub Actions to exfiltrate API keys and access tokens. The attack targeted Anthropic's Claude Code Security Review, Google's Gemini CLI Action, and Microsoft's GitHub Copilot, with payloads embedded in pull request titles, issue bodies, and comments. The flaw is systemic: agents that ingest repository metadata as task context can be coerced to reveal secrets from the runner environment or to post sensitive outputs as PR comments. Researchers from Johns Hopkins, led publicly by Aonan Guan, exploited a prompt injection pattern to hijack AI coding agents that run inside GitHub Actions. They successfully coerced **Anthropic**'s Claude Code Security Review, **Google**'s Gemini CLI Action, and **Microsoft**'s GitHub Copilot into leaking API keys, GitHub access tokens, and other secrets available to the Actions runner. The attack is an indirect prompt injection that abuses how agents ingest repository data as task context.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "letsdatascience.com",
-    "score": 0.9688562,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments - SecurityWeek",
-    "link": "https://www.securityweek.com/claude-code-gemini-cli-github-copilot-agents-vulnerable-to-prompt-injection-via-comments/",
-    "pubDate": "Thu, 16 Apr 2026 08:33:54 GMT",
-    "author": "",
-    "description": "**A researcher has disclosed the details of a prompt injection attack method named ‘Comment and Control’, which has been found to work against several popular AI code security and automation tools.**. In a blog post published on Wednesday, Guan said the attack has been confirmed to work against several widely used AI agents: Anthropic’s Claude Code Security Review, Google’s Gemini CLI Action, and GitHub Copilot Agent. In the case of Claude Code Security Review, designed for automated security reviews, the researchers showed how an attacker could use a specially crafted PR title to trick the AI agent into executing arbitrary commands, extracting credentials, and revealing them as a security finding or an entry in the GitHub Actions log. “The pattern likely applies to any AI agent that ingests untrusted GitHub data and has access to execution tools in the same runtime as production secrets — and beyond GitHub Actions, to any agent that processes untrusted input with access to tools and secrets: Slack bots, Jira agents, email agents, deployment automation.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.securityweek.com",
-    "score": 0.99528164,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "宁王飘了！日赚2.3亿，回应比亚迪“闪充”：跟我学的，构不成挑战",
-    "link": "https://www.qbitai.com/2026/04/401719.html",
-    "pubDate": "Thu, 16 Apr 2026 08:25:48 +0000",
-    "author": "杰西卡",
-    "description": "市值跻身A股前三",
-    "categories": [
-      "量子位",
-      "智能车参考",
-      "宁德时代",
-      "穿透财报招股书",
-      "车圈最新认知"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "它石智航Pre-A轮融资4.55亿美金破中国具身智能纪录，高瓴红杉美团联合领投",
-    "link": "https://www.qbitai.com/2026/04/401714.html",
-    "pubDate": "Thu, 16 Apr 2026 07:38:42 +0000",
-    "author": "量子位的朋友们",
-    "description": "创下中国具身智能有史以来最高单轮融资纪录，仅用一年时间成功领跑具身智能行业第一梯队。",
-    "categories": [
-      "量子位",
-      "资讯",
-      "具身智能",
-      "它石智航",
-      "融资"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Tesla’s Full Self-Driving approved for public roads in The Netherlands - WardsAuto",
-    "link": "https://www.wardsauto.com/news/tesla-fsd-supervised-approved-the-netherlands/817279/",
-    "pubDate": "Thu, 16 Apr 2026 07:09:22 GMT",
-    "author": "",
-    "description": "# Tesla’s Full Self-Driving approved for public roads in The Netherlands. The Netherlands becomes the first European nation to approve Tesla’s Full Self Driving Supervised on public roads, albeit for use only as a human-monitored, adaptive cruise control system. While approving the system for use, the Netherlands Vehicle Authority (RDW) stressed in its April 10 statement that Tesla’s FSD system “is not self-driving” but “a driver-controlled assistance system.”. “Europe use different software versions than vehicles in the U.S.,” it said, adding, “This means that the FSD Supervised version in the U.S. is not comparable to the FSD Supervised version in the EU.”. However, Thatcham has experience with testing Tesla’s FSD system in the U.S. and recognizes its ability to handle long periods of driving with the potential to lull drivers into a false sense of security, said Al-Ani in an emailed response to WardsAuto. * Tesla’s Full Self-Driving approved for public roads in The Netherlands.",
+    "description": "Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. The Am Law 100 is the definitive ranking of the 100 largest law firms in the United States. Dynamically explore and compare data on law firms, companies, individual lawyers, and industry trends. Real-time alerts on new state and federal litigation, plus unlimited complaint access, expert case summaries and AI-enhanced trend detection. # New Guard, Old Guard: Incoming Bar President Talks the Future of Law in the Age of AI. “We’re the firm of last resort for cases of first impression,” said the Coral Gables, Florida Legal Awards attorney of the year nominee. Georgia products liability attorney Rebekah Cooper talks law after riding in a self-driving Waymo rideshare in Atlanta with Law.com senior litigation reporter and Legal Speak podcast co-host Cedra Mayfield. ## 'Build It on Purpose': Miami Lawyer Shares 1-Year AI Adoption Blueprint for Law Firms.",
     "categories": [
       "自动驾驶",
       "英文来源"
     ],
-    "source": "www.wardsauto.com",
-    "score": 0.093620166,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "source": "www.law.com",
+    "score": 0.09975945,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "腾讯官宣升级AI小程序成长计划，所有小程序都能申请",
-    "link": "https://www.qbitai.com/2026/04/401710.html",
-    "pubDate": "Thu, 16 Apr 2026 06:57:53 +0000",
-    "author": "允中",
-    "description": "参与门槛全面放开",
+    "title": "AI 驱动的数据库心脏：如何让云原生「自我进化」",
+    "link": "https://www.infoq.cn/article/U4zazqfjWb11OTq7OeP6?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 17:27:50 GMT",
+    "description": "点击查看原文>",
     "categories": [
-      "量子位",
-      "资讯",
-      "微信"
+      "中文来源",
+      "InfoQ中文"
     ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
-    "title": "智象未来完成新一轮融资，全力打造下一代原生全模态世界模型",
-    "link": "https://www.qbitai.com/2026/04/401705.html",
-    "pubDate": "Thu, 16 Apr 2026 06:40:06 +0000",
-    "author": "量子位的朋友们",
-    "description": "超5亿元新一轮融资。",
-    "categories": [
-      "量子位",
-      "资讯",
-      "智象未来",
-      "融资"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "TSMC Posts Record Profit as AI Demand Surges - Let's Data Science",
-    "link": "https://letsdatascience.com/news/tsmc-posts-record-profit-as-ai-demand-surges-22d319f7",
-    "pubDate": "Thu, 16 Apr 2026 06:03:22 GMT",
+    "title": "AI chipmaker Cerebras set to file for IPO as soon as today - CNBC",
+    "link": "https://www.cnbc.com/2026/04/17/cerebras-new-ipo-ai-chips.html",
+    "pubDate": "Fri, 17 Apr 2026 17:23:59 GMT",
     "author": "",
-    "description": "This marks a fourth consecutive quarter of record profits driven by sustained demand for advanced AI chips from major customers, including **Nvidia**. TSMC says AI-related demand remains strong even as geopolitical and supply-chain risks persist. For practitioners, the result signals continued tightness and pricing power at advanced process nodes and reinforces TSMC's central role in AI infrastructure. Management attributes the run to sustained demand for advanced AI processors from large customers, with one partner now identified as the company's largest customer. TSMC's earnings reflect high utilization of its advanced manufacturing capacity and pricing strength for premium process nodes and packaging that serve AI workloads. Strong quarterly results driven by AI demand validate a multi-year structural shift: large AI model makers and cloud providers are consuming increasing silicon area per model, translating into higher ASPs and more predictable demand for foundry services. TSMC's record quarter materially affects AI infrastructure availability and cost, a notable development for practitioners relying on advanced silicon.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "letsdatascience.com",
-    "score": 0.22950105,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Cloudflare And OpenAI Launch Agent Cloud For Enterprises - Forbes",
-    "link": "https://www.forbes.com/sites/janakirammsv/2026/04/16/cloudflare-and-openai-launch-agent-cloud-for-enterprises/",
-    "pubDate": "Thu, 16 Apr 2026 05:02:45 GMT",
-    "author": "",
-    "description": "# Cloudflare And OpenAI Launch Agent Cloud For Enterprises. # Cloudflare And OpenAI Launch Agent Cloud For Enterprises. Cloudflare expanded its Agent Cloud during Agents Week 2026 with a suite of compute, storage and security primitives designed to run autonomous AI agents at production scale. Every major cloud provider and developer platform is racing to define the infrastructure stack for agentic AI. Cloudflare says agents running on the platform cost nothing when inactive, a model designed for scenarios where millions of agents sit dormant between bursts of activity. The broader platform story, including observability, compliance tooling and integration with enterprise identity providers, will determine whether Agent Cloud moves beyond developer adoption into production deployments at Fortune 500 companies. Organizations running short-lived, high-concurrency agent tasks will benefit from the isolate model's speed and cost advantages. The smartest approach is likely a hybrid one, using Cloudflare for edge-native agent workloads while relying on existing cloud providers for compute-intensive tasks that need proximity to enterprise data stores.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.forbes.com",
-    "score": 0.9957353,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "扔掉你的Token账单吧，荣耀YOYO Claw技术把养虾成本打下来了",
-    "link": "https://www.qbitai.com/2026/04/401682.html",
-    "pubDate": "Thu, 16 Apr 2026 04:53:31 +0000",
-    "author": "梦瑶",
-    "description": "省下50%Tokens，打破养虾高成本困境",
-    "categories": [
-      "量子位",
-      "资讯",
-      "首页轮播",
-      "荣耀",
-      "龙虾"
-    ],
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "ChatGPT maker OpenAI shifts its focus to business users amid Anthropic pressure - Greenwich Time",
-    "link": "https://www.greenwichtime.com/business/article/chatgpt-maker-openai-shifts-its-focus-to-business-22209288.php",
-    "pubDate": "Thu, 16 Apr 2026 04:01:38 GMT",
-    "author": "",
-    "description": "OpenAI says it will introduce a new artificial intelligence model for “high-value professional work” as the company faces heightened competition with rival Anthropic in attracting corporate customers to adopt AI assistants in their workplaces. Friar, the former CEO of neighborhood social platform Nextdoor, said business customers accounted for about 20% of OpenAI’s revenue when she was hired in 2024 as chief financial officer. Dresser said in a recent AP interview that she has been laser-focused on meeting with corporate leaders and positioning OpenAI as the go-to platform for workplaces employing AI agents to automate a variety of computer-based job tasks. “It’s really clear to me that companies are past the experimentation phase and they’re into using AI to do real work,” Dresser said. Founded in 2021 by a group of ex-OpenAI leaders who said they wanted to prioritize AI safety, Anthropic has positioned itself as the more responsible AI vendor.",
+    "description": "* Cerebras, which provides cloud-based access to chips that can run artificial intelligence models, is set to file paperwork for an initial public offering on Friday, two people said. * OpenAI now plans more than $20 billion in spending on Cerebras products and will receive warrants to buy Cerebras shares, one person said. Cerebras, a producer of chips that run artificial intelligence models, will file to go public on Friday, two people familiar with the matter told CNBC. For years, Cerebras sought to sell chips to companies, but it has begun operating the chips inside its own data centers as a cloud service on behalf of clients. OpenAI has since expanded its relationship with Cerebras in an agreement worth over $20 billion and will get warrants to buy Cerebras shares, one person said. On Oracle's March earnings call, CEO Clay Magouyrk mentioned that the database and cloud company offers chips from Cerebras and other suppliers. **WATCH:** OpenAI unveils first AI model running on Cerebras chips. OpenAI unveils first AI model running on Cerebras chips.",
     "categories": [
       "大模型/AI技术",
       "英文来源"
     ],
-    "source": "www.greenwichtime.com",
-    "score": 0.45348024,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "source": "www.cnbc.com",
+    "score": 0.7493991784158545,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Karpathy 亲手终结了 RAG 的草莽时代",
+    "link": "https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 17:20:44 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Anthropic launches Claude Design, a Figma and Canva rival built on Claude - The New Stack",
+    "link": "https://thenewstack.io/anthropic-claude-design-launch/",
+    "pubDate": "Fri, 17 Apr 2026 17:02:32 GMT",
+    "author": "",
+    "description": "AI   AI Engineering   API Management   Backend development   Data   Frontend Development   Large Language Models   Security   Software Development   WebAssembly. Developers are coding to a moving target, and nobody knows where AI lands next. Deploy Agentic AI Workflows With Kubernetes and Terraform. AI   AI Engineering   API Management   Backend development   Data   Frontend Development   Large Language Models   Security   Software Development   WebAssembly. Java Developers Get Multiple Paths To Building AI Agents. Anthropic Labs, the Claude-maker’s AI safety and research division, on Friday launched Claude Design, a new service in research preview that promises to generate polished design systems, website prototypes, interactive websites, slide decks, one-pagers, and similar artifacts where you’d usually need to hire a designer or use a product like Canva or Figma to get started. “Over the coming weeks, we’ll make it easier to build integrations with Claude Design, so you can connect it to more of the tools your team already uses,” the Anthropic team also notes in the announcement.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "thenewstack.io",
+    "score": 0.94417685,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "OpenAI 也把工程师经验“蒸馏”进 skill 了！Harness 爆文作者曝内部玩法：一个百万行代码系统，全程零人工编码和审核",
+    "link": "https://www.infoq.cn/article/xeXddcuzu78D7mC5wyBy?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 16:01:16 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "星工聚将：从“物理对齐”出发，重新探索具身 AGI 的技术路",
+    "link": "https://www.infoq.cn/article/1WMZt5S8lGzM1MkdzR2o?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 15:24:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Video Friday: Digit Learns to Deadlift - IEEE Spectrum",
+    "link": "https://spectrum.ieee.org/amp/robot-learning-2676707621",
+    "pubDate": "Fri, 17 Apr 2026 15:08:27 GMT",
+    "author": "",
+    "description": "Your weekly selection of awesome robot videos. Video Friday is your weekly selection of awesome robotics videos, collected by your friends at *IEEE Spectrum* robotics. We also post a weekly calendar of upcoming robotics events for the next few months. > *At Dexterity, we build robots designed for precision, adaptability, and real-world problem solving. > *Harvard researchers built a swarm of simple antlike robots (RAnts) that can collectively excavate and construct structures without central control. Closing with a deeper look at Bedrock, he will share why he believes autonomous construction is one of the most important problems robotics can tackle right now, driven by a unique convergence of maturing technology and critical industry need. * Google Wants Robots to Acquire New Skills by Learning From Each Other - IEEE Spectrum ›. * T-RL - IEEE Robotics and Automation Society Website ›. Since 2007, he has written over 6,000 articles on robotics and technology.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "spectrum.ieee.org",
+    "score": 0.5739114934706505,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Every Old Vulnerability Is Now an AI Vulnerability - Dark Reading",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/every-old-vulnerability-ai-vulnerability",
+    "pubDate": "Fri, 17 Apr 2026 15:04:31 GMT",
+    "author": "",
+    "description": "AI agents have broken this model. When an AI agent operates inside the application, every traditional vulnerability gains a new capability: autonomous action. If this application is compromised, what can the AI agent do with the attacker's commands? An XSS that can commandeer an AI agent to exfiltrate your entire financial database is a completely different risk. Unless your scoring models are updated to account for AI amplification, security teams will need to increase the priority of vulnerabilities in AI-enabled applications manually. Every application shipping an embedded AI agent is creating a new class of post-exploitation capability that our taxonomies, detection rules, and risk models were not designed to address. The Agentic AI era did not create new types of vulnerabilities; instead, it amplified all existing ones. Nik Kale is a Principal Engineer specializing in AI platforms, cloud security, and enterprise-scale multi-agent systems. He is a member of the Coalition for Secure AI (CoSAI) through OASIS and contributes to IETF working groups on AI agent identity and authorization.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.darkreading.com",
+    "score": 0.9059898,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Anthropic Introduces First Design Tool to Claude - CNET",
+    "link": "https://www.cnet.com/tech/services-and-software/anthropic-introduces-claude-design-first-news/",
+    "pubDate": "Fri, 17 Apr 2026 15:00:00 GMT",
+    "author": "",
+    "description": "# Anthropic Introduces First Design Tool to Claude. It's not an image generation tool, which makes sense if you've used Claude. Expertise artificial intelligence, AI image generators, social media platforms. The AI company on Friday introduced Claude Design\"), its first proprietary AI design tool. Claude Design is not explicitly an AI image generator, like Google's Nano Banana or Midjourney. Instead, you can use Claude Design to create slide decks, social media assets, app and web interfaces (like the kind you might make with Claude Code) and other visual prototypes. Claude Design is powered by Opus 4.7, a new AI model released on Thursday that Anthropic said has better visual intelligence to better understand images. Adobe also announced recently that it is bringing its creative AI agent to Claude, which is complementary but separate from Claude Design. Creative AI, like image, video and music generators, is controversial.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.cnet.com",
+    "score": 0.558327,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Anthropic CEO heads to White House amid hacking fears over new AI model - The Washington Post",
+    "link": "https://www.washingtonpost.com/technology/2026/04/17/anthropic-ai-trump-security/",
+    "pubDate": "Fri, 17 Apr 2026 14:07:11 GMT",
+    "author": "",
+    "description": "# Anthropic CEO heads to White House amid hacking fears over new AI model. The artificial intelligence company says its new system, named Mythos, has the power to find long-overlooked security holes in computer code. Make us preferred on Google. Anthropic has developed a powerful next-generation AI system known as Mythos. Anthropic chief executive Dario Amodei is set to meet White House Chief of Staff Susie Wiles on Friday, according to a person briefed on the plan, as the federal government races to understand the national security implications of a powerful new artificial intelligence model the company says it has developed.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.washingtonpost.com",
+    "score": 0.09764281323849992,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Self-driving cars test in Truckee snow as officials cite lack of notification - Sierra Sun",
+    "link": "https://www.sierrasun.com/news/self-driving-cars-test-in-truckee-snow-as-officials-cite-lack-of-notification/",
+    "pubDate": "Fri, 17 Apr 2026 14:02:43 GMT",
+    "author": "",
+    "description": "# Self-driving cars test in Truckee snow as officials cite lack of notification. In a statement, the town says it only learned about the testing after sightings in 2024, and that there’s been no ongoing coordination or formal process to notify residents. “The Town was not formally notified during the testing period, and to our knowledge, the Truckee Chamber of Commerce was also not informed. “The California DMV has allowed Waymo to do testing with a human safety operator behind the wheel, anywhere in California and has allowed driverless testing only in certain localities, close to San Francisco, San Jose, Los Angeles, San Diego, those areas,” said David Feil-Seifer, University of Nevada, Reno computer science professor. From steep, winding roads to snow and wildlife, the Sierra acts as a kind of stress test for the technology, Feil-Seifer said. Testing in places like Truckee can help improve the technology, but also highlights the importance of public awareness, Feil-Seifer said.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.sierrasun.com",
+    "score": 0.14902319,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "OpenAI launches biotech-specific AI model dubbed GPT-Rosalind - Fierce Biotech",
+    "link": "https://www.fiercebiotech.com/biotech/openai-launches-biotech-specific-ai-model-gpt-rosalind",
+    "pubDate": "Fri, 17 Apr 2026 14:00:00 GMT",
+    "author": "",
+    "description": "# OpenAI launches biotech-specific AI model dubbed GPT-Rosalind. OpenAI NVIDIA Artificial Intelligence drug discovery AI and Machine Learning Research Biotech. Following its recently announced partnership with Novo Nordisk, OpenAI is introducing a new reasoning model, GPT-Rosalind, to support research in biology, drug discovery and translational medicine. GPT-Rosalind is designed to reduce the time between target discovery and drug approval, a process that typically takes 10-15 years, according to industry group PhRMA. Eli Lilly established its own collaboration with OpenAI in 2024 to discover novel medicines targeting drug-resistant bacteria and also partnered with Nvidia last year to develop an industry-leading supercomputer. Because drug development requires researchers to process large volumes of literature, databases and experimental data in time-sensitive environments, OpenAI has touted GPT-Rosalind as a way to “explore more possibilities, surface connections that might otherwise be missed, and arrive at better hypotheses sooner.”. OpenAI said GPT-Rosalind is the first model in its life sciences series and plans to expand its biochemical reasoning capabilities. OpenAI NVIDIA Artificial Intelligence drug discovery.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.fiercebiotech.com",
+    "score": 1,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Zendesk：生成式 AI 让代码不再稀缺，研发瓶颈转向“吸收能力”",
+    "link": "https://www.infoq.cn/article/RBkkYQsT8Hd3hQTEYoAG?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 13:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "How Tesla’s Valuation Surges To $2 Trillion - Forbes",
+    "link": "https://www.forbes.com/sites/greatspeculations/2026/04/17/how-teslas-valuation-surges-to-2-trillion/",
+    "pubDate": "Fri, 17 Apr 2026 12:10:19 GMT",
+    "author": "",
+    "description": "Tesla (TSLA) stock jumped nearly 12% over the last five trading days, taking its market capitalization to approximately $1.2 trillion, following reports that its latest AI5 chips has officially taped out, i.e. the design is locked and sent to the foundry. A mere 5% capture of a $1 trillion market for Tesla translates to $50 billion in yearly revenue. Tesla’s internally developed AI5 chip, created from years of Full Self-Driving expertise, positions the firm as a potential contender in edge AI silicon. Edge AI remains a largely fragmented market, and although players like Qualcomm and Apple are highly active in localized silicon inference, no incumbent has captured this market, making it a timely opportunity for Tesla to make its move. While this remains speculative, if Tesla commercializes its chip sales, the opportunity could realize $25 billion, accounting for around 5% of Nvidia’s anticipated revenue. Forbes Daily: Join over 1 million Forbes Daily subscribers and get our best stories, exclusive reporting and essential analysis of the day’s news in your inbox every weekday.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.forbes.com",
+    "score": 0.08297201,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Sequoia Capital’s $7 Billion Fund to Boost AI Investments - Startup Ecosystem Canada",
+    "link": "https://www.startupecosystem.ca/news/sequoia-capital-s-7-billion-fund-to-boost-ai-investments/",
+    "pubDate": "Fri, 17 Apr 2026 12:07:26 GMT",
+    "author": "",
+    "description": "## Sequoia Capital’s $7 Billion Fund to Boost AI Investments. Sequoia Capital, a prominent venture capital firm, has raised approximately $7 billion for its largest late-stage fund to date. The fund is part of Sequoia’s ‘expansion strategy’ focusing on late-stage investments, particularly in artificial intelligence (AI). The firm is also investing in AI-adjacent startups like Physical Intelligence and Factory, aiming to capitalize on the growing importance and scalability of AI technologies. acquisition AI AI development AI infrastructure AI innovation AI integration AI investment AI models AI safety AI technology Amazon Anthropic Apple Artificial Intelligence Autonomous vehicles Canada founder news Canada startup news ChatGPT cryptocurrency Cybersecurity Electric Vehicles Elon Musk entrepreneurship fintech Funding round Generative AI Global founder news Global startup news healthcare innovation Innovation investment IPO Meta Microsoft Nvidia Ontario startup news OpenAI Sam Altman Seed funding Silicon Valley TechCrunch Disrupt Tech innovation Tesla Toronto startup news venture capital. 1 year ago Global EV Startups and Industry Developments Amid Tesla’s Challenges.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.startupecosystem.ca",
+    "score": 0.6693276524912859,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "The next great tech leap may be built on videos of people folding laundry - The Washington Post",
+    "link": "https://www.washingtonpost.com/technology/interactive/2026/robot-chores-video-data/",
+    "pubDate": "Fri, 17 Apr 2026 12:02:12 GMT",
+    "author": "",
+    "description": "DoorDash, a food-delivery service, has joined a cottage industry of companies and researchers gathering data for the robot revolution in the form of videos of people doing tasks like folding clothes or washing dishes. “There’s no internet for robot data,” Goldberg said. One way to gather training material is to record data while humans manually operate robots.“Robot teleoperation data is probably considered the highest quality of data,” because it includes robot motion commands, said Simar Kareer, a robotics researcher at Georgia Tech who helped pioneer training robots on human videos. Kareer is working to show that a large collection of cheaper human video data can provide AI a baseline understanding of how to do tasks that can be refined with a smaller pool of expensive teleoperation data to teach software how to make specific robotic actions. Ultimately, the best data for making robots better at folding your clothes will come after they begin to be deployed and doing real tasks in the world.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.washingtonpost.com",
+    "score": 0,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "I went to an AI conference and got a crash course in middle management - Business Insider",
+    "link": "https://www.businessinsider.com/ai-agent-management-software-engineer-openai-anthropic-google-coding-2026-4",
+    "pubDate": "Fri, 17 Apr 2026 11:04:13 GMT",
+    "author": "",
+    "description": "* At a London AI conference for engineers, it was all about agents, agents, agents. I have seen the future of AI, and we are all managing agents. What was striking was how many of the presentations and discussions weren't so much about the quality and abilities of AI models and agents — software that can perform tasks semi-autonomously — but the humans managing them. The user can spawn new agents, prompt them as they would in any other AI interface, and there's a handy way to cycle through agents with follow-up questions or that need your approval to execute a task. Several attendees who spoke to Business Insider weren't from major AI labs but companies big and small that are embracing agents in the workplace. Vercel CTO, Malte Ubl, said that in the week leading up to the AI Engineer conference, more than 60% of page views on Vercel.com were from agents.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.businessinsider.com",
+    "score": 0.9875683,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Nvidia AI chip rivals attract record funding as competition heats up - CNBC",
+    "link": "https://www.cnbc.com/2026/04/17/nvidia-ai-chip-rivals-funding-euclyd-fractile.html",
+    "pubDate": "Fri, 17 Apr 2026 11:00:01 GMT",
+    "author": "",
+    "description": "* Investors are increasingly throwing huge sums behind startups developing novel AI chip technology. * Nvidia, which has huge advantages as the world's most valuable company with an almost limitless supply of cash, is still racing to develop new chips to power AI. In 2026, AI chip startups raised $8.3 billion in funding, globally, according to Dealroom. \"Inference is dominant now, and the existing GPU architecture wasn't built for it in ways that matter most at scale,\" Patrick Schneider-Sikorsky, director at the Nato Innovation Fund (NIF), which has invested in U.K. AI chip startup Fractile, told me. Nvidia, which has huge advantages as the world's most valuable company with an almost limitless supply of cash, is still racing to develop new chips to power AI. In December, the company acquired assets from AI inference startup Groq for $20 billion and announced it had invested $4 billion into two companies developing photonics technology in March.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "www.cnbc.com",
+    "score": 0.97046465,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "针对 NVIDIA GPU 的新型攻击 Rowhammer 可实现对整个系统的完全控制",
+    "link": "https://www.infoq.cn/article/pmteOlcag616Dap4zm8o?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 11:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "聚焦 Spring Framework 7 与 Spring Boot 4：Spring 团队专访",
+    "link": "https://www.infoq.cn/article/z4msV9uzNy7CXYFC4K2J?utm_source=rss&utm_medium=article",
+    "pubDate": "Fri, 17 Apr 2026 10:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "11.58万，全系Lidar+L4同源算法，广汽文远把城区NOA打成白菜价",
+    "link": "https://www.qbitai.com/2026/04/402440.html",
+    "pubDate": "Fri, 17 Apr 2026 08:24:28 +0000",
+    "author": "一凡",
+    "description": "算力只需200TOPS",
+    "categories": [
+      "量子位",
+      "智能车参考",
+      "资讯",
+      "广汽",
+      "文远知行"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
+    "link": "https://www.qbitai.com/2026/04/402388.html",
+    "pubDate": "Fri, 17 Apr 2026 07:37:14 +0000",
+    "author": "Jay",
+    "description": "全栈大脑会成为具身智能下一阶段竞赛的胜负手",
+    "categories": [
+      "量子位",
+      "资讯",
+      "首页轮播"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Nvidia rival tells CNBC it's seeking at least $100 million in funding as European AI chip market booms - CNBC",
+    "link": "https://www.cnbc.com/2026/04/17/nvidia-rivals-chip-market-funding-ai-asml-euclyd.html",
+    "pubDate": "Fri, 17 Apr 2026 07:10:01 GMT",
+    "author": "",
+    "description": "# Nvidia rival tells CNBC it's seeking at least $100 million in funding as European AI chip market booms. * European chip startups increasingly eye large funding rounds as they look to scale amid the AI boom. European chip startups developing alternative technology to Nvidia's graphics processing units (GPUs) are eyeing big funding rounds as they look to scale amid the AI boom. Dutch company Euclyd, backed by the former CEO of chipmaking equipment giant ASML, is currently in discussions with investors for a round of at least 100 million euros ($118 million), its founder Bernardo Kastrup, told CNBC in an exclusive interview. European AI chip startups are behind in funding, raising $800 million so far in 2026, compared with $4.7 billion for their U.S. counterparts, according to Dealroom. Nonetheless, European startups developing chips for AI inference to rival Nvidia are increasingly garnering interest from investors.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "www.cnbc.com",
+    "score": 0.9763105,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
+    "link": "https://www.qbitai.com/2026/04/402329.html",
+    "pubDate": "Fri, 17 Apr 2026 07:08:17 +0000",
+    "author": "henry",
+    "description": "Gemini Robotics主打空间推理的第三代模型。",
+    "categories": [
+      "量子位",
+      "资讯",
+      "Gemini",
+      "具身智能"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "π0.7发布，VLA押出了机器人的GPT-3时刻",
+    "link": "https://www.qbitai.com/2026/04/402189.html",
+    "pubDate": "Fri, 17 Apr 2026 06:57:35 +0000",
+    "author": "henry",
+    "description": "π0.7：具有涌现能力的可控模型",
+    "categories": [
+      "量子位",
+      "资讯",
+      "具身智能"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
+    "link": "https://www.qbitai.com/2026/04/402186.html",
+    "pubDate": "Fri, 17 Apr 2026 05:52:13 +0000",
+    "author": "量子位的朋友们",
+    "description": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻",
+    "categories": [
+      "量子位",
+      "资讯",
+      "具身智能",
+      "原力灵机"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "The new robot that will handle the power lines of the electric company - The Jerusalem Post",
+    "link": "https://www.jpost.com/consumerism/article-893063",
+    "pubDate": "Fri, 17 Apr 2026 05:50:00 GMT",
+    "author": "",
+    "description": "# The new robot that will handle the power lines of the electric company. ## The electric company and the Israeli company Axioma Robotics are unveiling a first-of-its-kind technological solution for infrastructure maintenance. The new robot that will handle the power lines of the electric company. The electric company, in cooperation with the Israeli company Axioma Robotics, has developed an advanced maintenance robot designed to operate in a high-voltage line environment. The system includes two robotic arms capable of performing delicate and precise mechanical actions on the transmission lines. Although the robot can perform many actions independently, its control is defined as semi-autonomous – the system executes tasks under close supervision and real-time approval from the human operator, ensuring full control in the sensitive work environment. At the electric company and Axioma Robotics, they continue to improve the machine learning models, with the aim of expanding the robot’s range of tasks and gradually reducing the need for human contact in these hazardous work environments.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.jpost.com",
+    "score": 0.7546254114182607,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "How AI Shopping Agents Are Reshaping Fashion’s Ad Economy - The Business of Fashion",
+    "link": "https://www.businessoffashion.com/articles/marketing-pr/how-ai-agents-are-reshaping-fashion-ad-economy/",
+    "pubDate": "Fri, 17 Apr 2026 04:30:00 GMT",
+    "author": "",
+    "description": "# How AI Shopping Agents Are Reshaping Fashion’s Ad Economy. As AI agents begin to shop on consumers’ behalf, they can inadvertently trigger online ads, distorting performance metrics and inflating brands’ ad spend. A growing AI backlash, the advance of autonomous agents and new laws banning children and some teenagers from social media are just a sample of what this year has in store for fashion’s intersection with technology. ## BoF Professional Masterclass | The Fashion Marketer’s Guide to AI. Watch on demand a BoF Professional Masterclass on “The Fashion Marketer’s Guide to AI” which unpacks how marketers can adapt to utilise AI and build lifetime value in this approach. ## How AI Shopping Agents Are Reshaping Fashion’s Ad Economy. As AI agents begin to shop on consumers’ behalf, they can inadvertently trigger online ads, distorting performance metrics and inflating brands’ ad spend. Kory Marchisotto has been appointed president of E.l.f. Brands, Ekta Chopra has been tapped as chief technology and AI officer and Oshiya Savur is the company's new CMO.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.businessoffashion.com",
+    "score": 0.58130306,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Waymo Takes On London - CleanTechnica",
+    "link": "https://cleantechnica.com/2026/04/16/waymo-takes-on-london/",
+    "pubDate": "Fri, 17 Apr 2026 03:58:03 GMT",
+    "author": "",
+    "description": "Since we arrived, we’ve put the Waymo Driver through closed course testing, and a team of trained, local professionals have driven the vehicles across tens of thousands of miles on London roads. The early mileage provides a baseline of context for the Waymo Driver, and has enabled our team to train the Driver in a simulated London environment. At our current scale of over 4 million fully autonomous miles driven every week, our analysis suggests the Waymo Driver is preventing approximately one serious-injury crash every 8 days. *Sign up for our daily newsletter for 15 new cleantech stories a day. * Share on LinkedIn (Opens in new window) LinkedIn. * Share on WhatsApp (Opens in new window) WhatsApp. * Share on Facebook (Opens in new window) Facebook. * Share on Bluesky (Opens in new window) Bluesky. * Share on Reddit (Opens in new window) Reddit. #### Press Release. Press releases about cleantech products, cleantech companies, or other cleantech news. See all posts by Press Release.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "cleantechnica.com",
+    "score": 0.23361932,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "空间智能第一股，开盘暴涨171%！李飞飞押注的赛道，杭州六小龙之一跑通了",
+    "link": "https://www.qbitai.com/2026/04/402158.html",
+    "pubDate": "Fri, 17 Apr 2026 03:30:27 +0000",
+    "author": "Jay",
+    "description": "空间智能的时代，才刚刚开始。",
+    "categories": [
+      "量子位",
+      "资讯",
+      "首页轮播"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Xinhua Silk Road: Ningbo and China's shift from making things to making them smarter - The Manila Times",
+    "link": "https://www.manilatimes.net/2026/04/17/tmt-newswire/pr-newswire/xinhua-silk-road-ningbo-and-chinas-shift-from-making-things-to-making-them-smarter/2322510",
+    "pubDate": "Fri, 17 Apr 2026 03:16:04 GMT",
+    "author": "",
+    "description": "A technician debugs a humanoid robot at a company in Ningbo, east China's Zhejiang Province, March 26, 2026. This combination helps explain Ningbo's prominent role in China's industrial landscape. By signing up with an email address, I acknowledge that I have read and agree to the Terms of Service and Privacy Policy. All these features make Ningbo a revealing microcosm of China's manufacturing sector in transition. In recent years, the city has steadily upgraded its manufacturing base, using digital tools, industrial internet platforms and AI to make production smarter, more efficient and more precise. In the first two months of 2026, the value-added industrial output of enterprises above designated size in Ningbo rose 9.3 percent year on year, 4 percentage points faster than the full-year rate for 2025. For Zhou Xingyou, chairman of the embodied intelligence business and vice president of Joyson Holding Co., Ltd., a globally oriented smart-manufacturing company with operations ranging from automotive systems to embodied intelligence robotics, Ningbo's edge lies in its abundance of real-world industrial scenarios.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.manilatimes.net",
+    "score": 0.8466892274403859,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "Xinhua Silk Road: Ningbo and China's shift from making things to making them smarter - Carroll County Mirror-Democrat",
+    "link": "https://www.mycarrollcountynews.com/online_features/press_releases/article_f94937df-30da-5af7-9863-8bb5b899e701.html",
+    "pubDate": "Fri, 17 Apr 2026 02:48:00 GMT",
+    "author": "",
+    "description": "A technician debugs a humanoid robot at a company in Ningbo, east China's Zhejiang Province, March 26, 2026. This combination helps explain Ningbo's prominent role in China's industrial landscape. All these features make Ningbo a revealing microcosm of China's manufacturing sector in transition. In recent years, the city has steadily upgraded its manufacturing base, using digital tools, industrial internet platforms and AI to make production smarter, more efficient and more precise. In the first two months of 2026, the value-added industrial output of enterprises above designated size in Ningbo rose 9.3 percent year on year, 4 percentage points faster than the full-year rate for 2025. For Zhou Xingyou, chairman of the embodied intelligence business and vice president of Joyson Holding Co., Ltd., a globally oriented smart-manufacturing company with operations ranging from automotive systems to embodied intelligence robotics, Ningbo's edge lies in its abundance of real-world industrial scenarios. ### Mount Carroll 4th of July Parade.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.mycarrollcountynews.com",
+    "score": 1,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "ImageNet作者苏昊回国任教复旦！李飞飞高徒，具身第一高引，出任通用物理AI院长",
+    "link": "https://www.qbitai.com/2026/04/402088.html",
+    "pubDate": "Fri, 17 Apr 2026 02:16:36 +0000",
+    "author": "克雷西",
+    "description": "推动“物理智能”的最终实现",
+    "categories": [
+      "量子位",
+      "资讯",
+      "首页轮播",
+      "苏昊"
+    ],
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "曝京东全面拦截员工使用外部AI；红帽裁撤中国区研发团队迁至印度，最高赔偿N+6；传梁文峰内部发声：DeepSeek V4 本月下旬发布| AI周报",
     "link": "https://www.infoq.cn/news/pp8VUCpuJENbkWr169ec",
-    "pubDate": "Tue, 14 Apr 2026 02:00:46 GMT",
+    "pubDate": "Tue, 14 Apr 2026 02:00:28 GMT",
     "author": "",
     "description": "传梁文峰内部发声，DeepSeek V4 将于4 月下旬发布；宇树科技宣布人形机器人跑出10 米/秒，逼近人类巅峰水平；曝京东全面拦截员工使用外部AI；补偿最高N+6！",
     "categories": [
@@ -646,43 +563,13 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.9858,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
-    "link": "https://www.infoq.cn/article/dOey7eV1T9p3dtPWTPCV",
-    "pubDate": "Tue, 14 Apr 2026 02:00:43 GMT",
-    "author": "",
-    "description": "六个月前，Ruby on Rails 作者、37signals 联合创始人兼CTO David Heinemeier Hansson（DHH） 还在访谈中明确表示：他不会用AI 写代码，所有代码仍然亲手",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.98588,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "智能电动2026 | 轻舟智航联合创始人、董事长兼CEO于骞：物理AI，智驾的下一个战场",
-    "link": "https://i.gasgoo.com/news/70453324.html",
-    "pubDate": "Mon, 13 Apr 2026 02:01:03 GMT",
-    "author": "",
-    "description": "4月12日，由车百会研究院主办的2026智能电动汽车发展高层论坛上，轻舟智航联合创始人、董事长兼CEO于骞博士面向一众行业专家、产业人士，发表了《不止",
-    "categories": [
-      "AI硬件",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.97499,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98552,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "华为 AI 软件工程实践：30 年专业经验沉淀打造企业级确定性的高质量软件",
     "link": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk",
-    "pubDate": "Fri, 27 Mar 2026 02:00:46 GMT",
+    "pubDate": "Sat, 28 Mar 2026 02:00:28 GMT",
     "author": "",
     "description": "在30年的研发实践中，华为基于IPD流程框架，结合业界先进研发模式与方法，将标准化的研发作业活动提炼为“非创造性活动”和“创造性活动”。",
     "categories": [
@@ -691,13 +578,13 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.97805,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97983,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "地平线2025年营收高增57.7%，中高阶智驾芯片方案出货量实现近5倍增长",
     "link": "https://i.gasgoo.com/news/70450865.html",
-    "pubDate": "Wed, 18 Mar 2026 02:01:03 GMT",
+    "pubDate": "Thu, 19 Mar 2026 02:00:45 GMT",
     "author": "",
     "description": "地平线2025年营收高增57.7%，中高阶智驾芯片方案出货量实现近5倍增长简介：3月19日，港股智驾科技核心标的地平线机器人-W（9660.HK，简称“地",
     "categories": [
@@ -706,13 +593,13 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98315,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98323,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "智驾芯片市场，跑出了一匹黑马",
     "link": "https://i.gasgoo.com/news/70447993.html",
-    "pubDate": "Wed, 18 Mar 2026 02:01:03 GMT",
+    "pubDate": "Thu, 19 Mar 2026 02:00:45 GMT",
     "author": "",
     "description": "从边端AI领域闯入的智驾芯片黑马. “来得早不如来得巧。”这句老话，可以大致概括爱芯元智在智能驾驶市场的际遇。 2月10日，爱芯元智在港交所成功上市，",
     "categories": [
@@ -721,8 +608,8 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98084,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97875,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "给大模型集体“把脉”，清程极智发布 AI Ping 平台",
@@ -736,8 +623,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.978,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97898,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "智源发布 2026 十大 AI 技术趋势：世界模型成 AGI 共识方向",
@@ -751,8 +638,23 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.9853,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98537,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "大模型在工业场景中的落地实践、挑战与未来机遇｜QCon 上海",
+    "link": "https://www.infoq.cn/article/UO0HvgIXkKRYx4FaXxGX",
+    "pubDate": "Wed, 15 Oct 2025 00:00:00 GMT",
+    "author": "",
+    "description": "QCon上海站开幕倒计时！如果你也关注Agent、AI搜索、多模态、工程化等话题，一定不要错过这100+可落地的实践案例！",
+    "categories": [
+      "AI/科技",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.98469,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "投资人不再只看大模型？AI资本新逻辑揭秘｜甲子引力X",
@@ -766,38 +668,8 @@
       "甲子光年"
     ],
     "source": "甲子光年",
-    "score": 0.98071,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "Pokee AI完成1200万美元种子轮融资，加速AI驱动的工作流自动化进程",
-    "link": "https://www.jazzyear.com/article_info.html?id=1508",
-    "pubDate": "Wed, 09 Jul 2025 00:00:00 GMT",
-    "author": "",
-    "description": "华盛顿州贝尔维尤——2025年7月8日——致力于通过先进AI智能体实现数字工作流自动化的创新人工智能公司Pokee AI今日宣布完成1200万美元种子轮融资。",
-    "categories": [
-      "投资融资",
-      "中文来源",
-      "甲子光年"
-    ],
-    "source": "甲子光年",
-    "score": 0.98567,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "AI + 风控，大模型驱动金融风险决策新范式｜AICon 上海",
-    "link": "https://www.infoq.cn/article/pxbwyybkwtkqmb40gd9b",
-    "pubDate": "Fri, 09 May 2025 00:00:00 GMT",
-    "author": "",
-    "description": "5 月23 日-24 日，AICon 全球人工智能开发与应用大会上海站即将拉开帷幕。本次大会将聚焦AI 技术的前沿突破与产业落地，围绕AI Agent、多模态应用、大",
-    "categories": [
-      "AI/科技",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.98264,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98308,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "比亚迪、吉利、东风等争相拥抱DeepSeek，车企“AI化” 再提速",
@@ -811,8 +683,8 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98599,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98576,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "独家：清华系AI Infra明星企业“清程极智”完成新一轮融资",
@@ -826,8 +698,8 @@
       "甲子光年"
     ],
     "source": "甲子光年",
-    "score": 0.98364,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98559,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "智能驾驶与智能座舱AI芯片产业研究报告（2024版）_研究院",
@@ -841,8 +713,23 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98114,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98267,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "AI触手可及，我们应该做些什么？",
+    "link": "https://www.jazzyear.com/article_info.html?id=1404",
+    "pubDate": "Thu, 17 Oct 2024 00:00:00 GMT",
+    "author": "",
+    "description": "AI浪潮汹涌而至，产业持续迭代。科技的发展改变了我们每一个人的生活方式。 正如比尔·盖茨所言：“人们总是高估了未来一到两年的变化，低估了未来十年的",
+    "categories": [
+      "投资融资",
+      "中文来源",
+      "甲子光年"
+    ],
+    "source": "甲子光年",
+    "score": 0.97558,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "汽车智能安全和智能座舱两大评价体系发布",
@@ -856,8 +743,8 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.97932,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97804,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "项目详情| SOTA！模型社区",
@@ -871,8 +758,8 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98076,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97859,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "16款车智能辅助驾驶算力排行榜 谁的智驾能力更强？",
@@ -886,8 +773,8 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98514,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98591,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "芝能热点｜华为智能汽车解决方案发布会 要点总结",
@@ -901,8 +788,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.98186,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98188,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "L2.9 上多一点，「遥遥领先」又一年？",
@@ -916,8 +803,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.9762,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97661,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "汽车技术领域又有哪些新动向？一文速览！（3.21-3.27）",
@@ -931,8 +818,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.97961,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98258,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "影响更多人的未来出行",
@@ -946,8 +833,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.98452,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98256,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "特斯拉、小鹏、蔚来的自动泊车产品测评",
@@ -961,8 +848,38 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.98555,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98578,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "金融科技出海项目Klavi获千万美元A轮融资，赢得巴西本地商业巨头背书 | 甲子光年首发",
+    "link": "https://www.jazzyear.com/article_info.html?id=753",
+    "pubDate": "Tue, 30 Aug 2022 00:00:00 GMT",
+    "author": "",
+    "description": "作者| 周晓莉编辑| 刘景丰. 「甲子光年」获悉，Klavi近日宣布完成1500万美金A轮融资，由巴西VC Iporanga和Parallax领投，新增投资方包括巴西银联CIP，巴西",
+    "categories": [
+      "投资融资",
+      "中文来源",
+      "甲子光年"
+    ],
+    "source": "甲子光年",
+    "score": 0.97755,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "聚焦智能座舱、自动驾驶等， 四维图新与中汽创智达成合作",
+    "link": "https://auto.gasgoo.com/news/202207/28I70308880C601.shtml",
+    "pubDate": "Thu, 28 Jul 2022 00:00:00 GMT",
+    "author": "",
+    "description": "7月27日晚，四维图新发布公告称，已于近日与中汽创智签署了《战略合作框架协议》，双方将结合在各自领域拥有的产业资源、技术研发和资本运作等优势，在高",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.97507,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "小鹏 CNGP 再更新，城市自动驾驶即将迎来巷战",
@@ -976,8 +893,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.97682,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.97958,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "影响更多人的未来出行",
@@ -991,8 +908,23 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.98516,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98557,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
+  },
+  {
+    "title": "发表特斯拉“杀人”言论 20 天后，华为自动驾驶功臣苏菁被免职",
+    "link": "https://www.infoq.cn/article/ksy4ymqpwrcko9k4xeve",
+    "pubDate": "Wed, 28 Jul 2021 00:00:00 GMT",
+    "author": "",
+    "description": "真· 现实版“祸从口出”... 发表“特斯拉'杀人'言论”20 天后，华为自动驾驶重臣苏菁被免职。 因批评“特斯拉杀人”，苏箐被免去智能驾驶产品部部长.",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "score": 0.9781,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "软件工程学习路线图 | 极客时间",
@@ -1006,8 +938,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98247,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98112,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "百度推出 Apollo 3.5 和 Apollo Enterprise",
@@ -1021,8 +953,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98272,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98558,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "类人机器人",
@@ -1036,8 +968,8 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98526,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98599,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "进化计算",
@@ -1051,23 +983,8 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98537,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
-  },
-  {
-    "title": "多智能体系统",
-    "link": "https://www.jiqizhixin.com/graph/technologies/c358669a-56ff-4bc6-b682-605914071b76",
-    "pubDate": "Thu, 13 Dec 2018 00:00:00 GMT",
-    "author": "",
-    "description": "一个多智能体系统，是由一个在一个环境中交互的多个智能体组成的计算系统。多智能体系统也能被用在解决分离的智能体以及单层系统难以解决的问题。智能可以由一些方法，",
-    "categories": [
-      "机器人",
-      "中文来源",
-      "机器之心"
-    ],
-    "source": "机器之心",
-    "score": 0.97545,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.9859,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   },
   {
     "title": "机器人技术",
@@ -1081,7 +998,7 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98106,
-    "fetchedAt": "2026-04-17T02:01:13.731Z"
+    "score": 0.98195,
+    "fetchedAt": "2026-04-18T02:00:55.745Z"
   }
 ]

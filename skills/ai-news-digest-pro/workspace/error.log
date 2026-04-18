@@ -2316,3 +2316,90 @@ To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspa
 [INFO] Loaded 77 articles
 [INFO] Categorized: Core=30, Near=43, Extended=1, Support=2
 [INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260417.md
+[INFO] Fetching QbitAI RSS...
+(node:803654) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-qbitai.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[INFO] Total articles in RSS: 10
+[INFO] Filtering articles since: 2026-04-16T16:00:00.000Z
+[DEBUG] Skipping old: PPIO上线PPHermes：云端沙箱一键部署Hermes Agent... (2026-04-16T13:36:09.000Z)
+[DEBUG] Skipping old: 72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道？... (2026-04-16T13:04:18.000Z)
+[DEBUG] Skipping old: 打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施... (2026-04-16T12:51:14.000Z)
+[INFO] Articles after date filter: 7
+[INFO] Since date: 2026-04-17T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+(node:803676) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/fetch-chinese.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WARN] Failed to fetch 36氪: isAITechContent is not defined
+[INFO] Fetching InfoQ中文...
+[DEBUG] Skipping old article: 代码通过即拿奖！OpenCloud 40+超热门AI工具等你... (2026-04-16T18:10:27.000Z)
+[DEBUG] Skipping old article: 阿里“快乐马”团队再出手！世界模型 HappyOyster ... (2026-04-16T17:35:00.000Z)
+[DEBUG] Skipping old article: 压榨系统性能：视频审核中台从 280ms 降低至 90ms ... (2026-04-16T16:51:44.000Z)
+[DEBUG] Skipping old article: 3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第... (2026-04-16T16:49:40.000Z)
+[DEBUG] Skipping old article: 世界变了、Linus妥协了？AI代码可以进Linux内核，但... (2026-04-16T16:42:05.000Z)
+[DEBUG] Skipping old article: Claude 推行强制化实名认证：部分功能需提交证件和自拍... (2026-04-16T16:01:49.000Z)
+[DEBUG] Skipping old article: 蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头... (2026-04-16T15:07:07.000Z)
+[DEBUG] Skipping old article: Anthropic 的论文探讨了大语言模型中类情绪机制对行为... (2026-04-16T15:00:00.000Z)
+[DEBUG] Skipping old article: 神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚... (2026-04-16T14:48:12.000Z)
+[DEBUG] Skipping old article: 设计企业级可观测性 Docker 扩展... (2026-04-16T14:00:00.000Z)
+[INFO] InfoQ中文: 20 total, 10 recent
+[INFO] Total unique recent articles: 10
+[INFO] Generating daily report...
+[INFO] Loaded 17 articles
+[INFO] Categorized: Core=4, Near=8, Extended=4, Support=1
+[INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260418.md
+[INFO] Fetching QbitAI RSS...
+[INFO] Total articles in RSS: 10
+[INFO] Filtering articles since: 2026-04-16T16:00:00.000Z
+[DEBUG] Skipping old: PPIO上线PPHermes：云端沙箱一键部署Hermes Agent... (2026-04-16T13:36:09.000Z)
+[DEBUG] Skipping old: 72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道？... (2026-04-16T13:04:18.000Z)
+[DEBUG] Skipping old: 打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施... (2026-04-16T12:51:14.000Z)
+[INFO] Articles after date filter: 7
+[INFO] Since date: 2026-04-17T00:00:00.000Z
+[INFO] Fetching Chinese AI news from multiple sources...
+[INFO] Fetching 36氪...
+[WARN] Failed to fetch 36氪: isAITechContent is not defined
+[INFO] Fetching InfoQ中文...
+[DEBUG] Skipping old article: 代码通过即拿奖！OpenCloud 40+超热门AI工具等你... (2026-04-16T18:10:27.000Z)
+[DEBUG] Skipping old article: 阿里“快乐马”团队再出手！世界模型 HappyOyster ... (2026-04-16T17:35:00.000Z)
+[DEBUG] Skipping old article: 压榨系统性能：视频审核中台从 280ms 降低至 90ms ... (2026-04-16T16:51:44.000Z)
+[DEBUG] Skipping old article: 3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第... (2026-04-16T16:49:40.000Z)
+[DEBUG] Skipping old article: 世界变了、Linus妥协了？AI代码可以进Linux内核，但... (2026-04-16T16:42:05.000Z)
+[DEBUG] Skipping old article: Claude 推行强制化实名认证：部分功能需提交证件和自拍... (2026-04-16T16:01:49.000Z)
+[DEBUG] Skipping old article: 蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头... (2026-04-16T15:07:07.000Z)
+[DEBUG] Skipping old article: Anthropic 的论文探讨了大语言模型中类情绪机制对行为... (2026-04-16T15:00:00.000Z)
+[DEBUG] Skipping old article: 神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚... (2026-04-16T14:48:12.000Z)
+[DEBUG] Skipping old article: 设计企业级可观测性 Docker 扩展... (2026-04-16T14:00:00.000Z)
+[INFO] InfoQ中文: 20 total, 10 recent
+[INFO] Total unique recent articles: 10
+[INFO] Fetching AI news from Tavily...
+[INFO] Searching: artificial intelligence OpenAI Google latest news
+[INFO] Searching: autonomous driving Tesla Waymo end-to-end
+[INFO] Searching: robotics humanoid robot Figure Boston Dynamics
+[INFO] Searching: AI agents autonomous agents OpenAI Claude
+[INFO] Searching: NVIDIA AI chip hardware data center
+[INFO] Found 24 unique articles
+[INFO] Searching Chinese AI news via Tavily...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: InfoQ中文...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 机器之心...
+[INFO] Searching: 高工智能汽车...
+[INFO] Searching: 高工智能汽车...
+[INFO] Searching: 盖世汽车...
+[INFO] Searching: 盖世汽车...
+[INFO] Searching: 42号车库...
+[INFO] Searching: 42号车库...
+[INFO] Searching: AI科技评论...
+[INFO] Searching: 甲子光年...
+[INFO] Found 30 Chinese articles
+[INFO] Generating daily report...
+[INFO] Loaded 71 articles
+[INFO] Categorized: Core=21, Near=41, Extended=5, Support=4
+[INFO] Report saved to /home/bruce/.openclaw/workspace/skills/ai-news-digest-pro/scripts/../workspace/简报_日报_20260418.md
