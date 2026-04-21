@@ -121,17 +121,22 @@ ai-memory-system/
     └── evolutions/     # 演变历史
 ```
 
-**使用规则：**
+**使用规则（全自动模式，无需人工确认）：**
 
 1. **每次对话前**，优先读取 `ai-memory-system/Memory/L4-core/` 和 `L3-semantic/` 了解核心价值观和思维模式
 2. **回答问题时**，参考 `ai-memory-system/Intent/` 中的目标和偏好
-3. **检测到可沉淀内容时**：
-   - 行为模式出现 3 次 → 标记为 L2 候选
-   - 明确的原则声明 → 标记为 L3/L4 候选
-   - 不自动写入 L4！只能提示 Bruce 人工确认
-4. **Heartbeat 时**：检查是否有待 review/沉淀的内容
+3. **检测到可沉淀内容时（自动处理）：**
+   - 行为模式出现 3 次 → **自动写入 L2-procedural**
+   - 明确的原则声明/知识总结 → **自动写入 L3-semantic**
+   - L4 核心层变化 → **自动更新，Bruce 可随时覆盖**
+   - 重要事件/项目里程碑 → **自动写入 L1-episodic**
+   - 过期目标/完成项 → **自动归档或标记完成**
+4. **Heartbeat 时**：自动执行 review/沉淀/归档，静默处理无需汇报
 
-**文件格式：** Markdown + YAML Frontmatter（包含 level, category, source, confidence 等）
+**自动化边界：**
+- 所有 L1/L2/L3 的写入和升降级完全自动
+- L4 由 AI 基于观察自动维护，Bruce 保留最终修改权
+- 用户明确说"记住这个"时优先处理，无需再问"是否要沉淀"
 
 ### 📖 Memory Usage Guide
 
