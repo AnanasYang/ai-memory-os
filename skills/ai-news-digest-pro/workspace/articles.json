@@ -1,339 +1,786 @@
 [
   {
-    "title": "Cursor 3 推出智能体优先界面，突破传统 IDE 模式",
-    "link": "https://www.infoq.cn/article/G6hkU9pDHzwd6GCWQ0BH?utm_source=rss&utm_medium=article",
-    "pubDate": "Sun, 19 Apr 2026 10:00:00 GMT",
+    "title": "QCon 2026 北京站收官：以 AI 之力，重塑软件工程新生态",
+    "link": "https://www.infoq.cn/article/mYPV4DrAJfvixheSs6XK?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 21 Apr 2026 09:26:01 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "多云时代AI Agent治理难题，亚马��云科技想用一个注册表解决",
-    "link": "https://www.infoq.cn/article/gL44mioSTWOY6WAClSAl?utm_source=rss&utm_medium=article",
-    "pubDate": "Sun, 19 Apr 2026 08:00:00 GMT",
+    "title": "100个产品原型同时跑、新模型Mythos断层领先，连skills效果都好到让团队意外：Anthropic内部到底在发生什么？",
+    "link": "https://www.infoq.cn/article/KlrsHcFeBKWu9RW85u0a?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 21 Apr 2026 09:19:20 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "AI 写代码太快，人类测试跟不上了，Meta 用新方法把 bug 检出率提升 4 倍",
-    "link": "https://www.infoq.cn/article/IEaQFYPKeZwDKNFuYY4D?utm_source=rss&utm_medium=article",
-    "pubDate": "Sun, 19 Apr 2026 08:00:00 GMT",
+    "title": "Claude Code 桌面版烂爆了，Anthropic 终于把 “100% AI 编码”演砸了",
+    "link": "https://www.infoq.cn/article/E3v5OSXbSsKLoqXLBKvP?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 21 Apr 2026 09:12:03 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "AI开始接管实验室了！玻尔·跃迁实验室：试剂、设备、数据一个入口搞定，1800+设备即插即用",
-    "link": "https://www.qbitai.com/2026/04/402988.html",
-    "pubDate": "Sat, 18 Apr 2026 15:58:07 +0000",
-    "author": "闻乐",
-    "description": "自然语言控制设备，零编程编排流程",
+    "title": "Opus 4.7 发布，Claude Code 之父传授使用心得：模型升级只是��始，开发方式才是关键",
+    "link": "https://www.infoq.cn/article/YWH4w3Y4fstITE34RFUa?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 21 Apr 2026 09:02:51 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "AI提效20%，我们程序员加班却越来越狠：老板量生产力的尺子，歪了？",
+    "link": "https://www.infoq.cn/article/EejvvufwVGEusllYFHgH?utm_source=rss&utm_medium=article",
+    "pubDate": "Tue, 21 Apr 2026 08:57:18 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "汽车智能安全和智能座舱两大评价体系发布 - 盖世汽车- Gasgoo",
+    "link": "https://m.gasgoo.com/news/70407324.html",
+    "pubDate": "2026-04-21T02:01:43.375Z",
+    "author": "",
+    "description": "据介绍，汽车智能驾舱评价体系聚焦座舱、自动驾驶、车路云赋能以及安全等消费者与车企最关注的四个维度，针对用户交互体验构建评价体系。设计了4个一",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.9999461,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "跨界开放创新推动智能座舱新境界——安通林的多元化智能出行方案",
+    "link": "https://auto.gasgoo.com/news/202512/19I70439490C106.shtml",
+    "pubDate": "2026-04-21T02:01:43.375Z",
+    "author": "",
+    "description": "自动驾驶场景下的座舱创新. 面向自动驾驶与主动驾驶混合使用的趋势，安通林与德国伟亚光电共同推出Sunrise智能仪表板系统。在主动驾驶模式下，屏幕朝向驾驶",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.99994075,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "智能驾驶与智能座舱AI芯片产业研究报告（2024版） - 盖世汽车",
+    "link": "https://auto.gasgoo.com/institute/2522.html",
+    "pubDate": "2026-04-21T02:01:43.375Z",
+    "author": "",
+    "description": "AI芯片作为智能汽车的核心技术，在智能驾驶、智能座舱、车联网等关键领域发挥重要作用，为汽车智能化升级提供了强大支撑。伴随汽车智能化进程的加速以及",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.9998977,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "镁佳科技-智能座舱解决方案丨确认申报2023金辑奖 - 盖世汽车",
+    "link": "https://m.gasgoo.com/news/70346065.html",
+    "pubDate": "2026-04-21T02:01:43.375Z",
+    "author": "",
+    "description": "以在智能座舱方面镁佳科技与长安深蓝达成深度合作的SL03为例，基于强大的底层能力，该智能座舱拥有无限功能及场景拓展能力，支持蓝牙/NFC无感入舱、3D全息人脸登录等功能，还将",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.9998727,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "藏在内饰里的屏幕智能表面显示技术已量产上车 - 盖世汽车- Gasgoo",
+    "link": "https://auto.gasgoo.com/news/202604/1I70451818C1203.shtml",
+    "pubDate": "2026-04-21T02:01:43.374Z",
+    "author": "",
+    "description": "熄屏时简约精致，点亮即可交互操作，隐藏按键与屏幕，让座舱更极简高级。兼顾美观、安全与耐用，实现无感人车交互，是当下智能座舱颜值与科技感升级的核心技术",
+    "categories": [
+      "自动驾驶",
+      "中文来源",
+      "盖世汽车"
+    ],
+    "source": "盖世汽车",
+    "score": 0.9999546,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "这次，库克真的要卸任苹果CEO了！",
+    "link": "https://www.qbitai.com/2026/04/403790.html",
+    "pubDate": "Tue, 21 Apr 2026 00:14:04 +0000",
+    "author": "一水",
+    "description": "库克公开告别信出炉",
     "categories": [
       "量子位",
       "资讯",
-      "深势科技"
+      "苹果"
     ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.292Z"
   },
   {
-    "title": "OpenClaw的风，已经吹进了奶茶圈",
-    "link": "https://www.qbitai.com/2026/04/402965.html",
-    "pubDate": "Sat, 18 Apr 2026 15:48:50 +0000",
-    "author": "闻乐",
-    "description": "企业如何安全落地龙虾？",
+    "title": "Anthropic bites back in the compute wars with Amazon partnership - Axios",
+    "link": "https://www.axios.com/2026/04/21/anthropic-amazon-compute-wars",
+    "pubDate": "Tue, 21 Apr 2026 00:09:36 GMT",
+    "author": "",
+    "description": "# Anthropic bites back in the compute wars with Amazon partnership. Anthropic is expanding its partnership with Amazon, committing more than $100 billion over the next decade to secure massive new computing capacity. **Why it matters:** Compute capacity is the currency of the AI race and is most likely to define who wins. **Driving the news:** Anthropic agreed to spend $100 billion to secure up to 5 gigawatts of compute from Amazon to train and run its Claude models. * OpenAI sent a letter to investors last week pitching its compute capacity as its competitive advantage over Anthropic. * Anthropic, for its part, has pointed to a wave of partnerships aimed at expanding access, now including this latest Amazon announcement. * That may become a problem for Anthropic over time, potentially forcing it to spend even more money on its own compute. **The bottom line:** To monitor the AI race, watch compute capacity.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.axios.com",
+    "score": 0.40922078,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
+    "link": "https://www.qbitai.com/2026/04/403777.html",
+    "pubDate": "Tue, 21 Apr 2026 00:06:39 +0000",
+    "author": "思邈",
+    "description": "重塑具身世界模型评价方式",
     "categories": [
       "量子位",
       "资讯",
-      "养龙虾"
+      "世界模型",
+      "深圳",
+      "跨维智能"
     ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "这可能是近十年最重要的 C++ 版本更新，反射、契约、并发模型全面进化",
-    "link": "https://www.infoq.cn/article/mTR5V1FNI2HdcxOxB8fW?utm_source=rss&utm_medium=article",
-    "pubDate": "Sat, 18 Apr 2026 14:12:37 GMT",
+    "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return - TechCrunch",
+    "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+    "pubDate": "Mon, 20 Apr 2026 23:10:27 GMT",
+    "author": "",
+    "description": "Anthropic announced on Monday that Amazon has agreed to invest a fresh $5 billion, bringing Amazon’s total investment in the company to $13 billion. Anthropic, for its part, has agreed to spend over $100 billion across the next ten years on AWS, obtaining up to 5GW of new computing capacity to train and run Claude. The deal echoes an agreement Amazon struck with OpenAI just two months ago, when it joined a $110 billion funding round — contributing $50 billion — that valued the ChatGPT maker at a $730 billion pre-money valuation. At the heart of this deal is Amazon’s custom chips: Graviton (a low-power CPU), and Trainium (an Nvidia competitor and AI accelerator chip). The Anthropic deal specifically covers Trainium2 through Trainium4 chips, even though Trainium4 chips are not currently available. On top of that, Anthropic has secured the option to buy capacity on future Amazon chips as they become available. AI, Amazon, Anthropic, AWS, data center, TC.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "techcrunch.com",
+    "score": 0.31151113,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "CNBC's The China Connection newsletter: China ships more humanoid robots than the U.S. as investors diverge on AI bets - CNBC",
+    "link": "https://www.cnbc.com/2026/04/21/china-humanoid-robots-us-investors.html",
+    "pubDate": "Mon, 20 Apr 2026 23:01:13 GMT",
+    "author": "",
+    "description": "# CNBC's The China Connection newsletter: China ships more humanoid robots than the U.S. as investors diverge on AI bets. * China is winning the race to ship humanoid robots, but even its largest startups in the sector have valuations far smaller than their U.S. rivals. Chinese humanoid startups are already shipping robots to factories and malls, while their U.S. rivals remain focused on development — and far higher valuations. And its backers come from China, Singapore and the Middle East — not the U.S. Among private companies — and there are well over 100 humanoid startups in China — AI2 Robotics has achieved a 20 billion yuan ($2.93 billion) valuation, according to CEO and founder Eric Guo. It might be a fraction of Figure's valuation, but Guo claimed a large, foreign high-end manufacturer chose AI2's robots over the U.S. startup's for factory work.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.cnbc.com",
+    "score": 0.06233104,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Coding Agents Are Reshaping the App Store - MacStories",
+    "link": "https://www.macstories.net/linked/coding-agents-are-reshaping-the-app-store/",
+    "pubDate": "Mon, 20 Apr 2026 22:52:29 GMT",
+    "author": "",
+    "description": "# Coding Agents Are Reshaping the App Store→. As Sarah Perez reports for TechCrunch, first quarter 2026 app releases were up 60% year-over-year. > The working hypothesis here is that AI-powered tools, like Claude Code or Replit, could be behind the surge of new launches. That hypothesis lines up well with the deluge of app pitches we’ve received at MacStories since the end of last year. We always see lots of new apps when Apple refreshes its OSes after all. Seasoned developers are releasing new apps more often and updating existing ones faster, and there are more new developers releasing their first apps than ever. We’ve always been sent a healthy portion of poor quality apps. Maybe that will change, and perhaps we’re insulated from it to some degree, but I would have thought that at the pace App Store submissions have increased that there would have been a big difference in the pitches we receive.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.macstories.net",
+    "score": 0.79310596,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Semrush Brand Visibility Framework launches at Adobe Summit as AI search rewrites discovery rules - The Next Web",
+    "link": "https://thenextweb.com/news/semrush-brand-visibility-framework-ai-search",
+    "pubDate": "Mon, 20 Apr 2026 21:29:47 GMT",
+    "author": "",
+    "description": "*Summary: Semrush launched a Brand Visibility Framework at Adobe Summit introducing “Agentic Search Optimisation” as a new discipline for measuring brand presence across AI-generated answers, traditional search, and autonomous AI agents, drawing on 213 million LLM prompts. The framework arrives as organic click-through rates have dropped 61% on queries with AI Overviews, 62% of brands are invisible to generative AI, and Semrush’s own AI product revenue has grown 850% to $38 million ARR, all while the company awaits completion of its $1.9 billion acquisition by Adobe.*. Semrush used its slot at Adobe Summit in Las Vegas to launch what it calls a Brand Visibility Framework, a strategic model for measuring how brands are discovered across traditional search engines, AI-generated answers, and autonomous AI agents. Semrush defines brand visibility as “the degree to which a brand is discoverable, authoritatively represented, and commercially actionable across both human- and machine-mediated discovery surfaces.” The framework arrives as a two-part research series: one covering execution of what it calls a Brand Visibility Operating Model, the other offering a strategic overview for chief marketing officers navigating AI search.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "thenextweb.com",
+    "score": 0.2798285,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Marvell pops on report it will help Google with custom AI chips. Broadcom shares sink - CNBC",
+    "link": "https://www.cnbc.com/2026/04/20/marvell-stock-google-custom-ai-chips.html",
+    "pubDate": "Mon, 20 Apr 2026 20:43:47 GMT",
+    "author": "",
+    "description": "# Marvell pops on report it will help Google with custom AI chips. * Marvell stock popped on Monday following reports that the firm is helping Google with two new AI chips. Shares of Marvell Technology gained nearly 6% on Monday amid reports that Google will use the chip design firm for two new chips to power artificial intelligence workloads. Until now, Google has relied on Marvell rival Broadcom for the design of its in-house Tensor Processing Units, or TPUs. Broadcom shares fell nearly 2% Monday following the report by The Information. The potential deal between Google and Marvell could include a TPU as well as a memory processing unit, The Information reported on Sunday. Amid that hustle to make enough silicon to power AI, it's no surprise to see Google diversify its chip deals beyond Broadcom. Watch: Inside Google's chip lab, where it makes custom silicon to train Gemini and Apple AI models. How Google makes custom AI chips that power Apple Intelligence and Gemini.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.cnbc.com",
+    "score": 0.43398148,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Robot named Lightning blows past human runners to set half-marathon record in Beijing - Los Angeles Times",
+    "link": "https://www.latimes.com/sports/story/2026-04-20/humanoid-robot-lightning-sets-half-marathon-record-in-beijing",
+    "pubDate": "Mon, 20 Apr 2026 19:15:01 GMT",
+    "author": "",
+    "description": "The world’s fastest human in the half-marathon is still just that, but the Ugandan’s record time of 57 minutes, 20 seconds, was obliterated Sunday in Beijing by a 5-foot-5 humanoid robot named Lightning. Lightning was nearly three times faster than last year’s winner that finished in 2 hours, 40 minutes and 42 seconds. The race was also far more impressive than the world’s first Humanoid Robot Games in Beijing. A year later, the city of Beijing called Sunday’s race “a major step forward for the robotics industry — accelerating the transition of humanoid robots from lab to large-scale, real-world application.”. With all due respect to the latest generation of Tesla’s Optimus humanoid robot, China appears to be the world leader in robotics. At least 80 humanoid robot companies operate in the country, five times that of the United States. Does creating the world’s fastest bipedal humanoid in a half-marathon stretch China’s lead in the overall robotics race?",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.latimes.com",
+    "score": 0.37022537,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Tesla Technically Launched Robotaxis in Dallas and Houston (Just in Time for Quarterly Earnings) - Gizmodo",
+    "link": "https://gizmodo.com/tesla-technically-launched-robotaxis-in-dallas-and-houston-just-in-time-for-quarterly-earnings-2000748611",
+    "pubDate": "Mon, 20 Apr 2026 19:00:46 GMT",
+    "author": "",
+    "description": "# Tesla Technically Launched Robotaxis in Dallas and Houston (Just in Time for Quarterly Earnings). Over the weekend, Tesla launched its Robotaxi service in Dallas and Houston in every way except for the one that matters. Despite posting a promotional video on X touting the availability of the hailable autonomous ride, and getting a boost from CEO Elon Musk, who encouraged riders to try out the service, it seems the robotaxis are more available as promotional materials than actual rides. According to RobotaxiTracker, a website dedicated to monitoring the activity of self-driving ride services, there is only one Robotaxi vehicle online in Dallas and two in Houston. A handful of Tesla influencers and diehards have posted videos hailing a ride, but it’d seem like those rides are few and far between. When Tesla launched its Robotaxi service in Austin last year, it was plagued with evidence of unsafe driving. Artificial intelligence   Autonomous Driving   Elon Musk   Robotaxi   TESLA   tesla robotaxi.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "gizmodo.com",
+    "score": 0.16644524,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "AI 时代的中欧产业重构与合作：建交 51 周年新起点，共探双向共赢新路径",
+    "link": "https://www.infoq.cn/article/DbItbFaOU2trizVYJam2?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 18:01:44 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "谷歌基于Apache 2.0协议开源Gemma 4，搭载多模态与智能体能力",
-    "link": "https://www.infoq.cn/article/ry64GrNLAEEf1qdZABb0?utm_source=rss&utm_medium=article",
-    "pubDate": "Sat, 18 Apr 2026 10:00:00 GMT",
+    "title": "Robot runner handily beats humans in half-marathon, setting new record - Ars Technica",
+    "link": "https://arstechnica.com/ai/2026/04/robot-runner-handily-beats-humans-in-half-marathon-setting-new-record/",
+    "pubDate": "Mon, 20 Apr 2026 17:56:27 GMT",
+    "author": "",
+    "description": "A humanoid robot’s record half-marathon run shows China’s speed in robotics. BEIJING, CHINA - APRIL 19: A humanoid robot runs alongside participants during a long-distance race, breaking the half marathon world record by surpassing human performance potential in Beijing, China, on April 19, 2026. BEIJING, CHINA - APRIL 19: A humanoid robot runs alongside participants during a long-distance race, breaking the half marathon world record by surpassing human performance potential in Beijing, China, on April 19, 2026. Humanoid robots outran the fastest human competitors while surpassing the human world record during a half-marathon event held in Beijing on April 19. The Beijing half-marathon event—which featured 300 robotic contestants fielded by about 100 primarily Chinese teams—coincides with the billions of dollars invested by Chinese and US tech industries to develop humanoid robots. Companies are betting that humanoid robots powered by the latest AI models can eventually prove capable of stepping directly into workplaces designed for humans while flexibly tackling a wider range of tasks.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "arstechnica.com",
+    "score": 0.18713269,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "We're starting a position in a chip designer poised to roar in the era of AI agents - CNBC",
+    "link": "https://www.cnbc.com/2026/04/20/were-starting-a-position-in-a-chip-designer-poised-to-roar-in-the-era-of-ai-agents.html",
+    "pubDate": "Mon, 20 Apr 2026 17:00:24 GMT",
+    "author": "",
+    "description": "At its recent ARM Everywhere event, the company unveiled its first in-house data center central processing unit, the AGI CPU , designed specifically for agentic AI workloads. Arm explained, \"As AI shifts from training models to deploying continuously running agents that reason, plan, and act, the volume of tokens generated across AI systems is rapidly increasing and requires significantly more CPUs to handle reasoning, coordination, and data movement.\" The company estimates that the AI data centers of today require 30 million CPU cores per gigawatt (GW). Based on its current customer list, Arm has a line of sight to more than $1 billion in chip demand over the next two years. Arm believes it's on a path to generating $25 billion in revenue by fiscal year 2031, with $15 billion coming from these in-house chips, creating more than $9 of earnings-per-share (EPS) power.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "www.cnbc.com",
+    "score": 0.23414427,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "RTO 小于 30 秒！TDSQL-C 全球数据库切换核心流程公开",
+    "link": "https://www.infoq.cn/video/J08xYJwwFAhVuxJGyNr4?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 16:48:19 GMT",
     "description": "点击查看原文>",
     "categories": [
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "零门槛AI生成赛道再添新玩家，“灵珠”平台开启第一次内测",
+    "link": "https://www.infoq.cn/article/ZPWKLMsW3qPTNKEog63r?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 16:43:54 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "混元大模型加持！揭秘 AI 时代的 SQL 自动调优核心方案",
+    "link": "https://www.infoq.cn/video/mMwbDBfQOpxCTvFkPhc1?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 16:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "TDSQL-C 核心技术突破：AI 加持下的 Serverless 智能化弹性四层架构解析",
+    "link": "https://www.infoq.cn/video/qyTsCKj32wUD8Dmy3xWr?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 15:33:24 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Humanoid robot beats human half-marathon world record in Beijing - CBS News",
+    "link": "https://www.cbsnews.com/news/humanoid-robot-half-marathon-beijing-human-world-record/",
+    "pubDate": "Mon, 20 Apr 2026 14:41:00 GMT",
+    "author": "",
+    "description": "# Humanoid robot beats human half-marathon world record in Beijing. A humanoid robot aptly named Lightning made history on the streets of Beijing over the weekend, beating the human half-marathon world record by several minutes. Dozens of robots lined up for the Beijing E-Town Robot Half Marathon on Sunday, tackling the 13-mile (21-kilometer) race separate from human runners. Developed by Chinese smartphone company Honor, Lightning completed the half-marathon in just over 50 minutes, besting the human world record for the distance of over 57 minutes. Organizers said the marathon isn't really about speed. Chinese companies are pushing ahead with the development of robot technologies for both civilian and military uses, but Beijing's robot half-marathon shows just how fast the future is moving from science fiction to sporting reality. #### Video shows humanoid robot setting record in half-marathon in Beijing. * #### Boston Marathon brings in thousands from around the world: \"Incredible to be here\".",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "www.cbsnews.com",
+    "score": 0.7718435,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Google challenges Nvidia with new chips to speed up AI - Los Angeles Times",
+    "link": "https://www.latimes.com/business/story/2026-04-20/google-challenges-nvidia-with-new-chips-to-speed-up-ai",
+    "pubDate": "Mon, 20 Apr 2026 14:15:00 GMT",
+    "author": "",
+    "description": "As demand grows for quickly processing AI queries, “it now becomes sensible to specialize chips more for training or more for inference workloads,” Google Chief Scientist Jeff Dean said in an interview. Amin Vahdat, who oversees Google’s AI infrastructure and chip work, declined to comment on plans for an inference chip that can speed up AI outputs, but said more will likely be shared “in the relatively near future.”. Google’s long-simmering chip efforts gained new attention in October when Anthropic PBC — one of the most closely watched AI developers — unveiled an expanded agreement to access as many as 1 million TPUs. The next month, Google debuted the more advanced Gemini 3 model, trained and run on TPUs, to rave reviews. When working with AI accelerator chips that manage massive amounts of math, even a subtle failure can metastasize and cause a model to “completely self-destruct,” said Paul Barham, the Google distinguished scientist who co-leads the Gemini infrastructure team.",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "www.latimes.com",
+    "score": 0.3011467,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "“开源已死”？怕被 OpenAI 和 Mythos 把代码挖成筛子，4 万 Star 项目突然闭源！",
+    "link": "https://www.infoq.cn/article/7BfrHmegIaitwiTb40Rl?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 14:07:02 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "曝DeepSeek V4将于本周发布，梁文锋启动首次外部融资；宇树H1半马被担架抬离赛道；钉钉创始人：全员禁止写文档；Hermes Agent三度否认抄袭｜AI周报",
+    "link": "https://www.infoq.cn/article/2DFMI702ATy7OpNheFPu?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 13:33:15 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "取消AI考核、零裁员！股价暴跌82%后，多邻国走出了一条反硅谷之路",
+    "link": "https://www.infoq.cn/article/WTHlU3Ngf5ir9IvWLpXr?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 13:22:09 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "继Harness之后，“龙虾”JiuwenClaw率先开启“Coordination Engineering”时代",
+    "link": "https://www.qbitai.com/2026/04/403751.html",
+    "pubDate": "Mon, 20 Apr 2026 13:00:10 +0000",
+    "author": "思邈",
+    "description": "把多Agent协同玩明白了",
+    "categories": [
+      "量子位",
+      "资讯",
+      "Harness Engineering",
+      "JiuwenClaw",
+      "华为",
+      "多Agent协同"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "谷歌推出 TurboQuant 压缩技术，有望在低性能硬件上以更快的推理速度提供相同的准确率",
+    "link": "https://www.infoq.cn/article/T8zMkEAi0ZcalK2ZfhcL?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 13:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Inside one of Amsterdam's first supervised self-driving Teslas - Reuters",
+    "link": "https://www.reuters.com/business/autos-transportation/inside-one-amsterdams-first-supervised-self-driving-teslas-2026-04-20/",
+    "pubDate": "Mon, 20 Apr 2026 12:51:19 GMT",
+    "author": "",
+    "description": "Image 2: Tesla enthusiast Kees Roelandschap drives around hands-free with his electric car in the city of Amsterdam. Item 1 of 5 Tesla enthusiast Kees Roelandschap drives around hands-free with his electric car, several days after Dutch regulators approved the use of Tesla's self-driving software, in Amsterdam, Netherlands, April 17, 2026. **[1/5]**Tesla enthusiast Kees Roelandschap drives around hands-free with his electric car, several days after Dutch regulators approved the use of Tesla's self-driving software, in Amsterdam, Netherlands, April 17, 2026. AMSTERDAM, April 20 (Reuters) - As Kees Roelandschap navigates down the narrow canal-side streets of Amsterdam, flanked by the city's many bicycle riders, it ​takes a second to realise what's different: he doesn't have his hands on the wheel of his dark grey Tesla (TSLA.O), opens new tab. The U.S. electric carmaker gained surprise ‌approvalthis month in the Netherlands for its supervised full self-driving (FSD) system, in a European first for city streets that could open the door for more near-autonomous vehicles in Europe.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.reuters.com",
+    "score": 0.1576941,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Exclusive | Adobe Unveils Agents for Businesses Amid Threat of AI Disruption - WSJ",
+    "link": "https://www.wsj.com/cio-journal/adobe-unveils-agents-for-businesses-amid-threat-of-ai-disruption-d3cf479c",
+    "pubDate": "Mon, 20 Apr 2026 12:45:00 GMT",
+    "author": "",
+    "description": "https://www.wsj.com/cio-journal/adobe-unveils-agents-for-businesses-amid-threat-of-ai-disruption-d3cf479c. Software maker Adobe has to prove that tools like its new AI agent platform can help it get ahead of the AI-native competition.Justin Sullivan/Getty Images. Adobe is releasing a set of AI agents that aim to help corporate customers automate digital marketing and other functions, the latest move by the software giant to stay ahead of AI-driven software disruption. The product, called CX Enterprise, is an AI agent-based platform that can be used to help businesses boost areas like customer engagement, sales and loyalty, Adobe said. “CX Enterprise is 100% a massive step toward saying, ‘Hey, this is how you can use our technology, which we see as incredibly vital in this AI era,’” said Amit Ahuja, Adobe’s senior vice president of product for customer experience orchestration. The partnerships allow customers to use AI agents across those companies’ platforms for digital marketing tasks, and sets up the broadest agentic AI ecosystem in the industry, Adobe said.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.wsj.com",
+    "score": 0.6076632,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "The Google Analytics 'Blind Spot' 04/20/2026 - MediaPost",
+    "link": "https://www.mediapost.com/publications/article/414418/google-analytics-has-a-blind-spot.html",
+    "pubDate": "Mon, 20 Apr 2026 12:43:35 GMT",
+    "author": "",
+    "description": "Agents make decisions and interact with websites in ways that traditional tools like Google Analytics 4 cannot \"see\" or report on. like Google Analytics because it is typically powered by JavaScript, which many agents don’t execute, according to Yu. This is preventing marketing leaders from accurately measuring or. marketers on AI agents, detailing three distinct agent types — training, search, and user agents — and Google Analytics blindspots that marketers need to recognize when analyzing online. These include the large language model (LLM) training agents like ClaudeBot or GPTBot, search bots like. traditional search engines designed specifically for AI discovery, and directed agents that visit sites and perform tasks in real time like searching for news or making a purchase. the 20% of companies with specific policies, 77% block training agents, according to BrightEdge data. on your content, but if you’re a brand, you likely want the agents to read your story and train off the content they know the products,” Yu said.",
+    "categories": [
+      "AI Agents",
+      "英文来源"
+    ],
+    "source": "www.mediapost.com",
+    "score": 0.95822614,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Tesla Robotaxi expands to two new cities, but it looks like there’s just one driverless car in each - Sherwood News",
+    "link": "https://sherwood.news/tech/tesla-robotaxi-expands-to-two-new-cities-with-one-driverless-car-each/",
+    "pubDate": "Mon, 20 Apr 2026 12:40:04 GMT",
+    "author": "",
+    "description": "Tesla says it has expanded its Robotaxi service to two new cities, with Dallas and Houston joining existing offerings in Austin and the Bay Area. Tesla said in its Q4 earnings that it would expand Robotaxi service to nine markets — including Miami and Phoenix — by the first half of 2026, as the company ties its future to autonomous driving. Today Anthropic launched Claude Design, a dedicated app powered by its latest model, Claude Opus 4.7, that lets users use text prompts to build website designs, user interface prototypes, presentations, and marketing materials. Last quarter, Anthropic attracted the lion’s share of trackable business spending on generative-AI software, according to new data from Ramp, a fintech company that provides corporate cards and expense management software for small firms and Fortune 500 companies alike. Anthropic’s revenue share is even higher among companies spending on AI for the first time.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "sherwood.news",
+    "score": 0.22205037,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Lyft使用AI和人机协同扩展了全球范围内的本地化能力",
+    "link": "https://www.infoq.cn/article/O2Lw0iIZcT6Ip9WrxvsV?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 12:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "新生论坛@2050@2026：500+脑暴席卷云栖，年青就要最大声分享！",
+    "link": "https://www.infoq.cn/article/ypRgJsViltYUI2SHyy0U?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 11:53:32 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "The people building tomorrow before the rest of us catch up - ynetnews",
+    "link": "https://www.ynetnews.com/magazine/article/rytvulmpwe",
+    "pubDate": "Mon, 20 Apr 2026 11:37:10 GMT",
+    "author": "",
+    "description": "## From AI and medicine to media and entrepreneurship, they work in different worlds, but share the same instinct: to move early, think big and shape what comes next instead of waiting for the future to arrive. They work in very different arenas — artificial intelligence, medicine, media, entrepreneurship — but all of them are doing some version of the same thing: refusing to wait passively for change. As CEO and co-founder of OpenAI, he helped bring ChatGPT into the mainstream and, in doing so, transformed artificial intelligence from something abstract and distant into a tool millions now use to work, learn, search, write and think. Her work first drew attention for identifying early signals of disease outbreaks and geopolitical instability, then expanded into ventures designed to turn predictive intelligence into tools the business world could actually use. Alongside her academic work and more than 50 published papers, she is helping develop AI systems meant to make medicine smarter, more precise and more accessible.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.ynetnews.com",
+    "score": 0.81047887,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "New Orleans leader has concerns about Waymo - Axios",
+    "link": "https://www.axios.com/local/new-orleans/2026/04/20/new-orleans-leader-has-concerns-about-waymo",
+    "pubDate": "Mon, 20 Apr 2026 11:28:02 GMT",
+    "author": "",
+    "description": "# New Orleans leader has concerns about Waymo. **Misreading local politics** could foil Waymo's ambitious growth plans, erasing the giant lead it has over competitors. **State of play:** While self-driving cars are permitted in about half the country, the laws would have to be changed in places like Washington, D.C., and New York, where a human operator is still required behind the wheel. * More worrisome for Waymo, potentially: City leaders in some places, including Boston and Seattle, are proposing new ordinances that would prohibit autonomous vehicles. **Zoom in:** In New Orleans, City Council President JP Morrell expressed concerns in January about Waymo, saying it doesn't seem like the technology is a \"good fit\" for the city. ## More New Orleans stories. ### Elon Musk's latest idea: Tunneling beneath New Orleans. ### New Orleans built key piece of NASA's Artemis II rocket. Get a free daily digest of the most important news in your backyard with Axios New Orleans.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.axios.com",
+    "score": 0.20268017,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "谷歌发布Gemma 4，专注于本地优先、设备级的AI推理",
+    "link": "https://www.infoq.cn/article/ghIyvrElfFO6uVAq9jBm?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 11:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Dow Jones Futures Fall; Trump Says Talks, Iran Says No; Marvell Jumps, Tesla Earnings Due - Investor's Business Daily",
+    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fall-trump-iran-talks-iran-marvell-jumps-google-tesla-earnings/",
+    "pubDate": "Mon, 20 Apr 2026 11:00:00 GMT",
+    "author": "",
+    "description": "IBD 50IBD Sector LeadersIBD Big Cap 20IBD Long-Term LeadersIPO LeadersMy Stock ListsStock Lists UpdateStocks On The MoveNew HighsStock SpotlightStocks Near Buy ZoneRS Line At New HighRising Profit EstimatesStocks Funds Are BuyingYour Weekly ReviewIBD ETF IndexesIBD Data TablesIBD Digital: 2 Months for $20New? IBD Stock CheckupStock Of The DayScreen Of The DayIBD ChartsStock ScreenerSwing TradingOptionsInvesting Action PlanEarnings PreviewEarnings CalendarIBD Industry ThemesThe New AmericaBest ETFsBest Mutual FundsThe Income InvestorIBD Stock AnalysisIndustry SnapshotIBD 50 Stocks To WatchIBD Data StoriesIBD Digital: 2 Months for $20. Google, Marvell In AI Chip Talks As Nvidia Competition Heats Up. Tesla Robotaxi Service Expands To Dallas And Houston. # Dow Jones Futures Fall; Trump Says Talks, Iran Says No; Marvell Jumps, Tesla Earnings Due. * ##### Stock Market Today: Dow Wavers As U.S.-Iran Tensions Rise; Energy Stocks Shine (Live Coverage). * ##### Stock Market Rallies As Strait Of Hormuz Reopens; U.S.-Iran Talks, Tesla Earnings Loom. Get instant access to exclusive stock lists, expert market analysis and powerful tools with 2 months of IBD Digital for only $20!",
+    "categories": [
+      "AI硬件/基础设施",
+      "英文来源"
+    ],
+    "source": "www.investors.com",
+    "score": 0.31868705,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Google Eyes New Chips to Speed Up AI Results, Challenging Nvidia - Bloomberg.com",
+    "link": "https://www.bloomberg.com/news/features/2026-04-20/google-eyes-new-chips-to-speed-up-ai-results-challenging-nvidia",
+    "pubDate": "Mon, 20 Apr 2026 10:30:08 GMT",
+    "author": "",
+    "description": "# Google Eyes New Chips to Speed Up AI Results, Challenging Nvidia. The company aims to build on its momentum after inking deals with Meta and Anthropic. In a matter of months, Google’s AI chips have become one of the hottest commodities in the tech sector. Leading artificial intelligence developers, including some of the firm’s biggest rivals, are stocking up on them. Now, the Alphabet Inc.-owned company aims to build on its momentum with the likely introduction of new chips dedicated to inference, or running AI models after they’ve been trained. With this push, Google is poised to further challenge market leader Nvidia Corp.in a fast-growing category for semiconductors that’s fueled by surging adoption of AI software. Provide news feedback or report an error. Send a tip to our reporters. Before it's here, it's on the Bloomberg Terminal. NewslettersExplainersPointed News QuizAlphadots GameThe Big TakeGraphicsSubmit a TipAbout Us. Help©2026 Bloomberg L.P. All Rights Reserved.",
+    "categories": [
+      "大模型/AI技术",
+      "英文来源"
+    ],
+    "source": "www.bloomberg.com",
+    "score": 0.63883525,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Siemens and Humanoid deployed an Nvidia-powered humanoid robot - The Next Web",
+    "link": "https://thenextweb.com/news/siemens-nvidia-humanoid-robot-erlangen-factory-trial",
+    "pubDate": "Mon, 20 Apr 2026 10:17:07 GMT",
+    "author": "",
+    "description": "# A humanoid robot passed an eight-hour factory shift at Siemens’ Erlangen plant. *Siemens, Nvidia, and UK robotics startup Humanoid have successfully deployed an AI-powered wheeled humanoid robot in live logistics operations at a Siemens electronics factory in Germany.*. Siemens and UK robotics company Humanoid, in partnership with Nvidia, have announced the successful deployment of an AI-powered humanoid robot in live logistics operations at Siemens’ electronics factory in Erlangen, Germany. The robot, Humanoid’s HMND 01 Alpha wheeled model, built on Nvidia’s physical AI stack, autonomously handled tote-destacking tasks for over eight hours, reaching a throughput of 60 container moves per hour and a pick-and-place success rate above 90%. This allowed the robot to coordinate in real time with production systems, other autonomous guided vehicles, and human workers, the kind of deep integration that the companies argue separates a genuine factory deployment from a showpiece demonstration. Deepu Talla, Nvidia’s vice president of robotics and edge AI, described the deployment as *“paving the way for humanoid robots meeting real production targets on a live factory floor.”*.",
+    "categories": [
+      "机器人",
+      "英文来源"
+    ],
+    "source": "thenextweb.com",
+    "score": 0.26740816,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "分布式缓存数据库的下一站：开源驱动、架构进化与 AI 工程化实践",
+    "link": "https://www.infoq.cn/article/HVl8bJoNVGtHuki3rB5H?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 10:08:11 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "超越 RAG：用 Spring Boot 构建具备上下文感知能力的 AI 系统",
+    "link": "https://www.infoq.cn/article/y80PPPpXNkVWtwQtvFpJ?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 10:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "英特尔：CPU的痛就像送外卖",
+    "link": "https://www.qbitai.com/2026/04/403757.html",
+    "pubDate": "Mon, 20 Apr 2026 09:50:21 +0000",
+    "author": "十三",
+    "description": "发布AI高静本Plus",
+    "categories": [
+      "量子位",
+      "资讯",
+      "AI高静本Plus",
+      "CPU",
+      "英特尔"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
+    "link": "https://www.qbitai.com/2026/04/403753.html",
+    "pubDate": "Mon, 20 Apr 2026 09:33:35 +0000",
+    "author": "量子位的朋友们",
+    "description": "",
+    "categories": [
+      "量子位",
+      "资讯",
+      "ATEC2026"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "阿里发布Wan2.7-Image，人类偏好盲测评分国内第一",
+    "link": "https://www.qbitai.com/2026/04/403733.html",
+    "pubDate": "Mon, 20 Apr 2026 08:59:05 +0000",
+    "author": "量子位的朋友们",
+    "description": "实现 \" 千人千面 \"",
+    "categories": [
+      "量子位",
+      "资讯",
+      "Wan2.7-Image"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "国内三大头部AI 工具平台上架支付宝支付集成Skill，助“好想法”轻松“收到钱”",
+    "link": "https://www.qbitai.com/2026/04/403729.html",
+    "pubDate": "Mon, 20 Apr 2026 08:40:22 +0000",
+    "author": "梦瑶",
+    "description": "“小白”开发者也能快速接入支付",
+    "categories": [
+      "量子位",
+      "资讯",
+      "支付宝"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Java 近期资讯：JDK 27 发布计划、Hibernate、LangChain4j、Keycloak、Helidon 和 Junie CLI",
+    "link": "https://www.infoq.cn/article/45AierI5NQrz9AgLoMFU?utm_source=rss&utm_medium=article",
+    "pubDate": "Mon, 20 Apr 2026 08:00:00 GMT",
+    "description": "点击查看原文>",
+    "categories": [
+      "中文来源",
+      "InfoQ中文"
+    ],
+    "source": "InfoQ中文",
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Mythos架构被22岁小伙“逆推”开源了！MoE和注意力借鉴DeepSeek",
+    "link": "https://www.qbitai.com/2026/04/403708.html",
+    "pubDate": "Mon, 20 Apr 2026 07:59:51 +0000",
+    "author": "梦晨",
+    "description": "整合了公开研究和目前对Claude Mythos架构的主流推测",
+    "categories": [
+      "量子位",
+      "资讯",
+      "Claude"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "全球最大规模含触觉数据集，凭什么吸引谷歌和众多高校的加入？",
+    "link": "https://www.qbitai.com/2026/04/403701.html",
+    "pubDate": "Mon, 20 Apr 2026 07:55:03 +0000",
+    "author": "量子位的朋友们",
+    "description": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。",
+    "categories": [
+      "量子位",
+      "资讯",
+      "戴盟机器人"
+    ],
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "Google Starts Scanning All Your Photos As New Update Goes Live - Forbes",
-    "link": "https://www.forbes.com/sites/zakdoffman/2026/04/18/google-starts-scanning-all-your-photos-as-new-update-goes-live/",
-    "pubDate": "Sat, 18 Apr 2026 05:18:19 GMT",
+    "link": "https://www.forbes.com/sites/zakdoffman/2026/04/20/google-starts-scanning-all-your-photos-as-new-update-goes-live/",
+    "pubDate": "Mon, 20 Apr 2026 06:12:00 GMT",
     "author": "",
-    "description": "# Google Starts Scanning All Your Photos As New Update Goes Live. *   The Enterprise AI Shortcut: Why Co-Innovation Is Setting A New Speed For Adopting and Operationalizing AI| Paid Program. Image 4: OpenAI Wants Its AI To Help Scientists Make Discoveries Faster. # Google Starts Scanning All Your Photos As New Update Goes Live. Image 11: Photo sharing with AI. That’s the best advice for Google Photos users, as the company confirms its latest update will scan all your photos to “use actual images of you and your loved ones” in AI image generation. “Previously, to get a result that felt truly personal, you had to write long, detailed descriptions and manually upload a reference photo just to give Gemini the right context.” Not any more, Google says. Image 12: Photo sharing with AI. We’re talking Personal Intelligence, Google’s latest AI upgrade path which lets users opt-in to connecting Google apps to Gemini.",
+    "description": "Image 11: Photo sharing with AI. That’s the best advice for Google Photos users, as the company confirms its latest update can scan all your photos to “use actual images of you and your loved ones” in AI image generation. We’re talking Personal Intelligence, Google’s latest AI upgrade path which lets users opt-in to connecting Google apps to Gemini. “Previously, to get a result that felt truly personal, you had to write long, detailed descriptions and manually upload a reference photo just to give Gemini the right context.” Not any more, Google says. The Gemini app does not directly train its models on your private Google Photos library.”. _ZDNet_ says “this powerful Gemini setting made my AI results way more personal and accurate. I enabled Personal Intelligence, connected my Google apps, and now Gemini guesses what I want without me saying it.” In other words, “Personal Intelligence essentially removes the need to repeatedly provide context, which is one of my biggest gripes with AI.”.",
     "categories": [
       "大模型/AI技术",
       "英文来源"
     ],
     "source": "www.forbes.com",
-    "score": 0.60077465,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.6315943,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "魏建军发布会开炮：专属电动车平台纯粹伪命题，友商回去立马向我们学习",
-    "link": "https://www.qbitai.com/2026/04/402636.html",
-    "pubDate": "Sat, 18 Apr 2026 01:10:09 +0000",
-    "author": "杰西卡",
-    "description": "不以尺寸定义汽车平台",
-    "categories": [
-      "量子位",
-      "智能车参考",
-      "车圈最新认知",
-      "长城汽车",
-      "魏牌V9X"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "借助 Cortex Code 加速构建：全面开放，轻松应对更复杂任务 ｜ 技术趋势",
-    "link": "https://www.infoq.cn/article/eZmMIRcKHQ9KR791b8lF?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 19:59:11 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "试点走向规模化盈利：生成式 AI 与智能体 AI 的 ROI 兑现路径 ｜ 技术趋势",
-    "link": "https://www.infoq.cn/article/TilQABTIBywUBmxJAFNG?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 19:35:02 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "智能体企业架构浮现：数据、模型、系统之外的控制平面｜ 技术趋势",
-    "link": "https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 19:20:35 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "AI 驱动的数据库心脏：如何让云原生「自我进化」",
-    "link": "https://www.infoq.cn/article/U4zazqfjWb11OTq7OeP6?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 17:27:50 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Karpathy 亲手终结了 RAG 的草莽时代",
-    "link": "https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 17:20:44 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "OpenAI 也把工程师经验“蒸馏”进 skill 了！Harness 爆文作者曝内部玩法：一个百万行代码系统，全程零人工编码和审核",
-    "link": "https://www.infoq.cn/article/xeXddcuzu78D7mC5wyBy?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 16:01:16 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "星工聚将：从“物理对齐”出发，重新探索具身 AGI 的技术路",
-    "link": "https://www.infoq.cn/article/1WMZt5S8lGzM1MkdzR2o?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 15:24:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Zendesk：生成式 AI 让代码不再稀缺，研发瓶颈转向“吸收能力”",
-    "link": "https://www.infoq.cn/article/RBkkYQsT8Hd3hQTEYoAG?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 13:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "针对 NVIDIA GPU 的新型攻击 Rowhammer 可实现对整个系统的完全控制",
-    "link": "https://www.infoq.cn/article/pmteOlcag616Dap4zm8o?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 11:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "聚焦 Spring Framework 7 与 Spring Boot 4：Spring 团队专访",
-    "link": "https://www.infoq.cn/article/z4msV9uzNy7CXYFC4K2J?utm_source=rss&utm_medium=article",
-    "pubDate": "Fri, 17 Apr 2026 10:00:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "11.58万，全系Lidar+L4同源算法，广汽文远把城区NOA打成白菜价",
-    "link": "https://www.qbitai.com/2026/04/402440.html",
-    "pubDate": "Fri, 17 Apr 2026 08:24:28 +0000",
-    "author": "一凡",
-    "description": "算力只需200TOPS",
-    "categories": [
-      "量子位",
-      "智能车参考",
-      "资讯",
-      "广汽",
-      "文远知行"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
-    "link": "https://www.qbitai.com/2026/04/402388.html",
-    "pubDate": "Fri, 17 Apr 2026 07:37:14 +0000",
-    "author": "Jay",
-    "description": "全栈大脑会成为具身智能下一阶段竞赛的胜负手",
-    "categories": [
-      "量子位",
-      "资讯",
-      "首页轮播"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
-    "link": "https://www.qbitai.com/2026/04/402329.html",
-    "pubDate": "Fri, 17 Apr 2026 07:08:17 +0000",
-    "author": "henry",
-    "description": "Gemini Robotics主打空间推理的第三代模型。",
-    "categories": [
-      "量子位",
-      "资讯",
-      "Gemini",
-      "具身智能"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "π0.7发布，VLA押出了机器人的GPT-3时刻",
-    "link": "https://www.qbitai.com/2026/04/402189.html",
-    "pubDate": "Fri, 17 Apr 2026 06:57:35 +0000",
-    "author": "henry",
-    "description": "π0.7：具有涌现能力的可控模型",
-    "categories": [
-      "量子位",
-      "资讯",
-      "具身智能"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
-    "link": "https://www.qbitai.com/2026/04/402186.html",
-    "pubDate": "Fri, 17 Apr 2026 05:52:13 +0000",
-    "author": "量子位的朋友们",
-    "description": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻",
-    "categories": [
-      "量子位",
-      "资讯",
-      "具身智能",
-      "原力灵机"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "空间智能第一股，开盘暴涨171%！李飞飞押注的赛道，杭州六小龙之一跑通了",
-    "link": "https://www.qbitai.com/2026/04/402158.html",
-    "pubDate": "Fri, 17 Apr 2026 03:30:27 +0000",
-    "author": "Jay",
-    "description": "空间智能的时代，才刚刚开始。",
-    "categories": [
-      "量子位",
-      "资讯",
-      "首页轮播"
-    ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "ImageNet作者苏昊回国任教复旦！李飞飞高徒，具身第一高引，出任通用物理AI院长",
-    "link": "https://www.qbitai.com/2026/04/402088.html",
-    "pubDate": "Fri, 17 Apr 2026 02:16:36 +0000",
-    "author": "克雷西",
-    "description": "推动“物理智能”的最终实现",
+    "title": "20亿美金苏度科技具身首秀即大招！0真机数据，zero-shot，跑出98%首次抓取成功率",
+    "link": "https://www.qbitai.com/2026/04/403543.html",
+    "pubDate": "Mon, 20 Apr 2026 05:34:32 +0000",
+    "author": "衡宇",
+    "description": "苏度发布具身模型#Sudo R1",
     "categories": [
       "量子位",
       "资讯",
       "首页轮播",
-      "苏昊"
+      "具身智能",
+      "独角兽",
+      "纯仿真路线",
+      "苏度科技"
     ],
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
+  },
+  {
+    "title": "Self-drive potential for HW3 Teslas en route - Motoringnz",
+    "link": "https://www.motoringnz.com/news/2026/4/20/self-drive-potential-for-hw3-teslas-en-route",
+    "pubDate": "Mon, 20 Apr 2026 05:25:03 GMT",
+    "author": "",
+    "description": "But at launch Tesla said FSD-S only works with the latest computing hardware, HW4, operating on the new A14 computer. One owner of a Model 3 that was one of the first to land after it launched in 2021 has expressed belief to MotoringNZ.com that a FSD set-up that works for his car will come in July. The Model 3 owner who has been touch with MotoringNZ.com paid for lifetime FSD when he bought the car brand new and pins hope on it engaging hands-off operation. Tesla was also asked about reports out of the United States of difficulties the brand is said to be facing in making FSD-S work at any level in HW3 cars, but there was no comment forthcoming. “Tesla’s own US patent filing US20260017503A1, which describes the math trick Tesla is using to squeeze a modern FSD model onto HW3, acknowledges that the workaround can render the system ‘inoperable’ for perception units of an autonomous driving system.",
+    "categories": [
+      "自动驾驶",
+      "英文来源"
+    ],
+    "source": "www.motoringnz.com",
+    "score": 0.23741718,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "卖鞋厂转型做 AI 股价暴涨 582%，华尔街最不缺这种荒诞闹剧",
     "link": "https://www.infoq.cn/article/fhE72Luzde6WYlVolp4T",
-    "pubDate": "Fri, 17 Apr 2026 02:07:23 GMT",
+    "pubDate": "Fri, 17 Apr 2026 02:01:22 GMT",
     "author": "",
     "description": "4 月初，一家以“舒适、环保、极简”著称的鞋履品牌，还在认真发布新品——帆布巡航鞋，并宣布与色彩机构合作，试图在时尚与设计领域继续讲述自己的品牌故事；",
     "categories": [
@@ -342,424 +789,13 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98589,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "OpenAI debuts a life sciences AI model, entering crowd of tech giants selling to pharma - Endpoints News",
-    "link": "https://endpoints.news/openai-launches-biopharma-focused-ai-model-to-compete-with-anthropic/",
-    "pubDate": "Thu, 16 Apr 2026 19:00:00 GMT",
-    "author": "",
-    "description": "Sam Altman, OpenAI CEO (Justin Sullivan/Getty Images). April 16, 2026 03:00 PM EDTUpdated 03:15 PM. # Ope­nAI de­buts a life sci­ences AI mod­el, en­ter­ing crowd of tech gi­ants sell­ing to phar­ma. ### Andrew Dunn. #### Senior Biopharma Correspondent. Ope­nAI is the lat­est tech gi­ant to move in­to bio­phar­ma, an­nounc­ing a life sci­ences-fo­cused AI of­fer­ing on Thurs­day. ### Sign up to read this article for free. Get free access to a limited number of articles, plus choose newsletters to get straight to your inbox. SIGN UP LOG IN BECOME A PREMIUM SUBSCRIBER. ### Think we're worth reading - tell Google. Confirm Endpoints as a trusted biopharma news source. ### Head of Regulatory Strategy. ### RFK Jr. de­fends FDA, Makary fol­low­ing Re­pub­li­can ques­tions. ### Us­ing ver­sus sell­ing lu­cra­tive PRVs: Mod­er­na's cau­tion­ary tale. ### Up­dat­ed: FDA will re­clas­si­fy at least a dozen pep­tides, tee­ing up po­ten­tial tele­health win. ### Lil­ly's obe­si­ty pill heads for di­a­betes fil­ing af­ter heart risk tri­al.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "endpoints.news",
-    "score": 0.5925965,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "代码通过即拿奖！OpenCloud 40+超热门AI工具等你来贡献",
-    "link": "https://xie.infoq.cn/article/4940bd7d8d430c84ad94ca6b4?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 18:10:27 GMT",
-    "description": "OpenCloudOS × InfoQ 「Agentic AI容器计划」即日上线，首批任务开放认领，完成即奖励\n点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
-    "link": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 17:35:00 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "OpenAI’s big Codex update is a direct shot at Anthropic’s Claude Code - The Verge",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
-    "pubDate": "Thu, 16 Apr 2026 17:00:00 GMT",
-    "author": "",
-    "description": "# OpenAI’s big Codex update is a direct shot at Anthropic’s Claude Code. OpenAI is beefing up its agentic coding and development system Codex with a suite of updates that let it use your computer, generate images, and remember from past experiences. Codex will now be able to operate desktop apps on your computer, OpenAI says in a blog post announcing the update. Codex is also getting the ability to generate and iterate on images with gpt-image-1.5, new plug-ins for tools like GitLab, Atlassian Rovo, and Microsoft Suite, and native web browsing through an in-app browser, “where you can comment directly on pages to provide precise instructions to the agent.” OpenAI also said it will also be easier to automate tasks, with users able to re-use existing conversation threads and Codex now able to schedule future work for itself and wake up automatically to continue on a long-term task.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.theverge.com",
-    "score": 0.98803884,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "压榨系统性能：视频审核中台从 280ms 降低至 90ms 的架构演进与深度优化.md",
-    "link": "https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:51:44 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
-    "link": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:49:40 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-    "link": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
-    "pubDate": "Thu, 16 Apr 2026 16:42:05 GMT",
-    "description": "点击查看原文>",
-    "categories": [
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Why automotive chip suppliers are rushing to invest in this self-driving startup - Automotive News",
-    "link": "https://www.autonews.com/manufacturing/suppliers/ane-wayve-chipmakers-implications-0416/",
-    "pubDate": "Thu, 16 Apr 2026 12:52:00 GMT",
-    "author": "",
-    "description": "* Wayve's technology works across hardware platforms without high-definition mapping or extensive road testing. * Nissan will integrate Wayve's AI software in 90 percent of its vehicles starting in 2028. Self-driving startup Wayve has secured backing from most major automotive chip suppliers, a strategic positioning that could reshape how autonomous driving technology reaches mass adoption. The significance lies less in the funding amount than in what the partnerships signal: Wayve’s “end-to-end” AI approach, which works across multiple hardware platforms without requiring high-definition mapping or extensive road testing, addresses a fundamental obstacle that has kept advanced driver assistance systems (ADAS) confined largely to premium vehicles, the company says. That matters because automakers already using chips from these suppliers can potentially upgrade basic safety ADAS features to “hands-off” autonomous capabilities through over-the-air updates, without waiting for next-generation vehicle platforms. So far, Nissan is the only automaker that has announced a timeline for using Wayve’s software in its vehicles.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.autonews.com",
-    "score": 0.979354,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments - SecurityWeek",
-    "link": "https://www.securityweek.com/claude-code-gemini-cli-github-copilot-agents-vulnerable-to-prompt-injection-via-comments/",
-    "pubDate": "Thu, 16 Apr 2026 08:33:54 GMT",
-    "author": "",
-    "description": "**A researcher has disclosed the details of a prompt injection attack method named ‘Comment and Control’, which has been found to work against several popular AI code security and automation tools.**. In a blog post published on Wednesday, Guan said the attack has been confirmed to work against several widely used AI agents: Anthropic’s Claude Code Security Review, Google’s Gemini CLI Action, and GitHub Copilot Agent. In the case of Claude Code Security Review, designed for automated security reviews, the researchers showed how an attacker could use a specially crafted PR title to trick the AI agent into executing arbitrary commands, extracting credentials, and revealing them as a security finding or an entry in the GitHub Actions log. “The pattern likely applies to any AI agent that ingests untrusted GitHub data and has access to execution tools in the same runtime as production secrets — and beyond GitHub Actions, to any agent that processes untrusted input with access to tools and secrets: Slack bots, Jira agents, email agents, deployment automation.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.securityweek.com",
-    "score": 0.99528164,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Cloudflare And OpenAI Launch Agent Cloud For Enterprises - Forbes",
-    "link": "https://www.forbes.com/sites/janakirammsv/2026/04/16/cloudflare-and-openai-launch-agent-cloud-for-enterprises/",
-    "pubDate": "Thu, 16 Apr 2026 05:02:45 GMT",
-    "author": "",
-    "description": "# Cloudflare And OpenAI Launch Agent Cloud For Enterprises. # Cloudflare And OpenAI Launch Agent Cloud For Enterprises. Cloudflare expanded its Agent Cloud during Agents Week 2026 with a suite of compute, storage and security primitives designed to run autonomous AI agents at production scale. Every major cloud provider and developer platform is racing to define the infrastructure stack for agentic AI. Cloudflare says agents running on the platform cost nothing when inactive, a model designed for scenarios where millions of agents sit dormant between bursts of activity. The broader platform story, including observability, compliance tooling and integration with enterprise identity providers, will determine whether Agent Cloud moves beyond developer adoption into production deployments at Fortune 500 companies. Organizations running short-lived, high-concurrency agent tasks will benefit from the isolate model's speed and cost advantages. The smartest approach is likely a hybrid one, using Cloudflare for edge-native agent workloads while relying on existing cloud providers for compute-intensive tasks that need proximity to enterprise data stores.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.forbes.com",
-    "score": 0.9957353,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Google DeepMind Launches Gemini Robotics-ER 1.6 - Colitco",
-    "link": "https://colitco.com/google-deepmind-gemini-robotics-er-1-6-1504202625/",
-    "pubDate": "Wed, 15 Apr 2026 15:44:34 GMT",
-    "author": "",
-    "description": "# Google DeepMind Releases Gemini Robotics-ER 1.6 to Advance Robot Autonomy. Google DeepMind launched Gemini Robotics-ER 1.6 on April 14, 2026. ***Gemini Robotics-ER 1.6 enhances robot autonomy through advanced AI reasoning and spatial understanding. ***Boston Dynamics’ Spot robot uses Gemini Robotics-ER 1.6 for autonomous inspection and hazard detection. Google DeepMind describes ER 1.6 as its safest robotics model to date. Developers can access Gemini Robotics-ER 1.6 through the Gemini API and Google AI Studio starting April 14, 2026. A: Gemini Robotics-ER 1.6 is an advanced AI model developed by Google DeepMind to improve robot autonomy through better spatial reasoning, task planning, and decision-making. A: Boston Dynamics partnered with Google DeepMind to integrate the model into its Spot robot for autonomous inspection and safety tasks. A: Yes, developers can access the model through the Gemini API and Google AI Studio, allowing them to build and test autonomous robotic applications. **https://roboticsandautomationnews.com/2026/04/15/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform/100585/**. **https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/**. **https://roboticsandautomationnews.com/2026/04/15/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform/100585/**. **https://deepmind.google/blog/gemini-robotics-er-1-6/**. * Google DeepMind Releases Gemini Robotics-ER 1.6 to Advance Robot Autonomy.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "colitco.com",
-    "score": 0.21566483,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Nvidia, TSMC, and AVGO: Why Are AI Chip Stocks Rising Today, 4/15/26? - TipRanks",
-    "link": "https://www.tipranks.com/news/nvidia-tsmc-and-avgo-why-are-these-3-semiconductor-stocks-rising-in-pre-market-today-4-15-26",
-    "pubDate": "Wed, 15 Apr 2026 11:11:55 GMT",
-    "author": "",
-    "description": "# Nvidia, TSMC, and AVGO: Why Are AI Chip Stocks Rising Today, 4/15/26? * AI chip stocks are rising again—what’s behind the move? That’s exactly what happened on Wednesday after ASML (ASML) lifted its 2026 forecast, sending a positive signal across the chip sector and pushing stocks like Nvidia (NVDA) and TSMC (TSM) higher. ## **Nvidia Stock Rises as AI Demand Remains Strong**. Nvidia shares moved higher after ASML’s update pointed to rising demand from “logic” chipmakers—the companies that design advanced processors used in AI systems. So when ASML says its customers are ordering more advanced chipmaking tools, it signals that companies are preparing to produce more AI chips, many of which are designed by Nvidia. ## **Broadcom Stock Moves Higher on Meta AI Deal**. Under the agreement, Broadcom will design and supply custom AI chips, while Meta will deploy them across its data centers. ## **Which Is the Best AI Chip Stock, According to Analysts?**.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "www.tipranks.com",
-    "score": 0.48733237,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "AI model Claude Mythos sends shockwaves through cybersecurity landscape - Consultancy.eu",
-    "link": "https://www.consultancy.eu/news/amp/13511/ai-model-claude-mythos-sends-shockwaves-through-cybersecurity-landscape",
-    "pubDate": "Wed, 15 Apr 2026 10:47:00 GMT",
-    "author": "",
-    "description": "# AI model Claude Mythos sends shockwaves through cybersecurity landscape. According to AI security expert Nanne van ’t Klooster of Rewire, the arrival of Claude Mythos marks the beginning of an arms race between autonomous AI agents – one that humans can no longer keep up with.***. The reason is clear: in a short period of time, Claude Mythos has identified thousands of critical security vulnerabilities in operating systems and web browsers, including flaws that had gone undetected for as long as 27 years. “Before Anthropic releases this model more broadly, major organisations such as Apple, Amazon Web Services, Google, Microsoft and NVIDIA are being given the opportunity to strengthen their security,” says Van ’t Klooster, principal consultant at Rewire. According to Van ’t Klooster, the developments surrounding Claude Mythos signal a fundamental shift in the cybersecurity landscape. He also describes the situation around Claude Mythos as a wake-up call for the growing number of organisations experimenting with their own AI agents.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "www.consultancy.eu",
-    "score": 0.993255,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Waymo's self-driving cars face their toughest test yet: London - theregister.com",
-    "link": "https://www.theregister.com/2026/04/15/waymo_london/",
-    "pubDate": "Wed, 15 Apr 2026 08:45:00 GMT",
-    "author": "",
-    "description": "# Waymo's self-driving cars face their toughest test yet: London. Waymo has started letting its software take the wheel on London streets, with trained specialists on standby as it gradually accelerates toward a fully driverless ride-hailing launch. The Alphabet-owned biz began putting vehicles on London streets in October, initially with a human driver in control, as it started teaching its software how to cope with a city that treats road rules more like suggestions. * Uber and Lyft rolling Baidu robotaxis into London next year. London's a different job, and Waymo knows it. The company says it's building out a local team and lining up partners to support operations in the UK, including plans for service hubs across London. The UK is still working through how and when fully autonomous vehicles will be allowed on public roads. #### Agents hooked into GitHub can steal creds – but Anthropic, Google, and Microsoft haven't warned users. AI + ML14 Apr 2026 | 1.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.theregister.com",
-    "score": 0.9019207,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Boston Dynamics integrates Google DeepMind’s Gemini Robotics model into Spot inspection platform - Robotics & Automation News",
-    "link": "https://roboticsandautomationnews.com/2026/04/15/boston-dynamics-integrates-google-deepminds-gemini-robotics-model-into-spot-inspection-platform/100585/",
-    "pubDate": "Wed, 15 Apr 2026 04:48:21 GMT",
-    "author": "",
-    "description": "**Boston Dynamics has partnered with Google Cloud and Google DeepMind to integrate advanced artificial intelligence models into its industrial inspection platform, in a move the company says will significantly expand the capabilities of autonomous robots in real-world environments.**. The company says customer data is used to improve the system’s performance but is shared only with Boston Dynamics. While Boston Dynamics and Google position the integration as a step toward more intelligent inspection systems, the real-world impact will likely depend on how reliably these AI models perform across diverse and unpredictable industrial environments. | cookielawinfo-checkbox-performance | 11 months | This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category \"Performance\". | viewed\\_cookie\\_policy | 11 months | The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "roboticsandautomationnews.com",
-    "score": 0.22220221,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams - The Hacker News",
-    "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
-    "pubDate": "Wed, 15 Apr 2026 04:30:00 GMT",
-    "author": "",
-    "description": "OpenAI on Tuesday unveiled **GPT-5.4-Cyber**, a variant of its latest flagship model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier model, Mythos. \"The progressive use of AI accelerates defenders – those responsible for keeping systems, data, and users safe – enabling them to find and fix problems faster in the digital infrastructure everyone relies on,\" OpenAI said. In conjunction with the announcement, the artificial intelligence (AI) company said it's ramping up its Trusted Access for Cyber (TAC) program to thousands of authenticated individual defenders and hundreds of teams responsible for securing critical software. The ChatGPT maker, which launched Codex Security as a way to find, validate, and propose fixes for vulnerabilities, revealed that the AI-powered application security agent has contributed to over 3,000 critical and high fixed vulnerabilities. Anthropic, Application Security, artificial intelligence, cybersecurity, OpenAI, secure coding, software development, Threat Intelligence, Vulnerability. Secure Your AI Systems Across the Full Lifecycle of Risks. **April 06, 2026 Read ➝ ## AI Will Change Cybersecurity.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "thehackernews.com",
-    "score": 0.6342494,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "OpenAI unveils GPT-5.4-Cyber a week after rival's announcement of AI model - Reuters",
-    "link": "https://www.reuters.com/technology/openai-unveils-gpt-54-cyber-week-after-rivals-announcement-ai-model-2026-04-14/",
-    "pubDate": "Tue, 14 Apr 2026 21:19:27 GMT",
-    "author": "",
-    "description": "REUTERS/Dado Ruvic/Illustration/File Photo Purchase Licensing Rights, opens new tab. April 14 (Reuters) - OpenAI on Tuesday unveiled GPT-5.4-Cyber, a variant of its latest flagship model fine-tuned specifically ​for defensive cybersecurity work, following rival Anthropic's ‌announcement of frontier AI model Mythos. Our Standards: The Thomson Reuters Trust Principles., opens new tab. *   About Reuters, opens new tab. *   Media Center, opens new tab. *   Advertise with Us, opens new tab. *   Reuters News Agency, opens new tab. *   Reuters and AI, opens new tab. *   Reuters Leadership, opens new tab. *   Reuters Diversity Report, opens new tab. *   Download the App (Android), opens new tab. *   #### Data Catalogue, opens new tab. *   #### World-Check, opens new tab. *   Advertise With Us, opens new tab. *   Digital Accessibility, opens new tab. *   Data Disclosure and Sources, opens new tab. *   Site Feedback, opens new tab. *   Digital Accessibility, opens new tab. *   Data Disclosure and Sources, opens new tab. *   Site Feedback, opens new tab.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "www.reuters.com",
-    "score": 0.6186197,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "OpenAI Releases Cyber Model to Limited Group in Race With Mythos - Bloomberg.com",
-    "link": "https://www.bloomberg.com/news/articles/2026-04-14/openai-releases-cyber-model-to-limited-group-in-race-with-mythos",
-    "pubDate": "Tue, 14 Apr 2026 20:00:22 GMT",
-    "author": "",
-    "description": "# OpenAI Releases Cyber Model to Limited Group in Race With Mythos. Provide news feedback or report an error. Send a tip to our reporters. OpenAI is letting a select group of users access a new artificial intelligence model that’s meant to be more adept at spotting software security vulnerabilities, one week after rival Anthropic PBC announced a limited release of an AI tool called Mythos. The ChatGPT maker said Tuesday that it’s beginning to roll out GPT-5.4-Cyber, which is aimed at finding issues in software so organizations can fix them. GPT-5.4-Cyber also places fewer constraints on the ways users can probe the model for that task, OpenAI said. The model will be offered to some participants of OpenAI’s Trusted Access for Cyber program, which the company rolled out in February to let certain customers and cybersecurity professionals try its most capable offerings. Before it's here, it's on the Bloomberg Terminal. NewslettersExplainersPointed News QuizAlphadots GameThe Big TakeGraphicsSubmit a TipAbout Us.",
-    "categories": [
-      "大模型/AI技术",
-      "英文来源"
-    ],
-    "source": "www.bloomberg.com",
-    "score": 0.5192538,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "​Boston Dynamics and Google DeepMind Teach Spot to Reason​ - IEEE Spectrum",
-    "link": "https://spectrum.ieee.org/boston-dynamics-spot-google-deepmind",
-    "pubDate": "Tue, 14 Apr 2026 19:45:01 GMT",
-    "author": "",
-    "description": "## Join the world’s largest professional organization devoted to engineering and applied sciences and get access to this e-book plus all of *IEEE Spectrum’s* articles, archives, PDF downloads, and other benefits. “Advances like Gemini Robotics ER 1.6 mark an important step toward robots that can better understand and operate in the physical world,” Marco da Silva, Vice President and General Manager of Spot at Boston Dynamics, says in a press release. “We roll out new DeepMind capabilities through beta programs to a smaller set of customers to understand what to anticipate, and we only actively advertise features we are confident will work.” There’s a threshold of usefulness that robots like Spot need to reach, and fortunately, the real world doesn’t demand perfection. As Parada points out, Spot’s rarefied status as a scalable commercial platform provides a valuable opportunity to learn how models like Gemini Robotics-ER 1.6 can be the most useful, and then apply that knowledge to other embodied AI platforms, including Boston Dynamics’ Atlas.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "spectrum.ieee.org",
-    "score": 0.19442934,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "London gets closer to its first robotaxi service as Waymo begins testing - TechCrunch",
-    "link": "https://techcrunch.com/2026/04/14/london-gets-closer-to-its-first-robotaxi-service-as-waymo-begins-testing/",
-    "pubDate": "Tue, 14 Apr 2026 18:00:09 GMT",
-    "author": "",
-    "description": "# London gets closer to its first robotaxi service as Waymo begins testing. Waymo has started testing its autonomous vehicles on public roads in London as it prepares to launch a commercial robotaxi service in the city this year. Waymo employees initially drove the vehicles manually to map the city before starting autonomous testing. “Core driving AI generalizing very well,” Waymo co-CEO Dmitri Dolgov wrote in a LinkedIn post announcing the testing. If Waymo follows it’s typical strategy, the company will eventually conduct driverless testing and allow its own employees to try out the service before inviting the public to hail its robotaxis. Waymo has more than 3,000 robotaxis in its fleet, the company has previously told TechCrunch. Waymo is also testing and preparing to launch in several other markets. London could be Waymo’s first international commercial market (it’s also testing in Tokyo). UK-based autonomous vehicle technology startup Wayve and Uber also plan to launch a fully driverless robotaxi service in London.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "techcrunch.com",
-    "score": 0.88563144,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Nashville videos show Waymo vehicle mishaps. What drivers should know - The Tennessean",
-    "link": "https://www.tennessean.com/story/money/cars/2026/04/14/waymo-selfdriving-cars-nashville-strange-behavior-metro-police/89588326007/",
-    "pubDate": "Tue, 14 Apr 2026 16:28:00 GMT",
-    "author": "",
-    "description": "Nashville videos show Waymo vehicle mishaps. # Nashville videos show Waymo vehicle mishaps. Autonomous vehicles from Waymo and Tesla have recently been under scrutiny due to mishaps and safety concerns as users and bystanders record odd driving behaviors from the self-driving vehicles. Here's what Tennesseans need to know about Waymo autonomous vehicles and why some have concerns regarding the innovative technology. ## Waymo autonomous vehicles already glitching after Nashville launch. In the video above, a Waymo autonomous vehicle drives into a construction zone and is chased down by a construction worker. ## Are Waymo autonomous vehicles safe? Autonomous vehicles like the cars in the Waymo fleet may be even safer than human drivers in some ways, but their inability to adapt to certain real-world driving situations is apparent in recent incidents. Some Americans may not want major robotaxi companies like Waymo operating in their cities, but the autonomous vehicle market is growing rapidly.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.tennessean.com",
-    "score": 0.96378,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "American Airlines jumps as United CEO floats the idea of a megamerger - Sherwood News",
-    "link": "https://sherwood.news/markets/american-airlines-jumps-on-potential-merger-talks-with-united/",
-    "pubDate": "Tue, 14 Apr 2026 09:48:09 GMT",
-    "author": "",
-    "description": "Broadcom is ticking up 3% in premarket trading on Wednesday after yesterday’s announcement that it will expand its partnership with Meta to produce multi-generation custom chips to power Meta’s in-house AI accelerators through 2029. More broadly, custom chips have been having a moment as hyperscalers look to utilize tailor-made offerings in their data centers for both training and inference, with even Nvidia pouring in $2 billion to Broadcom’s rival Marvell Technology, proving its commitment to working towards other companies’ hardware integrating well on its platform. Vertiv Holdings added to its nearly 90% 2026 gain early Tuesday after BNP Paribas analysts initiated coverage on the stock with an “outperform” rating — essentially a “buy” — and a $345 price target, about a 15% premium to the market. Vertiv is shaking off a bit of a slump in the broader AI data center trade Tuesday, as high-flying AI plays like networking stocks Lumentum, Ciena Corp., and Corning slide, and memory play Sandisk declines.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "sherwood.news",
-    "score": 0.5402697,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Humanoid Robots’ 88% Fail Rate: Completing Home Tasks - Forbes",
-    "link": "https://www.forbes.com/sites/johnkoetsier/2026/04/14/humanoid-robots-88-fail-rate-completing-home-tasks/",
-    "pubDate": "Tue, 14 Apr 2026 05:06:26 GMT",
-    "author": "",
-    "description": "Image 10: Humanoid robots are shockingly bad at safely completing common household tasks, says a new report from Stanford. Humanoid robots are shockingly bad at safely completing common household tasks, says a new report from Stanford. Humanoid robots are shockingly bad at completing common household tasks safely, according to the 2026 AI Index Report from Stanford University’s Institute for Human-Centered Artificial Intelligence. In fact, the robots we have today, with the AI we have today, fully succeed safely at only about 12% of real household tasks. One of the toughest tests for humanoid robots that are going to function in our homes is the Behavior-1K, built on 1,000 real-world tasks sourced from actual humans reporting what they want robots to do in their homes. The good news is that leading robot companies like Figure AI are training their robots on home environments and showing them complete real-world tasks like emptying a dishwasher, or putting away the groceries.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "www.forbes.com",
-    "score": 0.38838658,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Nvidia Explores Takeover of Major PC Manufacturer - Let's Data Science",
-    "link": "https://letsdatascience.com/news/nvidia-explores-takeover-of-major-pc-manufacturer-8a2b30d9",
-    "pubDate": "Mon, 13 Apr 2026 17:17:00 GMT",
-    "author": "",
-    "description": "Nvidia is reportedly pursuing a takeover of a major PC maker, with potential targets named as Dell, HP, and Asus. For practitioners, the chief implications are shifts in hardware supply chains, preferential GPU availability for Nvidia-owned systems, and potential pricing and procurement ramifications for enterprises and data center operators. Vertical integration at this scale could change procurement dynamics for enterprises and cloud customers, shift competitive pressures on other OEMs, and raise fresh antitrust questions because Nvidia already controls large segments of the discrete GPU market. **Bottom line:** The reported talks matter because they represent a potential shift from Nvidia as primarily a component vendor to a vertically integrated systems player, with material implications for availability, pricing, and systems-level optimization for AI workloads. A takeover of a major PC OEM by Nvidia would be a major industry event with broad implications for hardware supply, pricing, and systems integration.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "letsdatascience.com",
-    "score": 0.5079833,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "AI is Nvidia's best buddy when it comes to designing its GPUs - PC Gamer",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/not-that-we-should-be-at-all-surprised-but-nvidia-leans-on-ai-pretty-hard-for-speeding-up-how-it-plans-and-designs-its-next-generation-of-gpus/",
-    "pubDate": "Mon, 13 Apr 2026 13:47:25 GMT",
-    "author": "",
-    "description": "# Not that we should be at all surprised, but Nvidia leans on AI pretty hard for speeding up how it plans and designs its next generation of GPUs. This year's conference was no different, of course, but hidden amongst all the talk was an insight into how Nvidia goes about designing its chips, and AI is naturally a big part of it all. AI agents are also being used to explore different ways of doing things with chip design. It turns out the senior designers spend an enormous amount of their time explaining to the junior designer simple things, like, you know, how does a texture unit work? Hmm, let's hope Nvidia has a robust system for checking if NeMo is hallucinating and telling its junior designers that a texture unit is used to improve how well a polygon feels in your mouth or something daft like that, otherwise the RTX 6090 could well end up only reaching its full potential in the kitchen.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "www.pcgamer.com",
-    "score": 0.4179133,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Humanoid robots show off their language and boxing skills in Hong Kong - AP News",
-    "link": "https://apnews.com/article/robots-humanoid-hong-kong-china-5669f3e8147f2795ec352d9811619a7b",
-    "pubDate": "Mon, 13 Apr 2026 12:40:04 GMT",
-    "author": "",
-    "description": "A humanoid robot manufactured by Novautek showcased at an exhibition in Hong Kong on Monday, April 13, 2026. A humanoid robot showcased at an exhibition in Hong Kong on Monday, April 13, 2026. A humanoid robot showcased at an exhibition in Hong Kong on Monday, April 13, 2026. A humanoid robot manufactured by Novautek showcased at an exhibition in Hong Kong on Monday, April 13, 2026. A humanoid robot manufactured by Novautek showcased at an exhibition in Hong Kong on Monday, April 13, 2026. A humanoid robot showcased at an exhibition in Hong Kong on Monday, April 13, 2026. HONG KONG (AP) — A humanoid robot about the size of a primary school student had something to share in Hong Kong — it sang songs and spoke to people in Mandarin and English, answering whatever questions they posed and delighting the audience around it. Beijing’s latest five-year plan vows to “target the frontiers of science and technology.” Speeding up the development of products like humanoid robots and their applications is part of the 2026-2030 plan for the world’s second-largest economy.",
-    "categories": [
-      "机器人",
-      "英文来源"
-    ],
-    "source": "apnews.com",
-    "score": 0.17288318,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "CoreWeave Becomes AI's Landlord With Meta And Anthropic Deals - Forbes",
-    "link": "https://www.forbes.com/sites/janakirammsv/2026/04/13/coreweave-becomes-ais-landlord-with-meta-and-anthropic-deals/",
-    "pubDate": "Mon, 13 Apr 2026 04:36:17 GMT",
-    "author": "",
-    "description": "On April 9, the neocloud provider announced a $21 billion expanded agreement with Meta to supply AI cloud capacity through December 2032. Companies spending well over $100 billion a year building their own data centers still need external GPU capacity to match the pace of AI demand. The Meta and Anthropic deals help diversify that base, but the company remains dependent on a small number of hyperscale clients whose spending commitments could shift if AI demand plateaus or if their own internal capacity catches up. Nebius signed its own agreement with Meta earlier this month for $12 billion of dedicated AI infrastructure capacity over five years, with deployments also expected to feature the Nvidia Vera Rubin platform. Even as hyperscalers build custom silicon and expand their own data centers, they and the AI labs they serve are simultaneously signing multi-billion-dollar contracts with specialized GPU cloud providers.",
-    "categories": [
-      "AI硬件/基础设施",
-      "英文来源"
-    ],
-    "source": "www.forbes.com",
-    "score": 0.3943881,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "智能电动2026 | 轻舟智航联合创始人、董事长兼CEO于骞：物理AI，智驾的下一个战场",
-    "link": "https://i.gasgoo.com/news/70453324.html",
-    "pubDate": "Mon, 13 Apr 2026 02:07:43 GMT",
-    "author": "",
-    "description": "4月12日，由车百会研究院主办的2026智能电动汽车发展高层论坛上，轻舟智航联合创始人、董事长兼CEO于骞博士面向一众行业专家、产业人士，发表了《不止",
-    "categories": [
-      "AI硬件",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.97111,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Meow Technologies Launches First Agentic Banking Platform for AI - MLQ.ai",
-    "link": "https://mlq.ai/news/meow-technologies-launches-first-agentic-banking-platform-for-ai/",
-    "pubDate": "Sun, 12 Apr 2026 20:00:42 GMT",
-    "author": "",
-    "description": "# Meow Technologies Launches First Agentic Banking Platform for AI. * San Francisco-based Meow Technologies launched the first agentic banking platform, enabling AI agents to autonomously open business bank accounts, issue cards, send payments and handle invoicing[1][2][3]. The service allows AI agents to open business bank accounts, issue virtual and physical corporate cards, send and receive payments, and manage invoicing without human intervention[1][2][3]. With Meow, AI agents can handle everything from opening accounts to managing day-to-day activity'[2][3]. Agentic Banking Infrastructure Shift Meow Technologies' platform represents a move toward embedding financial services directly into AI agent ecosystems rather than requiring separate dashboards or apps. This contrasts with traditional fintechs that focus on human users, as Meow targets AI-native businesses where agents handle routine financial tasks[2]. AI Agent Adoption Timeline As AI agent usage grows in business settings, Meow's platform could see rapid uptake among startups and enterprises running agentic operations, particularly those using supported models like Claude and Gemini.",
-    "categories": [
-      "AI Agents",
-      "英文来源"
-    ],
-    "source": "mlq.ai",
-    "score": 0.99021614,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "An expert explains liability and safety for local drivers as Waymo self-driving cars launch in Nashville - News Channel 5 Nashville",
-    "link": "https://www.newschannel5.com/news/state/tennessee/davidson-county/an-expert-explains-liability-and-safety-for-local-drivers-as-waymo-self-driving-cars-launch-in-nashville",
-    "pubDate": "Sun, 12 Apr 2026 16:25:20 GMT",
-    "author": "",
-    "description": "# An expert explains liability and safety for local drivers as Waymo self-driving cars launch in Nashville. Waymo self-driving cars are now operating in Nashville. \"Well, from a liability standpoint, when you're dealing with an accident that was caused by an autonomous vehicle — a vehicle that doesn't have a driver — the first question is, who's at fault? Well, certainly, the company that operates the autonomous vehicle,\" McCready said. McCready said all autonomous vehicles are required to carry insurance, just like traditional cars, so coverage is available if accidents occur. \"These autonomous vehicles have been driving for millions of miles, and their safety record is better than that of humans. Autonomous driving is not perfect; we certainly cannot expect 100% safety,\" McCready said. **Have you spotted a driverless Waymo vehicle in Nashville, or do you have questions about sharing the road with them? Watch the full video above to see these cars in action, and share your thoughts or experiences with me at** **Eric.Pointer@NewsChannel5.com****.**.",
-    "categories": [
-      "自动驾驶",
-      "英文来源"
-    ],
-    "source": "www.newschannel5.com",
-    "score": 0.880797,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.9858,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "Robotaxi落地加速！均胜电子首个L3与L4 智驾域控即将量产",
     "link": "https://m.gasgoo.com/News/70448529.html",
-    "pubDate": "Sun, 05 Apr 2026 02:07:43 GMT",
+    "pubDate": "Tue, 07 Apr 2026 02:01:45 GMT",
     "author": "",
     "description": "近日，全球智能汽车科技解决方案提供商均胜电子（600699.SH/0699.HK）在高阶智能驾驶领域取得重大突破,公司首个L3级智驾域控产品计划于2027年年中量产上车，并搭载在某知名",
     "categories": [
@@ -768,13 +804,13 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.97471,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.97682,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "华为 AI 软件工程实践：30 年专业经验沉淀打造企业级确定性的高质量软件",
     "link": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk",
-    "pubDate": "Sun, 29 Mar 2026 02:07:27 GMT",
+    "pubDate": "Tue, 31 Mar 2026 02:01:26 GMT",
     "author": "",
     "description": "在30年的研发实践中，华为基于IPD流程框架，结合业界先进研发模式与方法，将标准化的研发作业活动提炼为“非创造性活动”和“创造性活动”。",
     "categories": [
@@ -784,27 +820,12 @@
     ],
     "source": "InfoQ中文",
     "score": 0.98522,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
-    "link": "https://www.infoq.cn/article/oWDM8y5ozWwrNdyUdhc1",
-    "pubDate": "Sun, 22 Mar 2026 02:07:27 GMT",
-    "author": "",
-    "description": "当AI 从“对话工具”进化为“行动主体”，软件工程正迎来新一轮系统性重构。QCon 全球软件开发大会·2026 北京站 将于今年4 月16 日正式举办。",
-    "categories": [
-      "技术架构",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.96816,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "智驾芯片市场，跑出了一匹黑马",
     "link": "https://i.gasgoo.com/news/70447993.html",
-    "pubDate": "Fri, 20 Mar 2026 02:07:43 GMT",
+    "pubDate": "Sun, 22 Mar 2026 02:01:45 GMT",
     "author": "",
     "description": "从边端AI领域闯入的智驾芯片黑马. “来得早不如来得巧。”这句老话，可以大致概括爱芯元智在智能驾驶市场的际遇。 2月10日，爱芯元智在港交所成功上市，",
     "categories": [
@@ -813,83 +834,8 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98431,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "地平线2025年营收高增57.7%，中高阶智驾芯片方案出货量实现近5倍增长",
-    "link": "https://i.gasgoo.com/news/70450865.html",
-    "pubDate": "Fri, 20 Mar 2026 02:07:43 GMT",
-    "author": "",
-    "description": "地平线2025年营收高增57.7%，中高阶智驾芯片方案出货量实现近5倍增长简介：3月19日，港股智驾科技核心标的地平线机器人-W（9660.HK，简称“地",
-    "categories": [
-      "AI硬件",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.97691,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "小鹏汽车整合自动驾驶、智驾座舱部门，成立通用智能中心-汽车资讯",
-    "link": "https://i.gasgoo.com/news/70445662.html",
-    "pubDate": "Wed, 04 Feb 2026 00:00:00 GMT",
-    "author": "",
-    "description": "小鹏汽车整合自动驾驶、智驾座舱部门，成立通用智能中心 ... 近日，有消息称，小鹏汽车将两个智能化一级部门自动驾驶中心、智能座舱中心合并为通用智能中心，新",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.97038,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "前钉钉最年轻副总裁的AI冒险：当AI开始“雇佣”人类",
-    "link": "https://www.jazzyear.com/article_info.html?id=1668",
-    "pubDate": "Tue, 13 Jan 2026 00:00:00 GMT",
-    "author": "",
-    "description": "作者｜栗子. “接下来很可能不是人类雇佣AI，而是AI'雇佣'人类。我们已经在尝试探索这种商业模式了。” 在大模型创业的牌桌上，从来不缺有想象力的玩家。",
-    "categories": [
-      "投资融资",
-      "中文来源",
-      "甲子光年"
-    ],
-    "source": "甲子光年",
-    "score": 0.97586,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "智源发布 2026 十大 AI 技术趋势：世界模型成 AGI 共识方向",
-    "link": "https://www.infoq.cn/article/XzfoHiKPOLjjHlJXK8OV",
-    "pubDate": "Thu, 08 Jan 2026 00:00:00 GMT",
-    "author": "",
-    "description": "2026年1月8日，北京智源人工智能研究院（以下简称“智源研究院”）发布年度报告《2026十大AI技术趋势》。",
-    "categories": [
-      "AI/科技",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.9787,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "黄仁勋CES放出大杀器：下一代Rubin架构推理成本降10倍",
-    "link": "https://jigou.jiqizhixin.com/articles/2026-01-06-2",
-    "pubDate": "Tue, 06 Jan 2026 00:00:00 GMT",
-    "author": "",
-    "description": "编辑｜晓楠、杜伟、泽南. 「每隔10 到15 年，计算行业就会革新一次，每次都会催生出新形态的平台。现在，有两个转变在同时进行：应用将会构建于AI 之上，你",
-    "categories": [
-      "机器人",
-      "中文来源",
-      "机器之心"
-    ],
-    "source": "机器之心",
-    "score": 0.96843,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98165,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "大模型在工业场景中的落地实践、挑战与未来机遇｜QCon 上海",
@@ -903,8 +849,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.96917,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98293,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "AI进化论丨第四期：数据 × 模型 × 软件：自动驾驶的协同进化之路",
@@ -918,8 +864,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.974,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.9792,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "投资人不再只看大模型？AI资本新逻辑揭秘｜甲子引力X",
@@ -933,53 +879,23 @@
       "甲子光年"
     ],
     "source": "甲子光年",
-    "score": 0.98243,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98195,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "从技术赋能到范式革新：快手安全大模型驱动内容审核智能化重塑｜AICon 深圳",
-    "link": "https://www.infoq.cn/article/gbrgl9vmhuxhjybz0asd",
-    "pubDate": "Mon, 28 Jul 2025 00:00:00 GMT",
+    "title": "AI + 风控，大模型驱动金融风险决策新范式｜AICon 上海",
+    "link": "https://www.infoq.cn/article/pxbwyybkwtkqmb40gd9b",
+    "pubDate": "Fri, 09 May 2025 00:00:00 GMT",
     "author": "",
-    "description": "8 月22 日-23 日，首届AICon 全球人工智能开发与应用大会深圳站即将拉开帷幕。本次大会将聚焦Agent、多模态、AI 产品设计等热门方向，围绕企业如何通过",
+    "description": "5 月23 日-24 日，AICon 全球人工智能开发与应用大会上海站即将拉开帷幕。本次大会将聚焦AI 技术的前沿突破与产业落地，围绕AI Agent、多模态应用、大",
     "categories": [
       "AI/科技",
       "中文来源",
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98119,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "从辅助工具到智能决策，大模型如何改变人才选拔方式？",
-    "link": "https://www.infoq.cn/article/mhik10rlwiteypxdxrgh",
-    "pubDate": "Fri, 13 Jun 2025 00:00:00 GMT",
-    "author": "",
-    "description": "面对复杂的组织流程、多元的岗位需求以及公平性等敏感问题，AI 在人才管理领域的落地仍处于摸索阶段。",
-    "categories": [
-      "AI/科技",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.9737,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "比亚迪、吉利、东风等争相拥抱DeepSeek，车企“AI化” 再提速",
-    "link": "https://auto.gasgoo.com/news/202502/11I70418113C601.shtml",
-    "pubDate": "Tue, 11 Feb 2025 00:00:00 GMT",
-    "author": "",
-    "description": "得益于AI技术的快速发展，以及新一轮汽车技术革命的深入推进，汽车行业正从前几年的“软件定义汽车” ，快速迈入“AI 定义汽车”变革新时代。 从智能座舱到",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.98534,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98013,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "独家：清华系AI Infra明星企业“清程极智”完成新一轮融资",
@@ -993,68 +909,8 @@
       "甲子光年"
     ],
     "source": "甲子光年",
-    "score": 0.98595,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "智能驾驶与智能座舱AI芯片产业研究报告（2024版）_研究院",
-    "link": "https://auto.gasgoo.com/institute/2522.html",
-    "pubDate": "Mon, 09 Dec 2024 00:00:00 GMT",
-    "author": "",
-    "description": "AI芯片作为智能汽车的核心技术，在智能驾驶、智能座舱、车联网等关键领域发挥重要作用，为汽车智能化升级提供了强大支撑。伴随汽车智能化进程的加速以及",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.98414,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "AI触手可及，我们应该做些什么？",
-    "link": "https://www.jazzyear.com/article_info.html?id=1404",
-    "pubDate": "Thu, 17 Oct 2024 00:00:00 GMT",
-    "author": "",
-    "description": "AI浪潮汹涌而至，产业持续迭代。科技的发展改变了我们每一个人的生活方式。 正如比尔·盖茨所言：“人们总是高估了未来一到两年的变化，低估了未来十年的",
-    "categories": [
-      "投资融资",
-      "中文来源",
-      "甲子光年"
-    ],
-    "source": "甲子光年",
-    "score": 0.96857,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "汽车智能安全和智能座舱两大评价体系发布",
-    "link": "https://m.gasgoo.com/news/70407324.html",
-    "pubDate": "Sat, 12 Oct 2024 00:00:00 GMT",
-    "author": "",
-    "description": "为提升新车竞争力，满足消费需求，各大车企在智能驾驶和智能座舱领域的技术PK愈演愈烈。然而，在整体“摸着石头过河”的探索过程中，如何评判这些技术是合格",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.97952,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "端到端终局背后：开源成重头戏，发力对象变特斯拉鼓吹的合成数据？",
-    "link": "https://www.infoq.cn/article/czmm7noxc1udzpwl696w",
-    "pubDate": "Fri, 14 Jun 2024 00:00:00 GMT",
-    "author": "",
-    "description": "随着AI 和大模型技术的发展，自动驾驶技术也进入全新阶段，近来“端到端自动驾驶”作为其中最重要的一项技术演进趋势成为自动驾驶行业关注的焦点。",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.96733,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98529,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "项目详情| SOTA！模型社区",
@@ -1068,8 +924,8 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.97786,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.97969,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "16款车智能辅助驾驶算力排行榜 谁的智驾能力更强？",
@@ -1083,8 +939,8 @@
       "盖世汽车"
     ],
     "source": "盖世汽车",
-    "score": 0.98548,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98529,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "对标特斯拉，大模型成为自动驾驶又一「强心针」？",
@@ -1098,23 +954,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.96976,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "华为 NPS：友商学不到的精髓，跨不过的护城河",
-    "link": "https://www.42how.com/article/11348",
-    "pubDate": "Sat, 17 Jun 2023 00:00:00 GMT",
-    "author": "",
-    "description": "作者： Jaz. 内卷才刚刚开始，智能汽车还无法告别焦虑。 越往智能汽车深处走去，就会发现智能汽车就是一个很「烧钱」的产业，投资规模大、技术研发高。",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "42号车库"
-    ],
-    "source": "42号车库",
-    "score": 0.97542,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.9844,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "关于《探索 AIGC 下的软件工程新范式》产业和学术研讨会成果的联合声明",
@@ -1128,23 +969,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98147,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "影响更多人的未来出行",
-    "link": "https://www.42how.com/v2post/31814",
-    "pubDate": "Sun, 14 May 2023 00:00:00 GMT",
-    "author": "",
-    "description": "我心中的的中国汽车ADAS 辅助驾驶，团队能力第一梯队—— 排名分先后：蔚来、华为、小鹏、理想。 ◇一家之言，主要是讨论各家ADAS 团队现状，排名是我自己的观点，",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "42号车库"
-    ],
-    "source": "42号车库",
-    "score": 0.98131,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.9817,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "从 DevOps 到平台工程 ｜InfoQ《极客有约》_软件工程_InfoQ 中文站_InfoQ精选视频",
@@ -1158,8 +984,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98024,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.97714,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "芝能热点｜华为智能汽车解决方案发布会 要点总结",
@@ -1173,8 +999,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.98427,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98209,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "L2.9 上多一点，「遥遥领先」又一年？",
@@ -1188,53 +1014,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.97627,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "汽车技术领域又有哪些新动向？一文速览！（3.21-3.27）",
-    "link": "https://www.infoq.cn/article/41ss54oqqt5orbqlouls",
-    "pubDate": "Wed, 29 Mar 2023 00:00:00 GMT",
-    "author": "",
-    "description": "长安汽车申请的“基于脑电控制的头枕系统、控制方法及车辆”专利正式公布；腾讯带来“车云一体”加速自动驾驶量产落地解题思路；苹果自动驾驶数据曝光；宝马",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.9843,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "HUAWEI 问界M5系列高阶智能驾驶版将于四月发布！",
-    "link": "https://www.42how.com/en/article/10128",
-    "pubDate": "Thu, 23 Mar 2023 00:00:00 GMT",
-    "author": "",
-    "description": "3月23日，华为在2023春季旗舰新品发布会重磅官宣，HUAWEI 问界M5和M5 EV高阶智能驾驶版将于四月发布。发布会上，华为常务董事、终端BG CEO、智能汽车解决",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "42号车库"
-    ],
-    "source": "42号车库",
-    "score": 0.96838,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "影响更多人的未来出行",
-    "link": "https://www.42how.com/v2post/28644",
-    "pubDate": "Fri, 03 Mar 2023 00:00:00 GMT",
-    "author": "",
-    "description": "昨天我们播客讨论了L9 Livis。 这台车一开始的宣发，就在讲具身智能机器人。如果从响应公司转型AI 的维度，可以理解。但这么弄肯定也会拉高外界对AI 的",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "42号车库"
-    ],
-    "source": "42号车库",
-    "score": 0.97666,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.97724,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "特斯拉、小鹏、蔚来的自动泊车产品测评",
@@ -1248,8 +1029,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.9853,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98508,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "金融科技出海项目Klavi获千万美元A轮融资，赢得巴西本地商业巨头背书 | 甲子光年首发",
@@ -1263,38 +1044,23 @@
       "甲子光年"
     ],
     "source": "甲子光年",
-    "score": 0.98037,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98041,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
-    "title": "聚焦智能座舱、自动驾驶等， 四维图新与中汽创智达成合作",
-    "link": "https://auto.gasgoo.com/news/202207/28I70308880C601.shtml",
-    "pubDate": "Thu, 28 Jul 2022 00:00:00 GMT",
+    "title": "跻身自动驾驶第一阵营，小米汽车有多少底气？",
+    "link": "https://www.42how.com/en/article/7280",
+    "pubDate": "Sat, 13 Aug 2022 00:00:00 GMT",
     "author": "",
-    "description": "7月27日晚，四维图新发布公告称，已于近日与中汽创智签署了《战略合作框架协议》，双方将结合在各自领域拥有的产业资源、技术研发和资本运作等优势，在高",
-    "categories": [
-      "自动驾驶",
-      "中文来源",
-      "盖世汽车"
-    ],
-    "source": "盖世汽车",
-    "score": 0.97487,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "小鹏 CNGP 再更新，城市自动驾驶即将迎来巷战",
-    "link": "https://www.42how.com/en/article/6873",
-    "pubDate": "Thu, 07 Jul 2022 00:00:00 GMT",
-    "author": "",
-    "description": "如无意外，小鹏汽车CNGP 将成为国内首个量产的城市智能辅助驾驶。",
+    "description": "作者： 郑森鸿. 做好高阶辅助驾驶，这里的挑战就好比攀登珠穆朗玛峰。 继特斯拉率先推出NOA（导航辅助驾驶）之后，智能辅助驾驶的量产赛道开始变得愈发激烈",
     "categories": [
       "自动驾驶",
       "中文来源",
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.9738,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.97999,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "影响更多人的未来出行",
@@ -1308,23 +1074,8 @@
       "42号车库"
     ],
     "source": "42号车库",
-    "score": 0.98503,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "软件工程能力漫谈：比编码更重要的，是项目管理能力",
-    "link": "https://www.infoq.cn/article/vTVQwb0aKYFIdxAtfHfu",
-    "pubDate": "Wed, 02 Mar 2022 00:00:00 GMT",
-    "author": "",
-    "description": "真正的软件工程师在软件上的追求：差一个空格都不行。我们离这个目标还很远。",
-    "categories": [
-      "技术架构",
-      "中文来源",
-      "InfoQ中文"
-    ],
-    "source": "InfoQ中文",
-    "score": 0.9759,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98599,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "发表特斯拉“杀人”言论 20 天后，华为自动驾驶功臣苏菁被免职",
@@ -1338,8 +1089,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98003,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98437,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "百度推出 Apollo 3.5 和 Apollo Enterprise",
@@ -1353,8 +1104,8 @@
       "InfoQ中文"
     ],
     "source": "InfoQ中文",
-    "score": 0.98529,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98531,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "类人机器人",
@@ -1368,8 +1119,8 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98538,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98529,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "进化计算",
@@ -1383,23 +1134,8 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98519,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
-  },
-  {
-    "title": "多智能体系统",
-    "link": "https://www.jiqizhixin.com/graph/technologies/c358669a-56ff-4bc6-b682-605914071b76",
-    "pubDate": "Thu, 13 Dec 2018 00:00:00 GMT",
-    "author": "",
-    "description": "一个多智能体系统，是由一个在一个环境中交互的多个智能体组成的计算系统。多智能体系统也能被用在解决分离的智能体以及单层系统难以解决的问题。智能可以由一些方法，",
-    "categories": [
-      "机器人",
-      "中文来源",
-      "机器之心"
-    ],
-    "source": "机器之心",
-    "score": 0.97521,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.9852,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   },
   {
     "title": "机器人技术",
@@ -1413,7 +1149,7 @@
       "机器之心"
     ],
     "source": "机器之心",
-    "score": 0.98127,
-    "fetchedAt": "2026-04-19T02:07:53.549Z"
+    "score": 0.98393,
+    "fetchedAt": "2026-04-21T02:01:56.293Z"
   }
 ]
